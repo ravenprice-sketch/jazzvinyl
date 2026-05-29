@@ -16,7 +16,7 @@ jobs:
           python-version: "3.12"
 
       - name: Restore saved state
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: seen.json
           key: vinyl-state-${{ github.run_id }}
