@@ -27,6 +27,7 @@ import os
 import re
 import smtplib
 import sys
+import time
 from email.mime.text import MIMEText
 from pathlib import Path
 
@@ -135,6 +136,19 @@ def _specs_from(text):
     if re.search(r"\bmono\b", t): s.append("Mono")
     if re.search(r"\bgatefold\b", t): s.append("Gatefold")
     return s
+
+
+def is_lp(title):
+    """True only for vinyl LPs -- excludes digital albums, CDs, t-shirts,
+    test pressings, and other non-LP merch so the app lists records only."""
+    t = (title or "").lower()
+    bad = ("digital album", "(digital", "digital)", "test pressing",
+           "t-shirt", "tshirt", "shirt", "hoodie", "poster", "slipmat")
+    if any(b in t for b in bad):
+        return False
+    if t.rstrip().endswith(" cd") or "(cd" in t:
+        return False
+    return True
 
 
 def simplify(src, p):
@@ -378,28 +392,37 @@ def ai_blurb(title, label):
         "reputation. If you don't have specific information, say so briefly "
         "rather than inventing detail. No preamble, just the sentence."
     )
-    try:
-        r = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={
-                "model": ANTHROPIC_MODEL,
-                "max_tokens": 120,
-                "messages": [{"role": "user", "content": prompt}],
-            },
-            timeout=TIMEOUT,
-        )
-        r.raise_for_status()
-        data = r.json()
-        parts = [b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"]
-        return " ".join(parts).strip()
-    except Exception as e:
-        print(f"  AI blurb failed for {title!r}: {e}")
-        return ""
+    for attempt in range(6):
+        try:
+            r = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={
+                    "x-api-key": key,
+                    "anthropic-version": "2023-06-01",
+                    "content-type": "application/json",
+                },
+                json={
+                    "model": ANTHROPIC_MODEL,
+                    "max_tokens": 120,
+                    "messages": [{"role": "user", "content": prompt}],
+                },
+                timeout=TIMEOUT,
+            )
+            if r.status_code == 429:
+                # Rate limited: wait and retry. Honour Retry-After if present.
+                wait = float(r.headers.get("retry-after", 0)) or (2 ** attempt)
+                time.sleep(min(wait, 30))
+                continue
+            r.raise_for_status()
+            data = r.json()
+            parts = [b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"]
+            return " ".join(parts).strip()
+        except Exception as e:
+            if attempt == 5:
+                print(f"  AI blurb failed for {title!r}: {e}")
+                return ""
+            time.sleep(2 ** attempt)
+    return ""
 
 
 def write_data_json(catalog):
@@ -451,8 +474,9 @@ def main():
         except Exception as e:
             print(f"  ERROR fetching {src['id']}: {e}")
             continue
-        items = {it["id"]: it for it in (simplify(src, p) for p in raw)}
-        print(f"  found {len(items)} products")
+        items = {it["id"]: it for it in (simplify(src, p) for p in raw)
+                 if is_lp(it["title"])}
+        print(f"  found {len(items)} LPs")
         for it in items.values():
             it["label_name"] = src["label"]
             catalog.append(it)
@@ -475,15 +499,21 @@ def main():
     # Attach AI consensus blurbs (cached per id, so each title is paid for once).
     if os.environ.get("ANTHROPIC_API_KEY"):
         print("Generating AI blurbs for any new titles ...")
+        made = 0
         for it in catalog:
             bid = it["id"]
-            if bid in blurbs:
+            if blurbs.get(bid):          # only trust non-empty cached blurbs
                 it["blurb"] = blurbs[bid]
-            else:
-                text = ai_blurb(it["title"], it.get("label_name", ""))
+                continue
+            text = ai_blurb(it["title"], it.get("label_name", ""))
+            if text:                     # only cache successful (non-empty) ones
                 blurbs[bid] = text
-                it["blurb"] = text
                 blurbs_changed = True
+                made += 1
+                if made % 20 == 0:       # checkpoint so progress survives a timeout
+                    save_blurbs(blurbs)
+            it["blurb"] = text
+            time.sleep(1.1)              # throttle to stay under the rate limit
         if blurbs_changed:
             save_blurbs(blurbs)
     else:
