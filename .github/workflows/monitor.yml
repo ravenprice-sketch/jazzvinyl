@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write          # needed to commit data.json / blurbs.json back
+  contents: write
 
 concurrency:
   group: vinyl-monitor
@@ -22,9 +22,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      # seen.json (the alert de-dupe state) lives in cache — it doesn't need to
-      # be web-served. data.json / blurbs.json are committed so GitHub Pages can
-      # serve them to the app.
       - name: Restore alert state
         uses: actions/cache@v4
         with:
@@ -47,7 +44,7 @@ jobs:
           EMAIL_TO:            ${{ secrets.EMAIL_TO }}
         run: python monitor.py
 
-       - name: Commit published data
+      - name: Commit published data
         run: |
           git config user.name  "vinyl-monitor[bot]"
           git config user.email "actions@github.com"
