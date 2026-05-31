@@ -27,7 +27,6 @@ import os
 import re
 import smtplib
 import sys
-import time
 from email.mime.text import MIMEText
 from pathlib import Path
 
@@ -35,10 +34,9 @@ import requests
 
 STATE_FILE = Path(__file__).with_name("seen.json")
 DATA_FILE = Path(__file__).with_name("data.json")       # full catalog for the app
-BLURB_FILE = Path(__file__).with_name("blurbs.json")    # cached AI consensus blurbs
+BLURB_FILE = Path(__file__).with_name("manual_blurbs.json")  # hand-curated blurbs { id: text }
 UA = {"User-Agent": "Mozilla/5.0 (compatible; JazzVinylMonitor/1.0)"}
 TIMEOUT = 30
-ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"   # cheap; fine for short blurbs
 
 # ---------------------------------------------------------------------------
 # Label sources.  All four jazz series below are jazz-only by definition, so
@@ -358,12 +356,12 @@ def notify(subject, body):
 
 
 # ---------------------------------------------------------------------------
-# AI consensus blurbs  (optional; only runs if ANTHROPIC_API_KEY is set)
+# Hand-curated blurbs
 # ---------------------------------------------------------------------------
-# For each release we ask Claude for a one-line audiophile-reception summary.
-# This is the model's synthesized take on the title/pressing reputation, NOT a
-# live scrape of any forum -- so it's labelled "AI summary" in the app. Blurbs
-# are cached by release id in blurbs.json so we only pay for each title once.
+# Blurbs are written on demand (a consensus summary for a specific title) and
+# kept in manual_blurbs.json as { release_id: text }. There are no automatic
+# AI calls anywhere in this script. To add one, put the text under the
+# release's id in manual_blurbs.json; it shows in the app on the next run.
 def load_blurbs():
     if BLURB_FILE.exists():
         try:
@@ -371,58 +369,6 @@ def load_blurbs():
         except Exception:
             return {}
     return {}
-
-
-def save_blurbs(b):
-    BLURB_FILE.write_text(json.dumps(b, indent=2, ensure_ascii=False))
-
-
-def ai_blurb(title, label):
-    """One short consensus line for a release, or '' if AI isn't configured."""
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        return ""
-    prompt = (
-        "You are summarizing the general audiophile/critical reception of a "
-        "specific jazz vinyl reissue, for a collector deciding whether to buy. "
-        f"Release: \"{title}\" ({label}). "
-        "In ONE sentence (max 30 words), give the consensus on this reissue's "
-        "sound/pressing reputation and how it ranks among its series. Base it on "
-        "your general knowledge of these audiophile series and this album's "
-        "reputation. If you don't have specific information, say so briefly "
-        "rather than inventing detail. No preamble, just the sentence."
-    )
-    for attempt in range(6):
-        try:
-            r = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                headers={
-                    "x-api-key": key,
-                    "anthropic-version": "2023-06-01",
-                    "content-type": "application/json",
-                },
-                json={
-                    "model": ANTHROPIC_MODEL,
-                    "max_tokens": 120,
-                    "messages": [{"role": "user", "content": prompt}],
-                },
-                timeout=TIMEOUT,
-            )
-            if r.status_code == 429:
-                # Rate limited: wait and retry. Honour Retry-After if present.
-                wait = float(r.headers.get("retry-after", 0)) or (2 ** attempt)
-                time.sleep(min(wait, 30))
-                continue
-            r.raise_for_status()
-            data = r.json()
-            parts = [b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"]
-            return " ".join(parts).strip()
-        except Exception as e:
-            if attempt == 5:
-                print(f"  AI blurb failed for {title!r}: {e}")
-                return ""
-            time.sleep(2 ** attempt)
-    return ""
 
 
 def write_data_json(catalog):
@@ -464,7 +410,6 @@ def main():
     all_new = []        # list of (label, [items])
     catalog = []        # every current item across all sources, for the app
     changed = False
-    blurbs_changed = False
 
     # Shopify-based label feeds.
     for src in SOURCES:
@@ -496,36 +441,13 @@ def main():
     except Exception as e:
         print(f"  ERROR fetching {RHINO_AS['id']}: {e}")
 
-    # Attach AI consensus blurbs. To stay within a single CI run and the API
-    # rate limit, only generate a small BATCH of new blurbs per run; cached ones
-    # are reused. Successive runs fill in the rest. The commit step then saves
-    # both data.json and the updated blurbs.json every run.
-    BLURB_BATCH = 25
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        print("Generating AI blurbs (batched) ...")
-        made = 0
-        for it in catalog:
-            bid = it["id"]
-            if blurbs.get(bid):          # already have it
-                it["blurb"] = blurbs[bid]
-                continue
-            if made >= BLURB_BATCH:      # leave the rest for the next run
-                it["blurb"] = ""
-                continue
-            text = ai_blurb(it["title"], it.get("label_name", ""))
-            if text:
-                blurbs[bid] = text
-                blurbs_changed = True
-                made += 1
-            it["blurb"] = text
-            time.sleep(1.0)
-        print(f"  generated {made} new blurb(s) this run")
-        if blurbs_changed:
-            save_blurbs(blurbs)
-    else:
-        print("ANTHROPIC_API_KEY not set -> skipping AI blurbs.")
-        for it in catalog:
-            it["blurb"] = blurbs.get(it["id"], "")
+    # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
+    # written on demand (a consensus summary for a specific title) and stored in
+    # manual_blurbs.json as { release_id: text }. Merging here means curated
+    # blurbs survive every catalog refresh instead of being overwritten.
+    for it in catalog:
+        it["blurb"] = blurbs.get(it["id"], "")
+    print(f"Attached {sum(1 for it in catalog if it['blurb'])} curated blurb(s).")
 
     # Write the catalog file the app reads.
     write_data_json(catalog)
