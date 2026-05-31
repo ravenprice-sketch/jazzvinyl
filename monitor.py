@@ -37,7 +37,7 @@ DATA_FILE = Path(__file__).with_name("data.json")       # full catalog for the a
 BLURB_FILE = Path(__file__).with_name("blurbs.json")    # cached AI consensus blurbs
 UA = {"User-Agent": "Mozilla/5.0 (compatible; JazzVinylMonitor/1.0)"}
 TIMEOUT = 30
-ANTHROPIC_MODEL = "claude-3-5-haiku-latest"   # cheap; fine for short blurbs
+ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"   # cheap; fine for short blurbs
 
 # ---------------------------------------------------------------------------
 # Label sources.  All four jazz series below are jazz-only by definition, so
