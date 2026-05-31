@@ -47,11 +47,12 @@ jobs:
           EMAIL_TO:            ${{ secrets.EMAIL_TO }}
         run: python monitor.py
 
-      - name: Commit published data
+       - name: Commit published data
         run: |
           git config user.name  "vinyl-monitor[bot]"
           git config user.email "actions@github.com"
-          git add data.json blurbs.json
+          git add data.json blurbs.json 2>/dev/null || true
+          git add -A
           git diff --staged --quiet && exit 0
           git commit -m "Update catalog data [skip ci]"
           git pull --rebase origin main
