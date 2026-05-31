@@ -496,24 +496,30 @@ def main():
     except Exception as e:
         print(f"  ERROR fetching {RHINO_AS['id']}: {e}")
 
-    # Attach AI consensus blurbs (cached per id, so each title is paid for once).
+    # Attach AI consensus blurbs. To stay within a single CI run and the API
+    # rate limit, only generate a small BATCH of new blurbs per run; cached ones
+    # are reused. Successive runs fill in the rest. The commit step then saves
+    # both data.json and the updated blurbs.json every run.
+    BLURB_BATCH = 25
     if os.environ.get("ANTHROPIC_API_KEY"):
-        print("Generating AI blurbs for any new titles ...")
+        print("Generating AI blurbs (batched) ...")
         made = 0
         for it in catalog:
             bid = it["id"]
-            if blurbs.get(bid):          # only trust non-empty cached blurbs
+            if blurbs.get(bid):          # already have it
                 it["blurb"] = blurbs[bid]
                 continue
+            if made >= BLURB_BATCH:      # leave the rest for the next run
+                it["blurb"] = ""
+                continue
             text = ai_blurb(it["title"], it.get("label_name", ""))
-            if text:                     # only cache successful (non-empty) ones
+            if text:
                 blurbs[bid] = text
                 blurbs_changed = True
                 made += 1
-                if made % 20 == 0:       # checkpoint so progress survives a timeout
-                    save_blurbs(blurbs)
             it["blurb"] = text
-            time.sleep(1.1)              # throttle to stay under the rate limit
+            time.sleep(1.0)
+        print(f"  generated {made} new blurb(s) this run")
         if blurbs_changed:
             save_blurbs(blurbs)
     else:
