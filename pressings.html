@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pressings — Jazz Reissue Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f3ede1; --paper2:#ece4d4; --ink:#1c1813; --ink2:#5a5145; --ink3:#8a7f6e;
+    --line:#d9cebb; --accent:#bb4a22;
+    --tonepoet:#2b4a7a; --classic:#3a6f63; --ojc:#b5481f; --acoustic:#5b4b8a; --rhino:#c0392b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-font-smoothing:antialiased}
+  body{
+    background:var(--paper);color:var(--ink);font-family:'Archivo',sans-serif;line-height:1.45;min-height:100vh;
+    background-image:radial-gradient(circle at 15% 0%, rgba(187,74,34,.05), transparent 40%),
+                     radial-gradient(circle at 90% 10%, rgba(43,74,122,.05), transparent 45%);
+  }
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.5;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E");}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px 80px}
+
+  header{padding:46px 0 26px;position:relative;margin-bottom:24px}
+  .kicker{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px}
+  h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(48px,9vw,104px);line-height:.86;letter-spacing:-.02em}
+  h1 em{font-style:italic;font-weight:400;color:var(--accent)}
+  .sub{margin-top:14px;font-size:15px;color:var(--ink2);max-width:46ch}
+  .corner{position:absolute;top:46px;right:0;text-align:right;font-size:12px;color:var(--ink3);line-height:1.7}
+  .corner b{color:var(--ink);font-weight:700}
+
+  .searchbar{margin-bottom:24px}
+  .search{font-family:'Archivo';font-size:14px;border:1.5px solid var(--line);background:#fff8ec;
+    padding:11px 15px;border-radius:9px;width:100%;color:var(--ink)}
+  .search::placeholder{color:var(--ink3)}
+  .search:focus{outline:none;border-color:var(--ink)}
+
+  .banner{background:var(--paper2);border:1px solid var(--line);border-left:3px solid var(--accent);
+    padding:11px 15px;border-radius:6px;font-size:13px;color:var(--ink2);margin-bottom:22px}
+  .banner b{color:var(--ink)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:30px 20px}
+  .card{position:relative;animation:rise .5s both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .cover{position:relative;aspect-ratio:1;border-radius:4px;overflow:hidden;background:var(--paper2);
+    box-shadow:0 1px 2px rgba(0,0,0,.12),0 8px 22px -10px rgba(0,0,0,.32);border:1px solid rgba(0,0,0,.06);transition:.2s}
+  .coverlink:hover .cover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(0,0,0,.14),0 16px 32px -12px rgba(0,0,0,.4)}
+  .cover img{width:100%;height:100%;object-fit:cover;display:block}
+  .cover .ph{display:flex;align-items:center;justify-content:center;height:100%;padding:14px;text-align:center;
+    font-family:'Fraunces';font-style:italic;color:var(--ink3);font-size:14px}
+  .new{position:absolute;top:9px;right:9px;background:var(--accent);color:#fff;font-size:10px;font-weight:700;
+    letter-spacing:.12em;padding:4px 8px;border-radius:3px;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+  .fav{position:absolute;bottom:8px;right:9px;z-index:4;border:none;background:none;padding:0;
+    color:var(--accent);font-size:20px;line-height:1;cursor:pointer;transition:transform .12s,color .15s}
+  .fav:hover{transform:scale(1.15)}
+  .fav:active{transform:scale(.9)}
+  .coverlink,.title-link{text-decoration:none;color:inherit;display:block}
+  .meta{padding-top:11px}
+  .title{font-family:'Fraunces';font-weight:600;font-size:15px;line-height:1.18;letter-spacing:-.01em}
+  .title-link:hover .title{color:var(--accent)}
+  .date{font-size:11px;color:var(--ink3);margin-top:3px;letter-spacing:.02em}
+  .specs{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+  .spec{font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    border:1px solid var(--line);color:var(--ink2);padding:2px 6px;border-radius:3px;background:#fff8ec}
+  .spec.aaa{border-color:var(--accent);color:var(--accent);background:transparent}
+  .spec.pre{border-color:var(--tonepoet);color:var(--tonepoet);background:transparent}
+  .row{display:flex;justify-content:space-between;align-items:baseline;margin-top:5px;gap:8px}
+  .labelname{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink3);font-weight:600}
+  .price{font-family:'Fraunces';font-weight:600;font-size:14px;color:var(--ink);white-space:nowrap}
+  .blurb{margin-top:9px;font-size:11.5px;line-height:1.4;color:var(--ink2);
+    border-left:2px solid var(--line);padding-left:8px;font-style:italic}
+  .blurb .tag{display:block;font-style:normal;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink3);margin-top:4px;font-weight:700}
+
+  .status{text-align:center;padding:70px 20px;color:var(--ink2)}
+  .status .big{font-family:'Fraunces';font-style:italic;font-size:24px;color:var(--ink);margin-bottom:8px}
+  .spinner{width:34px;height:34px;border:3px solid var(--line);border-top-color:var(--accent);border-radius:50%;
+    animation:spin .8s linear infinite;margin:0 auto 18px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+  .linkbtn{font-family:'Archivo';font-size:12px;color:var(--ink3);background:none;border:none;cursor:pointer;
+    text-decoration:underline;text-underline-offset:2px;padding:0}
+  .linkbtn:hover{color:var(--accent)}
+  @media(max-width:560px){.corner{display:none}.grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:26px 14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Jazz Reissue Radar</div>
+    <h1>Fresh <em>Pressings</em></h1>
+    <p class="sub">Newly cut audiophile jazz reissues, gathered by the monitor — with an AI take on each pressing's reception.</p>
+    <div class="corner" id="corner"></div>
+  </header>
+
+  <div class="searchbar"><input class="search" id="search" placeholder="Search by title or artist…"></div>
+  <div id="banner"></div>
+  <div id="content"><div class="status"><div class="spinner"></div>Loading the latest pressings…</div></div>
+
+  <footer>
+    <span>Pressings · personal jazz reissue tracker</span>
+    <span><button class="linkbtn" id="markSeen">Mark all as seen</button> · <span id="foot"></span></span>
+  </footer>
+</div>
+
+<script>
+// ===========================================================================
+// CONFIG - point this at the data.json your monitor publishes via GitHub Pages.
+// e.g. https://<your-username>.github.io/<repo>/data.json
+// Until you set it, the app shows a friendly setup message.
+// ===========================================================================
+const DATA_URL = "REPLACE_WITH_YOUR_DATA_JSON_URL";
+
+const LABELS = {
+  bluenote_tone_poet: {name:"Tone Poet",      color:"var(--tonepoet)"},
+  bluenote_classic:   {name:"Classic Vinyl",  color:"var(--classic)"},
+  craft_ojc:          {name:"OJC",            color:"var(--ojc)"},
+  verve_acoustic:     {name:"Acoustic Sounds",color:"var(--acoustic)"},
+  rhino_hifi_jazz:    {name:"Rhino Hi-Fi",    color:"var(--rhino)"},
+};
+
+const SEEN_KEY = "pressings_seen_ids_v1";
+const FAV_KEY  = "pressings_favorites_v1";
+
+let ALL = [], favSet = new Set(), seenIds = null, firstVisit = false, query = "", updatedAt = "";
+
+async function loadSeen(){ try{const r=await window.storage.get(SEEN_KEY); if(r&&r.value)return new Set(JSON.parse(r.value));}catch(e){} return null; }
+async function saveSeen(ids){ try{await window.storage.set(SEEN_KEY, JSON.stringify([...ids]));}catch(e){} }
+async function loadFavs(){ try{const r=await window.storage.get(FAV_KEY); if(r&&r.value)return new Set(JSON.parse(r.value));}catch(e){} return new Set(); }
+async function saveFavs(s){ try{await window.storage.set(FAV_KEY, JSON.stringify([...s]));}catch(e){} }
+
+function fmtPrice(p){ if(p==null||p==="")return ""; const n=Number(p); return isNaN(n)?"":"$"+n.toFixed(2).replace(/\.00$/,""); }
+function fmtDate(iso){ if(!iso)return ""; const d=new Date(iso); return isNaN(d)?"":d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}); }
+function labelOf(id){ return LABELS[id] || {name:id||"", color:"var(--ink3)"}; }
+
+function dateLine(it){
+  const c = it.created_at || it.published_at;
+  if(it.preorder && c){ const d=new Date(c); if(!isNaN(d) && d.getTime()>Date.now()-86400000) return "Ships "+fmtDate(c); }
+  if(c){ const age=(Date.now()-new Date(c).getTime())/86400000; if(age>=0&&age<120) return "Added "+fmtDate(c); }
+  return "";
+}
+
+function render(){
+  const content = document.getElementById("content");
+  let items = ALL.slice();
+  if(query) items = items.filter(it => (it.title||"").toLowerCase().includes(query));
+  const eff = it => it.created_at || it.published_at || "";
+  items.sort((a,b)=> eff(b).localeCompare(eff(a)));
+
+  if(!items.length){
+    content.innerHTML = `<div class="status"><div class="big">Nothing here</div>${query?"No match for that search.":"No releases loaded yet."}</div>`;
+    return;
+  }
+  const grid = document.createElement("div"); grid.className="grid";
+  items.forEach((it,i)=>{
+    const lbl = labelOf(it.label_id);
+    const card = document.createElement("div"); card.className="card";
+    card.style.animationDelay = Math.min(i*20,460)+"ms";
+    const cover = it.image ? `<img loading="lazy" src="${it.image}" alt="">` : `<div class="ph">${it.title||""}</div>`;
+    const fav = favSet.has(it.id);
+    const specs = (it.specs||[]);
+    const dl = dateLine(it);
+    card.innerHTML = `
+      <a class="coverlink" href="${it.url}" target="_blank" rel="noopener">
+        <div class="cover">${cover}
+          ${it.isNew?`<span class="new">NEW</span>`:``}
+          <button class="fav" data-id="${it.id}" aria-pressed="${fav}" title="Save to favorites">${fav?"\u2665":"\u2661"}</button>
+        </div>
+      </a>
+      <div class="meta">
+        <a class="title-link" href="${it.url}" target="_blank" rel="noopener"><div class="title">${it.title||""}</div></a>
+        ${dl?`<div class="date">${dl}</div>`:``}
+        ${(it.preorder||specs.length)?`<div class="specs">${it.preorder?`<span class="spec pre">Pre-order</span>`:``}${specs.map(s=>`<span class="spec${s==="AAA"?" aaa":""}">${s}</span>`).join("")}</div>`:``}
+        <div class="row"><span class="labelname">${lbl.name}</span><span class="price">${fmtPrice(it.price)}</span></div>
+        ${it.blurb?`<div class="blurb">${it.blurb}<span class="tag">AI summary</span></div>`:``}
+      </div>`;
+    grid.appendChild(card);
+  });
+  content.innerHTML=""; content.appendChild(grid);
+}
+
+function updateCounts(){
+  const newCount = ALL.filter(it=>it.isNew).length, favCount = favSet.size;
+  document.getElementById("corner").innerHTML =
+    `<b>${ALL.length}</b> titles tracked` + (updatedAt?`<br>updated ${fmtDate(updatedAt)}`:"");
+  document.getElementById("foot").textContent =
+    `${favCount} favorite${favCount===1?"":"s"} · ` + (newCount>0?`${newCount} new since last visit`:"no new since last visit");
+}
+
+async function applySeen(){
+  const ids = new Set(ALL.map(it=>it.id));
+  if(firstVisit){ ALL.forEach(it=>it.isNew=false); await saveSeen(ids); seenIds=ids; }
+  else{
+    ALL.forEach(it=>it.isNew = seenIds ? !seenIds.has(it.id) : false);
+    const merged = new Set([...(seenIds||[]),...ids]); await saveSeen(merged); seenIds=merged;
+  }
+}
+
+async function load(){
+  document.getElementById("content").innerHTML =
+    `<div class="status"><div class="spinner"></div>Loading the latest pressings…</div>`;
+  seenIds = await loadSeen(); favSet = await loadFavs(); firstVisit = (seenIds===null);
+
+  if(DATA_URL.startsWith("REPLACE_")){
+    document.getElementById("content").innerHTML =
+      `<div class="status"><div class="big">Almost there</div>Set <b>DATA_URL</b> in this file to your monitor's published data.json, then reload.</div>`;
+    return;
+  }
+  let data;
+  try{
+    const r = await fetch(DATA_URL, {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    data = await r.json();
+  }catch(e){
+    document.getElementById("content").innerHTML =
+      `<div class="status"><div class="big">Couldn't load data</div>The monitor's data.json couldn't be fetched (${e.message}). It updates when the agent runs.</div>`;
+    return;
+  }
+  ALL = (data.items||[]).map(it=>({...it}));
+  updatedAt = data.updated || "";
+  await applySeen();
+  render(); updateCounts();
+  const stale = updatedAt && (Date.now()-new Date(updatedAt).getTime())/86400000 > 3;
+  document.getElementById("banner").innerHTML = stale
+    ? `<div class="banner"><b>Heads up:</b> this data was last refreshed ${fmtDate(updatedAt)} — the monitor may not have run recently.</div>` : "";
+}
+
+document.getElementById("search").addEventListener("input",e=>{ query=e.target.value.toLowerCase().trim(); render(); });
+document.getElementById("content").addEventListener("click", async e=>{
+  const btn=e.target.closest(".fav"); if(!btn)return;
+  e.preventDefault();
+  const id=btn.dataset.id;
+  if(favSet.has(id))favSet.delete(id); else favSet.add(id);
+  await saveFavs(favSet);
+  const on=favSet.has(id); btn.setAttribute("aria-pressed",on); btn.textContent=on?"\u2665":"\u2661";
+  updateCounts();
+});
+document.getElementById("markSeen").addEventListener("click", async ()=>{
+  const ids=new Set(ALL.map(it=>it.id)); await saveSeen(ids); seenIds=ids;
+  ALL.forEach(it=>it.isNew=false); render(); updateCounts();
+});
+
+load();
+</script>
+</body>
+</html>
