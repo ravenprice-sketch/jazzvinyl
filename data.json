@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01T09:32:48.510932+00:00",
-  "count": 493,
+  "updated": "2026-06-01T10:30:37.560770+00:00",
+  "count": 491,
   "items": [
     {
       "id": "8426370924735",
@@ -5538,23 +5538,6 @@
       "blurb": ""
     },
     {
-      "id": "14903885398383",
-      "label_id": "craft_ojc",
-      "title": "The Young Lions (Original Jazz Classics Series) (180g LP) + Introducing Lee Morgan (Original Jazz Classics Series) (180g LP) + This Here Is Bobby Timmons (Original Jazz Classics Series) (180g LP) - Bundle",
-      "url": "https://craftrecordings.com/products/the-young-lions-original-jazz-classics-series-180g-lp-introducing-lee-morgan-original-jazz-classics-series-180g-lp-this-here-is-bobby-timmons-original-jazz-classics-series-180g-lp-bundle",
-      "price": "102.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/bundle_18001b65-d73f-498a-b993-647605acb887.png?v=1772552899",
-      "published_at": "2026-03-03T09:45:07-06:00",
-      "created_at": "2026-03-02T18:30:36-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": true,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
       "id": "14896458465647",
       "label_id": "craft_ojc",
       "title": "The Young Lions (Original Jazz Classics Series) (180g LP)",
@@ -5601,23 +5584,6 @@
         "180g"
       ],
       "preorder": true,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14866426429807",
-      "label_id": "craft_ojc",
-      "title": "Thelonious Alone In San Francisco (Original Jazz Classics Series) (180g LP) + From All Sides (Original Jazz Classics Series) (180g LP) + Full House (Original Jazz Classics Series) (180g LP) - Bundle",
-      "url": "https://craftrecordings.com/products/thelonious-alone-in-san-francisco-original-jazz-classics-series-180g-lp-from-all-sides-original-jazz-classics-series-180g-lp-full-house-original-jazz-classics-series-180g-lp-bundle",
-      "price": "102.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/bundle2.png?v=1767733310",
-      "published_at": "2026-01-07T09:30:03-06:00",
-      "created_at": "2026-01-06T14:58:24-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": ""
     },
