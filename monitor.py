@@ -175,99 +175,53 @@ def simplify(src, p):
 
 
 # ---------------------------------------------------------------------------
-# Rhino High Fidelity -- JAZZ ONLY, scraped from Acoustic Sounds.
-# Rhino's own store blocks bots (HTTP 403). Acoustic Sounds (a retailer) carries
-# the series but isn't Shopify, so there's no JSON feed -- we parse its HTML.
-# Each product page is kept ONLY if its Label is Rhino High Fidelity AND its
-# Genre is Jazz, so rock/pop titles in the series are filtered out.
-# This source is inherently more fragile than the Shopify feeds; if Acoustic
-# Sounds restyles its pages it may need the regexes below updated.
+# Rhino High Fidelity -- JAZZ ONLY, hand-curated in manual_rhino.json.
+# Why manual: Rhino's own store blocks bots, Discogs blocks bots and only
+# catalogues the series buried in the full Rhino label (no clean "RHF jazz"
+# slice), and the titles that matter are deliberately scattered, low-volume,
+# indie-retail exclusives with no single feed. Chasing that with a scraper is
+# fragile and still misses the exclusives. So RHF jazz is curated by hand: add
+# a title to manual_rhino.json and it shows up on the next run. The file is a
+# JSON list of objects, e.g.:
+#   [
+#     {
+#       "id": "rhino_my_favorite_things_2026",   # any stable unique string
+#       "title": "John Coltrane - My Favorite Things (Rhino High Fidelity 2026)",
+#       "url": "https://elusivedisc.com/...",
+#       "price": "39.99",            # string or null
+#       "image": "https://...",      # cover URL or null (app handles missing)
+#       "specs": ["AAA", "180g", "Mono", "Gatefold"],
+#       "preorder": false,
+#       "published_at": ""           # ISO date if known, else ""
+#     }
+#   ]
 # ---------------------------------------------------------------------------
-RHINO_AS = {
-    "id": "rhino_hifi_jazz",
-    "label": "Rhino \u2014 High Fidelity (jazz, via Acoustic Sounds)",
-    "listing": "https://store.acousticsounds.com/l/10065/Rhino_High_Fidelity",
-    "base": "https://store.acousticsounds.com",
-    "label_path": "/l/10065/",   # appears on a page only if it's a Rhino Hi-Fi title
-}
-_MONTHS = {m: i for i, m in enumerate(
-    ["january", "february", "march", "april", "may", "june", "july",
-     "august", "september", "october", "november", "december"], start=1)}
-
-
-def _get_html(url):
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
-    return r.text
-
-
-def _parse_release_date(html):
-    """Find an upcoming ship/reissue date in the page text; '' if none."""
-    text = re.sub(r"<[^>]+>", " ", html)
-    m = re.search(
-        r"(?:ship|reissu\w*|arriv\w*|expected|due)\b[^.]{0,60}?"
-        r"\b(january|february|march|april|may|june|july|august|"
-        r"september|october|november|december)\s+(\d{1,2}),?\s+(\d{4})",
-        text, re.I)
-    if m:
-        try:
-            return datetime.date(
-                int(m.group(3)), _MONTHS[m.group(1).lower()], int(m.group(2))
-            ).isoformat()
-        except Exception:
-            pass
-    m = re.search(r"(?:ship|reissu\w*)\b[^.]{0,40}?(\d{1,2})/(\d{1,2})/(\d{2,4})",
-                  text, re.I)
-    if m:
-        try:
-            yr = int(m.group(3))
-            if yr < 100:
-                yr += 2000
-            return datetime.date(yr, int(m.group(1)), int(m.group(2))).isoformat()
-        except Exception:
-            pass
-    return ""
+RHINO_LABEL = "Rhino \u2014 High Fidelity (jazz)"
+RHINO_FILE = Path(__file__).with_name("manual_rhino.json")
 
 
 def fetch_rhino_jazz():
-    """Scrape the Acoustic Sounds Rhino Hi-Fi list; keep JAZZ vinyl only."""
-    listing = _get_html(RHINO_AS["listing"])
-    # Unique product detail pages on the listing: /d/<id>/<slug>
-    detail = {}
-    for m in re.finditer(r"/d/(\d+)/([A-Za-z0-9_%./&'\-]+)", listing):
-        detail.setdefault(m.group(1), f"{RHINO_AS['base']}/d/{m.group(1)}/{m.group(2)}")
-
+    """Load hand-curated Rhino High Fidelity jazz titles from manual_rhino.json."""
+    if not RHINO_FILE.exists():
+        return []
+    try:
+        entries = json.loads(RHINO_FILE.read_text())
+    except Exception as e:
+        print(f"  could not read {RHINO_FILE.name}: {e}")
+        return []
     items = []
-    for pid, url in list(detail.items())[:60]:  # bound the work
-        try:
-            html = _get_html(url)
-        except Exception:
-            continue
-        # Must actually be a Rhino High Fidelity title (guards against the
-        # store's "top sellers" sidebar leaking unrelated products in).
-        if RHINO_AS["label_path"] not in html:
-            continue
-        # Genre lives in the product table:  Genre: ... /g/<id>/<Name>
-        gm = re.search(r"Genre:.*?/g/\d+/([^\"'\s<]+)", html, re.S | re.I)
-        genre = (gm.group(1) if gm else "").replace("_", " ")
-        if "jazz" not in genre.lower():
-            continue  # skip rock / pop / etc.
-        tm = re.search(r"<title>(.*?)</title>", html, re.S | re.I)
-        raw = (tm.group(1) if tm else "").split("|")[0].strip()
-        title = re.sub(r"\s*-\s*[^-]*(?:Vinyl Record|Vinyl|LP|SACD|CD)[^-]*$",
-                       "", raw).strip() or raw
-        am = re.search(r"Availability:\s*(?:</?[^>]+>\s*)*([A-Za-z][A-Za-z /\-]+)",
-                       html, re.I)
-        avail = am.group(1).strip() if am else ""
-        pm = re.search(r"\$\s?(\d+\.\d{2})", html)
+    for e in entries:
+        if not e.get("id") or not e.get("title"):
+            continue  # skip malformed entries
         items.append({
-            "id": f"rhinoas_{pid}",
-            "title": title,
-            "url": url,
-            "price": pm.group(1) if pm else None,
-            "image": None,
-            "published_at": _parse_release_date(html),
-            "availability": avail,
+            "id": str(e["id"]),
+            "title": e["title"],
+            "url": e.get("url", ""),
+            "price": e.get("price"),
+            "image": e.get("image"),
+            "specs": e.get("specs", []),
+            "preorder": bool(e.get("preorder", False)),
+            "published_at": e.get("published_at", ""),
         })
     return items
 
@@ -428,18 +382,18 @@ def main():
         if diff_source(state, src["id"], src["label"], items, all_new):
             changed = True
 
-    # Rhino High Fidelity (jazz only) -- scraped from Acoustic Sounds.
-    print(f"Checking {RHINO_AS['label']} ...")
+    # Rhino High Fidelity (jazz only) -- hand-curated in manual_rhino.json.
+    print(f"Checking {RHINO_LABEL} ...")
     try:
         ritems = {it["id"]: it for it in fetch_rhino_jazz()}
-        print(f"  found {len(ritems)} jazz products")
+        print(f"  found {len(ritems)} curated titles")
         for it in ritems.values():
-            it["label_name"] = RHINO_AS["label"]
+            it["label_name"] = RHINO_LABEL
             catalog.append(it)
-        if diff_source(state, RHINO_AS["id"], RHINO_AS["label"], ritems, all_new):
+        if diff_source(state, "rhino_hifi_jazz", RHINO_LABEL, ritems, all_new):
             changed = True
     except Exception as e:
-        print(f"  ERROR fetching {RHINO_AS['id']}: {e}")
+        print(f"  ERROR loading Rhino titles: {e}")
 
     # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
     # written on demand (a consensus summary for a specific title) and stored in
