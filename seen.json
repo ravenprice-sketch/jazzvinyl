@@ -8981,6 +8981,108 @@
       "availability": "Back Ordered",
       "label_name": "Rhino — High Fidelity (jazz, via Acoustic Sounds)",
       "blurb": ""
+    },
+    "rhino_coltrane_my_favorite_things_2026": {
+      "id": "rhino_coltrane_my_favorite_things_2026",
+      "title": "John Coltrane - My Favorite Things (Rhino High Fidelity, Start Your Ear Off Right 2026)",
+      "url": "https://elusivedisc.com/john-coltrane-my-favorite-things-rhino-high-fidelity-start-your-ear-off-right-2026-indie-exclusive-180g-lp-mono/",
+      "price": "39.99",
+      "image": "https://cdn11.bigcommerce.com/s-rdecee92oy/products/59583/images/6624340/6rhilp80788__14858.1780007573.500.750.jpg?c=2",
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "published_at": "",
+      "label_name": "Rhino — High Fidelity (jazz)",
+      "blurb": ""
+    },
+    "rhino_coltrane_coltranes_sound_2026": {
+      "id": "rhino_coltrane_coltranes_sound_2026",
+      "title": "John Coltrane - Coltrane's Sound (Rhino High Fidelity, Start Your Ear Off Right 2026)",
+      "url": "https://elusivedisc.com/john-coltrane-coltrane-s-sound-rhino-high-fidelity-start-your-ear-off-right-2026-indie-exclusive-180g-lp-mono/",
+      "price": "39.99",
+      "image": null,
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "published_at": "",
+      "label_name": "Rhino — High Fidelity (jazz)",
+      "blurb": ""
+    },
+    "rhino_coltrane_coltrane_jazz_2026": {
+      "id": "rhino_coltrane_coltrane_jazz_2026",
+      "title": "John Coltrane - Coltrane Jazz (Rhino High Fidelity, Start Your Ear Off Right 2026)",
+      "url": "https://elusivedisc.com/john-coltrane-coltrane-jazz-rhino-high-fidelity-start-your-ear-off-right-2026-indie-exclusive-180g-lp-mono/",
+      "price": "39.99",
+      "image": null,
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "published_at": "",
+      "label_name": "Rhino — High Fidelity (jazz)",
+      "blurb": ""
+    },
+    "rhino_coltrane_ole_2026": {
+      "id": "rhino_coltrane_ole_2026",
+      "title": "John Coltrane - Olé Coltrane (Rhino High Fidelity, Start Your Ear Off Right 2026)",
+      "url": "https://elusivedisc.com/john-coltrane-ole-coltrane-rhino-high-fidelity-start-your-ear-off-right-2026-indie-exclusive-180g-lp-mono/",
+      "price": "39.99",
+      "image": null,
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "published_at": "",
+      "label_name": "Rhino — High Fidelity (jazz)",
+      "blurb": ""
+    },
+    "rhino_coltrane_giant_steps_2026": {
+      "id": "rhino_coltrane_giant_steps_2026",
+      "title": "John Coltrane - Giant Steps (Rhino High Fidelity, Start Your Ear Off Right 2026)",
+      "url": "https://elusivedisc.com/john-coltrane-giant-steps-rhino-high-fidelity-start-your-ear-off-right-2026-indie-exclusive-180g-lp-mono/",
+      "price": "39.99",
+      "image": null,
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "published_at": "",
+      "label_name": "Rhino — High Fidelity (jazz)",
+      "blurb": ""
+    },
+    "rhino_coltrane_plays_the_blues_2026": {
+      "id": "rhino_coltrane_plays_the_blues_2026",
+      "title": "John Coltrane - Coltrane Plays the Blues (Rhino High Fidelity, Start Your Ear Off Right 2026)",
+      "url": "https://elusivedisc.com/john-coltrane-coltrane-plays-the-blues-rhino-high-fidelity-start-your-ear-off-right-2026-indie-exclusive-180g-lp-mo",
+      "price": "39.99",
+      "image": null,
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "published_at": "",
+      "label_name": "Rhino — High Fidelity (jazz)",
+      "blurb": ""
     }
   }
 }
