@@ -148,7 +148,8 @@ def is_lp(title):
     test pressings, and other non-LP merch so the app lists records only."""
     t = (title or "").lower()
     bad = ("digital album", "(digital", "digital)", "test pressing",
-           "t-shirt", "tshirt", "shirt", "hoodie", "poster", "slipmat")
+           "t-shirt", "tshirt", "shirt", "hoodie", "poster", "slipmat",
+           "bundle")
     if any(b in t for b in bad):
         return False
     if t.rstrip().endswith(" cd") or "(cd" in t:
