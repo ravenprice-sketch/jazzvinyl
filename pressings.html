@@ -11,7 +11,7 @@
   :root{
     --paper:#f3ede1; --paper2:#ece4d4; --ink:#1c1813; --ink2:#5a5145; --ink3:#8a7f6e;
     --line:#d9cebb; --accent:#bb4a22;
-    --tonepoet:#2b4a7a; --classic:#3a6f63; --ojc:#b5481f; --acoustic:#5b4b8a; --rhino:#c0392b;
+    --tonepoet:#2b4a7a; --classic:#3a6f63; --ojc:#b5481f; --acoustic:#5b4b8a; --rhino:#c0392b; --vault:#9a6a1e;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-font-smoothing:antialiased}
@@ -114,13 +114,14 @@
 // e.g. https://<your-username>.github.io/<repo>/data.json
 // Until you set it, the app shows a friendly setup message.
 // ===========================================================================
-const DATA_URL = "https://ravenprice-sketch.github.io/jazzvinyl/data.json";
+const DATA_URL = "REPLACE_WITH_YOUR_DATA_JSON_URL";
 
 const LABELS = {
   bluenote_tone_poet: {name:"Tone Poet",      color:"var(--tonepoet)"},
   bluenote_classic:   {name:"Classic Vinyl",  color:"var(--classic)"},
   craft_ojc:          {name:"OJC",            color:"var(--ojc)"},
   verve_acoustic:     {name:"Acoustic Sounds",color:"var(--acoustic)"},
+  verve_vault:        {name:"Verve Vault",    color:"var(--vault)"},
   rhino_hifi_jazz:    {name:"Rhino Hi-Fi",    color:"var(--rhino)"},
 };
 

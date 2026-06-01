@@ -77,6 +77,13 @@ SOURCES = [
         "collection": "acoustic-sounds",
         "keyword": "acoustic sounds",
     },
+    {
+        "id": "verve_vault",
+        "label": "Verve \u2014 Vault Series",
+        "base": "https://store.ververecords.com",
+        "collection": "verve-vault",
+        "keyword": "vault",
+    },
 ]
 
 
