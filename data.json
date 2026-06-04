@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-03T20:28:09.445499+00:00",
-  "count": 491,
+  "updated": "2026-06-04T17:57:56.127417+00:00",
+  "count": 442,
   "items": [
     {
       "id": "8426370924735",
@@ -5538,839 +5538,6 @@
       "blurb": ""
     },
     {
-      "id": "14896458465647",
-      "label_id": "craft_ojc",
-      "title": "The Young Lions (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/the-young-lions-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00966_The_Young_Lions_Pack_Shot_w_obi.png?v=1772552899",
-      "published_at": "2026-03-03T09:45:05-06:00",
-      "created_at": "2026-02-19T10:39:10-06:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14896480485743",
-      "label_id": "craft_ojc",
-      "title": "Introducing Lee Morgan (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/lee-morgan-introducing-lee-morgan-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00967_Introducing_Lee_Morgan_Pack_Shot_w_obi.png?v=1772552899",
-      "published_at": "2026-03-03T09:45:06-06:00",
-      "created_at": "2026-02-19T10:59:29-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14903876125039",
-      "label_id": "craft_ojc",
-      "title": "This Here Is Bobby Timmons (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/bobby-timmons-this-here-is-bobby-timmons-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00949BobbyTimmons-ThisHereisBobbyTimmonsPackShotwobi.png?v=1772552899",
-      "published_at": "2026-03-03T09:45:06-06:00",
-      "created_at": "2026-03-02T17:28:42-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": true,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14848142508399",
-      "label_id": "craft_ojc",
-      "title": "Thelonious Alone In San Francisco (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/thelonious-monk-thelonious-alone-in-san-francisco-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00948TheloniousMonk-AloneinSanFranciscoPackShotwobi.png?v=1766008600",
-      "published_at": "2026-01-07T09:30:03-06:00",
-      "created_at": "2025-12-17T16:01:10-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14848168591727",
-      "label_id": "craft_ojc",
-      "title": "From All Sides (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/vince-guaraldi-bola-sete-from-all-sides-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00962GuaraldiandSete-FromAllSidesDropShadowwobi.png?v=1766010882",
-      "published_at": "2026-05-05T16:52:54-05:00",
-      "created_at": "2025-12-17T16:35:02-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14848755007855",
-      "label_id": "craft_ojc",
-      "title": "Full House (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/wes-montgomery-full-house-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00961WesMontgomery-FullHousePackShotwobi_1.png?v=1766091982",
-      "published_at": "2026-01-07T09:30:05-06:00",
-      "created_at": "2025-12-18T15:09:51-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782652744047",
-      "label_id": "craft_ojc",
-      "title": "Surf Ride (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/art-pepper-surf-ride-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00865ArtPepper-SurfRidePackShotwobi.png?v=1756225109",
-      "published_at": "2025-08-27T09:45:06-05:00",
-      "created_at": "2025-08-26T11:22:33-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782656086383",
-      "label_id": "craft_ojc",
-      "title": "Jazz Message #2 (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/hank-mobley-jazz-message-2-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00867HankMobley-JazzMessage_2PackShotwobi.png?v=1756232784",
-      "published_at": "2025-08-27T09:45:07-05:00",
-      "created_at": "2025-08-26T11:48:10-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782679286127",
-      "label_id": "craft_ojc",
-      "title": "Plus 4 (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/sonny-rollins-plus-4-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00870SonnyRollins-Plus4DropShadowwobi.png?v=1756233820",
-      "published_at": "2025-08-27T09:45:08-05:00",
-      "created_at": "2025-08-26T13:46:04-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782682988911",
-      "label_id": "craft_ojc",
-      "title": "After Hours (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/thad-jones-frank-wess-mal-waldron-kenny-burrell-after-hours-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00868AfterHoursPackShotwobi.png?v=1756234379",
-      "published_at": "2025-12-12T13:46:51-06:00",
-      "created_at": "2025-08-26T13:59:37-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782703403375",
-      "label_id": "craft_ojc",
-      "title": "Soul Junction (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/the-red-garland-trio-soul-junction-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00869RedGarlandQuintet-SoulJunctionPackShotwobi.png?v=1756236912",
-      "published_at": "2025-08-27T09:45:10-05:00",
-      "created_at": "2025-08-26T14:39:59-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782706549103",
-      "label_id": "craft_ojc",
-      "title": "Boss Guitar (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/wes-montgomery-boss-guitar-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00727WesMontgomery-BossGuitarPackShotwobi.png?v=1756238062",
-      "published_at": "2025-08-27T09:45:10-05:00",
-      "created_at": "2025-08-26T14:58:03-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14782707761519",
-      "label_id": "craft_ojc",
-      "title": "Jazz Mood (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/yusef-lateef-jazz-mood-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00866YusefLateef-JazzMoodPackShotwobi.png?v=1756238564",
-      "published_at": "2025-08-27T09:45:11-05:00",
-      "created_at": "2025-08-26T15:05:36-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14734302314863",
-      "label_id": "craft_ojc",
-      "title": "Wheelin' And Dealin' (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/wheelin-and-dealin-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00862FrankWess-Wheelin_Dealin_PackShotwobi.png?v=1750447466",
-      "published_at": "2025-06-25T09:30:04-05:00",
-      "created_at": "2025-06-20T14:27:16-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14734313750895",
-      "label_id": "craft_ojc",
-      "title": "Kenny Burrell (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/kenny-burrell-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00861KennyBurrellPackShotwobi.png?v=1750448762",
-      "published_at": "2025-06-25T09:30:04-05:00",
-      "created_at": "2025-06-20T14:42:10-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14734334558575",
-      "label_id": "craft_ojc",
-      "title": "Kenny Drew Trio (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/kenny-drew-trio-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00863KennyDrew-TrioPackShotwobi.png?v=1750449071",
-      "published_at": "2025-06-25T09:30:05-05:00",
-      "created_at": "2025-06-20T14:49:40-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14734356840815",
-      "label_id": "craft_ojc",
-      "title": "Sonny's Dream (Birth Of The New Cool) (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/sonnys-dream-birth-of-the-new-cool-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00864SonnyCriss-Sonny_sDreampackshotwobi.png?v=1750449568",
-      "published_at": "2025-06-25T09:30:06-05:00",
-      "created_at": "2025-06-20T14:58:30-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14700240437615",
-      "label_id": "craft_ojc",
-      "title": "Looking Ahead (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/looking-ahead-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00860KenMcIntyreEricDolphyLookingAheadPackShotwobi.png?v=1744126004",
-      "published_at": "2025-04-09T09:00:14-05:00",
-      "created_at": "2025-04-08T10:22:47-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14700235096431",
-      "label_id": "craft_ojc",
-      "title": "Gone With Golson (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/gone-with-golson-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00859BennyGolson-GoneWithGolsonPackShotwobi.png?v=1744125157",
-      "published_at": "2025-04-09T09:00:15-05:00",
-      "created_at": "2025-04-08T10:09:40-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14700232933743",
-      "label_id": "craft_ojc",
-      "title": "Introducing Wayne Shorter (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/introducing-wayne-shorter-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00858WayneShorter-IntroducingWayneShorterPackShotwobi.png?v=1744124496",
-      "published_at": "2025-04-09T09:00:15-05:00",
-      "created_at": "2025-04-08T09:55:16-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14700035473775",
-      "label_id": "craft_ojc",
-      "title": "Here’s Lee Morgan (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/here-s-lee-morgan-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00857LeeMorgan-Here_sLeeMorganPackShotwobi.png?v=1744122572",
-      "published_at": "2026-05-05T16:53:52-05:00",
-      "created_at": "2025-04-07T17:35:38-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14699903025519",
-      "label_id": "craft_ojc",
-      "title": "Moon Beams (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/moon-beams-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00856BillEvans-MoonBeamsPackShotwobi.png?v=1744063100",
-      "published_at": "2025-04-09T09:00:16-05:00",
-      "created_at": "2025-04-07T16:55:39-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14697343549807",
-      "label_id": "craft_ojc",
-      "title": "Interplay (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/interplay-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00855BillEvans-InterplayPackShotwobi.png?v=1744061013",
-      "published_at": "2025-04-09T09:00:17-05:00",
-      "created_at": "2025-03-28T11:35:21-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14647567745391",
-      "label_id": "craft_ojc",
-      "title": "The Musings Of Miles (Original Jazz Classics Series)(180g LP)",
-      "url": "https://craftrecordings.com/products/the-musings-of-miles-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00854MilesDavis-MusingsofMilesPackShotwobi.png?v=1734736944",
-      "published_at": "2025-01-09T09:38:25-06:00",
-      "created_at": "2024-12-20T17:18:36-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14647567155567",
-      "label_id": "craft_ojc",
-      "title": "Walkin' (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/walkin-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00853MilesDavis-Walkin_PackShotwobi.png?v=1734736404",
-      "published_at": "2025-01-09T09:38:20-06:00",
-      "created_at": "2024-12-20T17:12:21-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14647561585007",
-      "label_id": "craft_ojc",
-      "title": "Thelonious Himself (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/thelonious-himself-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00852TheloniousMonk-HimselfPackShotwobi.png?v=1734735597",
-      "published_at": "2025-01-09T09:38:15-06:00",
-      "created_at": "2024-12-20T16:57:26-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14647560536431",
-      "label_id": "craft_ojc",
-      "title": "Virtuoso (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/virtuoso-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00849JoePass-GuitarPackShotwobi.png?v=1734734249",
-      "published_at": "2025-12-12T14:32:53-06:00",
-      "created_at": "2024-12-20T16:36:58-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "14647532814703",
-      "label_id": "craft_ojc",
-      "title": "The Incredible Jazz Guitar Of Wes Montgomery (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/the-incredible-jazz-guitar-of-wes-montgomery-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00850WesMontgomery-TheIncredibleJazzGuitarPackShotwobi.png?v=1734717087",
-      "published_at": "2025-12-12T14:32:58-06:00",
-      "created_at": "2024-12-20T11:55:43-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8724349386917",
-      "label_id": "craft_ojc",
-      "title": "Latin Kick (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/latin-kick-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00807CalTjader-LatinKickPackShotwobi.png?v=1718598860",
-      "published_at": "2024-06-18T09:30:03-05:00",
-      "created_at": "2024-06-16T23:35:34-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8724340900005",
-      "label_id": "craft_ojc",
-      "title": "Blue’s Moods (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/blue-s-moods-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00726BlueMitchell-Blue_sMoodsPackShotwobicopy.png?v=1718598408",
-      "published_at": "2024-06-18T09:30:01-05:00",
-      "created_at": "2024-06-16T23:28:21-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8724332249253",
-      "label_id": "craft_ojc",
-      "title": "Monk's Music (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/monks-music-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00725TheloniousMonk-Monk_sMusicPackShotwobi.png?v=1718597901",
-      "published_at": "2024-06-18T09:30:01-05:00",
-      "created_at": "2024-06-16T23:20:40-05:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8724308689061",
-      "label_id": "craft_ojc",
-      "title": "The Quest (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/the-quest-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00724MalWaldron-TheQuestPackShotwobi.png?v=1718597278",
-      "published_at": "2024-06-18T09:30:02-05:00",
-      "created_at": "2024-06-16T23:10:30-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8721319755941",
-      "label_id": "craft_ojc",
-      "title": "In Orbit (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/in-orbit-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00723ClarkTerryQuartet-InOrbitPackShotwobi.png?v=1718597179",
-      "published_at": "2024-06-18T09:30:02-05:00",
-      "created_at": "2024-06-14T17:51:03-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8434296422565",
-      "label_id": "craft_ojc",
-      "title": "Miles (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/miles-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00722MilesDavisQuintet-MilesPackShotwobi.png?v=1709245442",
-      "published_at": "2024-03-05T09:30:03-06:00",
-      "created_at": "2024-02-29T16:23:53-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8434291015845",
-      "label_id": "craft_ojc",
-      "title": "South Side Soul (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/south-side-soul-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00721JohnWrightTrio-SouthSideSoulPackShotwobi.png?v=1709245060",
-      "published_at": "2024-03-05T09:30:03-06:00",
-      "created_at": "2024-02-29T16:17:36-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8434246090917",
-      "label_id": "craft_ojc",
-      "title": "Groovy (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/groovy-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00719RedGarlandTrio-GroovyPackShot_sRGBwobi.png?v=1709244260",
-      "published_at": "2024-07-08T11:21:53-05:00",
-      "created_at": "2024-02-29T13:47:37-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8434246353061",
-      "label_id": "craft_ojc",
-      "title": "Kenny Burrell & John Coltrane (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/kenny-burrell-john-coltrane-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00720KennyBurrellJohnColtranePackShot_sRGBwobi.png?v=1709243700",
-      "published_at": "2024-03-05T09:30:02-06:00",
-      "created_at": "2024-02-29T13:50:44-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8360913731749",
-      "label_id": "craft_ojc",
-      "title": "Where? (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/where-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00718RonCarter-WherePackShotwobi.png?v=1705077032",
-      "published_at": "2024-01-16T09:30:36-06:00",
-      "created_at": "2024-01-11T17:08:05-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8360910946469",
-      "label_id": "craft_ojc",
-      "title": "Caravan (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/caravan-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00717ArtBlakey-CaravanPackShotwobi.png?v=1705076912",
-      "published_at": "2024-07-08T11:13:51-05:00",
-      "created_at": "2024-01-11T17:03:07-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8360907210917",
-      "label_id": "craft_ojc",
-      "title": "Know What I Mean? (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/know-what-i-mean-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00716CannonballAdderley-YouKnowWhatIMeanPackShotwobi.png?v=1705077004",
-      "published_at": "2024-01-16T09:30:35-06:00",
-      "created_at": "2024-01-11T16:57:23-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8227304964261",
-      "label_id": "craft_ojc",
-      "title": "The Cats (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/the-cats-idrees-sulieman-john-coltrane-kenny-burrell-tommy-flanagan-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00614TheCatsPackshotwithobi.png?v=1690575335",
-      "published_at": "2023-10-17T23:35:00-05:00",
-      "created_at": "2023-07-28T15:15:32-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8227306799269",
-      "label_id": "craft_ojc",
-      "title": "Jazz at Oberlin (Original Jazz Classics Series) (180G LP)",
-      "url": "https://craftrecordings.com/products/the-dave-brubeck-quartet-jazz-at-oberlin-180g-lp-black",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00612DaveBrubeck-JazzatOberlinPackShotwithobi.png?v=1690577279",
-      "published_at": "2023-10-17T23:31:25-05:00",
-      "created_at": "2023-07-28T15:47:56-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8227307454629",
-      "label_id": "craft_ojc",
-      "title": "The Tony Bennett Bill Evans Album (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/tony-bennett-bill-evans-the-tony-bennett-bill-evans-album-180g-lp-black",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00613TonyBennettBillEvansPackShotwithobi.png?v=1690577995",
-      "published_at": "2023-10-17T23:40:13-05:00",
-      "created_at": "2023-07-28T15:55:37-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8186405388453",
-      "label_id": "craft_ojc",
-      "title": "Eastern Sounds (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/eastern-sounds-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/OJC_YusefLateef_EasternSounds_OBI_Packshot.png?v=1682628046",
-      "published_at": "2024-04-15T14:11:44-05:00",
-      "created_at": "2023-04-27T15:36:13-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8186394640549",
-      "label_id": "craft_ojc",
-      "title": "Waltz For Debby (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/waltz-for-debby-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/OJC_BillEvans_WaltzDebby_OBI_Packshot.png?v=1682622263",
-      "published_at": "2023-12-22T10:57:28-06:00",
-      "created_at": "2023-04-27T13:57:28-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8186404634789",
-      "label_id": "craft_ojc",
-      "title": "Mal/2 (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/mal-2-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/OJC_MalWaldron_Mal2_OBI_Packshot.png?v=1682627330",
-      "published_at": "2023-12-22T15:04:14-06:00",
-      "created_at": "2023-04-27T15:24:23-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8186405093541",
-      "label_id": "craft_ojc",
-      "title": "Sunday At The Village Vanguard (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/sunday-at-the-village-vanguard-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/OJC_BillEvans_VillageVanguard_OBI_Packshot.png?v=1682627621",
-      "published_at": "2023-12-23T14:15:51-06:00",
-      "created_at": "2023-04-27T15:30:11-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8157516464293",
-      "label_id": "craft_ojc",
-      "title": "Thelonious Monk With John Coltrane (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/thelonious-monk-with-john-coltrane-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/products/TM_JK_OJC_LP_FRONT_VINYL_Obi.png?v=1677530613",
-      "published_at": "2023-12-22T13:58:35-06:00",
-      "created_at": "2023-02-27T14:36:29-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
-      "id": "8157379985573",
-      "label_id": "craft_ojc",
-      "title": "Workin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/workin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/products/MilesDavis-WorkinCoverwithOBI-Vinyl.png?v=1677517386",
-      "published_at": "2024-05-31T12:25:35-05:00",
-      "created_at": "2023-02-27T10:56:27-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": ""
-    },
-    {
       "id": "15069827563892",
       "label_id": "verve_acoustic",
       "title": "Freddie Hubbard: The Artistry of Freddie Hubbard (Acoustic Sounds Series) LP",
@@ -6401,6 +5568,23 @@
         "Gatefold"
       ],
       "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
+      "id": "8273498210453",
+      "label_id": "verve_acoustic",
+      "title": "Diana Krall: The Look Of Love LP (Verve Acoustic Sounds Series)",
+      "url": "https://store.ververecords.com/products/diana-krall-the-look-of-love-lp-verve-acoustic-sounds-series",
+      "price": "42.38",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/dianakrall.png?v=1712072432",
+      "published_at": "2026-05-01T08:59:52-04:00",
+      "created_at": "2024-04-02T11:32:03-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
     },
@@ -6436,13 +5620,13 @@
       "blurb": ""
     },
     {
-      "id": "15003897987444",
+      "id": "15003898052980",
       "label_id": "verve_acoustic",
-      "title": "John Coltrane: Impressions (Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-impressions-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/JC_IMPRESSIONS_PROD_SHOT_TRANSPARENT.png?v=1774452216",
-      "published_at": "2026-03-30T09:01:06-04:00",
+      "title": "Ella Fitzgerald Sings the Cole Porter Song Book (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/ella-fitzgerald-sings-the-cole-porter-song-book-acoustic-sounds-series-lp",
+      "price": "54.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/EF_STCPSB_PROD_SHOT_TRANSPARENT.png?v=1774452308",
+      "published_at": "2026-03-30T09:01:07-04:00",
       "created_at": "2026-03-25T11:07:27-04:00",
       "specs": [
         "180g",
@@ -6453,13 +5637,13 @@
       "blurb": ""
     },
     {
-      "id": "15003898052980",
+      "id": "15003897987444",
       "label_id": "verve_acoustic",
-      "title": "Ella Fitzgerald Sings the Cole Porter Song Book (Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/ella-fitzgerald-sings-the-cole-porter-song-book-acoustic-sounds-series-lp",
-      "price": "54.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/EF_STCPSB_PROD_SHOT_TRANSPARENT.png?v=1774452308",
-      "published_at": "2026-03-30T09:01:07-04:00",
+      "title": "John Coltrane: Impressions (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-impressions-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/JC_IMPRESSIONS_PROD_SHOT_TRANSPARENT.png?v=1774452216",
+      "published_at": "2026-03-30T09:01:06-04:00",
       "created_at": "2026-03-25T11:07:27-04:00",
       "specs": [
         "180g",
@@ -6500,13 +5684,16 @@
     {
       "id": "14924230033780",
       "label_id": "verve_acoustic",
-      "title": "Stan Getz: Jazz Samba Encore LP",
-      "url": "https://store.ververecords.com/products/stan-getz-jazz-samba-encore-lp",
+      "title": "Stan Getz: Jazz Samba Encore LP (Acoustic Sounds Series)",
+      "url": "https://store.ververecords.com/products/stan-getz-jazz-samba-encore-lp-acoustic-sounds-series",
       "price": "31.18",
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/stangetz.png?v=1769732802",
       "published_at": "2026-02-02T09:00:24-05:00",
       "created_at": "2026-01-29T19:17:11-05:00",
-      "specs": [],
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
@@ -6514,13 +5701,16 @@
     {
       "id": "14924229738868",
       "label_id": "verve_acoustic",
-      "title": "Astrud Gilberto: The Shadow of Your Smile LP",
+      "title": "Astrud Gilberto: The Shadow of Your Smile LP (Acoustic Sounds Series)",
       "url": "https://store.ververecords.com/products/astrud-gilberto-the-shadow-of-your-smile-lp",
       "price": "31.18",
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/astrud.png?v=1769732825",
       "published_at": "2026-02-02T09:00:23-05:00",
       "created_at": "2026-01-29T19:17:03-05:00",
-      "specs": [],
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
@@ -6897,6 +6087,23 @@
       "blurb": ""
     },
     {
+      "id": "8530341953685",
+      "label_id": "verve_acoustic",
+      "title": "Nina Simone: Nina Simone In Concert Acoustic Sounds Series LP",
+      "url": "https://store.ververecords.com/products/nina-simone-nina-simone-in-concert-acoustic-sounds-series-lp",
+      "price": "29.58",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/Nina.png?v=1722016055",
+      "published_at": "2024-12-06T15:28:53-05:00",
+      "created_at": "2024-07-01T13:45:04-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
       "id": "14615829217652",
       "label_id": "verve_acoustic",
       "title": "Jimmy Smith: The Cat (Acoustic Sounds Series)",
@@ -6965,37 +6172,6 @@
       "blurb": ""
     },
     {
-      "id": "8559427485845",
-      "label_id": "verve_acoustic",
-      "title": "Sarah Vaughan: Sassy LP (Verve Acoustic Sounds Series)",
-      "url": "https://store.ververecords.com/products/sarah-vaughan-sassy-lp-verve-acoustic-sounds-series",
-      "price": "29.58",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SarahVaughanLP_82eba49c-1d8c-4d66-846e-3659da0aab8c.png?v=1721750954",
-      "published_at": "2024-07-29T08:46:32-04:00",
-      "created_at": "2024-07-23T12:09:42-04:00",
-      "specs": [],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "8530341953685",
-      "label_id": "verve_acoustic",
-      "title": "Nina Simone: Nina Simone In Concert Acoustic Sounds Series LP",
-      "url": "https://store.ververecords.com/products/nina-simone-nina-simone-in-concert-acoustic-sounds-series-lp",
-      "price": "29.58",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/Nina.png?v=1722016055",
-      "published_at": "2024-12-06T15:28:53-05:00",
-      "created_at": "2024-07-01T13:45:04-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
       "id": "8530341757077",
       "label_id": "verve_acoustic",
       "title": "Stan Getz: Sweet Rain Acoustic Sounds Series LP",
@@ -7008,6 +6184,20 @@
         "180g",
         "Gatefold"
       ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
+      "id": "8559427485845",
+      "label_id": "verve_acoustic",
+      "title": "Sarah Vaughan: Sassy LP (Verve Acoustic Sounds Series)",
+      "url": "https://store.ververecords.com/products/sarah-vaughan-sassy-lp-verve-acoustic-sounds-series",
+      "price": "29.58",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SarahVaughanLP_82eba49c-1d8c-4d66-846e-3659da0aab8c.png?v=1721750954",
+      "published_at": "2024-07-29T08:46:32-04:00",
+      "created_at": "2024-07-23T12:09:42-04:00",
+      "specs": [],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
@@ -7106,23 +6296,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/billieholidaylp_f8c055e8-d85d-44fe-9ee5-b1bd54bdfac8.png?v=1713384992",
       "published_at": "2024-04-19T08:43:13-04:00",
       "created_at": "2024-04-17T16:07:45-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "8273498210453",
-      "label_id": "verve_acoustic",
-      "title": "Diana Krall: The Look Of Love LP (Verve Acoustic Sounds Series)",
-      "url": "https://store.ververecords.com/products/diana-krall-the-look-of-love-lp-verve-acoustic-sounds-series",
-      "price": "42.38",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/dianakrall.png?v=1712072432",
-      "published_at": "2026-05-01T08:59:52-04:00",
-      "created_at": "2024-04-02T11:32:03-04:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -7231,6 +6404,23 @@
       "blurb": ""
     },
     {
+      "id": "7966215635093",
+      "label_id": "verve_acoustic",
+      "title": "Coleman Hawkins and Ben Webster: Coleman Hawkins Encounters Ben Webster (Acoustic Sounds) LP",
+      "url": "https://store.ververecords.com/products/coleman-hawkins-and-ben-webster-coleman-hawkins-encounters-ben-webster-acoustic-sounds-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/ColemanLP.png?v=1697725547",
+      "published_at": "2023-10-23T10:58:38-04:00",
+      "created_at": "2023-08-17T14:24:53-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
       "id": "7994934591637",
       "label_id": "verve_acoustic",
       "title": "Oscar Peterson Trio: Very Tall LP (Verve Acoustic Sounds Series)",
@@ -7256,23 +6446,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/EllaLP_fbee7bd2-fbe5-4470-a692-4340183f7221.png?v=1693585394",
       "published_at": "2023-09-08T09:06:50-04:00",
       "created_at": "2023-09-01T12:18:03-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7966215635093",
-      "label_id": "verve_acoustic",
-      "title": "Coleman Hawkins and Ben Webster: Coleman Hawkins Encounters Ben Webster (Acoustic Sounds) LP",
-      "url": "https://store.ververecords.com/products/coleman-hawkins-and-ben-webster-coleman-hawkins-encounters-ben-webster-acoustic-sounds-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/ColemanLP.png?v=1697725547",
-      "published_at": "2023-10-23T10:58:38-04:00",
-      "created_at": "2023-08-17T14:24:53-04:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -7398,6 +6571,20 @@
       "blurb": ""
     },
     {
+      "id": "7756624625813",
+      "label_id": "verve_acoustic",
+      "title": "Alice Coltrane: Journey In Satchidanada (Acoustic Sounds Version) LP",
+      "url": "https://store.ververecords.com/products/alice-coltrane-journey-in-satchidanada-acoustic-sounds-version-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Alice-Coltrane-LP.png?v=1670445611",
+      "published_at": "2023-01-27T09:00:33-05:00",
+      "created_at": "2022-12-05T13:41:51-05:00",
+      "specs": [],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
       "id": "7792403447957",
       "label_id": "verve_acoustic",
       "title": "Wynton Kelly Trio with Wes Montgomery: Smokin’ At The Half Note LP (Verve Acoustic Sound Series)",
@@ -7410,20 +6597,6 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7756624625813",
-      "label_id": "verve_acoustic",
-      "title": "Alice Coltrane: Journey In Satchidanada (Acoustic Sounds Version) LP",
-      "url": "https://store.ververecords.com/products/alice-coltrane-journey-in-satchidanada-acoustic-sounds-version-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Alice-Coltrane-LP.png?v=1670445611",
-      "published_at": "2023-01-27T09:00:33-05:00",
-      "created_at": "2022-12-05T13:41:51-05:00",
-      "specs": [],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
@@ -7454,6 +6627,23 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Karma-LP.png?v=1666105224",
       "published_at": "2022-10-24T08:56:30-04:00",
       "created_at": "2022-10-18T11:00:23-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
+      "id": "7067914338453",
+      "label_id": "verve_acoustic",
+      "title": "George Russell: New York, NY (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/george-russell-new-york-ny-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/nylp.png?v=1629862863",
+      "published_at": "2022-08-24T08:58:26-04:00",
+      "created_at": "2021-08-24T23:38:31-04:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -7497,6 +6687,58 @@
       "blurb": ""
     },
     {
+      "id": "7067824226453",
+      "label_id": "verve_acoustic",
+      "title": "Stan Getz & Joao Gilberto: Getz/Gilberto (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/stan-getz-joao-gilberto-getz-gilberto-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/getzlp.png?v=1629860781",
+      "published_at": "2022-05-25T15:32:49-04:00",
+      "created_at": "2021-08-24T23:06:05-04:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
+      "id": "7067802173589",
+      "label_id": "verve_acoustic",
+      "title": "Clifford Brown & Max Roach: Study In Brown (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/clifford-brown-max-roach-study-in-brown-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/studyinbrownlp.png?v=1629860367",
+      "published_at": "2022-05-25T15:32:47-04:00",
+      "created_at": "2021-08-24T22:57:09-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
+      "id": "7067816362133",
+      "label_id": "verve_acoustic",
+      "title": "Sarah Vaughan: With Clifford Brown (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/sarah-vaughan-with-clifford-brown-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/sarahvaughnlp.png?v=1629860554",
+      "published_at": "2022-05-25T15:32:45-04:00",
+      "created_at": "2021-08-24T23:02:26-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
       "id": "7499767283861",
       "label_id": "verve_acoustic",
       "title": "Ella Fitzgerald and Louis Armstrong: Ella & Louis (Verve Acoustic Sounds Series) LP",
@@ -7522,23 +6764,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Duke-Ellington-Coleman-Hawkins-LP.png?v=1644264550",
       "published_at": "2022-02-11T09:00:05-05:00",
       "created_at": "2022-02-07T15:03:40-05:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7274594369685",
-      "label_id": "verve_acoustic",
-      "title": "Bill Evans: Trio '65 (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/bill-evans-trio-65-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Bill-Evans-LP.png?v=1639754004",
-      "published_at": "2022-01-05T09:00:27-05:00",
-      "created_at": "2021-12-17T10:13:23-05:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -7582,6 +6807,23 @@
       "blurb": ""
     },
     {
+      "id": "7274594369685",
+      "label_id": "verve_acoustic",
+      "title": "Bill Evans: Trio '65 (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/bill-evans-trio-65-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Bill-Evans-LP.png?v=1639754004",
+      "published_at": "2022-01-05T09:00:27-05:00",
+      "created_at": "2021-12-17T10:13:23-05:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
       "id": "7219144065173",
       "label_id": "verve_acoustic",
       "title": "John Coltrane: Crescent (Verve Acoustic Sounds Series) LP",
@@ -7608,92 +6850,6 @@
       "published_at": "2021-11-19T09:00:01-05:00",
       "created_at": "2021-11-11T16:58:55-05:00",
       "specs": [],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7074426552469",
-      "label_id": "verve_acoustic",
-      "title": "Ella Fitzgerald: Ella Wishes You A Swinging Christmas (Verve Acoustic Sounds Series ) LP",
-      "url": "https://store.ververecords.com/products/ella-fitzgerald-ella-wishes-you-a-swinging-christmas-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/ellalp.png?v=1630079635",
-      "published_at": "2021-08-27T12:41:32-04:00",
-      "created_at": "2021-08-27T11:47:08-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7067914338453",
-      "label_id": "verve_acoustic",
-      "title": "George Russell: New York, NY (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/george-russell-new-york-ny-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/nylp.png?v=1629862863",
-      "published_at": "2022-08-24T08:58:26-04:00",
-      "created_at": "2021-08-24T23:38:31-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7067824226453",
-      "label_id": "verve_acoustic",
-      "title": "Stan Getz & Joao Gilberto: Getz/Gilberto (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/stan-getz-joao-gilberto-getz-gilberto-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/getzlp.png?v=1629860781",
-      "published_at": "2022-05-25T15:32:49-04:00",
-      "created_at": "2021-08-24T23:06:05-04:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7067816362133",
-      "label_id": "verve_acoustic",
-      "title": "Sarah Vaughan: With Clifford Brown (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/sarah-vaughan-with-clifford-brown-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/sarahvaughnlp.png?v=1629860554",
-      "published_at": "2022-05-25T15:32:45-04:00",
-      "created_at": "2021-08-24T23:02:26-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "7067802173589",
-      "label_id": "verve_acoustic",
-      "title": "Clifford Brown & Max Roach: Study In Brown (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/clifford-brown-max-roach-study-in-brown-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/studyinbrownlp.png?v=1629860367",
-      "published_at": "2022-05-25T15:32:47-04:00",
-      "created_at": "2021-08-24T22:57:09-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
@@ -7741,6 +6897,23 @@
       "created_at": "2021-08-11T11:00:34-04:00",
       "specs": [
         "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
+      "id": "7074426552469",
+      "label_id": "verve_acoustic",
+      "title": "Ella Fitzgerald: Ella Wishes You A Swinging Christmas (Verve Acoustic Sounds Series ) LP",
+      "url": "https://store.ververecords.com/products/ella-fitzgerald-ella-wishes-you-a-swinging-christmas-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/ellalp.png?v=1630079635",
+      "published_at": "2021-08-27T12:41:32-04:00",
+      "created_at": "2021-08-27T11:47:08-04:00",
+      "specs": [
         "180g",
         "Gatefold"
       ],
@@ -7843,6 +7016,23 @@
       "blurb": ""
     },
     {
+      "id": "6458227458197",
+      "label_id": "verve_acoustic",
+      "title": "Sonny Rollins: On Impulse! (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/sonny-rollins-on-impulse-verve-acoustic-sounds-series-lp",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/sonnyrollinsLP.png?v=1612477380",
+      "published_at": "2021-05-07T13:58:37-04:00",
+      "created_at": "2021-02-02T15:03:35-05:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": ""
+    },
+    {
       "id": "6472945598613",
       "label_id": "verve_acoustic",
       "title": "Gil Evans: Out Of The Cool (Verve Acoustic Sounds Series) LP",
@@ -7870,23 +7060,6 @@
       "created_at": "2021-02-02T15:03:36-05:00",
       "specs": [],
       "preorder": true,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": ""
-    },
-    {
-      "id": "6458227458197",
-      "label_id": "verve_acoustic",
-      "title": "Sonny Rollins: On Impulse! (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/sonny-rollins-on-impulse-verve-acoustic-sounds-series-lp",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/sonnyrollinsLP.png?v=1612477380",
-      "published_at": "2021-05-07T13:58:37-04:00",
-      "created_at": "2021-02-02T15:03:35-05:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": ""
     },
