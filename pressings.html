@@ -139,17 +139,21 @@ function fmtDate(iso){ if(!iso)return ""; const d=new Date(iso); return isNaN(d)
 function labelOf(id){ return LABELS[id] || {name:id||"", color:"var(--ink3)"}; }
 
 function dateLine(it){
-  const c = it.created_at || it.published_at;
-  if(it.preorder && c){ const d=new Date(c); if(!isNaN(d) && d.getTime()>Date.now()-86400000) return "Ships "+fmtDate(c); }
-  if(c){ const age=(Date.now()-new Date(c).getTime())/86400000; if(age>=0&&age<120) return "Added "+fmtDate(c); }
-  return "";
+  // Shopify's created_at/published_at are STORE-LISTING timestamps, not real
+  // release dates, and they don't match the labels' own listings -- so they are
+  // never shown. A date appears ONLY if a verified `release_date` (entered by
+  // hand to match the label's site) is present on the item.
+  if(!it.release_date) return "";
+  const d = new Date(it.release_date);
+  if(isNaN(d)) return "";
+  return (d.getTime() > Date.now() ? "Ships " : "Released ") + fmtDate(it.release_date);
 }
 
 function render(){
   const content = document.getElementById("content");
   let items = ALL.slice();
   if(query) items = items.filter(it => (it.title||"").toLowerCase().includes(query));
-  const eff = it => it.created_at || it.published_at || "";
+  const eff = it => it.first_seen || it.created_at || it.published_at || "";
   items.sort((a,b)=> eff(b).localeCompare(eff(a)));
 
   if(!items.length){

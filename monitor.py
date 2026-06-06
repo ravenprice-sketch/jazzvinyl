@@ -366,6 +366,23 @@ def diff_source(state, sid, label, items, all_new):
     return False
 
 
+# first_seen: the date THIS tracker first encountered each release id. Stored
+# under the reserved "_first_seen" key in seen.json so it persists across runs
+# and is never overwritten. This is what the app sorts on -- unlike Shopify's
+# created_at/published_at (store-listing dates that jump around on re-publish),
+# first_seen reliably puts genuinely newly-detected releases on top. On the very
+# first run after this is added, everything gets stamped "now" (one-time
+# backfill); from then on only truly new ids get a fresh stamp.
+def stamp_first_seen(state, catalog):
+    fs = state.setdefault("_first_seen", {})
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    for it in catalog:
+        rid = it["id"]
+        if rid not in fs:
+            fs[rid] = now
+        it["first_seen"] = fs[rid]
+
+
 def main():
     state = load_state()
     blurbs = load_blurbs()
@@ -410,6 +427,13 @@ def main():
     for it in catalog:
         it["blurb"] = blurbs.get(it["id"], "")
     print(f"Attached {sum(1 for it in catalog if it['blurb'])} curated blurb(s).")
+
+    # Stamp each item with first_seen (when this tracker first saw it). New ids
+    # get "now"; existing ids keep their original stamp. The app sorts on this.
+    before = len(state.get("_first_seen", {}))
+    stamp_first_seen(state, catalog)
+    if len(state["_first_seen"]) != before:
+        changed = True   # new stamps -> persist state
 
     # Write the catalog file the app reads.
     write_data_json(catalog)
