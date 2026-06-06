@@ -153,7 +153,8 @@ function render(){
   let items = ALL.slice();
   if(query) items = items.filter(it => (it.title||"").toLowerCase().includes(query));
   const eff = it => it.first_seen || it.created_at || it.published_at || "";
-  items.sort((a,b)=> eff(b).localeCompare(eff(a)));
+const sec = it => it.created_at || it.published_at || "";
+items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a)));
 
   if(!items.length){
     content.innerHTML = `<div class="status"><div class="big">Nothing here</div>${query?"No match for that search.":"No releases loaded yet."}</div>`;
