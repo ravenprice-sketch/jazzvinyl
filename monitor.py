@@ -10,9 +10,7 @@ How it works
 Most audiophile reissue labels run their webshop on Shopify, which exposes a
 clean JSON feed at  {store}/collections/{handle}/products.json . We read that
 feed per label, compare product IDs against what we saw last time (seen.json),
-and report anything new. Rhino High Fidelity is the exception: Rhino's own store
-blocks bots, so its JAZZ titles are scraped from the Acoustic Sounds retailer
-page instead (HTML, so a bit more fragile).
+and report anything new.
 
 First run is treated as a BASELINE: it records what currently exists without
 spamming you. From the second run on, only genuine additions are reported.
@@ -39,10 +37,8 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; JazzVinylMonitor/1.0)"}
 TIMEOUT = 30
 
 # ---------------------------------------------------------------------------
-# Label sources.  All four jazz series below are jazz-only by definition, so
-# every new title qualifies.  Rhino High Fidelity is mostly rock with the odd
-# jazz title (e.g. Coltrane) and is very low volume (~2 per quarter), so we
-# report everything new there and let you judge.
+# Label sources.  All the jazz series below are jazz-only by definition, so
+# every new title qualifies.
 #
 # `collection` = Shopify collection handle. If it ever 404s, the script falls
 # back to the store-wide feed and filters by `keyword`, so a renamed handle
@@ -180,58 +176,6 @@ def simplify(src, p):
         "specs": _specs_from(f"{p.get('title','')} {' '.join(p.get('tags') or [])} {body}"),
         "preorder": ("pre-order" in blob or "preorder" in blob or not any_available),
     }
-
-
-# ---------------------------------------------------------------------------
-# Rhino High Fidelity -- JAZZ ONLY, hand-curated in manual_rhino.json.
-# Why manual: Rhino's own store blocks bots, Discogs blocks bots and only
-# catalogues the series buried in the full Rhino label (no clean "RHF jazz"
-# slice), and the titles that matter are deliberately scattered, low-volume,
-# indie-retail exclusives with no single feed. Chasing that with a scraper is
-# fragile and still misses the exclusives. So RHF jazz is curated by hand: add
-# a title to manual_rhino.json and it shows up on the next run. The file is a
-# JSON list of objects, e.g.:
-#   [
-#     {
-#       "id": "rhino_my_favorite_things_2026",   # any stable unique string
-#       "title": "John Coltrane - My Favorite Things (Rhino High Fidelity 2026)",
-#       "url": "https://elusivedisc.com/...",
-#       "price": "39.99",            # string or null
-#       "image": "https://...",      # cover URL or null (app handles missing)
-#       "specs": ["AAA", "180g", "Mono", "Gatefold"],
-#       "preorder": false,
-#       "published_at": ""           # ISO date if known, else ""
-#     }
-#   ]
-# ---------------------------------------------------------------------------
-RHINO_LABEL = "Rhino \u2014 High Fidelity (jazz)"
-RHINO_FILE = Path(__file__).with_name("manual_rhino.json")
-
-
-def fetch_rhino_jazz():
-    """Load hand-curated Rhino High Fidelity jazz titles from manual_rhino.json."""
-    if not RHINO_FILE.exists():
-        return []
-    try:
-        entries = json.loads(RHINO_FILE.read_text())
-    except Exception as e:
-        print(f"  could not read {RHINO_FILE.name}: {e}")
-        return []
-    items = []
-    for e in entries:
-        if not e.get("id") or not e.get("title"):
-            continue  # skip malformed entries
-        items.append({
-            "id": str(e["id"]),
-            "title": e["title"],
-            "url": e.get("url", ""),
-            "price": e.get("price"),
-            "image": e.get("image"),
-            "specs": e.get("specs", []),
-            "preorder": bool(e.get("preorder", False)),
-            "published_at": e.get("published_at", ""),
-        })
-    return items
 
 
 # ---------------------------------------------------------------------------
@@ -406,19 +350,6 @@ def main():
             catalog.append(it)
         if diff_source(state, src["id"], src["label"], items, all_new):
             changed = True
-
-    # Rhino High Fidelity (jazz only) -- hand-curated in manual_rhino.json.
-    print(f"Checking {RHINO_LABEL} ...")
-    try:
-        ritems = {it["id"]: it for it in fetch_rhino_jazz()}
-        print(f"  found {len(ritems)} curated titles")
-        for it in ritems.values():
-            it["label_name"] = RHINO_LABEL
-            catalog.append(it)
-        if diff_source(state, "rhino_hifi_jazz", RHINO_LABEL, ritems, all_new):
-            changed = True
-    except Exception as e:
-        print(f"  ERROR loading Rhino titles: {e}")
 
     # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
     # written on demand (a consensus summary for a specific title) and stored in
