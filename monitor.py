@@ -113,6 +113,7 @@ _AP_FORMAT = re.compile(r'<h4 class="h5"[^>]*>(?!<strong>)(.*?)</h4>', re.DOTALL
 _AP_CATALOG = re.compile(r'<span class="h6"[^>]*><strong>(.*?)</strong></span>', re.DOTALL)
 _AP_PRICE = re.compile(r'<span class="h3">\$([\d,]+\.\d{2})</span>')
 _AP_ADDED = re.compile(r'Added\s+\w+,\s+(\w+ \d{1,2}, \d{4})')
+_AP_IMG = re.compile(r'<img[^>]+src="(https://store\.acousticsounds\.com/images/[^"]+)"')
 
 
 def _ap_clean(s):
@@ -142,6 +143,12 @@ def _ap_parse_page(html_text):
         cat = _AP_CATALOG.search(card)
         price = _AP_PRICE.search(card)
         added = _AP_ADDED.search(card)
+        img = _AP_IMG.search(card)
+        img_url = img.group(1) if img else ""
+        if "NoImage" in img_url:
+            img_url = ""
+        elif "/images/small/" in img_url:
+            img_url = img_url.replace("/images/small/", "/images/large/")
         out.append({
             "pid": pid,
             "artist": _ap_clean(at.group(1)),
@@ -151,6 +158,7 @@ def _ap_parse_page(html_text):
             "price": price.group(1).replace(",", "") if price else None,
             "url": url,
             "added": _ap_added_iso(added.group(1)) if added else "",
+            "image": img_url,
         })
     return out
 
@@ -195,7 +203,7 @@ def simplify_ap(p):
         "title": title,
         "url": p["url"],
         "price": p["price"],
-        "image": None,                     # AP thumbs are tiny/placeholder; app shows cover via its own logic
+        "image": p.get("image") or None,  # large cover if present, else None
         "published_at": None,
         "created_at": p["added"],          # store-listing date -> feeds first_seen, not release_date
         "specs": _specs_from(f"{title} {p['format']}"),
