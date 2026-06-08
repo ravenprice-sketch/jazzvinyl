@@ -117,8 +117,11 @@ def matches_genre(src, p):
 # Analogue Productions (Acoustic Sounds) -- NOT Shopify.
 # Acoustic Sounds runs ColdFusion; there is no products.json. The jazz-vinyl
 # results page is server-rendered HTML, which we parse below. Filters:
-#   saleid=448 (Analogue Productions brand), CategoryID=5 (Vinyl),
-#   GenreID=4 (Jazz). 100/page, latest-added first.
+#   labelid=507 (the Analogue Productions label -- canonical, per the store's own
+#   /l/507/Analogue_Productions page), CategoryID=5 (Vinyl), GenreID=4 (Jazz).
+#   100/page, latest-added first.
+# (An earlier version used saleid=448, a sale/promo grouping that happened to
+#  work; labelid=507 is the precise catalog label.)
 # NOTE: Acoustic Sounds redirects some non-browser clients to the contact page.
 # fetch_ap() raises loudly on redirect or zero products so the monitor never
 # silently records an empty AP baseline.
@@ -126,7 +129,7 @@ AP_BASE = "https://store.acousticsounds.com"
 AP_LABEL = "Analogue Productions \u2014 Jazz Vinyl"
 AP_ID = "analogue_productions"
 AP_RESULTS = (
-    "/index.cfm?get=results&saleid=448&CategoryID=5&GenreID=4"
+    "/index.cfm?get=results&labelid=507&CategoryID=5&GenreID=4"
     "&ResultsPerPage=100&orderby=preownedbinmodified2_dt%20desc"
 )
 AP_UA = {"User-Agent": (
