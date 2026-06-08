@@ -82,6 +82,127 @@ SOURCES = [
     },
 ]
 
+# ---------------------------------------------------------------------------
+# Analogue Productions (Acoustic Sounds) -- NOT Shopify.
+# Acoustic Sounds runs ColdFusion; there is no products.json. The jazz-vinyl
+# results page is server-rendered HTML, which we parse below. Filters:
+#   saleid=448 (Analogue Productions brand), CategoryID=5 (Vinyl),
+#   GenreID=4 (Jazz). 100/page, latest-added first.
+# NOTE: Acoustic Sounds redirects some non-browser clients to the contact page.
+# fetch_ap() raises loudly on redirect or zero products so the monitor never
+# silently records an empty AP baseline.
+AP_BASE = "https://store.acousticsounds.com"
+AP_LABEL = "Analogue Productions \u2014 Jazz Vinyl"
+AP_ID = "analogue_productions"
+AP_RESULTS = (
+    "/index.cfm?get=results&saleid=448&CategoryID=5&GenreID=4"
+    "&ResultsPerPage=100&orderby=preownedbinmodified2_dt%20desc"
+)
+AP_UA = {"User-Agent": (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)}
+
+import html as _html  # stdlib; only used by the AP parser
+
+_AP_CARD_SPLIT = re.compile(r'<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">')
+_AP_LINK = re.compile(r'href="(https://store\.acousticsounds\.com/d/(\d+)/[^"]+)"')
+_AP_ARTIST_TITLE = re.compile(
+    r'<h4 class="h5"[^>]*><strong>(.*?)</strong>\s*/\s*(.*?)</h4>', re.DOTALL)
+_AP_FORMAT = re.compile(r'<h4 class="h5"[^>]*>(?!<strong>)(.*?)</h4>', re.DOTALL)
+_AP_CATALOG = re.compile(r'<span class="h6"[^>]*><strong>(.*?)</strong></span>', re.DOTALL)
+_AP_PRICE = re.compile(r'<span class="h3">\$([\d,]+\.\d{2})</span>')
+_AP_ADDED = re.compile(r'Added\s+\w+,\s+(\w+ \d{1,2}, \d{4})')
+
+
+def _ap_clean(s):
+    s = re.sub(r"<[^>]+>", "", s)
+    return re.sub(r"\s+", " ", _html.unescape(s)).strip()
+
+
+def _ap_added_iso(s):
+    try:
+        return datetime.datetime.strptime(s, "%B %d, %Y").date().isoformat()
+    except ValueError:
+        return ""
+
+
+def _ap_parse_page(html_text):
+    """Extract raw product dicts from one AP results page of HTML."""
+    start = html_text.find('id="results"')
+    region = html_text[start:] if start != -1 else html_text
+    out = []
+    for card in _AP_CARD_SPLIT.split(region)[1:]:
+        link = _AP_LINK.search(card)
+        at = _AP_ARTIST_TITLE.search(card)
+        if not link or not at:
+            continue
+        url, pid = link.group(1), link.group(2)
+        fmt = _AP_FORMAT.search(card)
+        cat = _AP_CATALOG.search(card)
+        price = _AP_PRICE.search(card)
+        added = _AP_ADDED.search(card)
+        out.append({
+            "pid": pid,
+            "artist": _ap_clean(at.group(1)),
+            "title": _ap_clean(at.group(2)),
+            "format": _ap_clean(fmt.group(1)) if fmt else "",
+            "catalog": _ap_clean(cat.group(1)) if cat else "",
+            "price": price.group(1).replace(",", "") if price else None,
+            "url": url,
+            "added": _ap_added_iso(added.group(1)) if added else "",
+        })
+    return out
+
+
+def fetch_ap():
+    """Page through AP jazz-vinyl results. Raises on redirect/bounce so an empty
+    AP source is never silently recorded as a baseline."""
+    raw = []
+    seen = set()
+    for page in range(5):                       # 100/page; ~200 titles -> 2-3 pages
+        start = 1 + page * 100
+        r = requests.get(f"{AP_BASE}{AP_RESULTS}&start={start}",
+                         headers=AP_UA, timeout=TIMEOUT, allow_redirects=True)
+        r.raise_for_status()
+        if "get=contact" in r.url or "get=login" in r.url:
+            raise RuntimeError(
+                f"AP fetch redirected to {r.url!r} -- runner is being bounced "
+                f"by Acoustic Sounds; cannot scrape AP from here.")
+        items = _ap_parse_page(r.text)
+        if not items:
+            break
+        fresh = [it for it in items if it["pid"] not in seen]
+        for it in fresh:
+            seen.add(it["pid"])
+        raw.extend(fresh)
+        if len(items) < 100:
+            break
+    if not raw:
+        raise RuntimeError(
+            "AP parsed ZERO products -- page shape changed or runner served a "
+            "non-results page. Refusing to record an empty AP baseline.")
+    return raw
+
+
+def simplify_ap(p):
+    """Normalise an AP raw dict into the same schema simplify() emits, so AP
+    items flow through diff/first_seen/blurbs/app exactly like Shopify items."""
+    title = f"{p['artist']} \u2014 {p['title']}".strip(" \u2014")
+    return {
+        "id": f"ap_{p['pid']}",            # namespaced; never collides with Shopify ids
+        "label_id": AP_ID,
+        "title": title,
+        "url": p["url"],
+        "price": p["price"],
+        "image": None,                     # AP thumbs are tiny/placeholder; app shows cover via its own logic
+        "published_at": None,
+        "created_at": p["added"],          # store-listing date -> feeds first_seen, not release_date
+        "specs": _specs_from(f"{title} {p['format']}"),
+        "preorder": "pre order" in p["format"].lower() or "preorder" in p["format"].lower(),
+        "catalog": p["catalog"],
+    }
+
 
 # ---------------------------------------------------------------------------
 # Fetching
@@ -350,6 +471,28 @@ def main():
             catalog.append(it)
         if diff_source(state, src["id"], src["label"], items, all_new):
             changed = True
+
+    # Analogue Productions (HTML scrape, not Shopify). Same schema, same flow.
+    # Wrapped so an AP failure never aborts the Shopify-based catalog: it logs
+    # loudly and skips AP for this run.
+    print(f"Checking {AP_LABEL} ...")
+    try:
+        ap_raw = fetch_ap()
+        ap_items = {}
+        for p in ap_raw:
+            it = simplify_ap(p)
+            # CategoryID=5 already limits to vinyl; drop test pressings within it.
+            if "test pressing" in p["format"].lower():
+                continue
+            it["label_name"] = AP_LABEL
+            ap_items[it["id"]] = it
+        print(f"  found {len(ap_items)} LPs")
+        for it in ap_items.values():
+            catalog.append(it)
+        if diff_source(state, AP_ID, AP_LABEL, ap_items, all_new):
+            changed = True
+    except Exception as e:
+        print(f"  ERROR fetching {AP_ID}: {e}  (skipping AP this run)")
 
     # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
     # written on demand (a consensus summary for a specific title) and stored in
