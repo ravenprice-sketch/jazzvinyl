@@ -97,21 +97,28 @@ SOURCES = [
 
 def _tags_of(p):
     """Shopify tags come as a list or a comma-separated string; normalise to a
-    lowercased list."""
+    lowercased list. Also fold in product_type, since some stores put the genre
+    there rather than in tags."""
     t = p.get("tags")
     if isinstance(t, str):
         t = [x.strip() for x in t.split(",")]
-    return [str(x).lower() for x in (t or [])]
+    out = [str(x).lower() for x in (t or [])]
+    pt = p.get("product_type")
+    if pt:
+        out.append(str(pt).lower())
+    return out
 
 
 def matches_genre(src, p):
     """For a genre-mixed source (has 'genre_tags'), keep only products whose
-    Shopify tags intersect the wanted genres. Sources without genre_tags pass
-    everything (unchanged behaviour)."""
+    Shopify tags/type CONTAIN one of the wanted genre words. Substring match (not
+    exact) so 'Jazz/Fusion', 'jazz-blues', 'Jazz ' etc. still match. Sources
+    without genre_tags pass everything (unchanged behaviour)."""
     wanted = src.get("genre_tags")
     if not wanted:
         return True
-    return any(tag in wanted for tag in _tags_of(p))
+    hay = _tags_of(p)
+    return any(w in tag for tag in hay for w in wanted)
 
 # ---------------------------------------------------------------------------
 # Analogue Productions (Acoustic Sounds) -- NOT Shopify.
@@ -505,9 +512,23 @@ def main():
         except Exception as e:
             print(f"  ERROR fetching {src['id']}: {e}")
             continue
+        if src.get("genre_tags"):
+            print(f"  fetched {len(raw)} raw products before genre filter")
         # Genre-mixed sources (e.g. Rhino Hi-Fi) keep only jazz-tagged products;
         # all other sources pass everything through (matches_genre returns True).
-        raw = [p for p in raw if matches_genre(src, p)]
+        if src.get("genre_tags"):
+            raw_all = raw
+            raw = [p for p in raw_all if matches_genre(src, p)]
+            if raw_all and not raw:
+                # Fetched products but genre filter dropped all of them. Log the
+                # actual tags we saw so we can see what the real genre strings are.
+                sample = []
+                for p in raw_all[:8]:
+                    sample.append(f"{(p.get('title') or '')[:30]} :: tags={p.get('tags')} type={p.get('product_type')}")
+                print(f"  genre filter matched 0 of {len(raw_all)}; "
+                      f"wanted={src['genre_tags']}; sample of what was seen:")
+                for s in sample:
+                    print(f"    {s}")
         items = {it["id"]: it for it in (simplify(src, p) for p in raw)
                  if is_lp(it["title"])}
         print(f"  found {len(items)} LPs")
