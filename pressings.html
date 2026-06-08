@@ -146,6 +146,20 @@ function fmtPrice(p){ if(p==null||p==="")return ""; const n=Number(p); return is
 function fmtDate(iso){ if(!iso)return ""; const d=new Date(iso); return isNaN(d)?"":d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}); }
 function labelOf(id){ return LABELS[id] || {name:id||"", color:"var(--ink3)"}; }
 
+// Acoustic Sounds blocks cross-origin (hotlinked) image loads with a 403, so AP
+// covers won't load directly in the browser. Route just those through the
+// images.weserv.nl proxy, which fetches server-side (no referer block) and
+// re-serves them cross-origin. All other label images pass through untouched.
+// data.json keeps the real source URLs; this is purely a display-time wrapper.
+function coverSrc(url){
+  if(!url) return "";
+  if(url.includes("acousticsounds.com")){
+    const bare = url.replace(/^https?:\/\//, "");
+    return "https://images.weserv.nl/?url=" + encodeURIComponent(bare);
+  }
+  return url;
+}
+
 function dateLine(it){
   // Shopify's created_at/published_at are STORE-LISTING timestamps, not real
   // release dates, and they don't match the labels' own listings -- so they are
@@ -175,7 +189,10 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
     const lbl = labelOf(it.label_id);
     const card = document.createElement("div"); card.className="card";
     card.style.animationDelay = Math.min(i*20,460)+"ms";
-    const cover = it.image ? `<img loading="lazy" src="${it.image}" alt="">` : `<div class="ph">${it.title||""}</div>`;
+    const safeTitle = (it.title||"").replace(/"/g,"&quot;");
+    const cover = it.image
+      ? `<img loading="lazy" src="${coverSrc(it.image)}" alt="${safeTitle}" onerror="this.onerror=null;this.outerHTML='<div class=\\'ph\\'>'+this.alt+'</div>'">`
+      : `<div class="ph">${it.title||""}</div>`;
     const fav = favSet.has(it.id);
     const specs = (it.specs||[]);
     const dl = dateLine(it);
