@@ -32,11 +32,18 @@
   .corner{position:absolute;top:46px;right:0;text-align:right;font-size:12px;color:var(--ink3);line-height:1.7}
   .corner b{color:var(--ink);font-weight:700}
 
-  .searchbar{margin-bottom:24px}
+  .searchbar{margin-bottom:14px}
   .search{font-family:'Archivo';font-size:14px;border:1.5px solid var(--line);background:#fff8ec;
     padding:11px 15px;border-radius:9px;width:100%;color:var(--ink)}
   .search::placeholder{color:var(--ink3)}
   .search:focus{outline:none;border-color:var(--ink)}
+  .filters{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:24px}
+  .filt{font-family:'Archivo';font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+    cursor:pointer;padding:5px 11px;border-radius:999px;border:1.5px solid var(--line);
+    background:transparent;color:var(--ink3);transition:color .12s,border-color .12s,background .12s;white-space:nowrap}
+  .filt:hover{color:var(--ink)}
+  .filt.on{color:#fff;border-color:transparent}
+  .filt.all.on{background:var(--ink);color:#fff}
 
   .banner{background:var(--paper2);border:1px solid var(--line);border-left:3px solid var(--accent);
     padding:11px 15px;border-radius:6px;font-size:13px;color:var(--ink2);margin-bottom:22px}
@@ -98,6 +105,7 @@
   </header>
 
   <div class="searchbar"><input class="search" id="search" placeholder="Search by title or artist…"></div>
+  <div class="filters" id="filters"></div>
   <div id="banner"></div>
   <div id="content"><div class="status"><div class="spinner"></div>Loading the latest pressings…</div></div>
 
@@ -127,7 +135,7 @@ const LABELS = {
 const SEEN_KEY = "pressings_seen_ids_v1";
 const FAV_KEY  = "pressings_favorites_v1";
 
-let ALL = [], favSet = new Set(), seenIds = null, firstVisit = false, query = "", updatedAt = "";
+let ALL = [], favSet = new Set(), seenIds = null, firstVisit = false, query = "", updatedAt = "", activeLabels = new Set();
 
 async function loadSeen(){ try{const r=await window.storage.get(SEEN_KEY); if(r&&r.value)return new Set(JSON.parse(r.value));}catch(e){} return null; }
 async function saveSeen(ids){ try{await window.storage.set(SEEN_KEY, JSON.stringify([...ids]));}catch(e){} }
@@ -152,6 +160,7 @@ function dateLine(it){
 function render(){
   const content = document.getElementById("content");
   let items = ALL.slice();
+  if(activeLabels.size) items = items.filter(it => activeLabels.has(it.label_id));
   if(query) items = items.filter(it => (it.title||"").toLowerCase().includes(query));
   const eff = it => it.first_seen || it.created_at || it.published_at || "";
 const sec = it => it.created_at || it.published_at || "";
@@ -197,6 +206,21 @@ function updateCounts(){
     `${favCount} favorite${favCount===1?"":"s"} · ` + (newCount>0?`${newCount} new since last visit`:"no new since last visit");
 }
 
+function buildFilters(){
+  const box = document.getElementById("filters");
+  // Only show pills for labels actually present in the data, in LABELS order.
+  const present = new Set(ALL.map(it=>it.label_id));
+  const order = Object.keys(LABELS).filter(id=>present.has(id));
+  if(order.length < 2){ box.innerHTML=""; return; }  // nothing to filter
+  let html = `<button class="filt all${activeLabels.size?"":" on"}" data-id="__all__">All</button>`;
+  for(const id of order){
+    const lbl = labelOf(id), on = activeLabels.has(id);
+    const style = on ? `style="background:${lbl.color};border-color:transparent"` : "";
+    html += `<button class="filt${on?" on":""}" data-id="${id}" ${style}>${lbl.name}</button>`;
+  }
+  box.innerHTML = html;
+}
+
 async function applySeen(){
   const ids = new Set(ALL.map(it=>it.id));
   if(firstVisit){ ALL.forEach(it=>it.isNew=false); await saveSeen(ids); seenIds=ids; }
@@ -229,6 +253,7 @@ async function load(){
   ALL = (data.items||[]).map(it=>({...it}));
   updatedAt = data.updated || "";
   await applySeen();
+  buildFilters();
   render(); updateCounts();
   const stale = updatedAt && (Date.now()-new Date(updatedAt).getTime())/86400000 > 3;
   document.getElementById("banner").innerHTML = stale
@@ -236,6 +261,14 @@ async function load(){
 }
 
 document.getElementById("search").addEventListener("input",e=>{ query=e.target.value.toLowerCase().trim(); render(); });
+document.getElementById("filters").addEventListener("click", e=>{
+  const btn = e.target.closest(".filt"); if(!btn) return;
+  const id = btn.dataset.id;
+  if(id === "__all__") activeLabels.clear();
+  else if(activeLabels.has(id)) activeLabels.delete(id);
+  else activeLabels.add(id);
+  buildFilters(); render();
+});
 document.getElementById("content").addEventListener("click", async e=>{
   const btn=e.target.closest(".fav"); if(!btn)return;
   e.preventDefault();
