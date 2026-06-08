@@ -2826,6 +2826,42 @@
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    "8450567012543": {
+      "id": "8450567012543",
+      "label_id": "bluenote_tone_poet",
+      "title": "Ike Quebec – Bossa Nova Soul Samba (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/ike-quebec-bossa-nova-soul-samba-tone-poet-vinyl-series",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/IkeQuebec_BossaNovaSoulSamba_PROD_SHOTNEW.png?v=1780601016",
+      "published_at": "2026-06-08T09:00:27-04:00",
+      "created_at": "2026-06-04T11:50:01-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-06-08T18:12:03.633406+00:00"
+    },
+    "8450566717631": {
+      "id": "8450566717631",
+      "label_id": "bluenote_tone_poet",
+      "title": "Jackie McLean – Vertigo (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/jackie-mclean-vertigo-tone-poet-vinyl-series",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/JackieMcLean_Vertigo_PROD_SHOTNEW.png?v=1780601059",
+      "published_at": "2026-06-08T09:00:26-04:00",
+      "created_at": "2026-06-04T11:49:04-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-06-08T18:12:03.633406+00:00"
     }
   },
   "bluenote_classic": {
@@ -10528,7 +10564,9 @@
     "ap_104680": "2026-06-08T08:30:59.671038+00:00",
     "ap_97164": "2026-06-08T08:30:59.671038+00:00",
     "ap_97161": "2026-06-08T08:30:59.671038+00:00",
-    "ap_68346": "2026-06-08T08:30:59.671038+00:00"
+    "ap_68346": "2026-06-08T08:30:59.671038+00:00",
+    "8450567012543": "2026-06-08T18:12:03.633406+00:00",
+    "8450566717631": "2026-06-08T18:12:03.633406+00:00"
   },
   "analogue_productions": {
     "ap_111596": {
