@@ -80,7 +80,38 @@ SOURCES = [
         "collection": "verve-vault",
         "keyword": "vault",
     },
+    {
+        # Rhino High Fidelity is a genre-MIXED audiophile series (rock/pop/jazz),
+        # so unlike the others it needs a genre-tag filter to keep jazz only.
+        # The store is Shopify, so it uses the same products.json path; genre_tags
+        # is applied in main() against each product's Shopify tags.
+        "id": "rhino_hifi",
+        "label": "Rhino \u2014 High Fidelity",
+        "base": "https://store.rhino.com",
+        "collection": "rhino-high-fidelity",
+        "keyword": "rhino high fidelity",
+        "genre_tags": ["jazz", "fusion", "avant-garde jazz"],
+    },
 ]
+
+
+def _tags_of(p):
+    """Shopify tags come as a list or a comma-separated string; normalise to a
+    lowercased list."""
+    t = p.get("tags")
+    if isinstance(t, str):
+        t = [x.strip() for x in t.split(",")]
+    return [str(x).lower() for x in (t or [])]
+
+
+def matches_genre(src, p):
+    """For a genre-mixed source (has 'genre_tags'), keep only products whose
+    Shopify tags intersect the wanted genres. Sources without genre_tags pass
+    everything (unchanged behaviour)."""
+    wanted = src.get("genre_tags")
+    if not wanted:
+        return True
+    return any(tag in wanted for tag in _tags_of(p))
 
 # ---------------------------------------------------------------------------
 # Analogue Productions (Acoustic Sounds) -- NOT Shopify.
@@ -471,6 +502,9 @@ def main():
         except Exception as e:
             print(f"  ERROR fetching {src['id']}: {e}")
             continue
+        # Genre-mixed sources (e.g. Rhino Hi-Fi) keep only jazz-tagged products;
+        # all other sources pass everything through (matches_genre returns True).
+        raw = [p for p in raw if matches_genre(src, p)]
         items = {it["id"]: it for it in (simplify(src, p) for p in raw)
                  if is_lp(it["title"])}
         print(f"  found {len(items)} LPs")
