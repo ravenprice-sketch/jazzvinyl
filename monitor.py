@@ -282,6 +282,59 @@ def _ap_parse_page(html_text):
     return out
 
 
+# Acoustic Sounds blocks the GitHub Actions runner IP range at the network level
+# (connections time out, not a 403/redirect). To get the page from the runner we
+# route the request through a public reader proxy (r.jina.ai), which fetches the
+# real page from its own infrastructure and returns the raw HTML. We ask for raw
+# HTML (X-Return-Format: html) so the existing card parser still works.
+# Direct fetch is tried first; the proxy is the fallback when the direct
+# connection fails. Set AS_USE_PROXY=0 in the env to disable the proxy entirely.
+AS_PROXY_PREFIX = "https://r.jina.ai/"
+AS_PROXY_HEADERS = {"X-Return-Format": "html", "X-Respond-With": "html"}
+
+
+def _as_fetch_page(src, url):
+    """Fetch one Acoustic Sounds results page. Tries a direct connection (with a
+    couple of quick retries); if the runner can't reach the host, falls back to
+    the reader proxy. Returns the requests.Response. Raises the last error if
+    every path fails."""
+    use_proxy = os.environ.get("AS_USE_PROXY", "1") != "0"
+    last_err = None
+
+    # 1) Direct: two quick attempts. Don't burn long backoffs here -- if the IP
+    #    is blocked it will time out regardless, and the proxy is the real path.
+    for attempt in range(2):
+        try:
+            r = requests.get(url, headers=AS_UA, timeout=20, allow_redirects=True)
+            r.raise_for_status()
+            return r
+        except requests.exceptions.RequestException as e:
+            last_err = e
+            if attempt == 0:
+                print(f"  [{src['id']}] direct attempt failed ({type(e).__name__}); retrying once")
+                time.sleep(3)
+
+    # 2) Proxy fallback.
+    if use_proxy:
+        print(f"  [{src['id']}] direct fetch failed; trying reader proxy")
+        for attempt in range(3):
+            try:
+                pr = requests.get(AS_PROXY_PREFIX + url,
+                                  headers={**AS_UA, **AS_PROXY_HEADERS},
+                                  timeout=60, allow_redirects=True)
+                pr.raise_for_status()
+                return pr
+            except requests.exceptions.RequestException as e:
+                last_err = e
+                if attempt < 2:
+                    wait = 5 * (attempt + 1)
+                    print(f"  [{src['id']}] proxy attempt {attempt+1} failed "
+                          f"({type(e).__name__}); retrying in {wait}s")
+                    time.sleep(wait)
+
+    raise RuntimeError(f"{src['id']} fetch failed (direct and proxy): {last_err}")
+
+
 def fetch_acoustic(src):
     """Page through one Acoustic Sounds label's jazz-vinyl results. Raises on
     redirect/bounce or zero products so an empty source is never recorded as a
@@ -291,28 +344,13 @@ def fetch_acoustic(src):
     for page in range(5):                       # 100/page
         start = 1 + page * 100
         url = _as_results_url(src["labelid"], start)
-        # Acoustic Sounds occasionally times out / refuses a connection from the
-        # runner; retry a few times with backoff before giving up on the source.
-        r = None
-        last_err = None
-        for attempt in range(4):
-            try:
-                r = requests.get(url, headers=AS_UA, timeout=45, allow_redirects=True)
-                r.raise_for_status()
-                break
-            except requests.exceptions.RequestException as e:
-                last_err = e
-                if attempt < 3:
-                    wait = 5 * (attempt + 1)     # 5s, 10s, 15s
-                    print(f"  [{src['id']}] attempt {attempt+1} failed ({type(e).__name__}); "
-                          f"retrying in {wait}s")
-                    time.sleep(wait)
-        if r is None:
-            raise RuntimeError(f"{src['id']} fetch failed after retries: {last_err}")
-        if "get=contact" in r.url or "get=login" in r.url:
+        r = _as_fetch_page(src, url)
+        # The proxy may rewrite the final URL; check the original target intent
+        # via the returned body/url for the contact-page bounce.
+        if "get=contact" in getattr(r, "url", "") or "get=login" in getattr(r, "url", ""):
             raise RuntimeError(
-                f"{src['id']} fetch redirected to {r.url!r} -- runner is being "
-                f"bounced by Acoustic Sounds; cannot scrape from here.")
+                f"{src['id']} fetch redirected to {r.url!r} -- bounced by "
+                f"Acoustic Sounds; cannot scrape this label.")
         items = _ap_parse_page(r.text)
         if not items:
             break
@@ -324,7 +362,7 @@ def fetch_acoustic(src):
             break
     if not raw:
         raise RuntimeError(
-            f"{src['id']} parsed ZERO products -- page shape changed or runner "
+            f"{src['id']} parsed ZERO products -- page shape changed or proxy "
             f"served a non-results page. Refusing to record an empty baseline.")
     return raw
 
