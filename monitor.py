@@ -28,6 +28,7 @@ import sys
 import time
 from email.mime.text import MIMEText
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -290,7 +291,7 @@ def _ap_parse_page(html_text):
 # Direct fetch is tried first; the proxy is the fallback when the direct
 # connection fails. Set AS_USE_PROXY=0 in the env to disable the proxy entirely.
 AS_PROXY_PREFIX = "https://r.jina.ai/"
-AS_PROXY_HEADERS = {"X-Return-Format": "html", "X-Respond-With": "html"}
+AS_PROXY_HEADERS = {"X-Return-Format": "html"}
 
 
 def _as_fetch_page(src, url):
@@ -314,12 +315,14 @@ def _as_fetch_page(src, url):
                 print(f"  [{src['id']}] direct attempt failed ({type(e).__name__}); retrying once")
                 time.sleep(3)
 
-    # 2) Proxy fallback.
+    # 2) Proxy fallback. The target URL must be URL-encoded before being appended
+    #    to the proxy prefix, or r.jina.ai rejects the loose query string (422).
     if use_proxy:
         print(f"  [{src['id']}] direct fetch failed; trying reader proxy")
+        proxied = AS_PROXY_PREFIX + quote(url, safe="")
         for attempt in range(3):
             try:
-                pr = requests.get(AS_PROXY_PREFIX + url,
+                pr = requests.get(proxied,
                                   headers={**AS_UA, **AS_PROXY_HEADERS},
                                   timeout=60, allow_redirects=True)
                 pr.raise_for_status()
