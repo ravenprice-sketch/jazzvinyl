@@ -80,7 +80,99 @@ SOURCES = [
         "collection": "verve-vault",
         "keyword": "vault",
     },
+    {
+        # Rhino High Fidelity: genre-MIXED audiophile series (rock/pop/jazz) on
+        # Rhino's own Shopify store. Feed carries NO genre tags, so jazz is found
+        # by a cached one-shot AI title-classification (see classify_genre_ai).
+        # 'ai_genre' enables it; 'lp_types' drops reel-to-reel/bundles.
+        # Paired with the Acoustic Sounds Rhino source below; the catalog is then
+        # de-duplicated on normalised title so overlapping titles appear once.
+        "id": "rhino_jazz",
+        "label": "Rhino \u2014 High Fidelity",
+        "base": "https://store.rhino.com",
+        "collection": "rhino-high-fidelity",
+        "keyword": "rhino high fidelity",
+        "ai_genre": "jazz",
+        "lp_types": ["vinyl"],
+    },
 ]
+
+# ---------------------------------------------------------------------------
+# AI genre classification (for genre-mixed Shopify sources like Rhino Hi-Fi,
+# whose feed carries no genre tags). One cached, batched Anthropic call; each
+# product id is judged once and cached in state, so later runs only classify
+# genuinely new titles. Degrades safely: no key / failed call -> classify
+# nothing this run (never crashes, never lets non-jazz leak in).
+# ---------------------------------------------------------------------------
+RHINO_GENRE_OVERRIDES = {
+    # "product_id": True,   # force-keep   (model said no, you say yes)
+    # "product_id": False,  # force-drop   (model said yes, you say no)
+}
+
+
+def _lp_type_ok(src, p):
+    wanted = src.get("lp_types")
+    if not wanted:
+        return True
+    pt = str(p.get("product_type") or "").lower()
+    return any(w in pt for w in wanted)
+
+
+def _ai_title(p):
+    t = (p.get("title") or "").strip()
+    t = re.sub(r"\s*\((?:Rhino High Fidelity|Audiophile Bundle)[^)]*\)\s*$", "", t, flags=re.I)
+    vendor = (p.get("vendor") or "").strip()
+    return f"{vendor} - {t}".strip(" -") if vendor else t
+
+
+def classify_genre_ai(src, products, state):
+    want = src["ai_genre"]
+    cache = state.setdefault("_ai_genre", {}).setdefault(src["id"], {})
+    for pid, val in RHINO_GENRE_OVERRIDES.items():
+        cache[pid] = bool(val)
+
+    pending = [p for p in products if str(p.get("id")) not in cache]
+    if pending:
+        key = os.environ.get("ANTHROPIC_API_KEY")
+        if not key:
+            print(f"  [ai_genre] {len(pending)} unclassified but no ANTHROPIC_API_KEY "
+                  f"-> classifying nothing this run")
+        else:
+            numbered = "\n".join(f"{i}. {_ai_title(p)}" for i, p in enumerate(pending))
+            prompt = (
+                f"Below is a numbered list of album reissues (artist - title). For each, "
+                f"decide whether its PRIMARY musical genre is {want}. Be strict: only albums "
+                f"whose core genre is {want} count (for jazz: bebop, hard bop, cool, modal, "
+                f"fusion, spiritual/avant-garde jazz). Soul, funk, R&B, rock, pop, folk, "
+                f"country do NOT count, even if jazz-adjacent.\n\n{numbered}\n\n"
+                f'Reply with ONLY a JSON object: {{"match": [numbers that are {want}]}} '
+                f"and nothing else."
+            )
+            try:
+                r = requests.post(
+                    "https://api.anthropic.com/v1/messages",
+                    headers={"x-api-key": key, "anthropic-version": "2023-06-01",
+                             "content-type": "application/json"},
+                    json={"model": "claude-haiku-4-5-20251001", "max_tokens": 500,
+                          "messages": [{"role": "user", "content": prompt}]},
+                    timeout=TIMEOUT,
+                )
+                r.raise_for_status()
+                text = "".join(b.get("text", "") for b in r.json().get("content", [])).strip().strip("`")
+                if text.lower().startswith("json"):
+                    text = text[4:].strip()
+                match_nums = set(json.loads(text).get("match", []))
+                for i, p in enumerate(pending):
+                    cache[str(p.get("id"))] = (i in match_nums)
+                kept = sum(1 for i in range(len(pending)) if i in match_nums)
+                print(f"  [ai_genre] classified {len(pending)} new: {kept} {want}, {len(pending)-kept} other")
+            except Exception as e:
+                print(f"  [ai_genre] classification failed ({e}) -> classifying nothing this run")
+
+    for pid, val in RHINO_GENRE_OVERRIDES.items():
+        cache[pid] = bool(val)
+    return [p for p in products if cache.get(str(p.get("id"))) is True]
+
 
 # ---------------------------------------------------------------------------
 # Acoustic Sounds (store.acousticsounds.com) -- NOT Shopify.
@@ -110,7 +202,11 @@ ACOUSTIC_SOURCES = [
         "prefix": "ap",                # id namespace -> ap_{pid}
     },
     {
-        "id": "rhino_jazz",
+        # Unique state id (rhino_as) so it doesn't collide with the Shopify
+        # Rhino source in seen.json, but shares label_id 'rhino_jazz' so both
+        # Rhino sources appear under one label/pill in the app.
+        "id": "rhino_as",
+        "label_id": "rhino_jazz",
         "label": "Rhino \u2014 Jazz Vinyl",
         "labelid": 531,
         "prefix": "rh",                # id namespace -> rh_{pid}
@@ -222,7 +318,7 @@ def simplify_acoustic(src, p):
     title = f"{p['artist']} \u2014 {p['title']}".strip(" \u2014")
     return {
         "id": f"{src['prefix']}_{p['pid']}",   # namespaced; never collides
-        "label_id": src["id"],
+        "label_id": src.get("label_id", src["id"]),
         "title": title,
         "url": p["url"],
         "price": p["price"],
@@ -429,21 +525,43 @@ def load_blurbs():
     return {}
 
 
+def _norm_title(t):
+    """Normalise a title for cross-source dedup: lowercase, strip the trailing
+    label/series suffix in parens, collapse punctuation/whitespace."""
+    t = (t or "").lower()
+    t = re.sub(r"\s*\([^)]*\)\s*$", "", t)        # drop trailing "(...series...)"
+    t = t.replace("\u2014", " ").replace("-", " ")
+    t = re.sub(r"[^a-z0-9 ]", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def write_data_json(catalog):
     """Write the full catalog (all current items + blurbs) for the app to read.
-    Deduplicates on id as a safety net, so a product reaching the catalog via
-    more than one path (e.g. collection feed + keyword fallback) appears once."""
-    seen = set()
+    Dedups on id, then on normalised title, so a record reaching the catalog via
+    more than one path (e.g. a Rhino title on both Rhino's store and Acoustic
+    Sounds) appears once. First occurrence wins -- sources earlier in catalog
+    order (Shopify, with native covers/URLs) take priority over later ones."""
+    seen_ids = set()
+    kept_titles = {}            # label_id -> list of normalised titles kept
     deduped = []
     for it in catalog:
         iid = it.get("id")
-        if iid in seen:
+        if iid in seen_ids:
             continue
-        seen.add(iid)
+        lbl = it.get("label_id")
+        nt = _norm_title(it.get("title"))
+        # Within the same label, treat titles where one contains the other as the
+        # same record (handles "Coltrane's Sound" vs "John Coltrane - Coltrane's
+        # Sound" across the two Rhino sources). First occurrence wins.
+        existing = kept_titles.setdefault(lbl, [])
+        if nt and any(nt in e or e in nt for e in existing):
+            continue
+        seen_ids.add(iid)
+        existing.append(nt)
         deduped.append(it)
     dropped = len(catalog) - len(deduped)
     if dropped:
-        print(f"  (deduped {dropped} duplicate item(s) on id)")
+        print(f"  (deduped {dropped} duplicate item(s) on id/title)")
     payload = {
         "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "count": len(deduped),
@@ -507,8 +625,22 @@ def main():
         except Exception as e:
             print(f"  ERROR fetching {src['id']}: {e}")
             continue
-        items = {it["id"]: it for it in (simplify(src, p) for p in raw)
-                 if is_lp(it["title"])}
+        # Genre-mixed source (Rhino Hi-Fi): drop non-LP types, then keep only the
+        # wanted genre via cached AI title-classification. Others skip both steps.
+        if src.get("ai_genre"):
+            n0 = len(raw)
+            raw = [p for p in raw if _lp_type_ok(src, p)]
+            print(f"  fetched {n0} raw; {len(raw)} vinyl LPs; classifying genre ...")
+            raw = classify_genre_ai(src, raw, state)
+            print(f"  {len(raw)} classified as {src['ai_genre']}")
+        label_id = src.get("label_id", src["id"])
+        items = {}
+        for p in raw:
+            it = simplify(src, p)
+            if not is_lp(it["title"]):
+                continue
+            it["label_id"] = label_id
+            items[it["id"]] = it
         print(f"  found {len(items)} LPs")
         for it in items.values():
             it["label_name"] = src["label"]
