@@ -10566,7 +10566,14 @@
     "ap_97161": "2026-06-08T08:30:59.671038+00:00",
     "ap_68346": "2026-06-08T08:30:59.671038+00:00",
     "8450567012543": "2026-06-08T18:12:03.633406+00:00",
-    "8450566717631": "2026-06-08T18:12:03.633406+00:00"
+    "8450566717631": "2026-06-08T18:12:03.633406+00:00",
+    "8931674587382": "2026-06-09T07:36:53.558096+00:00",
+    "8931662823670": "2026-06-09T07:36:53.558096+00:00",
+    "8931660792054": "2026-06-09T07:36:53.558096+00:00",
+    "8931665936630": "2026-06-09T07:36:53.558096+00:00",
+    "8931690316022": "2026-06-09T07:36:53.558096+00:00",
+    "8931659186422": "2026-06-09T07:36:53.558096+00:00",
+    "9213194830070": "2026-06-09T07:36:53.558096+00:00"
   },
   "analogue_productions": {
     "ap_111596": {
@@ -12794,5 +12801,206 @@
       "first_seen": "2026-06-08T08:30:59.671038+00:00"
     }
   },
-  "rhino_hifi": {}
+  "rhino_hifi": {
+    "8931674587382": {
+      "id": "8931674587382",
+      "label_id": "rhino_hifi",
+      "title": "Olé Coltrane (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/ole-coltrane-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/JohnColtrane_Ole_Hifi_ProductShot-min.png?v=1761612344",
+      "published_at": "2024-12-26T08:33:04-08:00",
+      "created_at": "2024-12-26T08:33:04-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    "8931662823670": {
+      "id": "8931662823670",
+      "label_id": "rhino_hifi",
+      "title": "Tutu (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/tutu-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/MilesDaves_Tutu_Hifi_ProductShot-min.png?v=1761612389",
+      "published_at": "2024-12-26T08:23:06-08:00",
+      "created_at": "2024-12-26T08:23:06-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    "8931660792054": {
+      "id": "8931660792054",
+      "label_id": "rhino_hifi",
+      "title": "Coltrane's Sound (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/coltranes-sound-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/Coltrane_Sound_ProductShot2.png?v=1735230082",
+      "published_at": "2024-12-26T08:21:19-08:00",
+      "created_at": "2024-12-26T08:21:19-08:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    "8931665936630": {
+      "id": "8931665936630",
+      "label_id": "rhino_hifi",
+      "title": "Change Of The Century (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/change-of-the-century-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/OrnetteC_ProductShot.jpg?v=1735230348",
+      "published_at": "2024-12-26T08:25:44-08:00",
+      "created_at": "2024-12-26T08:25:44-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    "8931690316022": {
+      "id": "8931690316022",
+      "label_id": "rhino_hifi",
+      "title": "Crossings (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/crossings-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/HerbieHancock_Crossings_HiFi_Productshot.jpg?v=1735231589",
+      "published_at": "2024-12-26T08:46:25-08:00",
+      "created_at": "2024-12-26T08:46:25-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    "8931659186422": {
+      "id": "8931659186422",
+      "label_id": "rhino_hifi",
+      "title": "Word Of Mouth (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/word-of-mouth-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/jaco_pastorius_WOM_Hifi_Product.png?v=1736364110",
+      "published_at": "2024-12-26T08:19:52-08:00",
+      "created_at": "2024-12-26T08:19:52-08:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    "9213194830070": {
+      "id": "9213194830070",
+      "label_id": "rhino_hifi",
+      "title": "John Coltrane: 1960-1964 Mono (Rhino High Fidelity) (6LP Boxed Set)",
+      "url": "https://store.rhino.com/products/john-coltrane-1960-1964-mono-rhino-high-fidelity-6lp-boxed-set",
+      "price": "249.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/JohnColtrane_French_LP_BOX.png?v=1762815611",
+      "published_at": "2025-11-12T06:00:01-08:00",
+      "created_at": "2025-11-10T14:35:18-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    }
+  },
+  "_ai_genre": {
+    "rhino_hifi": {
+      "9406447649014": false,
+      "9262316716278": false,
+      "9366379364598": false,
+      "9366379692278": false,
+      "9366379888886": false,
+      "9351260045558": false,
+      "9326208778486": false,
+      "9326208057590": false,
+      "9327026340086": false,
+      "9300274282742": false,
+      "9262316486902": false,
+      "8931705127158": false,
+      "9235458490614": false,
+      "9235458162934": false,
+      "9217445724406": false,
+      "9181117939958": false,
+      "9178889650422": false,
+      "9193147072758": false,
+      "9141031043318": false,
+      "9178889617654": false,
+      "9193143009526": false,
+      "9193143664886": false,
+      "9193143566582": false,
+      "9193147302134": false,
+      "9184263012598": false,
+      "8931717578998": false,
+      "8970953031926": false,
+      "8970975707382": false,
+      "8970940317942": false,
+      "8970937991414": false,
+      "8931712499958": false,
+      "8931664986358": false,
+      "8931716399350": false,
+      "8931750936822": false,
+      "8931727802614": false,
+      "8931728982262": false,
+      "8931751624950": false,
+      "8931718136054": false,
+      "8931677110518": false,
+      "8931675898102": false,
+      "8931705716982": false,
+      "8931674587382": true,
+      "8931662823670": true,
+      "8931660792054": true,
+      "8931665936630": true,
+      "8931690316022": true,
+      "8931659186422": true,
+      "8931745825014": false,
+      "8931666297078": false,
+      "8931714728182": false,
+      "8931703324918": false,
+      "9193147957494": false,
+      "9178889486582": false,
+      "9213194830070": true,
+      "8931668885750": false,
+      "8931667902710": false,
+      "8931711090934": false,
+      "8931747758326": false,
+      "8931732783350": false,
+      "9193147203830": false,
+      "9178896335094": false,
+      "8970946543862": false,
+      "9117123412214": false,
+      "8970945364214": false
+    }
+  }
 }
