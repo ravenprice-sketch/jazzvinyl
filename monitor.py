@@ -80,13 +80,6 @@ SOURCES = [
         "collection": "verve-vault",
         "keyword": "vault",
     },
-    {
-        "id": "verve_vault",
-        "label": "Verve \u2014 Vault Series",
-        "base": "https://store.ververecords.com",
-        "collection": "verve-vault",
-        "keyword": "vault",
-    },
 ]
 
 # ---------------------------------------------------------------------------
@@ -437,14 +430,27 @@ def load_blurbs():
 
 
 def write_data_json(catalog):
-    """Write the full catalog (all current items + blurbs) for the app to read."""
+    """Write the full catalog (all current items + blurbs) for the app to read.
+    Deduplicates on id as a safety net, so a product reaching the catalog via
+    more than one path (e.g. collection feed + keyword fallback) appears once."""
+    seen = set()
+    deduped = []
+    for it in catalog:
+        iid = it.get("id")
+        if iid in seen:
+            continue
+        seen.add(iid)
+        deduped.append(it)
+    dropped = len(catalog) - len(deduped)
+    if dropped:
+        print(f"  (deduped {dropped} duplicate item(s) on id)")
     payload = {
         "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "count": len(catalog),
-        "items": catalog,
+        "count": len(deduped),
+        "items": deduped,
     }
     DATA_FILE.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
-    print(f"Wrote {DATA_FILE.name} ({len(catalog)} items).")
+    print(f"Wrote {DATA_FILE.name} ({len(deduped)} items).")
 
 
 # ---------------------------------------------------------------------------
