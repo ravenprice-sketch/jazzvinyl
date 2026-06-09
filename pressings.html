@@ -50,6 +50,11 @@
   .banner b{color:var(--ink)}
 
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:30px 20px}
+  .section-head{font-family:'Archivo';font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:700;color:var(--accent);margin:38px 0 18px;display:flex;align-items:baseline;gap:10px}
+  .section-head:first-child{margin-top:0}
+  .section-head .count{color:var(--ink3);letter-spacing:.08em;font-size:10px}
+  .section-head .rule{flex:1;height:1px;background:var(--line)}
   .card{position:relative;animation:rise .5s both}
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   .cover{position:relative;aspect-ratio:1;border-radius:4px;overflow:hidden;background:var(--paper2);
@@ -185,8 +190,7 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
     content.innerHTML = `<div class="status"><div class="big">Nothing here</div>${query?"No match for that search.":"No releases loaded yet."}</div>`;
     return;
   }
-  const grid = document.createElement("div"); grid.className="grid";
-  items.forEach((it,i)=>{
+  function cardEl(it, i){
     const lbl = labelOf(it.label_id);
     const card = document.createElement("div"); card.className="card";
     card.style.animationDelay = Math.min(i*20,460)+"ms";
@@ -211,9 +215,29 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
         <div class="row"><span class="labelname">${lbl.name}</span><span class="price">${fmtPrice(it.price)}</span></div>
         ${it.blurb?`<div class="blurb">${it.blurb}<span class="tag">AI summary</span></div>`:``}
       </div>`;
-    grid.appendChild(card);
-  });
-  content.innerHTML=""; content.appendChild(grid);
+    return card;
+  }
+  function sectionEls(label, list, startIndex){
+    const head = document.createElement("div"); head.className="section-head";
+    head.innerHTML = `<span>${label}</span><span class="count">${list.length}</span><span class="rule"></span>`;
+    const grid = document.createElement("div"); grid.className="grid";
+    list.forEach((it,i)=> grid.appendChild(cardEl(it, startIndex+i)));
+    return [head, grid];
+  }
+
+  content.innerHTML = "";
+  // When a search or label filter is active, a single flat list reads better
+  // than splitting; the "latest 20" split only applies to the full view.
+  if(query || activeLabels.size){
+    content.appendChild(sectionEls(`${items.length} result${items.length===1?"":"s"}`, items, 0)[1]);
+    return;
+  }
+  const latest = items.slice(0, 20);
+  const rest = items.slice(20);
+  sectionEls("Latest additions", latest, 0).forEach(el=>content.appendChild(el));
+  if(rest.length){
+    sectionEls("Everything else", rest, latest.length).forEach(el=>content.appendChild(el));
+  }
 }
 
 function updateCounts(){

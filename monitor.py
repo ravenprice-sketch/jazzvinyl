@@ -82,43 +82,119 @@ SOURCES = [
     },
     {
         # Rhino High Fidelity is a genre-MIXED audiophile series (rock/pop/jazz),
-        # so unlike the others it needs a genre-tag filter to keep jazz only.
-        # The store is Shopify, so it uses the same products.json path; genre_tags
-        # is applied in main() against each product's Shopify tags.
+        # Rhino High Fidelity is a genre-MIXED audiophile series (rock/pop/jazz/
+        # soul). Its Shopify feed carries NO genre tags (tags=[]), so genre can't
+        # be filtered structurally -- we classify by title with a one-shot, cached
+        # AI call (see classify_genre_ai). 'ai_genre' turns that on; 'lp_types'
+        # keeps only vinyl LP product types (drops reel-to-reel, bundles, etc.).
         "id": "rhino_hifi",
         "label": "Rhino \u2014 High Fidelity",
         "base": "https://store.rhino.com",
         "collection": "rhino-high-fidelity",
         "keyword": "rhino high fidelity",
-        "genre_tags": ["jazz", "fusion", "avant-garde jazz"],
+        "ai_genre": "jazz",
+        "lp_types": ["vinyl"],   # substring match against product_type
     },
 ]
 
 
-def _tags_of(p):
-    """Shopify tags come as a list or a comma-separated string; normalise to a
-    lowercased list. Also fold in product_type, since some stores put the genre
-    there rather than in tags."""
-    t = p.get("tags")
-    if isinstance(t, str):
-        t = [x.strip() for x in t.split(",")]
-    out = [str(x).lower() for x in (t or [])]
-    pt = p.get("product_type")
-    if pt:
-        out.append(str(pt).lower())
-    return out
+# Manual overrides for the AI genre classifier, by product id (string). Use this
+# to force-correct any title the model gets wrong (e.g. a jazz-adjacent record).
+#   True  = treat as the wanted genre (keep)
+#   False = treat as NOT the wanted genre (drop)
+# Leave empty unless you spot a misclassification in the run log.
+RHINO_GENRE_OVERRIDES = {
+    # "1234567890": True,   # example: force-keep
+    # "9876543210": False,  # example: force-drop
+}
 
 
-def matches_genre(src, p):
-    """For a genre-mixed source (has 'genre_tags'), keep only products whose
-    Shopify tags/type CONTAIN one of the wanted genre words. Substring match (not
-    exact) so 'Jazz/Fusion', 'jazz-blues', 'Jazz ' etc. still match. Sources
-    without genre_tags pass everything (unchanged behaviour)."""
-    wanted = src.get("genre_tags")
+def _lp_type_ok(src, p):
+    """For sources with 'lp_types', keep only matching product types (drops
+    reel-to-reel, bundles, box sets, etc.). Sources without it pass everything."""
+    wanted = src.get("lp_types")
     if not wanted:
         return True
-    hay = _tags_of(p)
-    return any(w in tag for tag in hay for w in wanted)
+    pt = str(p.get("product_type") or "").lower()
+    return any(w in pt for w in wanted)
+
+
+def _ai_title(p):
+    """A clean album/artist string for the classifier: title with the trailing
+    '(Rhino High Fidelity)' / format suffix stripped."""
+    t = (p.get("title") or "").strip()
+    t = re.sub(r"\s*\((?:Rhino High Fidelity|Audiophile Bundle)[^)]*\)\s*$", "", t, flags=re.I)
+    return t.strip()
+
+
+def classify_genre_ai(src, products, state):
+    """Return the subset of `products` whose primary genre matches src['ai_genre'],
+    using a single cached Anthropic API call. Each product id is classified once
+    and the verdict is cached in state['_ai_genre'][src_id]; later runs only
+    classify genuinely new ids. Manual RHINO_GENRE_OVERRIDES win over the model.
+
+    Safe degradation: if ANTHROPIC_API_KEY is unset or the call fails, nothing
+    new is classified this run (no crash, no rock leaking in) -- already-cached
+    verdicts still apply."""
+    want = src["ai_genre"]
+    cache = state.setdefault("_ai_genre", {}).setdefault(src["id"], {})  # {id: bool}
+
+    # Apply manual overrides into the cache first (they always win).
+    for pid, val in RHINO_GENRE_OVERRIDES.items():
+        cache[pid] = bool(val)
+
+    # Which products still need a verdict?
+    pending = [p for p in products if str(p.get("id")) not in cache]
+    if pending:
+        key = os.environ.get("ANTHROPIC_API_KEY")
+        if not key:
+            print(f"  [ai_genre] {len(pending)} unclassified but no ANTHROPIC_API_KEY "
+                  f"-> classifying nothing this run (set the secret to enable)")
+        else:
+            numbered = "\n".join(f"{i}. {_ai_title(p)}" for i, p in enumerate(pending))
+            prompt = (
+                f"Below is a numbered list of album reissues. For each, decide whether "
+                f"its PRIMARY musical genre is {want}. Be strict: only albums whose core "
+                f"genre is {want} count (e.g. for jazz: bebop, hard bop, cool, modal, "
+                f"fusion, avant-garde jazz). Soul, funk, R&B, rock, pop, folk, country do "
+                f"NOT count, even if jazz-adjacent.\n\n{numbered}\n\n"
+                f'Reply with ONLY a JSON object: {{"match": [list of the numbers that are {want}]}} '
+                f"and nothing else."
+            )
+            try:
+                r = requests.post(
+                    "https://api.anthropic.com/v1/messages",
+                    headers={
+                        "x-api-key": key,
+                        "anthropic-version": "2023-06-01",
+                        "content-type": "application/json",
+                    },
+                    json={
+                        "model": "claude-haiku-4-5-20251001",
+                        "max_tokens": 500,
+                        "messages": [{"role": "user", "content": prompt}],
+                    },
+                    timeout=TIMEOUT,
+                )
+                r.raise_for_status()
+                text = "".join(b.get("text", "") for b in r.json().get("content", []))
+                text = text.strip().strip("`")
+                if text.lower().startswith("json"):
+                    text = text[4:].strip()
+                match_nums = set(json.loads(text).get("match", []))
+                for i, p in enumerate(pending):
+                    cache[str(p.get("id"))] = (i in match_nums)
+                kept = sum(1 for i in range(len(pending)) if i in match_nums)
+                print(f"  [ai_genre] classified {len(pending)} new title(s): "
+                      f"{kept} {want}, {len(pending)-kept} other")
+            except Exception as e:
+                print(f"  [ai_genre] classification call failed ({e}) "
+                      f"-> classifying nothing this run")
+
+    # Re-apply overrides (in case a pending item was also overridden) and filter.
+    for pid, val in RHINO_GENRE_OVERRIDES.items():
+        cache[pid] = bool(val)
+    return [p for p in products if cache.get(str(p.get("id"))) is True]
 
 # ---------------------------------------------------------------------------
 # Analogue Productions (Acoustic Sounds) -- NOT Shopify.
@@ -512,23 +588,15 @@ def main():
         except Exception as e:
             print(f"  ERROR fetching {src['id']}: {e}")
             continue
-        if src.get("genre_tags"):
-            print(f"  fetched {len(raw)} raw products before genre filter")
-        # Genre-mixed sources (e.g. Rhino Hi-Fi) keep only jazz-tagged products;
-        # all other sources pass everything through (matches_genre returns True).
-        if src.get("genre_tags"):
-            raw_all = raw
-            raw = [p for p in raw_all if matches_genre(src, p)]
-            if raw_all and not raw:
-                # Fetched products but genre filter dropped all of them. Log the
-                # actual tags we saw so we can see what the real genre strings are.
-                sample = []
-                for p in raw_all[:8]:
-                    sample.append(f"{(p.get('title') or '')[:30]} :: tags={p.get('tags')} type={p.get('product_type')}")
-                print(f"  genre filter matched 0 of {len(raw_all)}; "
-                      f"wanted={src['genre_tags']}; sample of what was seen:")
-                for s in sample:
-                    print(f"    {s}")
+        # Genre-mixed source (Rhino Hi-Fi): drop non-LP product types, then keep
+        # only the wanted genre via a cached one-shot AI classification. All other
+        # sources skip both steps entirely.
+        if src.get("ai_genre"):
+            n0 = len(raw)
+            raw = [p for p in raw if _lp_type_ok(src, p)]
+            print(f"  fetched {n0} raw; {len(raw)} are vinyl LPs; classifying genre ...")
+            raw = classify_genre_ai(src, raw, state)
+            print(f"  {len(raw)} classified as {src['ai_genre']}")
         items = {it["id"]: it for it in (simplify(src, p) for p in raw)
                  if is_lp(it["title"])}
         print(f"  found {len(items)} LPs")
