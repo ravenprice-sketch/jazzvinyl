@@ -315,25 +315,34 @@ def _as_fetch_page(src, url):
                 print(f"  [{src['id']}] direct attempt failed ({type(e).__name__}); retrying once")
                 time.sleep(3)
 
-    # 2) Proxy fallback. The target URL must be URL-encoded before being appended
-    #    to the proxy prefix, or r.jina.ai rejects the loose query string (422).
+    # 2) Proxy fallback. We don't yet know the exact form r.jina.ai wants for
+    #    this ColdFusion URL, so try a few variants and -- crucially -- log the
+    #    response body on failure so the next run shows WHY it was rejected
+    #    instead of a bare 422.
     if use_proxy:
         print(f"  [{src['id']}] direct fetch failed; trying reader proxy")
-        proxied = AS_PROXY_PREFIX + quote(url, safe="")
-        for attempt in range(3):
+        variants = [
+            # (label, full proxy URL, extra headers)
+            ("plain",          AS_PROXY_PREFIX + url, {}),
+            ("plain+html",     AS_PROXY_PREFIX + url, {"X-Return-Format": "html"}),
+            ("encoded",        AS_PROXY_PREFIX + quote(url, safe=""), {}),
+        ]
+        for label, purl, extra in variants:
             try:
-                pr = requests.get(proxied,
-                                  headers={**AS_UA, **AS_PROXY_HEADERS},
+                pr = requests.get(purl, headers={**AS_UA, **extra},
                                   timeout=60, allow_redirects=True)
                 pr.raise_for_status()
+                print(f"  [{src['id']}] proxy variant '{label}' OK")
                 return pr
             except requests.exceptions.RequestException as e:
                 last_err = e
-                if attempt < 2:
-                    wait = 5 * (attempt + 1)
-                    print(f"  [{src['id']}] proxy attempt {attempt+1} failed "
-                          f"({type(e).__name__}); retrying in {wait}s")
-                    time.sleep(wait)
+                body = ""
+                resp = getattr(e, "response", None)
+                if resp is not None:
+                    body = (resp.text or "")[:200].replace("\n", " ")
+                print(f"  [{src['id']}] proxy variant '{label}' failed "
+                      f"({type(e).__name__}): {body}")
+                time.sleep(3)
 
     raise RuntimeError(f"{src['id']} fetch failed (direct and proxy): {last_err}")
 
