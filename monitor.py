@@ -25,6 +25,7 @@ import os
 import re
 import smtplib
 import sys
+import time
 from email.mime.text import MIMEText
 from pathlib import Path
 
@@ -289,9 +290,25 @@ def fetch_acoustic(src):
     seen = set()
     for page in range(5):                       # 100/page
         start = 1 + page * 100
-        r = requests.get(_as_results_url(src["labelid"], start),
-                         headers=AS_UA, timeout=TIMEOUT, allow_redirects=True)
-        r.raise_for_status()
+        url = _as_results_url(src["labelid"], start)
+        # Acoustic Sounds occasionally times out / refuses a connection from the
+        # runner; retry a few times with backoff before giving up on the source.
+        r = None
+        last_err = None
+        for attempt in range(4):
+            try:
+                r = requests.get(url, headers=AS_UA, timeout=45, allow_redirects=True)
+                r.raise_for_status()
+                break
+            except requests.exceptions.RequestException as e:
+                last_err = e
+                if attempt < 3:
+                    wait = 5 * (attempt + 1)     # 5s, 10s, 15s
+                    print(f"  [{src['id']}] attempt {attempt+1} failed ({type(e).__name__}); "
+                          f"retrying in {wait}s")
+                    time.sleep(wait)
+        if r is None:
+            raise RuntimeError(f"{src['id']} fetch failed after retries: {last_err}")
         if "get=contact" in r.url or "get=login" in r.url:
             raise RuntimeError(
                 f"{src['id']} fetch redirected to {r.url!r} -- runner is being "
