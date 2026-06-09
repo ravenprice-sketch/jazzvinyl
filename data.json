@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T17:14:14.954682+00:00",
-  "count": 487,
+  "updated": "2026-06-09T19:39:09.436755+00:00",
+  "count": 492,
   "items": [
     {
       "id": "8450567012543",
@@ -6491,24 +6491,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "8434296422565",
-      "label_id": "craft_ojc",
-      "title": "Miles (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/miles-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00722MilesDavisQuintet-MilesPackShotwobi.png?v=1709245442",
-      "published_at": "2024-03-05T09:30:03-06:00",
-      "created_at": "2024-02-29T16:23:53-06:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "8434291015845",
       "label_id": "craft_ojc",
       "title": "South Side Soul (Original Jazz Classics Series) (180g LP)",
@@ -7874,24 +7856,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "7792403447957",
-      "label_id": "verve_acoustic",
-      "title": "Wynton Kelly Trio with Wes Montgomery: Smokin’ At The Half Note LP (Verve Acoustic Sound Series)",
-      "url": "https://store.ververecords.com/products/wynton-kelly-trio-with-wes-montgomery-smokin-at-the-half-note-lp-verve-acoustic-sound-series",
-      "price": "31.18",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/WYNTON-KELLY-LP.png?v=1673381376",
-      "published_at": "2023-01-13T08:58:51-05:00",
-      "created_at": "2023-01-09T15:23:18-05:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "7756624625813",
       "label_id": "verve_acoustic",
       "title": "Alice Coltrane: Journey In Satchidanada (Acoustic Sounds Version) LP",
@@ -8742,6 +8706,138 @@
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "8931674587382",
+      "label_id": "rhino_jazz",
+      "title": "Olé Coltrane (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/ole-coltrane-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/JohnColtrane_Ole_Hifi_ProductShot-min.png?v=1761612344",
+      "published_at": "2024-12-26T08:33:04-08:00",
+      "created_at": "2024-12-26T08:33:04-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    {
+      "id": "8931662823670",
+      "label_id": "rhino_jazz",
+      "title": "Tutu (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/tutu-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/MilesDaves_Tutu_Hifi_ProductShot-min.png?v=1761612389",
+      "published_at": "2024-12-26T08:23:06-08:00",
+      "created_at": "2024-12-26T08:23:06-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    {
+      "id": "8931660792054",
+      "label_id": "rhino_jazz",
+      "title": "Coltrane's Sound (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/coltranes-sound-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/Coltrane_Sound_ProductShot2.png?v=1735230082",
+      "published_at": "2024-12-26T08:21:19-08:00",
+      "created_at": "2024-12-26T08:21:19-08:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    {
+      "id": "8931665936630",
+      "label_id": "rhino_jazz",
+      "title": "Change Of The Century (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/change-of-the-century-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/OrnetteC_ProductShot.jpg?v=1735230348",
+      "published_at": "2024-12-26T08:25:44-08:00",
+      "created_at": "2024-12-26T08:25:44-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    {
+      "id": "8931690316022",
+      "label_id": "rhino_jazz",
+      "title": "Crossings (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/crossings-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/HerbieHancock_Crossings_HiFi_Productshot.jpg?v=1735231589",
+      "published_at": "2024-12-26T08:46:25-08:00",
+      "created_at": "2024-12-26T08:46:25-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    {
+      "id": "8931659186422",
+      "label_id": "rhino_jazz",
+      "title": "Word Of Mouth (Rhino High Fidelity)",
+      "url": "https://store.rhino.com/products/word-of-mouth-rhino-high-fidelity",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/jaco_pastorius_WOM_Hifi_Product.png?v=1736364110",
+      "published_at": "2024-12-26T08:19:52-08:00",
+      "created_at": "2024-12-26T08:19:52-08:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
+    },
+    {
+      "id": "9213194830070",
+      "label_id": "rhino_jazz",
+      "title": "John Coltrane: 1960-1964 Mono (Rhino High Fidelity) (6LP Boxed Set)",
+      "url": "https://store.rhino.com/products/john-coltrane-1960-1964-mono-rhino-high-fidelity-6lp-boxed-set",
+      "price": "249.98",
+      "image": "https://cdn.shopify.com/s/files/1/0729/6162/2262/files/JohnColtrane_French_LP_BOX.png?v=1762815611",
+      "published_at": "2025-11-12T06:00:01-08:00",
+      "created_at": "2025-11-10T14:35:18-08:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Rhino — High Fidelity",
+      "blurb": "",
+      "first_seen": "2026-06-09T07:36:53.558096+00:00"
     }
   ]
 }
