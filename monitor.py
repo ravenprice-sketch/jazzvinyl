@@ -81,144 +81,56 @@ SOURCES = [
         "keyword": "vault",
     },
     {
-        # Rhino High Fidelity is a genre-MIXED audiophile series (rock/pop/jazz),
-        # Rhino High Fidelity is a genre-MIXED audiophile series (rock/pop/jazz/
-        # soul). Its Shopify feed carries NO genre tags (tags=[]), so genre can't
-        # be filtered structurally -- we classify by title with a one-shot, cached
-        # AI call (see classify_genre_ai). 'ai_genre' turns that on; 'lp_types'
-        # keeps only vinyl LP product types (drops reel-to-reel, bundles, etc.).
-        "id": "rhino_hifi",
-        "label": "Rhino \u2014 High Fidelity",
-        "base": "https://store.rhino.com",
-        "collection": "rhino-high-fidelity",
-        "keyword": "rhino high fidelity",
-        "ai_genre": "jazz",
-        "lp_types": ["vinyl"],   # substring match against product_type
+        "id": "verve_vault",
+        "label": "Verve \u2014 Vault Series",
+        "base": "https://store.ververecords.com",
+        "collection": "verve-vault",
+        "keyword": "vault",
+    },
+]
+
+# ---------------------------------------------------------------------------
+# Acoustic Sounds (store.acousticsounds.com) -- NOT Shopify.
+# Acoustic Sounds runs ColdFusion; there is no products.json. The jazz-vinyl
+# results page is server-rendered HTML, which we parse below. Each label is
+# scoped by a numeric labelid crossed with CategoryID=5 (Vinyl) + GenreID=4
+# (Jazz), so genre comes PRE-TAGGED by the store -- no classification needed.
+# Multiple labels (Analogue Productions, Rhino) share the same parser; they
+# differ only by labelid / label name / id namespace.
+# NOTE: Acoustic Sounds redirects some non-browser clients to the contact page.
+# fetch_acoustic() raises loudly on redirect or zero products so the monitor
+# never silently records an empty Acoustic Sounds source as a baseline.
+AS_BASE = "https://store.acousticsounds.com"
+AS_UA = {"User-Agent": (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)}
+
+# Each Acoustic Sounds label source. labelid values are the store's own:
+#   507  = Analogue Productions  (per /l/507/Analogue_Productions)
+#   531  = Rhino                 (per /l/531/Rhino; jazz slice via GenreID=4)
+ACOUSTIC_SOURCES = [
+    {
+        "id": "analogue_productions",
+        "label": "Analogue Productions \u2014 Jazz Vinyl",
+        "labelid": 507,
+        "prefix": "ap",                # id namespace -> ap_{pid}
+    },
+    {
+        "id": "rhino_jazz",
+        "label": "Rhino \u2014 Jazz Vinyl",
+        "labelid": 531,
+        "prefix": "rh",                # id namespace -> rh_{pid}
     },
 ]
 
 
-# Manual overrides for the AI genre classifier, by product id (string). Use this
-# to force-correct any title the model gets wrong (e.g. a jazz-adjacent record).
-#   True  = treat as the wanted genre (keep)
-#   False = treat as NOT the wanted genre (drop)
-# Leave empty unless you spot a misclassification in the run log.
-RHINO_GENRE_OVERRIDES = {
-    # "1234567890": True,   # example: force-keep
-    # "9876543210": False,  # example: force-drop
-}
+def _as_results_url(labelid, start):
+    return (f"{AS_BASE}/index.cfm?get=results&labelid={labelid}"
+            f"&CategoryID=5&GenreID=4&ResultsPerPage=100"
+            f"&orderby=preownedbinmodified2_dt%20desc&start={start}")
 
 
-def _lp_type_ok(src, p):
-    """For sources with 'lp_types', keep only matching product types (drops
-    reel-to-reel, bundles, box sets, etc.). Sources without it pass everything."""
-    wanted = src.get("lp_types")
-    if not wanted:
-        return True
-    pt = str(p.get("product_type") or "").lower()
-    return any(w in pt for w in wanted)
-
-
-def _ai_title(p):
-    """A clean album/artist string for the classifier: title with the trailing
-    '(Rhino High Fidelity)' / format suffix stripped."""
-    t = (p.get("title") or "").strip()
-    t = re.sub(r"\s*\((?:Rhino High Fidelity|Audiophile Bundle)[^)]*\)\s*$", "", t, flags=re.I)
-    return t.strip()
-
-
-def classify_genre_ai(src, products, state):
-    """Return the subset of `products` whose primary genre matches src['ai_genre'],
-    using a single cached Anthropic API call. Each product id is classified once
-    and the verdict is cached in state['_ai_genre'][src_id]; later runs only
-    classify genuinely new ids. Manual RHINO_GENRE_OVERRIDES win over the model.
-
-    Safe degradation: if ANTHROPIC_API_KEY is unset or the call fails, nothing
-    new is classified this run (no crash, no rock leaking in) -- already-cached
-    verdicts still apply."""
-    want = src["ai_genre"]
-    cache = state.setdefault("_ai_genre", {}).setdefault(src["id"], {})  # {id: bool}
-
-    # Apply manual overrides into the cache first (they always win).
-    for pid, val in RHINO_GENRE_OVERRIDES.items():
-        cache[pid] = bool(val)
-
-    # Which products still need a verdict?
-    pending = [p for p in products if str(p.get("id")) not in cache]
-    if pending:
-        key = os.environ.get("ANTHROPIC_API_KEY")
-        if not key:
-            print(f"  [ai_genre] {len(pending)} unclassified but no ANTHROPIC_API_KEY "
-                  f"-> classifying nothing this run (set the secret to enable)")
-        else:
-            numbered = "\n".join(f"{i}. {_ai_title(p)}" for i, p in enumerate(pending))
-            prompt = (
-                f"Below is a numbered list of album reissues. For each, decide whether "
-                f"its PRIMARY musical genre is {want}. Be strict: only albums whose core "
-                f"genre is {want} count (e.g. for jazz: bebop, hard bop, cool, modal, "
-                f"fusion, avant-garde jazz). Soul, funk, R&B, rock, pop, folk, country do "
-                f"NOT count, even if jazz-adjacent.\n\n{numbered}\n\n"
-                f'Reply with ONLY a JSON object: {{"match": [list of the numbers that are {want}]}} '
-                f"and nothing else."
-            )
-            try:
-                r = requests.post(
-                    "https://api.anthropic.com/v1/messages",
-                    headers={
-                        "x-api-key": key,
-                        "anthropic-version": "2023-06-01",
-                        "content-type": "application/json",
-                    },
-                    json={
-                        "model": "claude-haiku-4-5-20251001",
-                        "max_tokens": 500,
-                        "messages": [{"role": "user", "content": prompt}],
-                    },
-                    timeout=TIMEOUT,
-                )
-                r.raise_for_status()
-                text = "".join(b.get("text", "") for b in r.json().get("content", []))
-                text = text.strip().strip("`")
-                if text.lower().startswith("json"):
-                    text = text[4:].strip()
-                match_nums = set(json.loads(text).get("match", []))
-                for i, p in enumerate(pending):
-                    cache[str(p.get("id"))] = (i in match_nums)
-                kept = sum(1 for i in range(len(pending)) if i in match_nums)
-                print(f"  [ai_genre] classified {len(pending)} new title(s): "
-                      f"{kept} {want}, {len(pending)-kept} other")
-            except Exception as e:
-                print(f"  [ai_genre] classification call failed ({e}) "
-                      f"-> classifying nothing this run")
-
-    # Re-apply overrides (in case a pending item was also overridden) and filter.
-    for pid, val in RHINO_GENRE_OVERRIDES.items():
-        cache[pid] = bool(val)
-    return [p for p in products if cache.get(str(p.get("id"))) is True]
-
-# ---------------------------------------------------------------------------
-# Analogue Productions (Acoustic Sounds) -- NOT Shopify.
-# Acoustic Sounds runs ColdFusion; there is no products.json. The jazz-vinyl
-# results page is server-rendered HTML, which we parse below. Filters:
-#   labelid=507 (the Analogue Productions label -- canonical, per the store's own
-#   /l/507/Analogue_Productions page), CategoryID=5 (Vinyl), GenreID=4 (Jazz).
-#   100/page, latest-added first.
-# (An earlier version used saleid=448, a sale/promo grouping that happened to
-#  work; labelid=507 is the precise catalog label.)
-# NOTE: Acoustic Sounds redirects some non-browser clients to the contact page.
-# fetch_ap() raises loudly on redirect or zero products so the monitor never
-# silently records an empty AP baseline.
-AP_BASE = "https://store.acousticsounds.com"
-AP_LABEL = "Analogue Productions \u2014 Jazz Vinyl"
-AP_ID = "analogue_productions"
-AP_RESULTS = (
-    "/index.cfm?get=results&labelid=507&CategoryID=5&GenreID=4"
-    "&ResultsPerPage=100&orderby=preownedbinmodified2_dt%20desc"
-)
-AP_UA = {"User-Agent": (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-)}
 
 import html as _html  # stdlib; only used by the AP parser
 
@@ -280,20 +192,21 @@ def _ap_parse_page(html_text):
     return out
 
 
-def fetch_ap():
-    """Page through AP jazz-vinyl results. Raises on redirect/bounce so an empty
-    AP source is never silently recorded as a baseline."""
+def fetch_acoustic(src):
+    """Page through one Acoustic Sounds label's jazz-vinyl results. Raises on
+    redirect/bounce or zero products so an empty source is never recorded as a
+    baseline."""
     raw = []
     seen = set()
-    for page in range(5):                       # 100/page; ~200 titles -> 2-3 pages
+    for page in range(5):                       # 100/page
         start = 1 + page * 100
-        r = requests.get(f"{AP_BASE}{AP_RESULTS}&start={start}",
-                         headers=AP_UA, timeout=TIMEOUT, allow_redirects=True)
+        r = requests.get(_as_results_url(src["labelid"], start),
+                         headers=AS_UA, timeout=TIMEOUT, allow_redirects=True)
         r.raise_for_status()
         if "get=contact" in r.url or "get=login" in r.url:
             raise RuntimeError(
-                f"AP fetch redirected to {r.url!r} -- runner is being bounced "
-                f"by Acoustic Sounds; cannot scrape AP from here.")
+                f"{src['id']} fetch redirected to {r.url!r} -- runner is being "
+                f"bounced by Acoustic Sounds; cannot scrape from here.")
         items = _ap_parse_page(r.text)
         if not items:
             break
@@ -305,18 +218,18 @@ def fetch_ap():
             break
     if not raw:
         raise RuntimeError(
-            "AP parsed ZERO products -- page shape changed or runner served a "
-            "non-results page. Refusing to record an empty AP baseline.")
+            f"{src['id']} parsed ZERO products -- page shape changed or runner "
+            f"served a non-results page. Refusing to record an empty baseline.")
     return raw
 
 
-def simplify_ap(p):
-    """Normalise an AP raw dict into the same schema simplify() emits, so AP
-    items flow through diff/first_seen/blurbs/app exactly like Shopify items."""
+def simplify_acoustic(src, p):
+    """Normalise an Acoustic Sounds raw dict into the same schema simplify()
+    emits, so items flow through diff/first_seen/blurbs/app like Shopify items."""
     title = f"{p['artist']} \u2014 {p['title']}".strip(" \u2014")
     return {
-        "id": f"ap_{p['pid']}",            # namespaced; never collides with Shopify ids
-        "label_id": AP_ID,
+        "id": f"{src['prefix']}_{p['pid']}",   # namespaced; never collides
+        "label_id": src["id"],
         "title": title,
         "url": p["url"],
         "price": p["price"],
@@ -588,15 +501,6 @@ def main():
         except Exception as e:
             print(f"  ERROR fetching {src['id']}: {e}")
             continue
-        # Genre-mixed source (Rhino Hi-Fi): drop non-LP product types, then keep
-        # only the wanted genre via a cached one-shot AI classification. All other
-        # sources skip both steps entirely.
-        if src.get("ai_genre"):
-            n0 = len(raw)
-            raw = [p for p in raw if _lp_type_ok(src, p)]
-            print(f"  fetched {n0} raw; {len(raw)} are vinyl LPs; classifying genre ...")
-            raw = classify_genre_ai(src, raw, state)
-            print(f"  {len(raw)} classified as {src['ai_genre']}")
         items = {it["id"]: it for it in (simplify(src, p) for p in raw)
                  if is_lp(it["title"])}
         print(f"  found {len(items)} LPs")
@@ -606,27 +510,28 @@ def main():
         if diff_source(state, src["id"], src["label"], items, all_new):
             changed = True
 
-    # Analogue Productions (HTML scrape, not Shopify). Same schema, same flow.
-    # Wrapped so an AP failure never aborts the Shopify-based catalog: it logs
-    # loudly and skips AP for this run.
-    print(f"Checking {AP_LABEL} ...")
-    try:
-        ap_raw = fetch_ap()
-        ap_items = {}
-        for p in ap_raw:
-            it = simplify_ap(p)
-            # CategoryID=5 already limits to vinyl; drop test pressings within it.
-            if "test pressing" in p["format"].lower():
-                continue
-            it["label_name"] = AP_LABEL
-            ap_items[it["id"]] = it
-        print(f"  found {len(ap_items)} LPs")
-        for it in ap_items.values():
-            catalog.append(it)
-        if diff_source(state, AP_ID, AP_LABEL, ap_items, all_new):
-            changed = True
-    except Exception as e:
-        print(f"  ERROR fetching {AP_ID}: {e}  (skipping AP this run)")
+    # Acoustic Sounds labels (HTML scrape, not Shopify). Same schema, same flow.
+    # Each is wrapped so one label's failure never aborts the others or the
+    # Shopify sources: it logs loudly and skips that label this run.
+    for src in ACOUSTIC_SOURCES:
+        print(f"Checking {src['label']} ...")
+        try:
+            raw = fetch_acoustic(src)
+            items = {}
+            for p in raw:
+                it = simplify_acoustic(src, p)
+                # CategoryID=5 already limits to vinyl; drop test pressings within it.
+                if "test pressing" in p["format"].lower():
+                    continue
+                it["label_name"] = src["label"]
+                items[it["id"]] = it
+            print(f"  found {len(items)} LPs")
+            for it in items.values():
+                catalog.append(it)
+            if diff_source(state, src["id"], src["label"], items, all_new):
+                changed = True
+        except Exception as e:
+            print(f"  ERROR fetching {src['id']}: {e}  (skipping this run)")
 
     # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
     # written on demand (a consensus summary for a specific title) and stored in
