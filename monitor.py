@@ -318,18 +318,26 @@ def _as_fetch_page(src, url):
     # 2) Proxy fallback. We don't yet know the exact form r.jina.ai wants for
     #    this ColdFusion URL, so try a few variants and -- crucially -- log the
     #    response body on failure so the next run shows WHY it was rejected
-    #    instead of a bare 422.
+    #    instead of a bare 422. If JINA_API_KEY is set, it's sent as a Bearer
+    #    token (higher rate limits / unblocks auth-gated requests).
     if use_proxy:
         print(f"  [{src['id']}] direct fetch failed; trying reader proxy")
+        jina_key = os.environ.get("JINA_API_KEY")
+        auth = {"Authorization": f"Bearer {jina_key}"} if jina_key else {}
+        if jina_key:
+            print(f"  [{src['id']}] using JINA_API_KEY")
         variants = [
             # (label, full proxy URL, extra headers)
-            ("plain",          AS_PROXY_PREFIX + url, {}),
-            ("plain+html",     AS_PROXY_PREFIX + url, {"X-Return-Format": "html"}),
-            ("encoded",        AS_PROXY_PREFIX + quote(url, safe=""), {}),
+            # The orderby param is the only one with a space (%20); Jina may
+            # choke on it. Sort order doesn't matter to us (the app sorts on
+            # first_seen), so try a stripped URL with no orderby first.
+            ("no-orderby", AS_PROXY_PREFIX + re.sub(r"&orderby=[^&]*", "", url), {}),
+            ("plain",      AS_PROXY_PREFIX + url, {}),
+            ("plain+html", AS_PROXY_PREFIX + url, {"X-Return-Format": "html"}),
         ]
         for label, purl, extra in variants:
             try:
-                pr = requests.get(purl, headers={**AS_UA, **extra},
+                pr = requests.get(purl, headers={**AS_UA, **auth, **extra},
                                   timeout=60, allow_redirects=True)
                 pr.raise_for_status()
                 print(f"  [{src['id']}] proxy variant '{label}' OK")
