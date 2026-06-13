@@ -5895,6 +5895,24 @@
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    "4372208713815": {
+      "id": "4372208713815",
+      "label_id": "bluenote_classic",
+      "title": "Art Blakey & The Jazz Messengers - Buhaina's Delight LP (Blue Note Classic Vinyl Series)",
+      "url": "https://store.bluenote.com/products/art-blakey-the-jazz-messengers-buhainas-delight-lp-blue-note-classic-vinyl-edition",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/products/ArtBlakey-BuhainasDelight_1LP-ProductShot.jpg?v=1575585902",
+      "published_at": "2026-06-12T16:02:14-04:00",
+      "created_at": "2019-12-05T15:07:19-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-06-13T13:14:05.694377+00:00"
     }
   },
   "craft_ojc": {
@@ -10581,7 +10599,9 @@
     "rh_168326": "2026-06-10T18:16:14.065799+00:00",
     "rh_163662": "2026-06-10T18:16:14.065799+00:00",
     "rh_161353": "2026-06-10T18:16:14.065799+00:00",
-    "rh_12806": "2026-06-10T18:16:14.065799+00:00"
+    "rh_12806": "2026-06-10T18:16:14.065799+00:00",
+    "4372208713815": "2026-06-13T13:14:05.694377+00:00",
+    "rh_198889": "2026-06-13T13:14:05.694377+00:00"
   },
   "analogue_productions": {
     "ap_111596": {
@@ -13339,6 +13359,22 @@
       "label_name": "Rhino — Jazz Vinyl",
       "blurb": "",
       "first_seen": "2026-06-10T18:16:14.065799+00:00"
+    },
+    "rh_198889": {
+      "id": "rh_198889",
+      "label_id": "rhino_jazz",
+      "title": "Miles Davis — The Very Best Of The Warner Bros. Sessions 1985 - 1991",
+      "url": "https://store.acousticsounds.com/d/198889/Miles_Davis-The_Very_Best_Of_The_Warner_Bros_Sessions_1985_-_1991-Vinyl_Record",
+      "price": "34.98",
+      "image": "https://store.acousticsounds.com/images/large/ARHI_728965__198889__06122026043518-4501.jpg",
+      "published_at": null,
+      "created_at": "2026-06-12",
+      "specs": [],
+      "preorder": false,
+      "catalog": "ARHI 728965",
+      "label_name": "Rhino — Jazz Vinyl",
+      "blurb": "",
+      "first_seen": "2026-06-13T13:14:05.694377+00:00"
     }
   }
 }
