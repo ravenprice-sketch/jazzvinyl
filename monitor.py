@@ -25,10 +25,8 @@ import os
 import re
 import smtplib
 import sys
-import time
 from email.mime.text import MIMEText
 from pathlib import Path
-from urllib.parse import quote
 
 import requests
 
@@ -87,8 +85,6 @@ SOURCES = [
         # Rhino's own Shopify store. Feed carries NO genre tags, so jazz is found
         # by a cached one-shot AI title-classification (see classify_genre_ai).
         # 'ai_genre' enables it; 'lp_types' drops reel-to-reel/bundles.
-        # Paired with the Acoustic Sounds Rhino source below; the catalog is then
-        # de-duplicated on normalised title so overlapping titles appear once.
         "id": "rhino_jazz",
         "label": "Rhino \u2014 High Fidelity",
         "base": "https://store.rhino.com",
@@ -174,236 +170,6 @@ def classify_genre_ai(src, products, state):
     for pid, val in RHINO_GENRE_OVERRIDES.items():
         cache[pid] = bool(val)
     return [p for p in products if cache.get(str(p.get("id"))) is True]
-
-
-# ---------------------------------------------------------------------------
-# Acoustic Sounds (store.acousticsounds.com) -- NOT Shopify.
-# Acoustic Sounds runs ColdFusion; there is no products.json. The jazz-vinyl
-# results page is server-rendered HTML, which we parse below. Each label is
-# scoped by a numeric labelid crossed with CategoryID=5 (Vinyl) + GenreID=4
-# (Jazz), so genre comes PRE-TAGGED by the store -- no classification needed.
-# Multiple labels (Analogue Productions, Rhino) share the same parser; they
-# differ only by labelid / label name / id namespace.
-# NOTE: Acoustic Sounds redirects some non-browser clients to the contact page.
-# fetch_acoustic() raises loudly on redirect or zero products so the monitor
-# never silently records an empty Acoustic Sounds source as a baseline.
-AS_BASE = "https://store.acousticsounds.com"
-AS_UA = {"User-Agent": (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-)}
-
-# Each Acoustic Sounds label source. labelid values are the store's own:
-#   507  = Analogue Productions  (per /l/507/Analogue_Productions)
-#   531  = Rhino                 (per /l/531/Rhino; jazz slice via GenreID=4)
-ACOUSTIC_SOURCES = [
-    {
-        "id": "analogue_productions",
-        "label": "Analogue Productions \u2014 Jazz Vinyl",
-        "labelid": 507,
-        "prefix": "ap",                # id namespace -> ap_{pid}
-    },
-    {
-        # Unique state id (rhino_as) so it doesn't collide with the Shopify
-        # Rhino source in seen.json, but shares label_id 'rhino_jazz' so both
-        # Rhino sources appear under one label/pill in the app.
-        "id": "rhino_as",
-        "label_id": "rhino_jazz",
-        "label": "Rhino \u2014 Jazz Vinyl",
-        "labelid": 531,
-        "prefix": "rh",                # id namespace -> rh_{pid}
-    },
-]
-
-
-def _as_results_url(labelid, start):
-    return (f"{AS_BASE}/index.cfm?get=results&labelid={labelid}"
-            f"&CategoryID=5&GenreID=4&ResultsPerPage=100"
-            f"&orderby=preownedbinmodified2_dt%20desc&start={start}")
-
-
-
-import html as _html  # stdlib; only used by the AP parser
-
-_AP_CARD_SPLIT = re.compile(r'<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">')
-_AP_LINK = re.compile(r'href="(https://store\.acousticsounds\.com/d/(\d+)/[^"]+)"')
-_AP_ARTIST_TITLE = re.compile(
-    r'<h4 class="h5"[^>]*><strong>(.*?)</strong>\s*/\s*(.*?)</h4>', re.DOTALL)
-_AP_FORMAT = re.compile(r'<h4 class="h5"[^>]*>(?!<strong>)(.*?)</h4>', re.DOTALL)
-_AP_CATALOG = re.compile(r'<span class="h6"[^>]*><strong>(.*?)</strong></span>', re.DOTALL)
-_AP_PRICE = re.compile(r'<span class="h3">\$([\d,]+\.\d{2})</span>')
-_AP_ADDED = re.compile(r'Added\s+\w+,\s+(\w+ \d{1,2}, \d{4})')
-_AP_IMG = re.compile(r'<img[^>]+src="(https://store\.acousticsounds\.com/images/[^"]+)"')
-
-
-def _ap_clean(s):
-    s = re.sub(r"<[^>]+>", "", s)
-    return re.sub(r"\s+", " ", _html.unescape(s)).strip()
-
-
-def _ap_added_iso(s):
-    try:
-        return datetime.datetime.strptime(s, "%B %d, %Y").date().isoformat()
-    except ValueError:
-        return ""
-
-
-def _ap_parse_page(html_text):
-    """Extract raw product dicts from one AP results page of HTML."""
-    start = html_text.find('id="results"')
-    region = html_text[start:] if start != -1 else html_text
-    out = []
-    for card in _AP_CARD_SPLIT.split(region)[1:]:
-        link = _AP_LINK.search(card)
-        at = _AP_ARTIST_TITLE.search(card)
-        if not link or not at:
-            continue
-        url, pid = link.group(1), link.group(2)
-        fmt = _AP_FORMAT.search(card)
-        cat = _AP_CATALOG.search(card)
-        price = _AP_PRICE.search(card)
-        added = _AP_ADDED.search(card)
-        img = _AP_IMG.search(card)
-        img_url = img.group(1) if img else ""
-        if "NoImage" in img_url:
-            img_url = ""
-        elif "/images/small/" in img_url:
-            img_url = img_url.replace("/images/small/", "/images/large/")
-        out.append({
-            "pid": pid,
-            "artist": _ap_clean(at.group(1)),
-            "title": _ap_clean(at.group(2)),
-            "format": _ap_clean(fmt.group(1)) if fmt else "",
-            "catalog": _ap_clean(cat.group(1)) if cat else "",
-            "price": price.group(1).replace(",", "") if price else None,
-            "url": url,
-            "added": _ap_added_iso(added.group(1)) if added else "",
-            "image": img_url,
-        })
-    return out
-
-
-# Acoustic Sounds blocks the GitHub Actions runner IP range at the network level
-# (connections time out, not a 403/redirect). To get the page from the runner we
-# route the request through a public reader proxy (r.jina.ai), which fetches the
-# real page from its own infrastructure and returns the raw HTML. We ask for raw
-# HTML (X-Return-Format: html) so the existing card parser still works.
-# Direct fetch is tried first; the proxy is the fallback when the direct
-# connection fails. Set AS_USE_PROXY=0 in the env to disable the proxy entirely.
-AS_PROXY_PREFIX = "https://r.jina.ai/"
-AS_PROXY_HEADERS = {"X-Return-Format": "html"}
-
-
-def _as_fetch_page(src, url):
-    """Fetch one Acoustic Sounds results page. Tries a direct connection (with a
-    couple of quick retries); if the runner can't reach the host, falls back to
-    the reader proxy. Returns the requests.Response. Raises the last error if
-    every path fails."""
-    use_proxy = os.environ.get("AS_USE_PROXY", "1") != "0"
-    last_err = None
-
-    # 1) Direct: two quick attempts. Don't burn long backoffs here -- if the IP
-    #    is blocked it will time out regardless, and the proxy is the real path.
-    for attempt in range(2):
-        try:
-            r = requests.get(url, headers=AS_UA, timeout=20, allow_redirects=True)
-            r.raise_for_status()
-            return r
-        except requests.exceptions.RequestException as e:
-            last_err = e
-            if attempt == 0:
-                print(f"  [{src['id']}] direct attempt failed ({type(e).__name__}); retrying once")
-                time.sleep(3)
-
-    # 2) Proxy fallback. We don't yet know the exact form r.jina.ai wants for
-    #    this ColdFusion URL, so try a few variants and -- crucially -- log the
-    #    response body on failure so the next run shows WHY it was rejected
-    #    instead of a bare 422. If JINA_API_KEY is set, it's sent as a Bearer
-    #    token (higher rate limits / unblocks auth-gated requests).
-    if use_proxy:
-        print(f"  [{src['id']}] direct fetch failed; trying reader proxy")
-        jina_key = os.environ.get("JINA_API_KEY")
-        auth = {"Authorization": f"Bearer {jina_key}"} if jina_key else {}
-        if jina_key:
-            print(f"  [{src['id']}] using JINA_API_KEY")
-        variants = [
-            # (label, full proxy URL, extra headers)
-            # The orderby param is the only one with a space (%20); Jina may
-            # choke on it. Sort order doesn't matter to us (the app sorts on
-            # first_seen), so try a stripped URL with no orderby first.
-            ("no-orderby", AS_PROXY_PREFIX + re.sub(r"&orderby=[^&]*", "", url), {}),
-            ("plain",      AS_PROXY_PREFIX + url, {}),
-            ("plain+html", AS_PROXY_PREFIX + url, {"X-Return-Format": "html"}),
-        ]
-        for label, purl, extra in variants:
-            try:
-                pr = requests.get(purl, headers={**AS_UA, **auth, **extra},
-                                  timeout=60, allow_redirects=True)
-                pr.raise_for_status()
-                print(f"  [{src['id']}] proxy variant '{label}' OK")
-                return pr
-            except requests.exceptions.RequestException as e:
-                last_err = e
-                body = ""
-                resp = getattr(e, "response", None)
-                if resp is not None:
-                    body = (resp.text or "")[:200].replace("\n", " ")
-                print(f"  [{src['id']}] proxy variant '{label}' failed "
-                      f"({type(e).__name__}): {body}")
-                time.sleep(3)
-
-    raise RuntimeError(f"{src['id']} fetch failed (direct and proxy): {last_err}")
-
-
-def fetch_acoustic(src):
-    """Page through one Acoustic Sounds label's jazz-vinyl results. Raises on
-    redirect/bounce or zero products so an empty source is never recorded as a
-    baseline."""
-    raw = []
-    seen = set()
-    for page in range(5):                       # 100/page
-        start = 1 + page * 100
-        url = _as_results_url(src["labelid"], start)
-        r = _as_fetch_page(src, url)
-        # The proxy may rewrite the final URL; check the original target intent
-        # via the returned body/url for the contact-page bounce.
-        if "get=contact" in getattr(r, "url", "") or "get=login" in getattr(r, "url", ""):
-            raise RuntimeError(
-                f"{src['id']} fetch redirected to {r.url!r} -- bounced by "
-                f"Acoustic Sounds; cannot scrape this label.")
-        items = _ap_parse_page(r.text)
-        if not items:
-            break
-        fresh = [it for it in items if it["pid"] not in seen]
-        for it in fresh:
-            seen.add(it["pid"])
-        raw.extend(fresh)
-        if len(items) < 100:
-            break
-    if not raw:
-        raise RuntimeError(
-            f"{src['id']} parsed ZERO products -- page shape changed or proxy "
-            f"served a non-results page. Refusing to record an empty baseline.")
-    return raw
-
-
-def simplify_acoustic(src, p):
-    """Normalise an Acoustic Sounds raw dict into the same schema simplify()
-    emits, so items flow through diff/first_seen/blurbs/app like Shopify items."""
-    title = f"{p['artist']} \u2014 {p['title']}".strip(" \u2014")
-    return {
-        "id": f"{src['prefix']}_{p['pid']}",   # namespaced; never collides
-        "label_id": src.get("label_id", src["id"]),
-        "title": title,
-        "url": p["url"],
-        "price": p["price"],
-        "image": p.get("image") or None,  # large cover if present, else None
-        "published_at": None,
-        "created_at": p["added"],          # store-listing date -> feeds first_seen, not release_date
-        "specs": _specs_from(f"{title} {p['format']}"),
-        "preorder": "pre order" in p["format"].lower() or "preorder" in p["format"].lower(),
-        "catalog": p["catalog"],
-    }
 
 
 # ---------------------------------------------------------------------------
@@ -612,10 +378,9 @@ def _norm_title(t):
 
 def write_data_json(catalog):
     """Write the full catalog (all current items + blurbs) for the app to read.
-    Dedups on id, then on normalised title, so a record reaching the catalog via
-    more than one path (e.g. a Rhino title on both Rhino's store and Acoustic
-    Sounds) appears once. First occurrence wins -- sources earlier in catalog
-    order (Shopify, with native covers/URLs) take priority over later ones."""
+    Dedups on id, then on normalised title within a label, so a record reaching
+    the catalog via more than one path (e.g. collection feed + keyword fallback)
+    appears once. First occurrence wins."""
     seen_ids = set()
     kept_titles = {}            # label_id -> list of normalised titles kept
     deduped = []
@@ -722,29 +487,6 @@ def main():
             catalog.append(it)
         if diff_source(state, src["id"], src["label"], items, all_new):
             changed = True
-
-    # Acoustic Sounds labels (HTML scrape, not Shopify). Same schema, same flow.
-    # Each is wrapped so one label's failure never aborts the others or the
-    # Shopify sources: it logs loudly and skips that label this run.
-    for src in ACOUSTIC_SOURCES:
-        print(f"Checking {src['label']} ...")
-        try:
-            raw = fetch_acoustic(src)
-            items = {}
-            for p in raw:
-                it = simplify_acoustic(src, p)
-                # CategoryID=5 already limits to vinyl; drop test pressings within it.
-                if "test pressing" in p["format"].lower():
-                    continue
-                it["label_name"] = src["label"]
-                items[it["id"]] = it
-            print(f"  found {len(items)} LPs")
-            for it in items.values():
-                catalog.append(it)
-            if diff_source(state, src["id"], src["label"], items, all_new):
-                changed = True
-        except Exception as e:
-            print(f"  ERROR fetching {src['id']}: {e}  (skipping this run)")
 
     # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
     # written on demand (a consensus summary for a specific title) and stored in
