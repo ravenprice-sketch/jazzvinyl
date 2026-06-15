@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T15:23:25.898265+00:00",
+  "updated": "2026-06-15T20:34:55.801266+00:00",
   "count": 486,
   "items": [
     {
@@ -6286,7 +6286,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -7062,7 +7062,7 @@
       "label_id": "verve_acoustic",
       "title": "Ella Fitzgerald: Sings The Rodgers and Hart Song Book (Acoustic Sounds Series) LP",
       "url": "https://store.ververecords.com/products/ella-fitzgerald-sings-the-rodgers-and-hart-song-book-acoustic-sounds-series-lp",
-      "price": "54.98",
+      "price": "43.98",
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/ella_10eb9f61-cef8-4775-8c5c-63a33f327237.png?v=1758910594",
       "published_at": "2025-09-29T09:00:39-04:00",
       "created_at": "2025-09-25T19:21:34-04:00",
@@ -8526,7 +8526,7 @@
       "label_id": "verve_vault",
       "title": "Pharoah Sanders: Elevation (Verve Vault Series) LP",
       "url": "https://store.ververecords.com/products/pharoah-sanders-elevation-verve-vault-series-lp",
-      "price": "27.98",
+      "price": "22.38",
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/PharohSanders.png?v=1770666318",
       "published_at": "2026-02-11T09:00:38-05:00",
       "created_at": "2026-02-09T13:31:35-05:00",
@@ -8543,7 +8543,7 @@
       "label_id": "verve_vault",
       "title": "Gabor Szabo: Spellbinder (Verve Vault Series) LP",
       "url": "https://store.ververecords.com/products/gabor-szabo-spellbinder-verve-vault-series-lp",
-      "price": "27.98",
+      "price": "22.38",
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GaborSzabo.png?v=1770666993",
       "published_at": "2026-02-11T09:00:38-05:00",
       "created_at": "2026-02-09T13:31:35-05:00",
