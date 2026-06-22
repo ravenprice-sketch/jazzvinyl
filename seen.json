@@ -5913,6 +5913,42 @@
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-13T13:14:05.694377+00:00"
+    },
+    "8469164654783": {
+      "id": "8469164654783",
+      "label_id": "bluenote_classic",
+      "title": "Jimmy Smith – Softly as a Summer Breeze (Blue Note Classic Vinyl Series)",
+      "url": "https://store.bluenote.com/products/jimmy-smith-softly-as-a-summer-breeze-classic-vinyl-edition",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/JimmySmith_SoftlyAsASummerBreeze_1LP-ProductShot.png?v=1781797032",
+      "published_at": "2026-06-22T08:59:40-04:00",
+      "created_at": "2026-06-18T11:36:29-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-06-22T19:57:56.451077+00:00"
+    },
+    "8469164490943": {
+      "id": "8469164490943",
+      "label_id": "bluenote_classic",
+      "title": "Grant Green – Street of Dreams (Blue Note Classic Vinyl Series)",
+      "url": "https://store.bluenote.com/products/grant-green-street-of-dreams-classic-vinyl-edition",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/GrantGreen_StreetOfDreams_1LP-ProductShot2.png?v=1781803881",
+      "published_at": "2026-06-22T08:59:39-04:00",
+      "created_at": "2026-06-18T11:35:50-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-06-22T19:57:56.451077+00:00"
     }
   },
   "craft_ojc": {
@@ -9956,6 +9992,21 @@
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    "15112555561332": {
+      "id": "15112555561332",
+      "label_id": "verve_vault",
+      "title": "George Benson: Giblet Gravy LP (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/george-benson-giblet-gravy-lp-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GILBERT_GRAVY_LP_1.png?v=1781626761",
+      "published_at": "2026-06-22T09:00:13-04:00",
+      "created_at": "2026-06-16T10:48:33-04:00",
+      "specs": [],
+      "preorder": false,
+      "label_name": "Verve — Vault Series",
+      "blurb": "",
+      "first_seen": "2026-06-22T19:57:56.451077+00:00"
     }
   },
   "_first_seen": {
@@ -10601,7 +10652,10 @@
     "rh_161353": "2026-06-10T18:16:14.065799+00:00",
     "rh_12806": "2026-06-10T18:16:14.065799+00:00",
     "4372208713815": "2026-06-13T13:14:05.694377+00:00",
-    "rh_198889": "2026-06-13T13:14:05.694377+00:00"
+    "rh_198889": "2026-06-13T13:14:05.694377+00:00",
+    "8469164654783": "2026-06-22T19:57:56.451077+00:00",
+    "8469164490943": "2026-06-22T19:57:56.451077+00:00",
+    "15112555561332": "2026-06-22T19:57:56.451077+00:00"
   },
   "analogue_productions": {
     "ap_111596": {
