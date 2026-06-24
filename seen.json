@@ -2851,7 +2851,7 @@
       "title": "Jackie McLean – Vertigo (Tone Poet Vinyl Series)",
       "url": "https://store.bluenote.com/products/jackie-mclean-vertigo-tone-poet-vinyl-series",
       "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/JackieMcLean_Vertigo_PROD_SHOTNEW.png?v=1780601059",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/JackieMcLean_Vertigo_PROD_SHOT_rev.png?v=1782247595",
       "published_at": "2026-06-08T09:00:26-04:00",
       "created_at": "2026-06-04T11:49:04-04:00",
       "specs": [
@@ -7511,6 +7511,62 @@
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": ""
+    },
+    "15002370572655": {
+      "id": "15002370572655",
+      "label_id": "craft_ojc",
+      "title": "Coltrane (Original Jazz Classics Series) (180g LP) + Cookin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/coltrane-original-jazz-classics-series-180g-lp-cookin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
+      "price": "68.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/OJCbundle.png?v=1782146166",
+      "published_at": "2026-06-24T09:30:10-05:00",
+      "created_at": "2026-06-22T11:13:04-05:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-06-24T16:34:50.329159+00:00"
+    },
+    "14998442443119": {
+      "id": "14998442443119",
+      "label_id": "craft_ojc",
+      "title": "Coltrane (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/john-coltrane-coltrane-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00945JohnColtrane-ColtranePackShotobi.png?v=1781801307",
+      "published_at": "2026-06-24T09:30:08-05:00",
+      "created_at": "2026-06-17T16:44:28-05:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-06-24T16:34:50.329159+00:00"
+    },
+    "14998447587695": {
+      "id": "14998447587695",
+      "label_id": "craft_ojc",
+      "title": "Cookin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/miles-davis-cookin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Miles_Davis_Cookin_Pack_Shot_w_obi_LP.png?v=1781800347",
+      "published_at": "2026-06-24T09:30:09-05:00",
+      "created_at": "2026-06-17T17:02:41-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-06-24T16:34:50.329159+00:00"
     }
   },
   "verve_acoustic": {
@@ -10655,7 +10711,10 @@
     "rh_198889": "2026-06-13T13:14:05.694377+00:00",
     "8469164654783": "2026-06-22T19:57:56.451077+00:00",
     "8469164490943": "2026-06-22T19:57:56.451077+00:00",
-    "15112555561332": "2026-06-22T19:57:56.451077+00:00"
+    "15112555561332": "2026-06-22T19:57:56.451077+00:00",
+    "15002370572655": "2026-06-24T16:34:50.329159+00:00",
+    "14998442443119": "2026-06-24T16:34:50.329159+00:00",
+    "14998447587695": "2026-06-24T16:34:50.329159+00:00"
   },
   "analogue_productions": {
     "ap_111596": {
