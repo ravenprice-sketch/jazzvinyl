@@ -80,6 +80,25 @@ SOURCES = [
         "collection": "verve-vault",
         "keyword": "vault",
     },
+    {
+        # Analogue Productions is genre-mixed (jazz/rock/soul), so unlike the
+        # five above it is NOT jazz-only by definition. We source it from The
+        # 'In' Groove (a clean Shopify store that carries the full AP catalog and
+        # doesn't IP-block bots the way AP's own store does), and keep it jazz-
+        # only with zero AI by intersecting the AP label feed with In Groove's
+        # Jazz genre collection. `require_kw` keeps only true AP titles (drops
+        # In Groove exclusives / other labels that share the analog collection);
+        # `exclude_kw` drops Verve "Acoustic Sounds Series" pressings already
+        # covered by verve_acoustic.
+        "id": "analogue_productions",
+        "label": "Analogue Productions \u2014 Jazz",
+        "base": "https://www.theingroove.com",
+        "collection": "analog-production",
+        "keyword": "analog",                  # fallback gate if collection 404s
+        "genre_collection": "jazz-lps",       # intersect -> jazz only
+        "require_kw": "analog",               # true AP titles only
+        "exclude_kw": "acoustic sounds series",
+    },
 ]
 
 # ---------------------------------------------------------------------------
@@ -91,13 +110,14 @@ def _get_json(url):
     return r.json()
 
 
-def fetch_products(src):
-    """Return a list of product dicts for one label, with handle fallback."""
-    # Primary: the specific collection feed (paginated, 250/page).
+def _fetch_collection(base, collection, keyword=None):
+    """All products in one Shopify collection (paginated, 250/page). On 404 or
+    network error, optionally fall back to the store-wide feed filtered by
+    `keyword` in title/type/tags. Returns [] on total failure (never raises)."""
     products = []
     try:
         for page in range(1, 6):  # up to 1250 items, plenty
-            url = f"{src['base']}/collections/{src['collection']}/products.json?limit=250&page={page}"
+            url = f"{base}/collections/{collection}/products.json?limit=250&page={page}"
             batch = _get_json(url).get("products", [])
             if not batch:
                 break
@@ -105,13 +125,16 @@ def fetch_products(src):
         if products:
             return products
     except Exception as e:  # 404 / network / parse -> try fallback
-        print(f"  [{src['id']}] collection feed failed ({e}); trying store-wide feed")
+        msg = "; trying store-wide feed" if keyword else ""
+        print(f"  [{collection}] collection feed failed ({e}){msg}")
 
-    # Fallback: whole store, filtered by keyword in title/type/tags.
-    kw = src["keyword"].lower()
+    if not keyword:
+        return products  # no fallback requested (e.g. a genre cross-ref feed)
+
+    kw = keyword.lower()
     store_products = []
     for page in range(1, 11):
-        url = f"{src['base']}/products.json?limit=250&page={page}"
+        url = f"{base}/products.json?limit=250&page={page}"
         batch = _get_json(url).get("products", [])
         if not batch:
             break
@@ -124,6 +147,38 @@ def fetch_products(src):
         if kw in hay:
             filtered.append(p)
     return filtered
+
+
+def fetch_products(src):
+    """Return the raw products for one source.
+
+    Most sources are a single jazz-only collection feed. A source may also be a
+    genre-mixed label feed (e.g. Analogue Productions, which spans jazz/rock/
+    soul). For those, we keep it jazz-only *without* any AI by intersecting the
+    label feed with the store's own Jazz genre collection -- a release is kept
+    only if the store itself files it under both. Optional title keyword gates
+    then enforce that the item is really from this label (`require_kw`) and isn't
+    a release already covered by another source (`exclude_kw`)."""
+    products = _fetch_collection(src["base"], src["collection"], src.get("keyword"))
+
+    # Genre cross-reference: keep only ids the store also lists under `genre_collection`.
+    gc = src.get("genre_collection")
+    if gc:
+        genre = _fetch_collection(src["base"], gc)  # no keyword fallback for the cross-ref
+        genre_ids = {p.get("id") for p in genre}
+        before = len(products)
+        products = [p for p in products if p.get("id") in genre_ids]
+        print(f"  [{src['id']}] genre x-ref ({gc}): {before} -> {len(products)} jazz")
+
+    # Title gates (case-insensitive substring on the product title).
+    req = (src.get("require_kw") or "").lower()
+    if req:
+        products = [p for p in products if req in (p.get("title", "")).lower()]
+    exc = (src.get("exclude_kw") or "").lower()
+    if exc:
+        products = [p for p in products if exc not in (p.get("title", "")).lower()]
+
+    return products
 
 
 def _specs_from(text):
