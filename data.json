@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-24T16:34:50.334305+00:00",
-  "count": 490,
+  "updated": "2026-06-25T09:24:41.346714+00:00",
+  "count": 492,
   "items": [
     {
       "id": "8450567012543",
@@ -5951,18 +5951,36 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "15002370572655",
+      "id": "14998442443119",
       "label_id": "craft_ojc",
-      "title": "Coltrane (Original Jazz Classics Series) (180g LP) + Cookin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/coltrane-original-jazz-classics-series-180g-lp-cookin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
-      "price": "68.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/OJCbundle.png?v=1782146166",
-      "published_at": "2026-06-24T09:30:10-05:00",
-      "created_at": "2026-06-22T11:13:04-05:00",
+      "title": "Coltrane (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/john-coltrane-coltrane-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00945JohnColtrane-ColtranePackShotobi.png?v=1781801307",
+      "published_at": "2026-06-24T09:30:08-05:00",
+      "created_at": "2026-06-17T16:44:28-05:00",
       "specs": [
         "AAA",
         "180g",
         "Mono"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-06-24T16:34:50.329159+00:00"
+    },
+    {
+      "id": "14998447587695",
+      "label_id": "craft_ojc",
+      "title": "Cookin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/miles-davis-cookin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Miles_Davis_Cookin_Pack_Shot_w_obi_LP.png?v=1781800347",
+      "published_at": "2026-06-24T09:30:09-05:00",
+      "created_at": "2026-06-17T17:02:41-05:00",
+      "specs": [
+        "AAA",
+        "180g"
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
@@ -6554,6 +6572,24 @@
       "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00723ClarkTerryQuartet-InOrbitPackShotwobi.png?v=1718597179",
       "published_at": "2024-06-18T09:30:02-05:00",
       "created_at": "2024-06-14T17:51:03-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "8434296422565",
+      "label_id": "craft_ojc",
+      "title": "Miles (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/miles-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00722MilesDavisQuintet-MilesPackShotwobi.png?v=1709245442",
+      "published_at": "2024-03-05T09:30:03-06:00",
+      "created_at": "2024-02-29T16:23:53-06:00",
       "specs": [
         "AAA",
         "180g"
@@ -7929,6 +7965,24 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "7792403447957",
+      "label_id": "verve_acoustic",
+      "title": "Wynton Kelly Trio with Wes Montgomery: Smokin’ At The Half Note LP (Verve Acoustic Sound Series)",
+      "url": "https://store.ververecords.com/products/wynton-kelly-trio-with-wes-montgomery-smokin-at-the-half-note-lp-verve-acoustic-sound-series",
+      "price": "31.18",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/WYNTON-KELLY-LP.png?v=1673381376",
+      "published_at": "2023-01-13T08:58:51-05:00",
+      "created_at": "2023-01-09T15:23:18-05:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "7756624625813",
       "label_id": "verve_acoustic",
       "title": "Alice Coltrane: Journey In Satchidanada (Acoustic Sounds Version) LP",
@@ -8396,21 +8450,6 @@
         "Gatefold"
       ],
       "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "6458227523733",
-      "label_id": "verve_acoustic",
-      "title": "Ray Charles: Genius + Soul = Jazz (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/ray-charles-genius-soul-jazz-verve-acoustic-sounds-series-lp",
-      "price": "29.58",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/raycharleslp.png?v=1612476912",
-      "published_at": "2021-02-04T14:24:43-05:00",
-      "created_at": "2021-02-02T15:03:36-05:00",
-      "specs": [],
-      "preorder": true,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
