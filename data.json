@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T09:48:47.725009+00:00",
+  "updated": "2026-06-25T16:39:18.159354+00:00",
   "count": 648,
   "items": [
     {
@@ -9066,23 +9066,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6881444462798",
-      "label_id": "analogue_productions",
-      "title": "John Coltrane - Lush Life - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/john-coltrane-lush-life-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe6344_AJAZ_7188__12959__01152009112957-6729.jpg?v=1640627840",
-      "published_at": "2021-12-27T10:57:20-07:00",
-      "created_at": "2021-12-27T10:57:19-07:00",
-      "specs": [
-        "200g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569008922830",
       "label_id": "analogue_productions",
       "title": "Dave Brubeck Quartet - Time Out - Analogue Productions 33rpm LP",
@@ -9094,6 +9077,23 @@
       "specs": [
         "200g",
         "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6881444462798",
+      "label_id": "analogue_productions",
+      "title": "John Coltrane - Lush Life - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/john-coltrane-lush-life-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe6344_AJAZ_7188__12959__01152009112957-6729.jpg?v=1640627840",
+      "published_at": "2021-12-27T10:57:20-07:00",
+      "created_at": "2021-12-27T10:57:19-07:00",
+      "specs": [
+        "200g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -9966,6 +9966,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7423381831886",
+      "label_id": "analogue_productions",
+      "title": "Thelonious Monk Septet - Monk's Music - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-septet-monks-music-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_12-242__185151__01242024101258-4400.jpg?v=1715821607",
+      "published_at": "2024-05-15T18:37:57-07:00",
+      "created_at": "2024-05-15T18:08:48-07:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6984950382798",
       "label_id": "analogue_productions",
       "title": "John Coltrane - Soultrane - Analogue Productions LP",
@@ -9991,24 +10009,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp1150__70884.jpg?v=1715821987",
       "published_at": "2024-05-15T18:35:30-07:00",
       "created_at": "2024-05-15T18:14:43-07:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7423381831886",
-      "label_id": "analogue_productions",
-      "title": "Thelonious Monk Septet - Monk's Music - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-septet-monks-music-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_12-242__185151__01242024101258-4400.jpg?v=1715821607",
-      "published_at": "2024-05-15T18:37:57-07:00",
-      "created_at": "2024-05-15T18:08:48-07:00",
       "specs": [
         "AAA",
         "180g"
