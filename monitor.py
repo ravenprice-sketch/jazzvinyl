@@ -140,7 +140,8 @@ def _specs_from(text):
 
 def is_lp(title):
     """True only for vinyl LPs -- excludes digital albums, CDs, t-shirts,
-    test pressings, and other non-LP merch so the app lists records only."""
+    test pressings, multi-album bundles, and other non-LP merch so the app
+    lists single records only."""
     t = (title or "").lower()
     bad = ("digital album", "(digital", "digital)", "test pressing",
            "t-shirt", "tshirt", "shirt", "hoodie", "poster", "slipmat",
@@ -148,6 +149,11 @@ def is_lp(title):
     if any(b in t for b in bad):
         return False
     if t.rstrip().endswith(" cd") or "(cd" in t:
+        return False
+    # Two-album packs are sold as one product with the titles joined by " + "
+    # (e.g. "Coltrane (...) + Cookin' With (...)"). Those aren't a single LP;
+    # the individual albums are listed separately, so drop the combined product.
+    if " + " in (title or ""):
         return False
     return True
 
@@ -187,6 +193,27 @@ def load_state():
         except Exception:
             return {}
     return {}
+
+
+def prune_state(state, valid_ids):
+    """Drop per-source state for sources that no longer exist, plus the now-unused
+    classifier cache. Keeps reserved keys (those starting with '_') except the
+    classifier cache. Prevents stale baselines from old/removed sources (e.g. a
+    long line of abandoned Rhino/AP experiments) lingering in seen.json and
+    causing odd diffs if a similarly-named source is ever re-added."""
+    removed = []
+    for key in list(state.keys()):
+        if key.startswith("_"):
+            if key == "_ai_genre":          # classifier is gone; cache is dead weight
+                del state[key]
+                removed.append(key)
+            continue                        # keep _first_seen and any other reserved
+        if key not in valid_ids:
+            del state[key]
+            removed.append(key)
+    if removed:
+        print(f"Pruned stale state keys: {', '.join(removed)}")
+    return bool(removed)
 
 
 def save_state(state):
@@ -288,25 +315,26 @@ def _norm_title(t):
 
 def write_data_json(catalog):
     """Write the full catalog (all current items + blurbs) for the app to read.
-    Dedups on id, then on normalised title within a label, so a record reaching
-    the catalog via more than one path (e.g. collection feed + keyword fallback)
-    appears once. First occurrence wins."""
+    Dedups on id, then on exact normalised title within a label, so a record
+    reaching the catalog via more than one path (collection feed + keyword
+    fallback) appears once. First occurrence wins.
+
+    NB: an EXACT title match is used, not containment. Containment was too
+    greedy -- it collapsed distinct albums whose names are substrings of a
+    larger title (e.g. a "A + B" two-LP pack swallowing the solo "A" and "B"
+    releases, or a boxset swallowing its constituent albums)."""
     seen_ids = set()
-    kept_titles = {}            # label_id -> list of normalised titles kept
+    kept_titles = set()         # (label_id, normalised_title)
     deduped = []
     for it in catalog:
         iid = it.get("id")
         if iid in seen_ids:
             continue
-        lbl = it.get("label_id")
-        nt = _norm_title(it.get("title"))
-        # Within the same label, treat titles where one contains the other as
-        # the same record (collection feed vs keyword fallback). First wins.
-        existing = kept_titles.setdefault(lbl, [])
-        if nt and any(nt in e or e in nt for e in existing):
+        key = (it.get("label_id"), _norm_title(it.get("title")))
+        if key[1] and key in kept_titles:
             continue
         seen_ids.add(iid)
-        existing.append(nt)
+        kept_titles.add(key)
         deduped.append(it)
     dropped = len(catalog) - len(deduped)
     if dropped:
@@ -365,6 +393,10 @@ def main():
     all_new = []        # list of (label, [items])
     catalog = []        # every current item across all sources, for the app
     changed = False
+
+    # Drop state from sources that no longer exist (keeps seen.json honest).
+    if prune_state(state, {s["id"] for s in SOURCES}):
+        changed = True
 
     # Shopify-based label feeds.
     for src in SOURCES:
