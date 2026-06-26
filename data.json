@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T16:39:18.159354+00:00",
+  "updated": "2026-06-26T16:28:08.869239+00:00",
   "count": 648,
   "items": [
     {
@@ -6918,7 +6918,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6933,7 +6933,7 @@
       "published_at": "2026-04-27T09:00:17-04:00",
       "created_at": "2026-04-20T13:36:36-04:00",
       "specs": [],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6951,7 +6951,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6969,7 +6969,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -8544,7 +8544,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -8561,7 +8561,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10070,23 +10070,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7195677753550",
-      "label_id": "analogue_productions",
-      "title": "Eric Dolphy - Far Cry - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/eric-dolphy-far-cry-stereo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8270__77080__04062012022904-9201.jpg?v=1682540187",
-      "published_at": "2023-04-26T13:16:25-07:00",
-      "created_at": "2023-04-26T13:16:25-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569241608398",
       "label_id": "analogue_productions",
       "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
@@ -10098,6 +10081,23 @@
       "specs": [
         "200g",
         "Mono"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7195677753550",
+      "label_id": "analogue_productions",
+      "title": "Eric Dolphy - Far Cry - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/eric-dolphy-far-cry-stereo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8270__77080__04062012022904-9201.jpg?v=1682540187",
+      "published_at": "2023-04-26T13:16:25-07:00",
+      "created_at": "2023-04-26T13:16:25-07:00",
+      "specs": [
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
