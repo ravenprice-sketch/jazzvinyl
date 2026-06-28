@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T12:14:07.141414+00:00",
-  "count": 648,
+  "updated": "2026-06-28T12:19:45.259017+00:00",
+  "count": 647,
   "items": [
     {
       "id": "8450567012543",
@@ -9731,6 +9731,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7616422478030",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-kind-of-blue-corrected-speed-analogue-productions-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8163__186328__03262024022828-3292.jpg?v=1760045728",
+      "published_at": "2025-10-09T14:47:24-07:00",
+      "created_at": "2025-10-09T14:39:15-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542066970830",
       "label_id": "analogue_productions",
       "title": "Ry Cooder - Buena Vista Social Club - Analogue Productions 45rpm LP",
@@ -9779,25 +9798,6 @@
       "specs": [
         "180g",
         "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7616422478030",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-kind-of-blue-corrected-speed-analogue-productions-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8163__186328__03262024022828-3292.jpg?v=1760045728",
-      "published_at": "2025-10-09T14:47:24-07:00",
-      "created_at": "2025-10-09T14:39:15-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11023,6 +11023,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569193439438",
+      "label_id": "analogue_productions",
+      "title": "Hugh Masekela - Hope - Analogue Productions LP Box Set",
+      "url": "https://www.theingroove.com/products/hugh-masekela-hope-analog-productions-lp-box-set",
+      "price": "134.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_8ab5ff1b-4547-4819-b977-b631c42853d4.jpg?v=1617411861",
+      "published_at": "2021-04-02T18:04:20-07:00",
+      "created_at": "2021-04-02T18:04:21-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542902030542",
       "label_id": "analogue_productions",
       "title": "Zoot Sims & Joe Pass - Blues For 2 - Analogue Productions Pablo LP",
@@ -11048,25 +11067,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_063-45__181812__09122023122330-6361_52ccd4a7-4824-4b98-8330-68e89b9c9399.jpg?v=1694653871",
       "published_at": "2023-09-13T22:26:42-07:00",
       "created_at": "2023-09-13T18:05:46-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569193439438",
-      "label_id": "analogue_productions",
-      "title": "Hugh Masekela - Hope - Analogue Productions LP Box Set",
-      "url": "https://www.theingroove.com/products/hugh-masekela-hope-analog-productions-lp-box-set",
-      "price": "134.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_8ab5ff1b-4547-4819-b977-b631c42853d4.jpg?v=1617411861",
-      "published_at": "2021-04-02T18:04:20-07:00",
-      "created_at": "2021-04-02T18:04:21-07:00",
       "specs": [
         "180g",
         "45 RPM",
@@ -11571,24 +11571,6 @@
       "created_at": "2025-01-28T12:26:33-07:00",
       "specs": [
         "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569028878542",
-      "label_id": "analogue_productions",
-      "title": "Rob Wasserman - Duets - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/rob-wasserman-duets-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_1df227aa-0c69-4360-a35a-42b20d59179f.jpg?v=1646792582",
-      "published_at": "2021-04-02T15:32:31-07:00",
-      "created_at": "2021-04-02T15:32:32-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
