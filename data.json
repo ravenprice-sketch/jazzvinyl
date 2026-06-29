@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T12:19:45.259017+00:00",
+  "updated": "2026-06-29T12:24:39.894747+00:00",
   "count": 647,
   "items": [
     {
@@ -9060,7 +9060,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9713,24 +9713,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6861903167694",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Seven Steps To Heaven - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/miles-davis-seven-steps-to-heaven-analog-productions-lp-1",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/R-5809459-1403278018-1727_jpeg.jpg?v=1646793689",
-      "published_at": "2021-12-13T13:00:24-07:00",
-      "created_at": "2021-12-13T13:00:22-07:00",
-      "specs": [
-        "180g",
-        "45 RPM"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7616422478030",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
@@ -9743,6 +9725,24 @@
         "180g",
         "45 RPM",
         "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6861903167694",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Seven Steps To Heaven - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/miles-davis-seven-steps-to-heaven-analog-productions-lp-1",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/R-5809459-1403278018-1727_jpeg.jpg?v=1646793689",
+      "published_at": "2021-12-13T13:00:24-07:00",
+      "created_at": "2021-12-13T13:00:22-07:00",
+      "specs": [
+        "180g",
+        "45 RPM"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
