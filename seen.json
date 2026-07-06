@@ -625,7 +625,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10744,7 +10744,8 @@
     "7663532671182": "2026-06-25T09:48:47.720963+00:00",
     "7542899376334": "2026-06-25T09:48:47.720963+00:00",
     "6569028878542": "2026-06-25T09:48:47.720963+00:00",
-    "7012941660366": "2026-06-25T09:48:47.720963+00:00"
+    "7012941660366": "2026-06-25T09:48:47.720963+00:00",
+    "7542899409102": "2026-07-06T11:57:24.740140+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -13522,6 +13523,24 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    "7542899409102": {
+      "id": "7542899409102",
+      "label_id": "analogue_productions",
+      "title": "The Clark Terry Five - Memories of Duke - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-the-clark-terry-five-memories-of-duke-acoustic-sounds-pablo-series-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab195__94519.jpg?v=1738092452",
+      "published_at": "2025-01-28T14:42:55-07:00",
+      "created_at": "2025-01-28T12:28:12-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-06T11:57:24.740140+00:00"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T10:05:15.007735+00:00",
-  "count": 647,
+  "updated": "2026-07-06T11:57:24.744232+00:00",
+  "count": 648,
   "items": [
     {
       "id": "8450567012543",
@@ -663,7 +663,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9120,6 +9120,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569143501006",
+      "label_id": "analogue_productions",
+      "title": "Hugh Masekela - Hope - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/hugh-masekela-hope-analog-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_c4cad46d-d33b-426c-97ed-014d0508fc92.jpg?v=1646792810",
+      "published_at": "2021-04-02T17:06:23-07:00",
+      "created_at": "2021-04-02T17:06:24-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7254288203982",
       "label_id": "analogue_productions",
       "title": "Charles Mingus - Blues & Roots - Analogue Productions 45rpm LP",
@@ -9131,24 +9149,6 @@
       "specs": [
         "180g",
         "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569143501006",
-      "label_id": "analogue_productions",
-      "title": "Hugh Masekela - Hope - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/hugh-masekela-hope-analog-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_c4cad46d-d33b-426c-97ed-014d0508fc92.jpg?v=1646792810",
-      "published_at": "2021-04-02T17:06:23-07:00",
-      "created_at": "2021-04-02T17:06:24-07:00",
-      "specs": [
-        "180g",
         "Gatefold"
       ],
       "preorder": false,
@@ -9655,6 +9655,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7616422478030",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-kind-of-blue-corrected-speed-analogue-productions-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8163__186328__03262024022828-3292.jpg?v=1760045728",
+      "published_at": "2025-10-09T14:47:24-07:00",
+      "created_at": "2025-10-09T14:39:15-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7595139662030",
       "label_id": "analogue_productions",
       "title": "Art Pepper - Art Pepper Meets The Rhythm Section - Analogue Productions 45RPM UHQR LP",
@@ -9666,25 +9685,6 @@
       "specs": [
         "AAA",
         "200g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7616422478030",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-kind-of-blue-corrected-speed-analogue-productions-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8163__186328__03262024022828-3292.jpg?v=1760045728",
-      "published_at": "2025-10-09T14:47:24-07:00",
-      "created_at": "2025-10-09T14:39:15-07:00",
-      "specs": [
-        "180g",
         "45 RPM",
         "Gatefold"
       ],
@@ -9929,6 +9929,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7423381831886",
+      "label_id": "analogue_productions",
+      "title": "Thelonious Monk Septet - Monk's Music - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-septet-monks-music-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_12-242__185151__01242024101258-4400.jpg?v=1715821607",
+      "published_at": "2024-05-15T18:37:57-07:00",
+      "created_at": "2024-05-15T18:08:48-07:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7232336494798",
       "label_id": "analogue_productions",
       "title": "Hank Mobley - Mobley's 2nd Message - Analogue Productions LP",
@@ -9961,24 +9979,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7423381831886",
-      "label_id": "analogue_productions",
-      "title": "Thelonious Monk Septet - Monk's Music - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-septet-monks-music-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_12-242__185151__01242024101258-4400.jpg?v=1715821607",
-      "published_at": "2024-05-15T18:37:57-07:00",
-      "created_at": "2024-05-15T18:08:48-07:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10088,23 +10088,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7195677753550",
-      "label_id": "analogue_productions",
-      "title": "Eric Dolphy - Far Cry - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/eric-dolphy-far-cry-stereo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8270__77080__04062012022904-9201.jpg?v=1682540187",
-      "published_at": "2023-04-26T13:16:25-07:00",
-      "created_at": "2023-04-26T13:16:25-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7591945928910",
       "label_id": "analogue_productions",
       "title": "Billy Cobham - Spectrum - Analogue Productions 45rpm LP",
@@ -10117,6 +10100,23 @@
         "180g",
         "45 RPM",
         "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7195677753550",
+      "label_id": "analogue_productions",
+      "title": "Eric Dolphy - Far Cry - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/eric-dolphy-far-cry-stereo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8270__77080__04062012022904-9201.jpg?v=1682540187",
+      "published_at": "2023-04-26T13:16:25-07:00",
+      "created_at": "2023-04-26T13:16:25-07:00",
+      "specs": [
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10667,6 +10667,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542899114190",
+      "label_id": "analogue_productions",
+      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
+      "published_at": "2025-01-28T14:37:09-07:00",
+      "created_at": "2025-01-28T12:21:25-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7254368092366",
       "label_id": "analogue_productions",
       "title": "Charles Mingus - Oh Yeah - Analogue Productions 45rpm LP",
@@ -10698,23 +10715,6 @@
       "specs": [
         "200g",
         "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542899114190",
-      "label_id": "analogue_productions",
-      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
-      "published_at": "2025-01-28T14:37:09-07:00",
-      "created_at": "2025-01-28T12:21:25-07:00",
-      "specs": [
-        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10794,6 +10794,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7655098089678",
+      "label_id": "analogue_productions",
+      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
+      "published_at": "2026-01-15T15:03:26-07:00",
+      "created_at": "2026-01-15T14:58:16-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360838729934",
       "label_id": "analogue_productions",
       "title": "Count Basie: Kansas City 3 - For the Second Time - Analogue Productions Pablo LP",
@@ -10821,25 +10840,6 @@
       "created_at": "2024-03-25T14:20:14-07:00",
       "specs": [
         "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7655098089678",
-      "label_id": "analogue_productions",
-      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
-      "published_at": "2026-01-15T15:03:26-07:00",
-      "created_at": "2026-01-15T14:58:16-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
         "Gatefold"
       ],
       "preorder": false,
@@ -11309,23 +11309,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7360833650894",
-      "label_id": "analogue_productions",
-      "title": "Ella Fitzgerald - Take Love Easy - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-analogue-productions-lp-8",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_159__185793__02272024115050-2224.jpg?v=1711406838",
-      "published_at": "2024-03-25T18:07:02-07:00",
-      "created_at": "2024-03-25T15:45:13-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7652472651982",
       "label_id": "analogue_productions",
       "title": "Bill Evans - Quintessence - Analogue Productions 45rpm LP",
@@ -11338,6 +11321,23 @@
         "180g",
         "45 RPM",
         "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7360833650894",
+      "label_id": "analogue_productions",
+      "title": "Ella Fitzgerald - Take Love Easy - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-analogue-productions-lp-8",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_159__185793__02272024115050-2224.jpg?v=1711406838",
+      "published_at": "2024-03-25T18:07:02-07:00",
+      "created_at": "2024-03-25T15:45:13-07:00",
+      "specs": [
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11401,6 +11401,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542899769550",
+      "label_id": "analogue_productions",
+      "title": "Benny Carter & Oscar Peterson - Benny Carter Meets Oscar Peterson - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-benny-carter-oscar-peterson-benny-carter-meets-oscar-peterson-acoustic-sounds-pablo-series-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab192__52630.jpg?v=1738092789",
+      "published_at": "2025-01-28T14:34:56-07:00",
+      "created_at": "2025-01-28T12:33:53-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7653464113358",
       "label_id": "analogue_productions",
       "title": "Miles Davis Quintet - The Great Prestige Recordings - Analogue Productions LP Box Set",
@@ -11445,24 +11463,6 @@
       "created_at": "2025-01-28T12:24:52-07:00",
       "specs": [
         "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542899769550",
-      "label_id": "analogue_productions",
-      "title": "Benny Carter & Oscar Peterson - Benny Carter Meets Oscar Peterson - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-benny-carter-oscar-peterson-benny-carter-meets-oscar-peterson-acoustic-sounds-pablo-series-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab192__52630.jpg?v=1738092789",
-      "published_at": "2025-01-28T14:34:56-07:00",
-      "created_at": "2025-01-28T12:33:53-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11576,6 +11576,24 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7542899409102",
+      "label_id": "analogue_productions",
+      "title": "The Clark Terry Five - Memories of Duke - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-the-clark-terry-five-memories-of-duke-acoustic-sounds-pablo-series-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab195__94519.jpg?v=1738092452",
+      "published_at": "2025-01-28T14:42:55-07:00",
+      "created_at": "2025-01-28T12:28:12-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-06T11:57:24.740140+00:00"
     },
     {
       "id": "7012941660366",
