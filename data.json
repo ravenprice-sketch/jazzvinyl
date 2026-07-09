@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T10:09:31.364798+00:00",
-  "count": 652,
+  "updated": "2026-07-09T10:47:50.710170+00:00",
+  "count": 647,
   "items": [
     {
       "id": "8487131054271",
@@ -6384,24 +6384,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "14700035473775",
-      "label_id": "craft_ojc",
-      "title": "Here’s Lee Morgan (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/here-s-lee-morgan-original-jazz-classics-series180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00857LeeMorgan-Here_sLeeMorganPackShotwobi.png?v=1744122572",
-      "published_at": "2026-05-05T16:53:52-05:00",
-      "created_at": "2025-04-07T17:35:38-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": true,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "14699903025519",
       "label_id": "craft_ojc",
       "title": "Moon Beams (Original Jazz Classics Series) (180g LP)",
@@ -8704,40 +8686,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "14932452409716",
-      "label_id": "verve_vault",
-      "title": "Pharoah Sanders: Elevation (Verve Vault Series) LP",
-      "url": "https://store.ververecords.com/products/pharoah-sanders-elevation-verve-vault-series-lp",
-      "price": "27.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/PharohSanders.png?v=1770666318",
-      "published_at": "2026-02-11T09:00:38-05:00",
-      "created_at": "2026-02-09T13:31:35-05:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Vault Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "14932452376948",
-      "label_id": "verve_vault",
-      "title": "Gabor Szabo: Spellbinder (Verve Vault Series) LP",
-      "url": "https://store.ververecords.com/products/gabor-szabo-spellbinder-verve-vault-series-lp",
-      "price": "27.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GaborSzabo.png?v=1770666993",
-      "published_at": "2026-02-11T09:00:38-05:00",
-      "created_at": "2026-02-09T13:31:35-05:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Vault Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "14932452311412",
       "label_id": "verve_vault",
       "title": "Sonny Rollins: Brass Trio (Verve Vault Series) LP",
@@ -8763,23 +8711,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/StanGetz_3f1f70f0-6216-4d2b-a468-d6e6bf570392.png?v=1770667064",
       "published_at": "2026-02-11T09:00:37-05:00",
       "created_at": "2026-02-09T13:31:34-05:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Vault Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "14856945467764",
-      "label_id": "verve_vault",
-      "title": "Blossom Dearie: Give Him The Ooh-La-La (Verve Vault Series) LP",
-      "url": "https://store.ververecords.com/products/blossom-dearie-give-him-the-ooh-la-la-verve-vault-series-lp",
-      "price": "27.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/oulala_50a8a2c3-42f5-4850-bc25-e185885be51f.png?v=1762399155",
-      "published_at": "2025-11-13T09:04:48-05:00",
-      "created_at": "2025-11-05T22:11:12-05:00",
       "specs": [
         "180g"
       ],
@@ -8882,23 +8813,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/DizzyGillespie_SonnyStitt_SonnyRollins-SonnySideUp_LP.png?v=1755724554",
       "published_at": "2025-08-22T08:49:28-04:00",
       "created_at": "2025-08-20T17:04:05-04:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Vault Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "14780654158196",
-      "label_id": "verve_vault",
-      "title": "The Composer Of Desafinado, Plays (Verve Vault Series) LP",
-      "url": "https://store.ververecords.com/products/the-composer-of-desafinado-plays-verve-vault-series-lp",
-      "price": "27.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/AntonioCarlosJobim-TheComposerOfDesafinado_Plays_LP.png?v=1755724550",
-      "published_at": "2025-08-22T08:49:27-04:00",
-      "created_at": "2025-08-20T17:03:29-04:00",
       "specs": [
         "180g"
       ],
@@ -9419,7 +9333,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
