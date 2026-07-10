@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T10:47:50.710170+00:00",
+  "updated": "2026-07-10T10:46:09.075347+00:00",
   "count": 647,
   "items": [
     {
@@ -6198,7 +6198,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10325,6 +10325,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336691406",
+      "label_id": "analogue_productions",
+      "title": "Eddie 'Lockjaw' Davis & Johnny Griffin Quintet - The Tenor Scene - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/eddie-lockjaw-davis-johnny-griffin-quintet-the-tenor-scene-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7191nb__09643.jpg?v=1689456298",
+      "published_at": "2023-07-15T17:00:05-07:00",
+      "created_at": "2023-07-15T14:24:53-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360819265742",
       "label_id": "analogue_productions",
       "title": "Count Basie - 88 Basie Street - Analogue Productions Pablo LP",
@@ -10342,14 +10359,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7232336691406",
+      "id": "7232335970510",
       "label_id": "analogue_productions",
-      "title": "Eddie 'Lockjaw' Davis & Johnny Griffin Quintet - The Tenor Scene - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/eddie-lockjaw-davis-johnny-griffin-quintet-the-tenor-scene-analogue-productions-lp",
+      "title": "Jimmy Forrest - Out Of The Forrest - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/jimmy-forrest-out-of-the-forrest-analogue-productions-lp",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7191nb__09643.jpg?v=1689456298",
-      "published_at": "2023-07-15T17:00:05-07:00",
-      "created_at": "2023-07-15T14:24:53-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7202b__32569.jpg?v=1689454967",
+      "published_at": "2023-07-15T17:00:02-07:00",
+      "created_at": "2023-07-15T14:02:41-07:00",
       "specs": [
         "180g"
       ],
@@ -10428,23 +10445,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7232335970510",
-      "label_id": "analogue_productions",
-      "title": "Jimmy Forrest - Out Of The Forrest - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/jimmy-forrest-out-of-the-forrest-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7202b__32569.jpg?v=1689454967",
-      "published_at": "2023-07-15T17:00:02-07:00",
-      "created_at": "2023-07-15T14:02:41-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7542083059918",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Kind of Blue - Analogue Productions 33rpm UHQR LP Box Set",
@@ -10472,6 +10472,24 @@
       "created_at": "2023-07-15T14:17:17-07:00",
       "specs": [
         "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7486238064846",
+      "label_id": "analogue_productions",
+      "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-chico-freeman-spirit-sensitive-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp151__22215.jpg?v=1723676847",
+      "published_at": "2024-08-14T20:58:27-07:00",
+      "created_at": "2024-08-14T16:08:22-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10555,24 +10573,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp173__49558.jpg?v=1728584162",
       "published_at": "2024-10-10T11:24:12-07:00",
       "created_at": "2024-10-10T11:18:25-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7486238064846",
-      "label_id": "analogue_productions",
-      "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-chico-freeman-spirit-sensitive-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp151__22215.jpg?v=1723676847",
-      "published_at": "2024-08-14T20:58:27-07:00",
-      "created_at": "2024-08-14T16:08:22-07:00",
       "specs": [
         "180g",
         "Gatefold"
