@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T09:19:59.396505+00:00",
-  "count": 647,
+  "updated": "2026-07-12T09:44:48.485802+00:00",
+  "count": 648,
   "items": [
     {
       "id": "8487131054271",
@@ -8680,7 +8680,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9267,14 +9267,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7327191662798",
+      "id": "7467033624782",
       "label_id": "analogue_productions",
-      "title": "John Coltrane - Ballads Analogue Productions 45rpm UHQR LP",
-      "url": "https://www.theingroove.com/products/pre-order-john-coltrane-ballads-analogue-productions-45rpm-uhqr-lp",
+      "title": "Bill Evans Trio - Waltz For Debby - Analogue Productions 45rpm UHQR LP",
+      "url": "https://www.theingroove.com/products/pre-order-bill-evans-trio-waltz-for-debby-analogue-productions-45rpm-uhqr-lp",
       "price": "149.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/TEMPAUHQR_0008-45__175753__02062024021116-4471.jpg?v=1707330187",
-      "published_at": "2024-02-07T11:24:06-07:00",
-      "created_at": "2024-02-07T11:22:58-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AUHQR_0018-45__178726__05092023080130-2184.jpg?v=1719851126",
+      "published_at": "2024-07-01T09:26:09-07:00",
+      "created_at": "2024-07-01T09:25:35-07:00",
       "specs": [
         "200g",
         "45 RPM"
@@ -9285,14 +9285,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7467033624782",
+      "id": "7327191662798",
       "label_id": "analogue_productions",
-      "title": "Bill Evans Trio - Waltz For Debby - Analogue Productions 45rpm UHQR LP",
-      "url": "https://www.theingroove.com/products/pre-order-bill-evans-trio-waltz-for-debby-analogue-productions-45rpm-uhqr-lp",
+      "title": "John Coltrane - Ballads Analogue Productions 45rpm UHQR LP",
+      "url": "https://www.theingroove.com/products/pre-order-john-coltrane-ballads-analogue-productions-45rpm-uhqr-lp",
       "price": "149.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AUHQR_0018-45__178726__05092023080130-2184.jpg?v=1719851126",
-      "published_at": "2024-07-01T09:26:09-07:00",
-      "created_at": "2024-07-01T09:25:35-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/TEMPAUHQR_0008-45__175753__02062024021116-4471.jpg?v=1707330187",
+      "published_at": "2024-02-07T11:24:06-07:00",
+      "created_at": "2024-02-07T11:22:58-07:00",
       "specs": [
         "200g",
         "45 RPM"
@@ -11527,6 +11527,25 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7693801881806",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
+      "published_at": "2026-04-29T23:12:40-07:00",
+      "created_at": "2026-04-29T18:31:18-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-12T09:44:48.481838+00:00"
     },
     {
       "id": "7663532671182",
