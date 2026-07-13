@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T09:44:48.485802+00:00",
+  "updated": "2026-07-13T10:52:20.201273+00:00",
   "count": 648,
   "items": [
     {
@@ -11406,6 +11406,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569201270990",
+      "label_id": "analogue_productions",
+      "title": "Billie Holiday - Songs For Distingue Lovers - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/billie-holiday-songs-for-distingue-lovers-analogue-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_64e9cf1a-4c4f-4aa0-b39c-2df2c22d579e.jpg?v=1617412369",
+      "published_at": "2021-04-02T18:12:48-07:00",
+      "created_at": "2021-04-02T18:12:49-07:00",
+      "specs": [
+        "180g",
+        "45 RPM"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7653464113358",
       "label_id": "analogue_productions",
       "title": "Miles Davis Quintet - The Great Prestige Recordings - Analogue Productions LP Box Set",
@@ -11469,24 +11487,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569201270990",
-      "label_id": "analogue_productions",
-      "title": "Billie Holiday - Songs For Distingue Lovers - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/billie-holiday-songs-for-distingue-lovers-analogue-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_64e9cf1a-4c4f-4aa0-b39c-2df2c22d579e.jpg?v=1617412369",
-      "published_at": "2021-04-02T18:12:48-07:00",
-      "created_at": "2021-04-02T18:12:49-07:00",
-      "specs": [
-        "180g",
-        "45 RPM"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
