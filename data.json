@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T10:52:20.201273+00:00",
+  "updated": "2026-07-14T09:49:32.767471+00:00",
   "count": 648,
   "items": [
     {
@@ -11154,6 +11154,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7652471570638",
+      "label_id": "analogue_productions",
+      "title": "Chet Baker - In New York - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-chet-baker-in-new-york-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/194137__04222025102411-666.jpg?v=1767252249",
+      "published_at": "2026-01-01T00:23:50-07:00",
+      "created_at": "2025-12-31T17:52:03-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7250119917774",
       "label_id": "analogue_productions",
       "title": "Jimmy Witherspoon - Evenin' Blues Analogue Productions LP  (Stereo)",
@@ -11171,14 +11190,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7652471570638",
+      "id": "7652472651982",
       "label_id": "analogue_productions",
-      "title": "Chet Baker - In New York - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-chet-baker-in-new-york-analogue-productions-45rpm-lp",
+      "title": "Bill Evans - Quintessence - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-bill-evans-quintessence-analogue-productions-45rpm-lp",
       "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/194137__04222025102411-666.jpg?v=1767252249",
-      "published_at": "2026-01-01T00:23:50-07:00",
-      "created_at": "2025-12-31T17:52:03-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_208-45__194139__04222025103925-3764.jpg?v=1767251590",
+      "published_at": "2026-01-01T00:11:22-07:00",
+      "created_at": "2025-12-31T18:04:55-07:00",
       "specs": [
         "180g",
         "45 RPM",
@@ -11237,25 +11256,6 @@
       "created_at": "2021-04-02T15:22:28-07:00",
       "specs": [
         "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7652472651982",
-      "label_id": "analogue_productions",
-      "title": "Bill Evans - Quintessence - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-bill-evans-quintessence-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_208-45__194139__04222025103925-3764.jpg?v=1767251590",
-      "published_at": "2026-01-01T00:11:22-07:00",
-      "created_at": "2025-12-31T18:04:55-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
         "Gatefold"
       ],
       "preorder": false,
