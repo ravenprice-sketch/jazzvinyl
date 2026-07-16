@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T09:53:56.373151+00:00",
+  "updated": "2026-07-16T10:00:07.225703+00:00",
   "count": 648,
   "items": [
     {
@@ -9492,7 +9492,7 @@
       "title": "Sonny Rollins - Tenor Madness - Analogue Productions LP",
       "url": "https://www.theingroove.com/products/sonny-rollins-tenor-madness-analogue-productions-lp",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/APRJ_7047__78186__03192013033011-8875.jpg?v=1653523969",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/18aplppr7047nb__87461.1780001709.1280.1280.jpg?v=1784178418",
       "published_at": "2022-05-25T17:12:48-07:00",
       "created_at": "2022-05-25T17:12:47-07:00",
       "specs": [
@@ -9875,7 +9875,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10709,6 +10709,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7655098089678",
+      "label_id": "analogue_productions",
+      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
+      "published_at": "2026-01-15T15:03:26-07:00",
+      "created_at": "2026-01-15T14:58:16-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360834076878",
       "label_id": "analogue_productions",
       "title": "Sarah Vaughan - How Long Has This Been Going On? - Analogue Productions Pablo LP",
@@ -10774,25 +10793,6 @@
       "specs": [
         "200g",
         "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7655098089678",
-      "label_id": "analogue_productions",
-      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
-      "published_at": "2026-01-15T15:03:26-07:00",
-      "created_at": "2026-01-15T14:58:16-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
