@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T10:00:07.225703+00:00",
+  "updated": "2026-07-17T09:50:01.772747+00:00",
   "count": 648,
   "items": [
     {
@@ -1283,7 +1283,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -1623,7 +1623,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -2537,7 +2537,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -2613,7 +2613,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -4565,7 +4565,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5178,7 +5178,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5196,7 +5196,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5268,7 +5268,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -8536,7 +8536,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GILBERT_GRAVY_LP_1.png?v=1781626761",
       "published_at": "2026-06-22T09:00:13-04:00",
       "created_at": "2026-06-16T10:48:33-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -8551,7 +8554,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/RoyAyers.png?v=1779285937",
       "published_at": "2026-05-22T08:59:29-04:00",
       "created_at": "2026-05-19T15:38:07-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -8566,7 +8572,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/JohnColtraneMeditationsLP.png?v=1778079510",
       "published_at": "2026-05-13T14:11:51-04:00",
       "created_at": "2026-05-06T10:44:27-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -8581,7 +8590,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GilEvansLP.png?v=1778079505",
       "published_at": "2026-05-13T14:11:49-04:00",
       "created_at": "2026-05-06T10:44:26-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -8645,7 +8657,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/ArtFarmer_ListenTo_1LP-ProductShot.png?v=1773343891",
       "published_at": "2026-03-16T09:00:19-04:00",
       "created_at": "2026-03-10T12:31:11-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -11332,6 +11347,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7637427421390",
+      "label_id": "analogue_productions",
+      "title": "Cannonball Adderley with Bill Evans - Know What I Mean? - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/cannonball-adderley-with-bill-evans-know-what-i-mean-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AJAZ_9433__10026__01152009112512-3134.jpg?v=1763493304",
+      "published_at": "2025-11-18T13:08:57-07:00",
+      "created_at": "2025-11-18T12:19:55-07:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "45 RPM"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7637427028174",
       "label_id": "analogue_productions",
       "title": "Bill Evans - New Jazz Conceptions (Mono) - Analogue Productions 45rpm LP",
@@ -11362,25 +11396,6 @@
       "created_at": "2025-01-28T12:15:32-07:00",
       "specs": [
         "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7637427421390",
-      "label_id": "analogue_productions",
-      "title": "Cannonball Adderley with Bill Evans - Know What I Mean? - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/cannonball-adderley-with-bill-evans-know-what-i-mean-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AJAZ_9433__10026__01152009112512-3134.jpg?v=1763493304",
-      "published_at": "2025-11-18T13:08:57-07:00",
-      "created_at": "2025-11-18T12:19:55-07:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "45 RPM"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",

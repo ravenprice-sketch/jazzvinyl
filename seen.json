@@ -1208,7 +1208,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -1548,7 +1548,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -2462,7 +2462,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -2538,7 +2538,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -4529,7 +4529,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5142,7 +5142,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5160,7 +5160,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5232,7 +5232,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9658,7 +9658,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/RoyAyers.png?v=1779285937",
       "published_at": "2026-05-22T08:59:29-04:00",
       "created_at": "2026-05-19T15:38:07-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -9673,7 +9676,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/JohnColtraneMeditationsLP.png?v=1778079510",
       "published_at": "2026-05-13T14:11:51-04:00",
       "created_at": "2026-05-06T10:44:27-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -9688,7 +9694,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GilEvansLP.png?v=1778079505",
       "published_at": "2026-05-13T14:11:49-04:00",
       "created_at": "2026-05-06T10:44:26-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -9752,7 +9761,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/ArtFarmer_ListenTo_1LP-ProductShot.png?v=1773343891",
       "published_at": "2026-03-16T09:00:19-04:00",
       "created_at": "2026-03-10T12:31:11-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
@@ -10005,7 +10017,10 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GILBERT_GRAVY_LP_1.png?v=1781626761",
       "published_at": "2026-06-22T09:00:13-04:00",
       "created_at": "2026-06-16T10:48:33-04:00",
-      "specs": [],
+      "specs": [
+        "AAA",
+        "180g"
+      ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
