@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T09:46:03.935633+00:00",
-  "count": 648,
+  "updated": "2026-07-20T10:43:43.844682+00:00",
+  "count": 645,
   "items": [
     {
       "id": "8487131054271",
@@ -8855,21 +8855,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6796623937742",
-      "label_id": "analogue_productions",
-      "title": "Louis Armstrong - Satchmo Plays King Oliver - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/louis-armstrong-satchmo-plays-king-oliver-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/R-11317907-1514095632-3234_jpeg.jpg?v=1633222677",
-      "published_at": "2021-10-02T17:57:56-07:00",
-      "created_at": "2021-10-02T17:57:55-07:00",
-      "specs": [],
-      "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7523016474830",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Birth of the Blue - Analogue Productions LP",
@@ -8906,24 +8891,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7239547879630",
-      "label_id": "analogue_productions",
-      "title": "John Coltrane - A Love Supreme - Analogue Productions 45rpm UHQR LP",
-      "url": "https://www.theingroove.com/products/pre-order-john-coltrane-a-love-supreme-analogue-productions-45rpm-uhqr-lp",
-      "price": "149.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/TEMPAUHQR_0007-45__175752__08042023095556-479.jpg?v=1691175554",
-      "published_at": "2023-08-04T12:00:52-07:00",
-      "created_at": "2023-08-04T11:59:07-07:00",
-      "specs": [
-        "200g",
-        "45 RPM"
-      ],
-      "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569016623310",
       "label_id": "analogue_productions",
       "title": "Dave Brubeck Quartet - Time Out - Analogue Productions 45rpm LP",
@@ -8936,23 +8903,6 @@
         "180g",
         "45 RPM",
         "Gatefold"
-      ],
-      "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569020817614",
-      "label_id": "analogue_productions",
-      "title": "Herbie Hancock - Head Hunters - Analogue Productions 33rpm LP",
-      "url": "https://www.theingroove.com/products/herbie-hancock-head-hunters-analog-productions-33rpm-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_540a84db-f2ff-4e43-a2c9-ffff2383fbe5.jpg?v=1617402271",
-      "published_at": "2021-04-02T15:24:30-07:00",
-      "created_at": "2021-04-02T15:24:31-07:00",
-      "specs": [
-        "200g"
       ],
       "preorder": true,
       "label_name": "Analogue Productions — Jazz",
@@ -10598,6 +10548,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542899114190",
+      "label_id": "analogue_productions",
+      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
+      "published_at": "2025-01-28T14:37:09-07:00",
+      "created_at": "2025-01-28T12:21:25-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7255556030670",
       "label_id": "analogue_productions",
       "title": "Charles Mingus - Pithecanthropus Erectus - Analogue Productions 45rpm LP",
@@ -10660,23 +10627,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab187__05096.jpg?v=1738091239",
       "published_at": "2025-01-28T14:37:30-07:00",
       "created_at": "2025-01-28T12:08:09-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542899114190",
-      "label_id": "analogue_productions",
-      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
-      "published_at": "2025-01-28T14:37:09-07:00",
-      "created_at": "2025-01-28T12:21:25-07:00",
       "specs": [
         "180g"
       ],
