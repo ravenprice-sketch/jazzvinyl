@@ -10061,6 +10061,42 @@
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-22T19:57:56.451077+00:00"
+    },
+    "15160691327348": {
+      "id": "15160691327348",
+      "label_id": "verve_vault",
+      "title": "Mel Torme: Swings Schubert Alley (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/mel-torme-swings-schubert-alley-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/MelTorme_SwingsSchubertAlley_VerveVaultSeries_LP.png?v=1784229323",
+      "published_at": "2026-07-21T16:13:22-04:00",
+      "created_at": "2026-07-16T15:14:26-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Vault Series",
+      "blurb": "",
+      "first_seen": "2026-07-22T10:18:17.929334+00:00"
+    },
+    "15160685527412": {
+      "id": "15160685527412",
+      "label_id": "verve_vault",
+      "title": "Sister Rosetta Tharpe: Gospel Train (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/sister-rosetta-tharpe-gospel-train-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SisterRosettaTharpe_GospelTrain_VerveVaultSeries_LP.png?v=1784228647",
+      "published_at": "2026-07-21T16:13:20-04:00",
+      "created_at": "2026-07-16T15:02:16-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Vault Series",
+      "blurb": "",
+      "first_seen": "2026-07-22T10:18:17.929334+00:00"
     }
   },
   "_first_seen": {
@@ -10876,7 +10912,9 @@
     "15130661093748": "2026-07-07T10:48:47.227908+00:00",
     "7693801881806": "2026-07-12T09:44:48.481838+00:00",
     "8498565546175": "2026-07-21T10:17:58.405544+00:00",
-    "8498564825279": "2026-07-21T10:17:58.405544+00:00"
+    "8498564825279": "2026-07-21T10:17:58.405544+00:00",
+    "15160691327348": "2026-07-22T10:18:17.929334+00:00",
+    "15160685527412": "2026-07-22T10:18:17.929334+00:00"
   },
   "analogue_productions": {
     "7065419186382": {

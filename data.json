@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T10:17:58.409482+00:00",
-  "count": 647,
+  "updated": "2026-07-22T10:18:17.933504+00:00",
+  "count": 649,
   "items": [
     {
       "id": "8487131054271",
@@ -8564,6 +8564,42 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "15160691327348",
+      "label_id": "verve_vault",
+      "title": "Mel Torme: Swings Schubert Alley (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/mel-torme-swings-schubert-alley-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/MelTorme_SwingsSchubertAlley_VerveVaultSeries_LP.png?v=1784229323",
+      "published_at": "2026-07-21T16:13:22-04:00",
+      "created_at": "2026-07-16T15:14:26-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Vault Series",
+      "blurb": "",
+      "first_seen": "2026-07-22T10:18:17.929334+00:00"
+    },
+    {
+      "id": "15160685527412",
+      "label_id": "verve_vault",
+      "title": "Sister Rosetta Tharpe: Gospel Train (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/sister-rosetta-tharpe-gospel-train-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SisterRosettaTharpe_GospelTrain_VerveVaultSeries_LP.png?v=1784228647",
+      "published_at": "2026-07-21T16:13:20-04:00",
+      "created_at": "2026-07-16T15:02:16-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Vault Series",
+      "blurb": "",
+      "first_seen": "2026-07-22T10:18:17.929334+00:00"
+    },
+    {
       "id": "15112555561332",
       "label_id": "verve_vault",
       "title": "George Benson: Giblet Gravy LP (Verve Vault Series) LP",
@@ -10907,6 +10943,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7360820379854",
+      "label_id": "analogue_productions",
+      "title": "Count Basie - Farmers Market Barbecue - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_157__185791__02272024114458-1230_cbf4c954-c4d3-434a-a257-ad6a66f4206a.jpg?v=1784329754",
+      "published_at": "2024-03-25T17:55:06-07:00",
+      "created_at": "2024-03-25T14:08:55-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7250120147150",
       "label_id": "analogue_productions",
       "title": "The Prestige All Stars - Tenor Conclave - Analogue Productions LP (Mono)",
@@ -10956,23 +11009,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7360820379854",
-      "label_id": "analogue_productions",
-      "title": "Count Basie - Farmers Market Barbecue - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_157__185791__02272024114458-1230_cbf4c954-c4d3-434a-a257-ad6a66f4206a.jpg?v=1784329754",
-      "published_at": "2024-03-25T17:55:06-07:00",
-      "created_at": "2024-03-25T14:08:55-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
