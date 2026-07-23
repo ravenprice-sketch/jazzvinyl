@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T10:18:17.933504+00:00",
-  "count": 649,
+  "updated": "2026-07-23T10:13:24.571344+00:00",
+  "count": 648,
   "items": [
     {
       "id": "8487131054271",
@@ -6222,24 +6222,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "14782682988911",
-      "label_id": "craft_ojc",
-      "title": "After Hours (Original Jazz Classics Series) (180g LP)",
-      "url": "https://craftrecordings.com/products/thad-jones-frank-wess-mal-waldron-kenny-burrell-after-hours-original-jazz-classics-series-180g-lp",
-      "price": "39.00",
-      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/CR00868AfterHoursPackShotwobi.png?v=1756234379",
-      "published_at": "2025-12-12T13:46:51-06:00",
-      "created_at": "2025-08-26T13:59:37-05:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": true,
-      "label_name": "Craft Recordings — OJC Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "14782703403375",
       "label_id": "craft_ojc",
       "title": "Soul Junction (Original Jazz Classics Series) (180g LP)",
@@ -7537,7 +7519,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
