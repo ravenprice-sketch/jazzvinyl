@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T10:13:24.571344+00:00",
+  "updated": "2026-07-24T10:09:32.789197+00:00",
   "count": 648,
   "items": [
     {
@@ -9971,6 +9971,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6984950382798",
+      "label_id": "analogue_productions",
+      "title": "John Coltrane - Soultrane - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/john-coltrane-soultrane-mono-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe6044_AAPJ_7142__10706__01152009112608-7204.jpg?v=1649112377",
+      "published_at": "2022-04-04T15:46:16-07:00",
+      "created_at": "2022-04-04T15:46:15-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569297510606",
       "label_id": "analogue_productions",
       "title": "Various Artists - The Sound Of Jazz - Analogue Productions 45rpm LP",
@@ -9985,23 +10002,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6984950382798",
-      "label_id": "analogue_productions",
-      "title": "John Coltrane - Soultrane - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/john-coltrane-soultrane-mono-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe6044_AAPJ_7142__10706__01152009112608-7204.jpg?v=1649112377",
-      "published_at": "2022-04-04T15:46:16-07:00",
-      "created_at": "2022-04-04T15:46:15-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
