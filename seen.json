@@ -2899,6 +2899,24 @@
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-07-07T10:48:47.227908+00:00"
+    },
+    "8503295377599": {
+      "id": "8503295377599",
+      "label_id": "bluenote_tone_poet",
+      "title": "Sonny Clark – The Art of the Trio (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/sonny-clark-the-art-of-the-trio-tone-poet-vinyl-series",
+      "price": "54.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SonnyClark_ArtOfTheTrio_EXPANDED.png?v=1784145837",
+      "published_at": "2026-07-27T08:59:53-04:00",
+      "created_at": "2026-07-15T16:04:35-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-07-28T10:27:05.160218+00:00"
     }
   },
   "bluenote_classic": {
@@ -10914,7 +10932,8 @@
     "8498565546175": "2026-07-21T10:17:58.405544+00:00",
     "8498564825279": "2026-07-21T10:17:58.405544+00:00",
     "15160691327348": "2026-07-22T10:18:17.929334+00:00",
-    "15160685527412": "2026-07-22T10:18:17.929334+00:00"
+    "15160685527412": "2026-07-22T10:18:17.929334+00:00",
+    "8503295377599": "2026-07-28T10:27:05.160218+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
