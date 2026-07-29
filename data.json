@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-28T10:27:05.164170+00:00",
-  "count": 649,
+  "updated": "2026-07-29T10:31:53.550563+00:00",
+  "count": 650,
   "items": [
     {
       "id": "8503295377599",
@@ -5434,6 +5434,24 @@
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "4437144895575",
+      "label_id": "bluenote_classic",
+      "title": "Larry Young - Into Somethin  LP (Blue Note Classic Vinyl Series)",
+      "url": "https://store.bluenote.com/products/larry-young-into-somethin-lp-blue-note-classic-vinyl-edition",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/products/LarryYoung-IntoSomethin_1LP-ProductShot.png?v=1584125864",
+      "published_at": "2026-07-28T13:27:41-04:00",
+      "created_at": "2020-03-13T10:37:51-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-07-29T10:31:53.547541+00:00"
     },
     {
       "id": "4437144174679",
