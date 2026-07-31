@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T10:16:04.139086+00:00",
+  "updated": "2026-07-31T10:30:38.749748+00:00",
   "count": 650,
   "items": [
     {
@@ -646,7 +646,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -3224,7 +3224,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9143,6 +9143,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569143501006",
+      "label_id": "analogue_productions",
+      "title": "Hugh Masekela - Hope - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/hugh-masekela-hope-analog-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_117__127593__02142020021542-1245.jpg?v=1785125332",
+      "published_at": "2021-04-02T17:06:23-07:00",
+      "created_at": "2021-04-02T17:06:24-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7254885531854",
       "label_id": "analogue_productions",
       "title": "John Coltrane - Giant Steps - Analogue Productions 45rpm LP",
@@ -9154,24 +9172,6 @@
       "specs": [
         "180g",
         "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569143501006",
-      "label_id": "analogue_productions",
-      "title": "Hugh Masekela - Hope - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/hugh-masekela-hope-analog-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_117__127593__02142020021542-1245.jpg?v=1785125332",
-      "published_at": "2021-04-02T17:06:23-07:00",
-      "created_at": "2021-04-02T17:06:24-07:00",
-      "specs": [
-        "180g",
         "Gatefold"
       ],
       "preorder": false,
@@ -10553,6 +10553,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542899114190",
+      "label_id": "analogue_productions",
+      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
+      "published_at": "2025-01-28T14:37:09-07:00",
+      "created_at": "2025-01-28T12:21:25-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7486238064846",
       "label_id": "analogue_productions",
       "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
@@ -10611,23 +10628,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
       "published_at": "2025-01-28T14:40:51-07:00",
       "created_at": "2025-01-28T12:14:06-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542899114190",
-      "label_id": "analogue_productions",
-      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
-      "published_at": "2025-01-28T14:37:09-07:00",
-      "created_at": "2025-01-28T12:21:25-07:00",
       "specs": [
         "180g"
       ],
@@ -11547,6 +11547,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7693801881806",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
+      "published_at": "2026-04-29T23:12:40-07:00",
+      "created_at": "2026-04-29T18:31:18-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-12T09:44:48.481838+00:00"
+    },
+    {
       "id": "7542901932238",
       "label_id": "analogue_productions",
       "title": "Count Basie & Oscar Peterson - \"Satch\" and \"Josh\" - Analogue Productions Pablo LP",
@@ -11582,25 +11601,6 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7693801881806",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
-      "published_at": "2026-04-29T23:12:40-07:00",
-      "created_at": "2026-04-29T18:31:18-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-07-12T09:44:48.481838+00:00"
     },
     {
       "id": "7663532671182",
