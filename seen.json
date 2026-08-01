@@ -302,7 +302,7 @@
         "Mono",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -3170,7 +3170,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6000,7 +6000,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-22T19:57:56.451077+00:00"
@@ -13533,7 +13533,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
