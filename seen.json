@@ -2917,6 +2917,42 @@
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-07-28T10:27:05.160218+00:00"
+    },
+    "8527320580287": {
+      "id": "8527320580287",
+      "label_id": "bluenote_tone_poet",
+      "title": "Freddie Hubbard – Hub Cap (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/freddie-hubbard-hub-cap-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/FreddieHubbard_HubCap_PROD_SHOT.png?v=1785341624",
+      "published_at": "2026-08-03T09:00:02-04:00",
+      "created_at": "2026-07-29T12:14:04-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-08-04T10:29:21.420426+00:00"
+    },
+    "8515602809023": {
+      "id": "8515602809023",
+      "label_id": "bluenote_tone_poet",
+      "title": "Booker Ervin – Structurally Sound (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/booker-ervin-structurally-sound-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/BookerErvin_StructurallySound_PROD_SHOT.png?v=1784759832",
+      "published_at": "2026-08-03T09:00:01-04:00",
+      "created_at": "2026-07-22T18:36:00-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-08-04T10:29:21.420426+00:00"
     }
   },
   "bluenote_classic": {
@@ -9718,6 +9754,42 @@
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-07-07T10:48:47.227908+00:00"
+    },
+    "15190301344116": {
+      "id": "15190301344116",
+      "label_id": "verve_acoustic",
+      "title": "Grant Green: His Majesty King Funk (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/grant-green-his-majesty-king-funk-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GrantGreen_HisMajestyKingFunk_AcousticSoundsSeries_LP_34018e66-c44b-42dc-b3f5-2ef39e788684.png?v=1785426753",
+      "published_at": "2026-08-03T09:01:12-04:00",
+      "created_at": "2026-07-30T10:29:15-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-08-04T10:29:21.420426+00:00"
+    },
+    "15190300819828": {
+      "id": "15190300819828",
+      "label_id": "verve_acoustic",
+      "title": "Wes Montgomery: California Dreaming (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/wes-montgomery-california-dreaming-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/WesMontgomery_CaliforniaDreaming_AcousticSoundsSeries_LP.png?v=1785426782",
+      "published_at": "2026-08-03T09:01:11-04:00",
+      "created_at": "2026-07-30T10:29:14-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-08-04T10:29:21.420426+00:00"
     }
   },
   "verve_vault": {
@@ -10952,7 +11024,11 @@
     "15160691327348": "2026-07-22T10:18:17.929334+00:00",
     "15160685527412": "2026-07-22T10:18:17.929334+00:00",
     "8503295377599": "2026-07-28T10:27:05.160218+00:00",
-    "4437144895575": "2026-07-29T10:31:53.547541+00:00"
+    "4437144895575": "2026-07-29T10:31:53.547541+00:00",
+    "8527320580287": "2026-08-04T10:29:21.420426+00:00",
+    "8515602809023": "2026-08-04T10:29:21.420426+00:00",
+    "15190301344116": "2026-08-04T10:29:21.420426+00:00",
+    "15190300819828": "2026-08-04T10:29:21.420426+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
