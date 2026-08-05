@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T10:29:21.424513+00:00",
+  "updated": "2026-08-05T10:28:01.589565+00:00",
   "count": 654,
   "items": [
     {
@@ -8857,7 +8857,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9066,7 +9066,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9174,7 +9174,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9192,7 +9192,7 @@
         "200g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9460,7 +9460,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9535,7 +9535,7 @@
         "Mono",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9591,7 +9591,7 @@
         "200g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9659,7 +9659,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9728,7 +9728,7 @@
       "specs": [
         "200g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9782,7 +9782,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9877,7 +9877,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9895,7 +9895,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9949,7 +9949,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10323,7 +10323,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10429,7 +10429,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10775,7 +10775,7 @@
       "specs": [
         "200g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11347,7 +11347,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11442,6 +11442,26 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7637427028174",
+      "label_id": "analogue_productions",
+      "title": "Bill Evans - New Jazz Conceptions (Mono) - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/bill-evans-new-jazz-conceptions-mono-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_12-223-45__65075__02142020021753-9845.jpg?v=1764035561",
+      "published_at": "2025-11-18T13:08:55-07:00",
+      "created_at": "2025-11-18T12:14:16-07:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "45 RPM",
+        "Mono"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360833650894",
       "label_id": "analogue_productions",
       "title": "Ella Fitzgerald - Take Love Easy - Analogue Productions Pablo LP",
@@ -11471,26 +11491,6 @@
         "AAA",
         "180g",
         "45 RPM"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7637427028174",
-      "label_id": "analogue_productions",
-      "title": "Bill Evans - New Jazz Conceptions (Mono) - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/bill-evans-new-jazz-conceptions-mono-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_12-223-45__65075__02142020021753-9845.jpg?v=1764035561",
-      "published_at": "2025-11-18T13:08:55-07:00",
-      "created_at": "2025-11-18T12:14:16-07:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "45 RPM",
-        "Mono"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11688,7 +11688,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
