@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T10:28:01.589565+00:00",
+  "updated": "2026-08-06T10:31:29.137965+00:00",
   "count": 654,
   "items": [
     {
@@ -7099,7 +7099,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -7114,7 +7114,7 @@
       "published_at": "2026-04-27T09:00:17-04:00",
       "created_at": "2026-04-20T13:36:36-04:00",
       "specs": [],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10855,6 +10855,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7423390351566",
+      "label_id": "analogue_productions",
+      "title": "Thelonious Monk & John Coltrane - Thelonious Monk with John Coltrane - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-john-coltrane-thelonious-monk-with-john-coltrane-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp946__29276.jpg?v=1715822576",
+      "published_at": "2024-05-15T18:35:06-07:00",
+      "created_at": "2024-05-15T18:24:36-07:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360834076878",
       "label_id": "analogue_productions",
       "title": "Sarah Vaughan - How Long Has This Been Going On? - Analogue Productions Pablo LP",
@@ -10920,24 +10938,6 @@
       "specs": [
         "200g",
         "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7423390351566",
-      "label_id": "analogue_productions",
-      "title": "Thelonious Monk & John Coltrane - Thelonious Monk with John Coltrane - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-john-coltrane-thelonious-monk-with-john-coltrane-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp946__29276.jpg?v=1715822576",
-      "published_at": "2024-05-15T18:35:06-07:00",
-      "created_at": "2024-05-15T18:24:36-07:00",
-      "specs": [
-        "AAA",
-        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
