@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T10:31:29.137965+00:00",
+  "updated": "2026-08-07T08:48:40.023719+00:00",
   "count": 654,
   "items": [
     {
@@ -9189,7 +9189,7 @@
       "published_at": "2023-02-02T18:55:27-07:00",
       "created_at": "2021-04-02T15:10:56-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Gatefold"
       ],
       "preorder": false,
@@ -9207,7 +9207,7 @@
       "published_at": "2021-12-27T10:57:20-07:00",
       "created_at": "2021-12-27T10:57:19-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -9299,7 +9299,7 @@
       "published_at": "2021-12-27T10:59:01-07:00",
       "created_at": "2021-12-27T10:59:00-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -9316,7 +9316,7 @@
       "published_at": "2022-05-25T17:19:47-07:00",
       "created_at": "2022-05-25T17:19:46-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -9366,7 +9366,7 @@
       "published_at": "2022-05-25T17:30:45-07:00",
       "created_at": "2022-05-25T17:30:44-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -9475,7 +9475,7 @@
       "published_at": "2021-04-02T15:18:14-07:00",
       "created_at": "2021-04-02T15:18:16-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM",
         "Mono"
       ],
@@ -9570,7 +9570,7 @@
       "published_at": "2021-04-02T19:36:29-07:00",
       "created_at": "2021-04-02T19:36:30-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM"
       ],
       "preorder": false,
@@ -9588,7 +9588,7 @@
       "published_at": "2021-04-02T18:56:36-07:00",
       "created_at": "2021-04-02T18:56:36-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Gatefold"
       ],
       "preorder": false,
@@ -9640,7 +9640,7 @@
       "published_at": "2021-04-02T15:20:53-07:00",
       "created_at": "2021-04-02T15:20:54-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -9674,7 +9674,7 @@
       "published_at": "2021-04-02T15:21:02-07:00",
       "created_at": "2021-04-02T15:21:03-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Gatefold"
       ],
       "preorder": true,
@@ -9692,7 +9692,7 @@
       "published_at": "2021-04-02T15:03:04-07:00",
       "created_at": "2021-04-02T15:03:05-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": true,
       "label_name": "Analogue Productions — Jazz",
@@ -9709,7 +9709,7 @@
       "published_at": "2021-04-02T15:10:50-07:00",
       "created_at": "2021-04-02T15:10:51-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": true,
       "label_name": "Analogue Productions — Jazz",
@@ -9726,7 +9726,7 @@
       "published_at": "2023-02-02T15:52:08-07:00",
       "created_at": "2023-02-02T15:52:08-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -9817,7 +9817,7 @@
       "published_at": "2021-04-02T19:18:39-07:00",
       "created_at": "2021-04-02T19:18:40-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM",
         "Gatefold"
       ],
@@ -10035,7 +10035,7 @@
       "published_at": "2021-04-02T14:58:47-07:00",
       "created_at": "2021-04-02T14:58:48-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10133,6 +10133,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336068814",
+      "label_id": "analogue_productions",
+      "title": "Gene Ammons - Nice An' Cool - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/gene-ammons-nice-an-cool-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr18nb__76982.jpg?v=1689455220",
+      "published_at": "2023-07-15T17:00:02-07:00",
+      "created_at": "2023-07-15T14:06:54-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7195530592462",
       "label_id": "analogue_productions",
       "title": "John Coltrane - Standard Coltrane - Analogue Productions LP",
@@ -10159,25 +10176,8 @@
       "published_at": "2021-04-02T18:56:33-07:00",
       "created_at": "2021-04-02T18:56:34-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7232336068814",
-      "label_id": "analogue_productions",
-      "title": "Gene Ammons - Nice An' Cool - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/gene-ammons-nice-an-cool-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr18nb__76982.jpg?v=1689455220",
-      "published_at": "2023-07-15T17:00:02-07:00",
-      "created_at": "2023-07-15T14:06:54-07:00",
-      "specs": [
-        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10410,7 +10410,7 @@
       "published_at": "2021-04-02T15:20:28-07:00",
       "created_at": "2021-04-02T15:20:29-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": true,
       "label_name": "Analogue Productions — Jazz",
@@ -10615,7 +10615,7 @@
       "published_at": "2021-04-02T17:18:43-07:00",
       "created_at": "2021-04-02T17:18:44-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM",
         "Gatefold"
       ],
@@ -10773,7 +10773,7 @@
       "published_at": "2021-04-02T15:32:02-07:00",
       "created_at": "2021-04-02T15:32:03-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10827,7 +10827,7 @@
       "published_at": "2022-06-24T16:54:20-07:00",
       "created_at": "2022-06-24T16:54:19-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -10900,7 +10900,7 @@
       "published_at": "2021-04-02T15:22:21-07:00",
       "created_at": "2021-04-02T15:22:22-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM",
         "Gatefold"
       ],
@@ -10936,7 +10936,7 @@
       "published_at": "2022-06-24T17:12:08-07:00",
       "created_at": "2022-06-24T17:12:06-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -11006,7 +11006,7 @@
       "published_at": "2023-09-04T14:30:32-07:00",
       "created_at": "2023-09-04T14:30:32-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -11059,7 +11059,7 @@
       "published_at": "2023-09-04T14:35:17-07:00",
       "created_at": "2023-09-04T14:35:17-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -11113,7 +11113,7 @@
       "published_at": "2023-09-04T14:36:57-07:00",
       "created_at": "2023-09-04T14:36:57-07:00",
       "specs": [
-        "200g",
+        "180g",
         "Mono"
       ],
       "preorder": false,
@@ -11146,7 +11146,7 @@
       "published_at": "2021-04-02T15:22:29-07:00",
       "created_at": "2021-04-02T15:22:30-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM",
         "Gatefold"
       ],
@@ -11218,7 +11218,7 @@
       "published_at": "2021-04-02T15:20:58-07:00",
       "created_at": "2021-04-02T15:20:59-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11399,7 +11399,7 @@
       "published_at": "2021-04-02T15:31:29-07:00",
       "created_at": "2021-04-02T15:31:30-07:00",
       "specs": [
-        "200g"
+        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11665,7 +11665,7 @@
       "published_at": "2021-04-02T18:54:11-07:00",
       "created_at": "2021-04-02T18:54:12-07:00",
       "specs": [
-        "200g",
+        "180g",
         "45 RPM",
         "Gatefold"
       ],
