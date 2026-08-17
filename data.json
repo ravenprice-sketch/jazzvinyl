@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T08:19:04.888388+00:00",
+  "updated": "2026-08-17T08:33:54.111613+00:00",
   "count": 658,
   "items": [
     {
@@ -9103,24 +9103,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7195668840654",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis Quintet - Relaxin' With The Miles Davis Quintet - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/miles-davis-quintet-relaxin-with-the-miles-davis-quintet-mono-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/dupe4880_AAPJ_7129__16748__01152009113811-3379.jpg?v=1682537948",
-      "published_at": "2023-04-26T12:39:06-07:00",
-      "created_at": "2023-04-26T12:39:06-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569016623310",
       "label_id": "analogue_productions",
       "title": "Dave Brubeck Quartet - Time Out - Analogue Productions 45rpm LP",
@@ -9133,6 +9115,24 @@
         "180g",
         "45 RPM",
         "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7195668840654",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis Quintet - Relaxin' With The Miles Davis Quintet - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/miles-davis-quintet-relaxin-with-the-miles-davis-quintet-mono-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/dupe4880_AAPJ_7129__16748__01152009113811-3379.jpg?v=1682537948",
+      "published_at": "2023-04-26T12:39:06-07:00",
+      "created_at": "2023-04-26T12:39:06-07:00",
+      "specs": [
+        "180g",
+        "Mono"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10183,6 +10183,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569241608398",
+      "label_id": "analogue_productions",
+      "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/ahmad-jamal-trio-ahmad-jamal-at-the-pershing-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_128__148084__04162020024847-1633.jpg?v=1785125334",
+      "published_at": "2021-04-02T18:56:33-07:00",
+      "created_at": "2021-04-02T18:56:34-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7423382945998",
       "label_id": "analogue_productions",
       "title": "Thelonious Monk - 5 by Monk by 5 - Analogue Productions LP",
@@ -10228,24 +10246,6 @@
       "created_at": "2023-04-25T16:50:59-07:00",
       "specs": [
         "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569241608398",
-      "label_id": "analogue_productions",
-      "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/ahmad-jamal-trio-ahmad-jamal-at-the-pershing-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_128__148084__04162020024847-1633.jpg?v=1785125334",
-      "published_at": "2021-04-02T18:56:33-07:00",
-      "created_at": "2021-04-02T18:56:34-07:00",
-      "specs": [
-        "180g",
-        "Mono"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11636,6 +11636,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7693801881806",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
+      "published_at": "2026-04-29T23:12:40-07:00",
+      "created_at": "2026-04-29T18:31:18-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-12T09:44:48.481838+00:00"
+    },
+    {
       "id": "7653464113358",
       "label_id": "analogue_productions",
       "title": "Miles Davis Quintet - The Great Prestige Recordings - Analogue Productions LP Box Set",
@@ -11703,25 +11722,6 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7693801881806",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
-      "published_at": "2026-04-29T23:12:40-07:00",
-      "created_at": "2026-04-29T18:31:18-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-07-12T09:44:48.481838+00:00"
     },
     {
       "id": "6569239445710",
