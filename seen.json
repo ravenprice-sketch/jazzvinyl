@@ -7748,6 +7748,60 @@
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-24T16:34:50.329159+00:00"
+    },
+    "15040367788399": {
+      "id": "15040367788399",
+      "label_id": "craft_ojc",
+      "title": "John Coltrane With The Red Garland Trio (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/john-coltrane-with-the-red-garland-trio-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/John_Coltrane_Red_Garland_Trio_Pack_Shot_w_obi_LP.png?v=1786570526",
+      "published_at": "2026-08-18T09:30:04-05:00",
+      "created_at": "2026-08-11T14:32:59-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-08-19T08:26:53.556418+00:00"
+    },
+    "15040372343151": {
+      "id": "15040372343151",
+      "label_id": "craft_ojc",
+      "title": "Relaxin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/the-miles-david-quintet-relaxin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Miles_Davis_Relaxin_Pack_Shot_w_obi_LP.png?v=1786570913",
+      "published_at": "2026-08-18T09:30:06-05:00",
+      "created_at": "2026-08-11T14:41:09-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-08-19T08:26:53.556418+00:00"
+    },
+    "15040373981551": {
+      "id": "15040373981551",
+      "label_id": "craft_ojc",
+      "title": "A Charlie Brown Christmas (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/vince-guaraldi-trio-a-charlie-brown-christmas-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Charlie_Brown_Christmas_Pack_Shot_REVISED_w_obi_LP.png?v=1786571345",
+      "published_at": "2026-08-18T09:30:07-05:00",
+      "created_at": "2026-08-11T14:51:09-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-08-19T08:26:53.556418+00:00"
     }
   },
   "verve_acoustic": {
@@ -11104,7 +11158,10 @@
     "8551920140479": "2026-08-18T08:26:09.565005+00:00",
     "8551880622271": "2026-08-18T08:26:09.565005+00:00",
     "15217315316084": "2026-08-18T08:26:09.565005+00:00",
-    "15217315217780": "2026-08-18T08:26:09.565005+00:00"
+    "15217315217780": "2026-08-18T08:26:09.565005+00:00",
+    "15040367788399": "2026-08-19T08:26:53.556418+00:00",
+    "15040372343151": "2026-08-19T08:26:53.556418+00:00",
+    "15040373981551": "2026-08-19T08:26:53.556418+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
