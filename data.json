@@ -1,7 +1,26 @@
 {
-  "updated": "2026-08-20T08:28:36.011948+00:00",
+  "updated": "2026-08-21T08:30:11.990759+00:00",
   "count": 665,
   "items": [
+    {
+      "id": "8570254950591",
+      "label_id": "bluenote_tone_poet",
+      "title": "Sonny Rollins – Vol. 2 (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/sonny-rollins-vol-2-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SonnyRollins_Vol2_PROD_SHOT_7361df8f-481e-448e-bf44-7b277f7f679c.png?v=1787242177",
+      "published_at": "2026-08-20T14:04:33-04:00",
+      "created_at": "2026-08-19T18:39:40-04:00",
+      "specs": [
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-08-21T08:30:11.986605+00:00"
+    },
     {
       "id": "8527320580287",
       "label_id": "bluenote_tone_poet",
@@ -67,25 +86,6 @@
       "created_at": "2026-06-29T12:11:54-04:00",
       "specs": [
         "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Blue Note — Tone Poet Series",
-      "blurb": "",
-      "first_seen": "2026-07-07T10:48:47.227908+00:00"
-    },
-    {
-      "id": "8487130693823",
-      "label_id": "bluenote_tone_poet",
-      "title": "Sonny Rollins – Vol. 2 (Tone Poet Vinyl Series)",
-      "url": "https://store.bluenote.com/products/sonny-rollins-vol-2-tone-poet-vinyl-series",
-      "price": "39.98",
-      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SonnyRollins_Vol2_PROD_SHOT.png?v=1782749345",
-      "published_at": "2026-07-06T08:51:00-04:00",
-      "created_at": "2026-06-29T12:11:16-04:00",
-      "specs": [
-        "180g",
-        "Mono",
         "Gatefold"
       ],
       "preorder": false,
@@ -9266,14 +9266,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7195678146766",
+      "id": "7012941136078",
       "label_id": "analogue_productions",
-      "title": "Miles Davis - Cookin' With The Miles Davis Quintet - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/miles-davis-cookin-with-the-miles-davis-quintet-ap",
+      "title": "Sonny Rollins - Saxophone Colossus - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/sonny-rollins-saxophone-colossus-analogue-productions-lp",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7094__78188__03192013033028-2969.jpg?v=1682540367",
-      "published_at": "2023-04-26T13:19:25-07:00",
-      "created_at": "2023-04-26T13:19:25-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7079__78187__03172022075031-2935.jpg?v=1785125335",
+      "published_at": "2022-05-25T17:22:19-07:00",
+      "created_at": "2022-05-25T17:22:18-07:00",
       "specs": [
         "180g",
         "Mono"
@@ -9284,14 +9284,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7012941136078",
+      "id": "7195678146766",
       "label_id": "analogue_productions",
-      "title": "Sonny Rollins - Saxophone Colossus - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/sonny-rollins-saxophone-colossus-analogue-productions-lp",
+      "title": "Miles Davis - Cookin' With The Miles Davis Quintet - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/miles-davis-cookin-with-the-miles-davis-quintet-ap",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7079__78187__03172022075031-2935.jpg?v=1785125335",
-      "published_at": "2022-05-25T17:22:19-07:00",
-      "created_at": "2022-05-25T17:22:18-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7094__78188__03192013033028-2969.jpg?v=1682540367",
+      "published_at": "2023-04-26T13:19:25-07:00",
+      "created_at": "2023-04-26T13:19:25-07:00",
       "specs": [
         "180g",
         "Mono"
@@ -9941,7 +9941,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9958,7 +9958,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"

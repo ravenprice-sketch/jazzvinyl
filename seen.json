@@ -2953,6 +2953,25 @@
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-08-04T10:29:21.420426+00:00"
+    },
+    "8570254950591": {
+      "id": "8570254950591",
+      "label_id": "bluenote_tone_poet",
+      "title": "Sonny Rollins – Vol. 2 (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/sonny-rollins-vol-2-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SonnyRollins_Vol2_PROD_SHOT_7361df8f-481e-448e-bf44-7b277f7f679c.png?v=1787242177",
+      "published_at": "2026-08-20T14:04:33-04:00",
+      "created_at": "2026-08-19T18:39:40-04:00",
+      "specs": [
+        "180g",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-08-21T08:30:11.986605+00:00"
     }
   },
   "bluenote_classic": {
@@ -11161,7 +11180,8 @@
     "15217315217780": "2026-08-18T08:26:09.565005+00:00",
     "15040367788399": "2026-08-19T08:26:53.556418+00:00",
     "15040372343151": "2026-08-19T08:26:53.556418+00:00",
-    "15040373981551": "2026-08-19T08:26:53.556418+00:00"
+    "15040373981551": "2026-08-19T08:26:53.556418+00:00",
+    "8570254950591": "2026-08-21T08:30:11.986605+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -11961,7 +11981,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12129,7 +12149,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
