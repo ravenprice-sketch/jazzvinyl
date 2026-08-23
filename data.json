@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T08:19:33.884549+00:00",
-  "count": 665,
+  "updated": "2026-08-23T08:20:20.175209+00:00",
+  "count": 664,
   "items": [
     {
       "id": "8527320580287",
@@ -11049,6 +11049,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569018654926",
+      "label_id": "analogue_productions",
+      "title": "Julie London - Julie Is Her Name Vol. 2 - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/julie-london-julie-is-her-name-vol-2-analog-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPP_7100-45__97161__03042020034118-878.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:22:21-07:00",
+      "created_at": "2021-04-02T15:22:22-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7030963667150",
       "label_id": "analogue_productions",
       "title": "Jackie McLean - Lights Out! - Analogue Productions LP",
@@ -11077,25 +11096,6 @@
       "created_at": "2024-03-25T15:49:04-07:00",
       "specs": [
         "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569018654926",
-      "label_id": "analogue_productions",
-      "title": "Julie London - Julie Is Her Name Vol. 2 - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/julie-london-julie-is-her-name-vol-2-analog-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPP_7100-45__97161__03042020034118-878.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:22:21-07:00",
-      "created_at": "2021-04-02T15:22:22-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
         "Gatefold"
       ],
       "preorder": false,
@@ -11798,6 +11798,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542901932238",
+      "label_id": "analogue_productions",
+      "title": "Count Basie & Oscar Peterson - \"Satch\" and \"Josh\" - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-count-basie-oscar-peterson-satch-and-josh-analogue-productions-pablo-series-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab189__98721.jpg?v=1738093535",
+      "published_at": "2025-01-28T14:36:26-07:00",
+      "created_at": "2025-01-28T12:45:37-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542898360526",
       "label_id": "analogue_productions",
       "title": "Ella Fitzgerald & Oscar Peterson - Ella and Oscar - Analogue Productions Pablo LP",
@@ -11827,24 +11845,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542901932238",
-      "label_id": "analogue_productions",
-      "title": "Count Basie & Oscar Peterson - \"Satch\" and \"Josh\" - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-count-basie-oscar-peterson-satch-and-josh-analogue-productions-pablo-series-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab189__98721.jpg?v=1738093535",
-      "published_at": "2025-01-28T14:36:26-07:00",
-      "created_at": "2025-01-28T12:45:37-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11921,21 +11921,6 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-07-06T11:57:24.740140+00:00"
-    },
-    {
-      "id": "7012941660366",
-      "label_id": "analogue_productions",
-      "title": "Coleman Hawkins - Coleman Hawkins Encounters Ben Webster - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/coleman-hawkins-encounters-ben-webster-analogue-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/Copy_AVEC_6066__11077__01152009112720-1813.jpg?v=1653524893",
-      "published_at": "2022-05-25T17:28:12-07:00",
-      "created_at": "2022-05-25T17:28:11-07:00",
-      "specs": [],
-      "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
     }
   ]
 }
