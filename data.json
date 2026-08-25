@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T08:38:28.659101+00:00",
+  "updated": "2026-08-25T08:32:36.271860+00:00",
   "count": 664,
   "items": [
     {
@@ -9773,6 +9773,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7012940284110",
+      "label_id": "analogue_productions",
+      "title": "Sonny Rollins - Tenor Madness - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/sonny-rollins-tenor-madness-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/18aplppr7047nb__87461.1780001709.1280.1280.jpg?v=1784178418",
+      "published_at": "2022-05-25T17:12:48-07:00",
+      "created_at": "2022-05-25T17:12:47-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569279946958",
       "label_id": "analogue_productions",
       "title": "The Oscar Peterson Trio - We Get Requests - Analogue Productions 45rpm LP",
@@ -9799,23 +9816,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
       "published_at": "2023-06-14T12:48:23-07:00",
       "created_at": "2023-06-14T12:48:23-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7012940284110",
-      "label_id": "analogue_productions",
-      "title": "Sonny Rollins - Tenor Madness - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/sonny-rollins-tenor-madness-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/18aplppr7047nb__87461.1780001709.1280.1280.jpg?v=1784178418",
-      "published_at": "2022-05-25T17:12:48-07:00",
-      "created_at": "2022-05-25T17:12:47-07:00",
       "specs": [
         "180g"
       ],
@@ -11208,6 +11208,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7250120147150",
+      "label_id": "analogue_productions",
+      "title": "The Prestige All Stars - Tenor Conclave - Analogue Productions LP (Mono)",
+      "url": "https://www.theingroove.com/products/the-prestige-all-stars-tenor-conclave-analogue-productions-lp-mono",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7074__77087__03262020114248-3196_0f414477-b355-4978-8126-305679d97a55.jpg?v=1784329198",
+      "published_at": "2023-09-04T14:35:17-07:00",
+      "created_at": "2023-09-04T14:35:17-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7250119721166",
       "label_id": "analogue_productions",
       "title": "The Prestige All Stars - All Night Long Analogue Productions LP  (Mono)",
@@ -11237,24 +11255,6 @@
       "specs": [
         "180g",
         "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7250120147150",
-      "label_id": "analogue_productions",
-      "title": "The Prestige All Stars - Tenor Conclave - Analogue Productions LP (Mono)",
-      "url": "https://www.theingroove.com/products/the-prestige-all-stars-tenor-conclave-analogue-productions-lp-mono",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7074__77087__03262020114248-3196_0f414477-b355-4978-8126-305679d97a55.jpg?v=1784329198",
-      "published_at": "2023-09-04T14:35:17-07:00",
-      "created_at": "2023-09-04T14:35:17-07:00",
-      "specs": [
-        "180g",
-        "Mono"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -11367,6 +11367,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7652472619214",
+      "label_id": "analogue_productions",
+      "title": "Gene Ammons - Blue Gene - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-gene-ammons-blue-gene-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_205-45__194135__04222025100816-7862.jpg?v=1767252163",
+      "published_at": "2026-01-01T00:22:46-07:00",
+      "created_at": "2025-12-31T17:57:41-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542902030542",
       "label_id": "analogue_productions",
       "title": "Zoot Sims & Joe Pass - Blues For 2 - Analogue Productions Pablo LP",
@@ -11415,25 +11434,6 @@
         "45 RPM"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7652472619214",
-      "label_id": "analogue_productions",
-      "title": "Gene Ammons - Blue Gene - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-gene-ammons-blue-gene-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_205-45__194135__04222025100816-7862.jpg?v=1767252163",
-      "published_at": "2026-01-01T00:22:46-07:00",
-      "created_at": "2025-12-31T17:57:41-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
