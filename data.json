@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T08:33:42.026609+00:00",
+  "updated": "2026-08-27T18:41:01.942133+00:00",
   "count": 664,
   "items": [
     {
@@ -9773,6 +9773,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7220242645198",
+      "label_id": "analogue_productions",
+      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
+      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
+      "published_at": "2023-06-14T12:48:23-07:00",
+      "created_at": "2023-06-14T12:48:23-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7012940284110",
       "label_id": "analogue_productions",
       "title": "Sonny Rollins - Tenor Madness - Analogue Productions LP",
@@ -9801,23 +9818,6 @@
       "specs": [
         "180g",
         "45 RPM"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7220242645198",
-      "label_id": "analogue_productions",
-      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
-      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
-      "published_at": "2023-06-14T12:48:23-07:00",
-      "created_at": "2023-06-14T12:48:23-07:00",
-      "specs": [
-        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10836,6 +10836,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542898491598",
+      "label_id": "analogue_productions",
+      "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-joe-pass-portraits-of-duke-ellington-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
+      "published_at": "2025-01-28T14:40:51-07:00",
+      "created_at": "2025-01-28T12:14:06-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7486238064846",
       "label_id": "analogue_productions",
       "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
@@ -10880,23 +10897,6 @@
       "published_at": "2021-04-02T16:48:36-07:00",
       "created_at": "2021-04-02T16:48:37-07:00",
       "specs": [],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542898491598",
-      "label_id": "analogue_productions",
-      "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-joe-pass-portraits-of-duke-ellington-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
-      "published_at": "2025-01-28T14:40:51-07:00",
-      "created_at": "2025-01-28T12:14:06-07:00",
-      "specs": [
-        "180g"
-      ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
