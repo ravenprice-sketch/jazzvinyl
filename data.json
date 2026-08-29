@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T19:48:34.563820+00:00",
+  "updated": "2026-08-29T13:30:21.408755+00:00",
   "count": 664,
   "items": [
     {
@@ -9587,6 +9587,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7467033034958",
+      "label_id": "analogue_productions",
+      "title": "Bill Evans Trio - Sunday At The Village Vanguard - Analogue Productions 45rpm UHQR LP",
+      "url": "https://www.theingroove.com/products/pre-order-bill-evans-trio-sunday-at-the-village-vanguard-analogue-productions-45rpm-uhqr-lp",
+      "price": "149.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AUHQR_0017-45__178725__05092023075317-4138.jpg?v=1719850983",
+      "published_at": "2024-07-01T09:24:06-07:00",
+      "created_at": "2024-07-01T09:22:30-07:00",
+      "specs": [
+        "200g",
+        "45 RPM"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7327191662798",
       "label_id": "analogue_productions",
       "title": "John Coltrane - Ballads Analogue Productions 45rpm UHQR LP",
@@ -9619,24 +9637,6 @@
         "Mono"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7467033034958",
-      "label_id": "analogue_productions",
-      "title": "Bill Evans Trio - Sunday At The Village Vanguard - Analogue Productions 45rpm UHQR LP",
-      "url": "https://www.theingroove.com/products/pre-order-bill-evans-trio-sunday-at-the-village-vanguard-analogue-productions-45rpm-uhqr-lp",
-      "price": "149.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AUHQR_0017-45__178725__05092023075317-4138.jpg?v=1719850983",
-      "published_at": "2024-07-01T09:24:06-07:00",
-      "created_at": "2024-07-01T09:22:30-07:00",
-      "specs": [
-        "200g",
-        "45 RPM"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
