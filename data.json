@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T12:24:56.534930+00:00",
+  "updated": "2026-09-04T12:24:21.241896+00:00",
   "count": 664,
   "items": [
     {
@@ -9767,7 +9767,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10290,6 +10290,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569241608398",
+      "label_id": "analogue_productions",
+      "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/ahmad-jamal-trio-ahmad-jamal-at-the-pershing-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_128__148084__04162020024847-1633.jpg?v=1785125334",
+      "published_at": "2021-04-02T18:56:33-07:00",
+      "created_at": "2021-04-02T18:56:34-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": true,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569297510606",
       "label_id": "analogue_productions",
       "title": "Various Artists - The Sound Of Jazz - Analogue Productions 45rpm LP",
@@ -10304,24 +10322,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569241608398",
-      "label_id": "analogue_productions",
-      "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/ahmad-jamal-trio-ahmad-jamal-at-the-pershing-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_128__148084__04162020024847-1633.jpg?v=1785125334",
-      "published_at": "2021-04-02T18:56:33-07:00",
-      "created_at": "2021-04-02T18:56:34-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10451,6 +10451,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7220243497166",
+      "label_id": "analogue_productions",
+      "title": "Arnett Cobb - Ballads By Cobb - Analogue Productions LP  (Stereo)",
+      "url": "https://www.theingroove.com/products/arnett-cobb-ballads-by-cobb-analogue-productions-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_14__81998__03182020122811-3733_38d3c7ca-6f1e-4f51-b056-438f1dc0d2b3.jpg?v=1785125336",
+      "published_at": "2023-06-14T12:52:54-07:00",
+      "created_at": "2023-06-14T12:52:54-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6578577047758",
       "label_id": "analogue_productions",
       "title": "Holly Cole - Temptation - Analogue Productions 45rpm LP Box Set",
@@ -10516,23 +10533,6 @@
       "specs": [
         "180g",
         "Mono"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7220243497166",
-      "label_id": "analogue_productions",
-      "title": "Arnett Cobb - Ballads By Cobb - Analogue Productions LP  (Stereo)",
-      "url": "https://www.theingroove.com/products/arnett-cobb-ballads-by-cobb-analogue-productions-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_14__81998__03182020122811-3733_38d3c7ca-6f1e-4f51-b056-438f1dc0d2b3.jpg?v=1785125336",
-      "published_at": "2023-06-14T12:52:54-07:00",
-      "created_at": "2023-06-14T12:52:54-07:00",
-      "specs": [
-        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
