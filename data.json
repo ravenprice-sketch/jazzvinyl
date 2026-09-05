@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T12:24:21.241896+00:00",
+  "updated": "2026-09-05T11:30:47.568511+00:00",
   "count": 664,
   "items": [
     {
@@ -4563,7 +4563,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9729,7 +9729,7 @@
         "Mono",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9964,24 +9964,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6569017344206",
-      "label_id": "analogue_productions",
-      "title": "Duke Ellington - Blues In Orbit - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/duke-ellington-blues-in-orbit-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_056__106817__02142020124228-5313.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:21:00-07:00",
-      "created_at": "2021-04-02T15:21:01-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7595139662030",
       "label_id": "analogue_productions",
       "title": "Art Pepper - Art Pepper Meets The Rhythm Section - Analogue Productions 45RPM UHQR LP",
@@ -9994,6 +9976,24 @@
         "AAA",
         "200g",
         "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6569017344206",
+      "label_id": "analogue_productions",
+      "title": "Duke Ellington - Blues In Orbit - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/duke-ellington-blues-in-orbit-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_056__106817__02142020124228-5313.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:21:00-07:00",
+      "created_at": "2021-04-02T15:21:01-07:00",
+      "specs": [
+        "180g",
         "Gatefold"
       ],
       "preorder": false,
@@ -10149,24 +10149,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7423380226254",
-      "label_id": "analogue_productions",
-      "title": "Thelonious Monk Quartet - Misterioso - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-misterioso-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_1133__68275__01242024102234-8982_41030822-16da-41dd-a88b-a35be9561103.jpg?v=1784330038",
-      "published_at": "2024-05-15T18:36:49-07:00",
-      "created_at": "2024-05-15T18:00:29-07:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7096336515278",
       "label_id": "analogue_productions",
       "title": "Bill Evans - Riverside Recordings - Analogue Productions LP Box Set",
@@ -10175,6 +10157,24 @@
       "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/AAPJ_0018__66242__03232010032951-6154.jpg?v=1663958475",
       "published_at": "2022-09-23T11:30:26-07:00",
       "created_at": "2022-09-23T11:30:25-07:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7423380226254",
+      "label_id": "analogue_productions",
+      "title": "Thelonious Monk Quartet - Misterioso - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-misterioso-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_1133__68275__01242024102234-8982_41030822-16da-41dd-a88b-a35be9561103.jpg?v=1784330038",
+      "published_at": "2024-05-15T18:36:49-07:00",
+      "created_at": "2024-05-15T18:00:29-07:00",
       "specs": [
         "AAA",
         "180g"
@@ -10327,24 +10327,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7423382945998",
-      "label_id": "analogue_productions",
-      "title": "Thelonious Monk - 5 by Monk by 5 - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-5-by-monk-by-5-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp1150__70884.jpg?v=1715821987",
-      "published_at": "2024-05-15T18:35:30-07:00",
-      "created_at": "2024-05-15T18:14:43-07:00",
-      "specs": [
-        "AAA",
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7232336068814",
       "label_id": "analogue_productions",
       "title": "Gene Ammons - Nice An' Cool - Analogue Productions LP",
@@ -10356,7 +10338,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10371,6 +10353,24 @@
       "published_at": "2023-04-26T14:00:01-07:00",
       "created_at": "2023-04-25T16:50:59-07:00",
       "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7423382945998",
+      "label_id": "analogue_productions",
+      "title": "Thelonious Monk - 5 by Monk by 5 - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-5-by-monk-by-5-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp1150__70884.jpg?v=1715821987",
+      "published_at": "2024-05-15T18:35:30-07:00",
+      "created_at": "2024-05-15T18:14:43-07:00",
+      "specs": [
+        "AAA",
         "180g"
       ],
       "preorder": false,
@@ -10415,6 +10415,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7220243497166",
+      "label_id": "analogue_productions",
+      "title": "Arnett Cobb - Ballads By Cobb - Analogue Productions LP  (Stereo)",
+      "url": "https://www.theingroove.com/products/arnett-cobb-ballads-by-cobb-analogue-productions-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_14__81998__03182020122811-3733_38d3c7ca-6f1e-4f51-b056-438f1dc0d2b3.jpg?v=1785125336",
+      "published_at": "2023-06-14T12:52:54-07:00",
+      "created_at": "2023-06-14T12:52:54-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7195677753550",
       "label_id": "analogue_productions",
       "title": "Eric Dolphy - Far Cry - Analogue Productions LP",
@@ -10444,23 +10461,6 @@
         "180g",
         "45 RPM",
         "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7220243497166",
-      "label_id": "analogue_productions",
-      "title": "Arnett Cobb - Ballads By Cobb - Analogue Productions LP  (Stereo)",
-      "url": "https://www.theingroove.com/products/arnett-cobb-ballads-by-cobb-analogue-productions-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_14__81998__03182020122811-3733_38d3c7ca-6f1e-4f51-b056-438f1dc0d2b3.jpg?v=1785125336",
-      "published_at": "2023-06-14T12:52:54-07:00",
-      "created_at": "2023-06-14T12:52:54-07:00",
-      "specs": [
-        "180g"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
@@ -10938,26 +10938,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7255556030670",
-      "label_id": "analogue_productions",
-      "title": "Charles Mingus - Pithecanthropus Erectus - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-pithecanthropus-erectus-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_059-45__181803__09122023114707-2482.jpg?v=1694707655",
-      "published_at": "2023-09-14T09:07:50-07:00",
-      "created_at": "2023-09-14T09:06:50-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Mono",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7195535704270",
       "label_id": "analogue_productions",
       "title": "Eric Dolphy - Out There - Analogue Productions LP",
@@ -10986,6 +10966,26 @@
       "specs": [
         "180g",
         "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7255556030670",
+      "label_id": "analogue_productions",
+      "title": "Charles Mingus - Pithecanthropus Erectus - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-pithecanthropus-erectus-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_059-45__181803__09122023114707-2482.jpg?v=1694707655",
+      "published_at": "2023-09-14T09:07:50-07:00",
+      "created_at": "2023-09-14T09:06:50-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Mono",
         "Gatefold"
       ],
       "preorder": false,
