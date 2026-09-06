@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T11:30:47.568511+00:00",
+  "updated": "2026-09-06T11:51:33.501937+00:00",
   "count": 664,
   "items": [
     {
@@ -6648,7 +6648,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9368,7 +9368,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10994,6 +10994,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569018654926",
+      "label_id": "analogue_productions",
+      "title": "Julie London - Julie Is Her Name Vol. 2 - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/julie-london-julie-is-her-name-vol-2-analog-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPP_7100-45__97161__03042020034118-878.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:22:21-07:00",
+      "created_at": "2021-04-02T15:22:22-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542898000078",
       "label_id": "analogue_productions",
       "title": "Duke Ellington - The Ellington Suites - Analogue Productions Pablo LP",
@@ -11039,25 +11058,6 @@
       "created_at": "2023-09-13T18:46:34-07:00",
       "specs": [
         "AAA",
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569018654926",
-      "label_id": "analogue_productions",
-      "title": "Julie London - Julie Is Her Name Vol. 2 - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/julie-london-julie-is-her-name-vol-2-analog-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPP_7100-45__97161__03042020034118-878.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:22:21-07:00",
-      "created_at": "2021-04-02T15:22:22-07:00",
-      "specs": [
         "180g",
         "45 RPM",
         "Gatefold"
