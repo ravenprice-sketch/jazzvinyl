@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T12:33:24.758655+00:00",
+  "updated": "2026-09-11T12:28:38.559163+00:00",
   "count": 665,
   "items": [
     {
@@ -57,6 +57,24 @@
       "first_seen": "2026-07-28T10:27:05.160218+00:00"
     },
     {
+      "id": "8487131054271",
+      "label_id": "bluenote_tone_poet",
+      "title": "Sam Rivers – Dimensions and Extensions (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/sam-rivers-dimensions-and-extensions-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SamRivers_DimensionsAndExtensions_PROD_SHOT.png?v=1782749541",
+      "published_at": "2026-07-06T08:51:01-04:00",
+      "created_at": "2026-06-29T12:11:54-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-07-07T10:48:47.227908+00:00"
+    },
+    {
       "id": "8570254950591",
       "label_id": "bluenote_tone_poet",
       "title": "Sonny Rollins – Vol. 2 (Tone Poet Vinyl Series)",
@@ -74,24 +92,6 @@
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-08-21T08:30:11.986605+00:00"
-    },
-    {
-      "id": "8487131054271",
-      "label_id": "bluenote_tone_poet",
-      "title": "Sam Rivers – Dimensions and Extensions (Tone Poet Vinyl Series)",
-      "url": "https://store.bluenote.com/products/sam-rivers-dimensions-and-extensions-tone-poet-vinyl-series",
-      "price": "39.98",
-      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SamRivers_DimensionsAndExtensions_PROD_SHOT.png?v=1782749541",
-      "published_at": "2026-07-06T08:51:01-04:00",
-      "created_at": "2026-06-29T12:11:54-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Blue Note — Tone Poet Series",
-      "blurb": "",
-      "first_seen": "2026-07-07T10:48:47.227908+00:00"
     },
     {
       "id": "8450567012543",
