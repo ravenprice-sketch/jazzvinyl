@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T13:01:27.569114+00:00",
+  "updated": "2026-09-16T12:58:53.399744+00:00",
   "count": 672,
   "items": [
     {
@@ -3169,7 +3169,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10088,6 +10088,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569017344206",
+      "label_id": "analogue_productions",
+      "title": "Duke Ellington - Blues In Orbit - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/duke-ellington-blues-in-orbit-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_056__106817__02142020124228-5313.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:21:00-07:00",
+      "created_at": "2021-04-02T15:21:01-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7595139662030",
       "label_id": "analogue_productions",
       "title": "Art Pepper - Art Pepper Meets The Rhythm Section - Analogue Productions 45RPM UHQR LP",
@@ -10100,24 +10118,6 @@
         "AAA",
         "200g",
         "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569017344206",
-      "label_id": "analogue_productions",
-      "title": "Duke Ellington - Blues In Orbit - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/duke-ellington-blues-in-orbit-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_056__106817__02142020124228-5313.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:21:00-07:00",
-      "created_at": "2021-04-02T15:21:01-07:00",
-      "specs": [
-        "180g",
         "Gatefold"
       ],
       "preorder": false,
