@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T12:58:53.399744+00:00",
+  "updated": "2026-09-17T12:55:14.812585+00:00",
   "count": 672,
   "items": [
     {
@@ -10126,6 +10126,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7254887989454",
+      "label_id": "analogue_productions",
+      "title": "John Coltrane - My Favorite Things - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/copy-of-pre-order-john-coltrane-giant-steps-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/180057__06282023101740-8663.jpg?v=1694671255",
+      "published_at": "2023-09-13T23:01:16-07:00",
+      "created_at": "2023-09-13T22:59:46-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569262055630",
       "label_id": "analogue_productions",
       "title": "Bill Evans - At The Montreux Jazz Festival - Analogue Productions 45rpm - LP",
@@ -10159,25 +10178,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7254887989454",
-      "label_id": "analogue_productions",
-      "title": "John Coltrane - My Favorite Things - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/copy-of-pre-order-john-coltrane-giant-steps-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/180057__06282023101740-8663.jpg?v=1694671255",
-      "published_at": "2023-09-13T23:01:16-07:00",
-      "created_at": "2023-09-13T22:59:46-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
