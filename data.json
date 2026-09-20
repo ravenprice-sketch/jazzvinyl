@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T12:10:52.535044+00:00",
+  "updated": "2026-09-20T12:46:57.473376+00:00",
   "count": 672,
   "items": [
     {
@@ -2306,7 +2306,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9723,7 +9723,7 @@
         "200g",
         "45 RPM"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11098,6 +11098,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7423390351566",
+      "label_id": "analogue_productions",
+      "title": "Thelonious Monk & John Coltrane - Thelonious Monk with John Coltrane - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-john-coltrane-thelonious-monk-with-john-coltrane-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp946__29276.jpg?v=1715822576",
+      "published_at": "2024-05-15T18:35:06-07:00",
+      "created_at": "2024-05-15T18:24:36-07:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7255556030670",
       "label_id": "analogue_productions",
       "title": "Charles Mingus - Pithecanthropus Erectus - Analogue Productions 45rpm LP",
@@ -11146,24 +11164,6 @@
       "published_at": "2025-01-28T14:37:30-07:00",
       "created_at": "2025-01-28T12:08:09-07:00",
       "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7423390351566",
-      "label_id": "analogue_productions",
-      "title": "Thelonious Monk & John Coltrane - Thelonious Monk with John Coltrane - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-thelonious-monk-john-coltrane-thelonious-monk-with-john-coltrane-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp946__29276.jpg?v=1715822576",
-      "published_at": "2024-05-15T18:35:06-07:00",
-      "created_at": "2024-05-15T18:24:36-07:00",
-      "specs": [
-        "AAA",
         "180g"
       ],
       "preorder": false,
