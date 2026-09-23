@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T12:58:41.962036+00:00",
+  "updated": "2026-09-23T13:11:04.886279+00:00",
   "count": 672,
   "items": [
     {
@@ -9897,14 +9897,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7220242645198",
+      "id": "7012940284110",
       "label_id": "analogue_productions",
-      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
-      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
+      "title": "Sonny Rollins - Tenor Madness - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/sonny-rollins-tenor-madness-analogue-productions-lp",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
-      "published_at": "2023-06-14T12:48:23-07:00",
-      "created_at": "2023-06-14T12:48:23-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/18aplppr7047nb__87461.1780001709.1280.1280.jpg?v=1784178418",
+      "published_at": "2022-05-25T17:12:48-07:00",
+      "created_at": "2022-05-25T17:12:47-07:00",
       "specs": [
         "180g"
       ],
@@ -9914,14 +9914,14 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7012940284110",
+      "id": "7220242645198",
       "label_id": "analogue_productions",
-      "title": "Sonny Rollins - Tenor Madness - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/sonny-rollins-tenor-madness-analogue-productions-lp",
+      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
+      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/18aplppr7047nb__87461.1780001709.1280.1280.jpg?v=1784178418",
-      "published_at": "2022-05-25T17:12:48-07:00",
-      "created_at": "2022-05-25T17:12:47-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
+      "published_at": "2023-06-14T12:48:23-07:00",
+      "created_at": "2023-06-14T12:48:23-07:00",
       "specs": [
         "180g"
       ],
