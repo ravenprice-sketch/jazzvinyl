@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T13:03:42.983344+00:00",
+  "updated": "2026-09-25T13:08:58.516696+00:00",
   "count": 672,
   "items": [
     {
@@ -7124,6 +7124,159 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "6908813836437",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane: A Love Supreme (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-a-love-supreme-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/final-coltranelovesupremeLP.png?v=1623343566",
+      "published_at": "2026-09-17T15:50:27-04:00",
+      "created_at": "2021-06-10T12:46:06-04:00",
+      "specs": [],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "6908813738133",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane Quartet: Ballads (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-quartet-ballads-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/final-coltraneballadsLP.png?v=1623343562",
+      "published_at": "2026-09-17T15:50:23-04:00",
+      "created_at": "2021-06-10T12:46:02-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "14747504214388",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane Quartet: The John Coltrane Quartet Plays (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-quartet-the-john-coltrane-quartet-plays-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/johncoltrane_20f0e504-76e0-4aa2-93c1-c7941ae78537.png?v=1752205231",
+      "published_at": "2026-09-17T15:46:29-04:00",
+      "created_at": "2025-07-09T13:22:30-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7266752200853",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane & Johnny Hartman (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-johnny-hartman-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/COLTRANE_HARTMAN_PRODUCTSHOT.png?v=1781713998",
+      "published_at": "2026-09-17T15:46:19-04:00",
+      "created_at": "2021-12-13T17:08:16-05:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7266504376469",
+      "label_id": "verve_acoustic",
+      "title": "Duke Ellington & John Coltrane (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/duke-ellington-john-coltrane-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Coltrane-_-Ellington-LP.png?v=1639412853",
+      "published_at": "2026-09-17T15:46:18-04:00",
+      "created_at": "2021-12-13T11:27:32-05:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7219144065173",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane: Crescent (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-crescent-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/COLTRANE_CRESCENT_PRODSHOT_r1.png?v=1781715054",
+      "published_at": "2026-09-17T15:46:17-04:00",
+      "created_at": "2021-11-11T17:44:36-05:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7219116572821",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane: Live at the Village Vanguard (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-live-at-the-village-vanguard-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/COLTRANE_LIVEVANGUARD_PRODSHOT_R1.png?v=1781715153",
+      "published_at": "2026-09-17T15:46:15-04:00",
+      "created_at": "2021-11-11T16:58:55-05:00",
+      "specs": [],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "15003897987444",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane: Impressions (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-impressions-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/JC_IMPRESSIONS_PROD_SHOT_TRANSPARENT.png?v=1774452216",
+      "published_at": "2026-09-17T15:45:41-04:00",
+      "created_at": "2026-03-25T11:07:27-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "14934033727860",
+      "label_id": "verve_acoustic",
+      "title": "John Coltrane: Africa Brass (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/john-coltrane-africa-brass-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/AfricaBrass.png?v=1771368200",
+      "published_at": "2026-09-17T15:45:41-04:00",
+      "created_at": "2026-02-11T13:43:03-05:00",
+      "specs": [],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "15286663610740",
       "label_id": "verve_acoustic",
       "title": "John Coltrane: Live at Birdland (Acoustic Sounds Series) LP",
@@ -7265,6 +7418,24 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "8273498210453",
+      "label_id": "verve_acoustic",
+      "title": "Diana Krall: The Look Of Love LP (Verve Acoustic Sounds Series)",
+      "url": "https://store.ververecords.com/products/diana-krall-the-look-of-love-lp-verve-acoustic-sounds-series",
+      "price": "52.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/dianakrall.png?v=1712072432",
+      "published_at": "2026-05-01T08:59:52-04:00",
+      "created_at": "2024-04-02T11:32:03-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "15031296524660",
       "label_id": "verve_acoustic",
       "title": "Lester Young, Roy Eldridge, Herry Edison: Laughin' to Keep From Cryin' (Acoustic Sounds Series) LP",
@@ -7316,24 +7487,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "15003897987444",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane: Impressions (Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-impressions-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/JC_IMPRESSIONS_PROD_SHOT_TRANSPARENT.png?v=1774452216",
-      "published_at": "2026-09-17T15:45:41-04:00",
-      "created_at": "2026-03-25T11:07:27-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "14960575545716",
       "label_id": "verve_acoustic",
       "title": "McCoy Tyner: Inception (Acoustic Sounds Series) LP",
@@ -7342,21 +7495,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/McCoyTynerInceptionLP.png?v=1772126699",
       "published_at": "2026-03-02T09:00:26-05:00",
       "created_at": "2026-02-23T13:20:37-05:00",
-      "specs": [],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "14934033727860",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane: Africa Brass (Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-africa-brass-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/AfricaBrass.png?v=1771368200",
-      "published_at": "2026-09-17T15:45:41-04:00",
-      "created_at": "2026-02-11T13:43:03-05:00",
       "specs": [],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
@@ -7580,24 +7718,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "14747504214388",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane Quartet: The John Coltrane Quartet Plays (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-quartet-the-john-coltrane-quartet-plays-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/johncoltrane_20f0e504-76e0-4aa2-93c1-c7941ae78537.png?v=1752205231",
-      "published_at": "2026-09-17T15:46:29-04:00",
-      "created_at": "2025-07-09T13:22:30-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "14719398117748",
       "label_id": "verve_acoustic",
       "title": "Buddy Guy, Junior Mance, Junior Wells: Buddy and the Juniors Vinyl",
@@ -7793,6 +7913,24 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "8530341953685",
+      "label_id": "verve_acoustic",
+      "title": "Nina Simone: Nina Simone In Concert Acoustic Sounds Series LP",
+      "url": "https://store.ververecords.com/products/nina-simone-nina-simone-in-concert-acoustic-sounds-series-lp",
+      "price": "36.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/Nina.png?v=1722016055",
+      "published_at": "2024-12-06T15:28:53-05:00",
+      "created_at": "2024-07-01T13:45:04-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "14615829217652",
       "label_id": "verve_acoustic",
       "title": "Jimmy Smith: The Cat (Acoustic Sounds Series)",
@@ -7865,39 +8003,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "8559427485845",
-      "label_id": "verve_acoustic",
-      "title": "Sarah Vaughan: Sassy LP (Verve Acoustic Sounds Series)",
-      "url": "https://store.ververecords.com/products/sarah-vaughan-sassy-lp-verve-acoustic-sounds-series",
-      "price": "36.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SarahVaughanLP_82eba49c-1d8c-4d66-846e-3659da0aab8c.png?v=1721750954",
-      "published_at": "2024-07-29T08:46:32-04:00",
-      "created_at": "2024-07-23T12:09:42-04:00",
-      "specs": [],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "8530341953685",
-      "label_id": "verve_acoustic",
-      "title": "Nina Simone: Nina Simone In Concert Acoustic Sounds Series LP",
-      "url": "https://store.ververecords.com/products/nina-simone-nina-simone-in-concert-acoustic-sounds-series-lp",
-      "price": "36.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/Nina.png?v=1722016055",
-      "published_at": "2024-12-06T15:28:53-05:00",
-      "created_at": "2024-07-01T13:45:04-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": true,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "8530341757077",
       "label_id": "verve_acoustic",
       "title": "Stan Getz: Sweet Rain Acoustic Sounds Series LP",
@@ -7910,6 +8015,21 @@
         "180g",
         "Gatefold"
       ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "8559427485845",
+      "label_id": "verve_acoustic",
+      "title": "Sarah Vaughan: Sassy LP (Verve Acoustic Sounds Series)",
+      "url": "https://store.ververecords.com/products/sarah-vaughan-sassy-lp-verve-acoustic-sounds-series",
+      "price": "36.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SarahVaughanLP_82eba49c-1d8c-4d66-846e-3659da0aab8c.png?v=1721750954",
+      "published_at": "2024-07-29T08:46:32-04:00",
+      "created_at": "2024-07-23T12:09:42-04:00",
+      "specs": [],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
@@ -8014,24 +8134,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/billieholidaylp_f8c055e8-d85d-44fe-9ee5-b1bd54bdfac8.png?v=1713384992",
       "published_at": "2024-04-19T08:43:13-04:00",
       "created_at": "2024-04-17T16:07:45-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "8273498210453",
-      "label_id": "verve_acoustic",
-      "title": "Diana Krall: The Look Of Love LP (Verve Acoustic Sounds Series)",
-      "url": "https://store.ververecords.com/products/diana-krall-the-look-of-love-lp-verve-acoustic-sounds-series",
-      "price": "52.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/dianakrall.png?v=1712072432",
-      "published_at": "2026-05-01T08:59:52-04:00",
-      "created_at": "2024-04-02T11:32:03-04:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -8147,6 +8249,24 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "7966215635093",
+      "label_id": "verve_acoustic",
+      "title": "Coleman Hawkins and Ben Webster: Coleman Hawkins Encounters Ben Webster (Acoustic Sounds) LP",
+      "url": "https://store.ververecords.com/products/coleman-hawkins-and-ben-webster-coleman-hawkins-encounters-ben-webster-acoustic-sounds-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/HW_Encounter_ProdShot.png?v=1781711243",
+      "published_at": "2023-10-23T10:58:38-04:00",
+      "created_at": "2023-08-17T14:24:53-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "7994934591637",
       "label_id": "verve_acoustic",
       "title": "Oscar Peterson Trio: Very Tall LP (Verve Acoustic Sounds Series)",
@@ -8178,24 +8298,6 @@
         "Gatefold"
       ],
       "preorder": true,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7966215635093",
-      "label_id": "verve_acoustic",
-      "title": "Coleman Hawkins and Ben Webster: Coleman Hawkins Encounters Ben Webster (Acoustic Sounds) LP",
-      "url": "https://store.ververecords.com/products/coleman-hawkins-and-ben-webster-coleman-hawkins-encounters-ben-webster-acoustic-sounds-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/HW_Encounter_ProdShot.png?v=1781711243",
-      "published_at": "2023-10-23T10:58:38-04:00",
-      "created_at": "2023-08-17T14:24:53-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -8324,6 +8426,21 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "7756624625813",
+      "label_id": "verve_acoustic",
+      "title": "Alice Coltrane: Journey In Satchidanada (Acoustic Sounds Version) LP",
+      "url": "https://store.ververecords.com/products/alice-coltrane-journey-in-satchidanada-acoustic-sounds-version-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/AC_JIS_COVER_PROD_SHOT.png?v=1781713824",
+      "published_at": "2023-01-27T09:00:33-05:00",
+      "created_at": "2022-12-05T13:41:51-05:00",
+      "specs": [],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "7792403447957",
       "label_id": "verve_acoustic",
       "title": "Wynton Kelly Trio with Wes Montgomery: Smokin’ At The Half Note LP (Verve Acoustic Sound Series)",
@@ -8336,21 +8453,6 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7756624625813",
-      "label_id": "verve_acoustic",
-      "title": "Alice Coltrane: Journey In Satchidanada (Acoustic Sounds Version) LP",
-      "url": "https://store.ververecords.com/products/alice-coltrane-journey-in-satchidanada-acoustic-sounds-version-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/AC_JIS_COVER_PROD_SHOT.png?v=1781713824",
-      "published_at": "2023-01-27T09:00:33-05:00",
-      "created_at": "2022-12-05T13:41:51-05:00",
-      "specs": [],
       "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
@@ -8393,6 +8495,24 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
+      "id": "7067914338453",
+      "label_id": "verve_acoustic",
+      "title": "George Russell: New York, NY (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/george-russell-new-york-ny-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GEORGERUSSELL_NEWYORKNY_PROD_SHOT.png?v=1781715325",
+      "published_at": "2022-08-24T08:58:26-04:00",
+      "created_at": "2021-08-24T23:38:31-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
       "id": "7599413952661",
       "label_id": "verve_acoustic",
       "title": "Ella Fitzgerald and Louis Armstrong: Ella & Louis Again (Verve Acoustic Sounds Series) 2LP",
@@ -8419,6 +8539,61 @@
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/We-Get-Requests-LP.png?v=1656439580",
       "published_at": "2022-07-01T08:25:52-04:00",
       "created_at": "2022-06-28T14:06:18-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7067824226453",
+      "label_id": "verve_acoustic",
+      "title": "Stan Getz & Joao Gilberto: Getz/Gilberto (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/stan-getz-joao-gilberto-getz-gilberto-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/Getz_Gilberto_Pack.png?v=1781715509",
+      "published_at": "2022-05-25T15:32:49-04:00",
+      "created_at": "2021-08-24T23:06:05-04:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7067802173589",
+      "label_id": "verve_acoustic",
+      "title": "Clifford Brown & Max Roach: Study In Brown (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/clifford-brown-max-roach-study-in-brown-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/CLIFFORDBROWN_STUDYINBROWN_PROD_SHOT.png?v=1781715613",
+      "published_at": "2022-05-25T15:32:47-04:00",
+      "created_at": "2021-08-24T22:57:09-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7067816362133",
+      "label_id": "verve_acoustic",
+      "title": "Sarah Vaughan: With Clifford Brown (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/sarah-vaughan-with-clifford-brown-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/sarahvaughnlp.png?v=1629860554",
+      "published_at": "2022-05-25T15:32:45-04:00",
+      "created_at": "2021-08-24T23:02:26-04:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -8483,166 +8658,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "7266752200853",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane & Johnny Hartman (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-johnny-hartman-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/COLTRANE_HARTMAN_PRODUCTSHOT.png?v=1781713998",
-      "published_at": "2026-09-17T15:46:19-04:00",
-      "created_at": "2021-12-13T17:08:16-05:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7266504376469",
-      "label_id": "verve_acoustic",
-      "title": "Duke Ellington & John Coltrane (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/duke-ellington-john-coltrane-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/Coltrane-_-Ellington-LP.png?v=1639412853",
-      "published_at": "2026-09-17T15:46:18-04:00",
-      "created_at": "2021-12-13T11:27:32-05:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7219144065173",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane: Crescent (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-crescent-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/COLTRANE_CRESCENT_PRODSHOT_r1.png?v=1781715054",
-      "published_at": "2026-09-17T15:46:17-04:00",
-      "created_at": "2021-11-11T17:44:36-05:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7219116572821",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane: Live at the Village Vanguard (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-live-at-the-village-vanguard-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/COLTRANE_LIVEVANGUARD_PRODSHOT_R1.png?v=1781715153",
-      "published_at": "2026-09-17T15:46:15-04:00",
-      "created_at": "2021-11-11T16:58:55-05:00",
-      "specs": [],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7074426552469",
-      "label_id": "verve_acoustic",
-      "title": "Ella Fitzgerald: Ella Wishes You A Swinging Christmas (Verve Acoustic Sounds Series ) LP",
-      "url": "https://store.ververecords.com/products/ella-fitzgerald-ella-wishes-you-a-swinging-christmas-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/ellalp.png?v=1630079635",
-      "published_at": "2021-08-27T12:41:32-04:00",
-      "created_at": "2021-08-27T11:47:08-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": true,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7067914338453",
-      "label_id": "verve_acoustic",
-      "title": "George Russell: New York, NY (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/george-russell-new-york-ny-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GEORGERUSSELL_NEWYORKNY_PROD_SHOT.png?v=1781715325",
-      "published_at": "2022-08-24T08:58:26-04:00",
-      "created_at": "2021-08-24T23:38:31-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7067824226453",
-      "label_id": "verve_acoustic",
-      "title": "Stan Getz & Joao Gilberto: Getz/Gilberto (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/stan-getz-joao-gilberto-getz-gilberto-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/Getz_Gilberto_Pack.png?v=1781715509",
-      "published_at": "2022-05-25T15:32:49-04:00",
-      "created_at": "2021-08-24T23:06:05-04:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7067816362133",
-      "label_id": "verve_acoustic",
-      "title": "Sarah Vaughan: With Clifford Brown (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/sarah-vaughan-with-clifford-brown-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/sarahvaughnlp.png?v=1629860554",
-      "published_at": "2022-05-25T15:32:45-04:00",
-      "created_at": "2021-08-24T23:02:26-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "7067802173589",
-      "label_id": "verve_acoustic",
-      "title": "Clifford Brown & Max Roach: Study In Brown (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/clifford-brown-max-roach-study-in-brown-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/CLIFFORDBROWN_STUDYINBROWN_PROD_SHOT.png?v=1781715613",
-      "published_at": "2022-05-25T15:32:47-04:00",
-      "created_at": "2021-08-24T22:57:09-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "7047913767061",
       "label_id": "verve_acoustic",
       "title": "Bill Evans: Trio '64 (Verve Acoustic Sounds Series) LP",
@@ -8687,6 +8702,24 @@
       "created_at": "2021-08-11T11:00:34-04:00",
       "specs": [
         "AAA",
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "7074426552469",
+      "label_id": "verve_acoustic",
+      "title": "Ella Fitzgerald: Ella Wishes You A Swinging Christmas (Verve Acoustic Sounds Series ) LP",
+      "url": "https://store.ververecords.com/products/ella-fitzgerald-ella-wishes-you-a-swinging-christmas-verve-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/ellalp.png?v=1630079635",
+      "published_at": "2021-08-27T12:41:32-04:00",
+      "created_at": "2021-08-27T11:47:08-04:00",
+      "specs": [
         "180g",
         "Gatefold"
       ],
@@ -8744,39 +8777,6 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "6908813836437",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane: A Love Supreme (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-a-love-supreme-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/final-coltranelovesupremeLP.png?v=1623343566",
-      "published_at": "2026-09-17T15:50:27-04:00",
-      "created_at": "2021-06-10T12:46:06-04:00",
-      "specs": [],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
-      "id": "6908813738133",
-      "label_id": "verve_acoustic",
-      "title": "John Coltrane Quartet: Ballads (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/john-coltrane-quartet-ballads-verve-acoustic-sounds-series-lp",
-      "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/products/final-coltraneballadsLP.png?v=1623343562",
-      "published_at": "2026-09-17T15:50:23-04:00",
-      "created_at": "2021-06-10T12:46:02-04:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "label_name": "Verve — Acoustic Sounds Series",
-      "blurb": "",
-      "first_seen": "2026-06-06T15:13:39.393119+00:00"
-    },
-    {
       "id": "6878235590805",
       "label_id": "verve_acoustic",
       "title": "Louis Armstrong & Oscar Peterson: Louis Armstrong Meets Oscar Peterson (Verve Acoustic Sounds Series) LP",
@@ -8796,14 +8796,14 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "6472945598613",
+      "id": "6458227458197",
       "label_id": "verve_acoustic",
-      "title": "Gil Evans: Out Of The Cool (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/gil-evans-out-of-the-cool-verve-acoustic-sounds-series-lp",
+      "title": "Sonny Rollins: On Impulse! (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/sonny-rollins-on-impulse-verve-acoustic-sounds-series-lp",
       "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GILEVANS_OOTC_PRODUCT_SHOT.png?v=1781722068",
-      "published_at": "2021-02-05T13:35:42-05:00",
-      "created_at": "2021-02-05T13:35:39-05:00",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SONNYROLLINS_ONIMPULSE_PROD_SHOT.png?v=1781722163",
+      "published_at": "2021-05-07T13:58:37-04:00",
+      "created_at": "2021-02-02T15:03:35-05:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -8814,14 +8814,14 @@
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
     },
     {
-      "id": "6458227458197",
+      "id": "6472945598613",
       "label_id": "verve_acoustic",
-      "title": "Sonny Rollins: On Impulse! (Verve Acoustic Sounds Series) LP",
-      "url": "https://store.ververecords.com/products/sonny-rollins-on-impulse-verve-acoustic-sounds-series-lp",
+      "title": "Gil Evans: Out Of The Cool (Verve Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/gil-evans-out-of-the-cool-verve-acoustic-sounds-series-lp",
       "price": "38.98",
-      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/SONNYROLLINS_ONIMPULSE_PROD_SHOT.png?v=1781722163",
-      "published_at": "2021-05-07T13:58:37-04:00",
-      "created_at": "2021-02-02T15:03:35-05:00",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/GILEVANS_OOTC_PRODUCT_SHOT.png?v=1781722068",
+      "published_at": "2021-02-05T13:35:42-05:00",
+      "created_at": "2021-02-05T13:35:39-05:00",
       "specs": [
         "180g",
         "Gatefold"
@@ -9402,7 +9402,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -9879,6 +9879,23 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7220242645198",
+      "label_id": "analogue_productions",
+      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
+      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
+      "published_at": "2023-06-14T12:48:23-07:00",
+      "created_at": "2023-06-14T12:48:23-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569241641166",
       "label_id": "analogue_productions",
       "title": "Helen Merrill - Helen Merrill  - Analogue Productions LP",
@@ -9890,23 +9907,6 @@
       "specs": [
         "180g",
         "Gatefold"
-      ],
-      "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7220242645198",
-      "label_id": "analogue_productions",
-      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
-      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
-      "published_at": "2023-06-14T12:48:23-07:00",
-      "created_at": "2023-06-14T12:48:23-07:00",
-      "specs": [
-        "180g"
       ],
       "preorder": true,
       "label_name": "Analogue Productions — Jazz",
@@ -10978,6 +10978,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7655098089678",
+      "label_id": "analogue_productions",
+      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
+      "published_at": "2026-01-15T15:03:26-07:00",
+      "created_at": "2026-01-15T14:58:16-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542898491598",
       "label_id": "analogue_productions",
       "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
@@ -11039,25 +11058,6 @@
         "180g"
       ],
       "preorder": true,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7655098089678",
-      "label_id": "analogue_productions",
-      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
-      "published_at": "2026-01-15T15:03:26-07:00",
-      "created_at": "2026-01-15T14:58:16-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11760,6 +11760,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7637427421390",
+      "label_id": "analogue_productions",
+      "title": "Cannonball Adderley with Bill Evans - Know What I Mean? - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/cannonball-adderley-with-bill-evans-know-what-i-mean-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AJAZ_9433__10026__01152009112512-3134.jpg?v=1763493304",
+      "published_at": "2025-11-18T13:08:57-07:00",
+      "created_at": "2025-11-18T12:19:55-07:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "45 RPM"
+      ],
+      "preorder": false,
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7637427028174",
       "label_id": "analogue_productions",
       "title": "Bill Evans - New Jazz Conceptions (Mono) - Analogue Productions 45rpm LP",
@@ -11790,25 +11809,6 @@
       "created_at": "2024-03-25T15:45:13-07:00",
       "specs": [
         "180g"
-      ],
-      "preorder": false,
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7637427421390",
-      "label_id": "analogue_productions",
-      "title": "Cannonball Adderley with Bill Evans - Know What I Mean? - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/cannonball-adderley-with-bill-evans-know-what-i-mean-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AJAZ_9433__10026__01152009112512-3134.jpg?v=1763493304",
-      "published_at": "2025-11-18T13:08:57-07:00",
-      "created_at": "2025-11-18T12:19:55-07:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "45 RPM"
       ],
       "preorder": false,
       "label_name": "Analogue Productions — Jazz",
