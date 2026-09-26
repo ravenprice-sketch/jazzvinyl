@@ -69,28 +69,14 @@ SOURCES = [
         "collection": "original-jazz-classics",
         "keyword": "original jazz classics",
     },
-    # Three more AAA jazz series on Craft's own Shopify store (same code path as
-    # OJC). All all-analog from the original tapes, jazz-only by definition.
+    # Another AAA jazz series on Craft's own Shopify store (same code path as
+    # OJC): all-analog from the original tapes, jazz-only by definition.
     {
         "id": "craft_contemporary",
         "label": "Craft Recordings \u2014 Contemporary Records",
         "base": "https://craftrecordings.com",
         "collection": "contemporary-records-acoustic-sounds-series",
         "keyword": "contemporary records",
-    },
-    {
-        "id": "craft_moodsville",
-        "label": "Craft Recordings \u2014 Moodsville",
-        "base": "https://craftrecordings.com",
-        "collection": "moodsville",
-        "keyword": "moodsville",
-    },
-    {
-        "id": "craft_jazz_dispensary",
-        "label": "Craft Recordings \u2014 Jazz Dispensary Top Shelf",
-        "base": "https://craftrecordings.com",
-        "collection": "jazz-dispensary-top-shelf",
-        "keyword": "jazz dispensary top",
     },
     {
         "id": "verve_acoustic",
@@ -157,8 +143,6 @@ UPCOMING = [
     {"label_id": "bluenote_classic",   "uv": "blue-note",       "slug_kw": "classic-vinyl"},
     {"label_id": "craft_ojc",          "uv": "craft-recordings","slug_kw": "original-jazz-classics"},
     {"label_id": "craft_contemporary", "uv": "craft-recordings","slug_kw": "contemporary-records"},
-    {"label_id": "craft_moodsville",   "uv": "craft-recordings","slug_kw": "moodsville"},
-    {"label_id": "craft_jazz_dispensary","uv": "craft-recordings","slug_kw": "jazz-dispensary-top-shelf"},
     {"label_id": "verve_acoustic",     "uv": "verve",           "slug_kw": "acoustic-sounds"},
     {"label_id": "verve_vault",        "uv": "verve",           "slug_kw": "vault"},
     {"label_id": "analogue_productions","uv": "analogue-prod",  "slug_kw": None, "require_style": "jazz"},
@@ -185,8 +169,6 @@ OFFICIAL_STORE = {
     "bluenote_classic":     "https://store.bluenote.com",
     "craft_ojc":            "https://craftrecordings.com",
     "craft_contemporary":   "https://craftrecordings.com",
-    "craft_moodsville":     "https://craftrecordings.com",
-    "craft_jazz_dispensary":"https://craftrecordings.com",
     "verve_acoustic":       "https://store.ververecords.com",
     "verve_vault":          "https://store.ververecords.com",
     "analogue_productions": "https://store.acousticsounds.com",
