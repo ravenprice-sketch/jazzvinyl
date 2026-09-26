@@ -334,8 +334,34 @@ def simplify(src, p):
 # ---------------------------------------------------------------------------
 # upcomingvinyl.com scraping (forward release dates)
 # ---------------------------------------------------------------------------
-def _uv_get(url):
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+UV_DELAY = 1.5          # min seconds between requests to upcomingvinyl (politeness)
+_uv_last = [0.0]        # wall-clock of the last request, for pacing
+
+
+def _uv_get(url, retries=4):
+    """GET an upcomingvinyl page, paced and 429-aware. We keep at least UV_DELAY
+    seconds between requests, and on HTTP 429 ('Too Many Requests') we honour any
+    Retry-After header (else a linear backoff) and retry. A first run fetches
+    many record pages at once, which the site rate-limits; pacing + backoff keeps
+    us under its limit. Steady-state runs fetch only new records (the rest are
+    cached in seen.json), so this is cheap after day one."""
+    for attempt in range(retries + 1):
+        gap = UV_DELAY - (time.monotonic() - _uv_last[0])
+        if gap > 0:
+            time.sleep(gap)
+        r = requests.get(url, headers=UA, timeout=TIMEOUT)
+        _uv_last[0] = time.monotonic()
+        if r.status_code == 429 and attempt < retries:
+            try:
+                wait = float(r.headers.get("Retry-After", ""))
+            except (TypeError, ValueError):
+                wait = 5.0 * (attempt + 1)          # 5s, 10s, 15s, 20s
+            wait = min(max(wait, 2.0), 30.0)
+            print(f"  [upcoming] 429; backing off {wait:.0f}s and retrying")
+            time.sleep(wait)
+            continue
+        r.raise_for_status()
+        return r.text
     r.raise_for_status()
     return r.text
 
@@ -486,8 +512,7 @@ def fetch_upcoming(state):
                     print(f"  [upcoming] record {slug} failed: {e}")
                     continue
                 cache[slug] = rec
-                new_slugs.append(slug)
-                time.sleep(0.4)             # be polite to the site
+                new_slugs.append(slug)      # pacing/backoff handled in _uv_get
             for c in matched:
                 if c.get("require_style") and c["require_style"] not in rec.get("styles", []):
                     continue
