@@ -12,6 +12,7 @@
     --paper:#f3ede1; --paper2:#ece4d4; --ink:#1c1813; --ink2:#5a5145; --ink3:#8a7f6e;
     --line:#d9cebb; --accent:#bb4a22;
     --tonepoet:#2b4a7a; --classic:#3a6f63; --ojc:#b5481f; --acoustic:#5b4b8a; --vault:#9a6a1e; --ap:#8c2f39; --rhino:#3f7d5a;
+    --contemporary:#2f6d7a; --moodsville:#4a3f7a; --jazzdisp:#9a3f6b;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-font-smoothing:antialiased}
@@ -137,6 +138,9 @@ const LABELS = {
   bluenote_tone_poet: {name:"Tone Poet",      color:"var(--tonepoet)"},
   bluenote_classic:   {name:"Classic Vinyl",  color:"var(--classic)"},
   craft_ojc:          {name:"OJC",            color:"var(--ojc)"},
+  craft_contemporary: {name:"Contemporary",   color:"var(--contemporary)"},
+  craft_moodsville:   {name:"Moodsville",     color:"var(--moodsville)"},
+  craft_jazz_dispensary: {name:"Jazz Dispensary", color:"var(--jazzdisp)"},
   verve_acoustic:     {name:"Acoustic Sounds",color:"var(--acoustic)"},
   verve_vault:        {name:"Verve Vault",    color:"var(--vault)"},
   analogue_productions: {name:"Analogue Productions", color:"var(--ap)"},
@@ -227,7 +231,7 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
         ${dl?`<div class="date">${dl}</div>`:``}
         ${(it.preorder||specs.length)?`<div class="specs">${it.preorder?`<span class="spec pre">Pre-order</span>`:``}${specs.map(s=>`<span class="spec${s==="AAA"?" aaa":""}">${s}</span>`).join("")}</div>`:``}
         <div class="row"><span class="labelname">${lbl.name}</span><span class="price">${fmtPrice(it.price)}</span></div>
-        ${it.source_url?`<a class="src" href="${it.source_url}" target="_blank" rel="noopener">details ↗</a>`:``}
+        ${it.search_url?`<a class="src" href="${it.search_url}" target="_blank" rel="noopener">search ↗</a>`:``}
         ${it.blurb?`<div class="blurb">${it.blurb}<span class="tag">AI summary</span></div>`:``}
       </div>`;
     return card;

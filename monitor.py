@@ -69,6 +69,29 @@ SOURCES = [
         "collection": "original-jazz-classics",
         "keyword": "original jazz classics",
     },
+    # Three more AAA jazz series on Craft's own Shopify store (same code path as
+    # OJC). All all-analog from the original tapes, jazz-only by definition.
+    {
+        "id": "craft_contemporary",
+        "label": "Craft Recordings \u2014 Contemporary Records",
+        "base": "https://craftrecordings.com",
+        "collection": "contemporary-records-acoustic-sounds-series",
+        "keyword": "contemporary records",
+    },
+    {
+        "id": "craft_moodsville",
+        "label": "Craft Recordings \u2014 Moodsville",
+        "base": "https://craftrecordings.com",
+        "collection": "moodsville",
+        "keyword": "moodsville",
+    },
+    {
+        "id": "craft_jazz_dispensary",
+        "label": "Craft Recordings \u2014 Jazz Dispensary Top Shelf",
+        "base": "https://craftrecordings.com",
+        "collection": "jazz-dispensary-top-shelf",
+        "keyword": "jazz dispensary top",
+    },
     {
         "id": "verve_acoustic",
         "label": "Verve \u2014 Acoustic Sounds Series",
@@ -101,7 +124,7 @@ SOURCES = [
         "genre_collection": "jazz-lps",       # intersect -> jazz only
         "require_kw": "analog",               # true AP titles only
         "exclude_kw": "acoustic sounds series",
-        "relink_official": True,              # click -> Acoustic Sounds, not the retailer
+        "official_search": True,              # main click = In Groove page; add 'search' -> Acoustic Sounds
     },
 ]
 
@@ -133,6 +156,9 @@ UPCOMING = [
     {"label_id": "bluenote_tone_poet", "uv": "blue-note",       "slug_kw": "tone-poet"},
     {"label_id": "bluenote_classic",   "uv": "blue-note",       "slug_kw": "classic-vinyl"},
     {"label_id": "craft_ojc",          "uv": "craft-recordings","slug_kw": "original-jazz-classics"},
+    {"label_id": "craft_contemporary", "uv": "craft-recordings","slug_kw": "contemporary-records"},
+    {"label_id": "craft_moodsville",   "uv": "craft-recordings","slug_kw": "moodsville"},
+    {"label_id": "craft_jazz_dispensary","uv": "craft-recordings","slug_kw": "jazz-dispensary-top-shelf"},
     {"label_id": "verve_acoustic",     "uv": "verve",           "slug_kw": "acoustic-sounds"},
     {"label_id": "verve_vault",        "uv": "verve",           "slug_kw": "vault"},
     {"label_id": "analogue_productions","uv": "analogue-prod",  "slug_kw": None, "require_style": "jazz"},
@@ -141,12 +167,14 @@ UPCOMING = [
 # ---------------------------------------------------------------------------
 # Official-store links
 # ---------------------------------------------------------------------------
-# Every LP should click through to the official label store. Blue Note, Craft
-# and Verve are sourced from their own Shopify stores, so their product URLs are
-# already official and are left untouched. The two exceptions are items sourced
-# via a retailer (Analogue Productions, read from The 'In' Groove) or the
-# upcomingvinyl calendar -- for those we build an official-store link instead and
-# keep the original page under `source_url` (surfaced as a small "details" link).
+# A card's MAIN click should be the best available *release page*, in order:
+#   1. the official store's own product page (Blue Note / Craft / Verve Shopify
+#      sources -- direct + official), else
+#   2. the upcomingvinyl record page (upcoming items -- a real release page), else
+#   3. the retailer product page (Analogue Productions via In Groove).
+# Whenever the main click is NOT the official store's own product page (cases 2
+# and 3), we also attach `search_url`: the official store's search for that title,
+# shown as a small "search" link. `official_url` builds that search link.
 #
 # Shopify stores expose /search?q=. Analogue Productions' own store, Acoustic
 # Sounds, is not Shopify; its product pages are /d/<id>/<slug> (the id isn't
@@ -156,6 +184,9 @@ OFFICIAL_STORE = {
     "bluenote_tone_poet":   "https://store.bluenote.com",
     "bluenote_classic":     "https://store.bluenote.com",
     "craft_ojc":            "https://craftrecordings.com",
+    "craft_contemporary":   "https://craftrecordings.com",
+    "craft_moodsville":     "https://craftrecordings.com",
+    "craft_jazz_dispensary":"https://craftrecordings.com",
     "verve_acoustic":       "https://store.ververecords.com",
     "verve_vault":          "https://store.ververecords.com",
     "analogue_productions": "https://store.acousticsounds.com",
@@ -175,7 +206,9 @@ def _search_query(title):
 
 
 def official_url(label_id, title):
-    """Best official-store link for a title, or None if the label is unknown."""
+    """Official-store SEARCH link for a title, or None if the label is unknown.
+    Used as the secondary 'search' link when the main click isn't already the
+    official store's own product page."""
     base = OFFICIAL_STORE.get(label_id)
     if not base:
         return None
@@ -321,21 +354,47 @@ def simplify(src, p):
         "specs": _specs_from(f"{p.get('title','')} {' '.join(p.get('tags') or [])} {body}"),
         "preorder": ("pre-order" in blob or "preorder" in blob or not any_available),
     }
-    # Sources read via a retailer (e.g. Analogue Productions via In Groove) point
-    # the click at the official store instead, keeping the retailer as a fallback.
-    if src.get("relink_official"):
-        off = official_url(src["id"], title)
-        if off:
-            item["source_url"] = url
-            item["url"] = off
+    # Retailer-sourced items (Analogue Productions via In Groove) have no direct
+    # official product URL, so the main click stays on the In Groove product page
+    # (a real release page) and we add a 'search' link to the official store.
+    if src.get("official_search"):
+        s = official_url(src["id"], title)
+        if s:
+            item["search_url"] = s
     return item
 
 
 # ---------------------------------------------------------------------------
 # upcomingvinyl.com scraping (forward release dates)
 # ---------------------------------------------------------------------------
-def _uv_get(url):
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+UV_DELAY = 1.5          # min seconds between requests to upcomingvinyl (politeness)
+_uv_last = [0.0]        # wall-clock of the last request, for pacing
+
+
+def _uv_get(url, retries=4):
+    """GET an upcomingvinyl page, paced and 429-aware. We keep at least UV_DELAY
+    seconds between requests, and on HTTP 429 ('Too Many Requests') we honour any
+    Retry-After header (else a linear backoff) and retry. A first run fetches
+    many record pages at once, which the site rate-limits; pacing + backoff keeps
+    us under its limit. Steady-state runs fetch only new records (the rest are
+    cached in seen.json), so this is cheap after day one."""
+    for attempt in range(retries + 1):
+        gap = UV_DELAY - (time.monotonic() - _uv_last[0])
+        if gap > 0:
+            time.sleep(gap)
+        r = requests.get(url, headers=UA, timeout=TIMEOUT)
+        _uv_last[0] = time.monotonic()
+        if r.status_code == 429 and attempt < retries:
+            try:
+                wait = float(r.headers.get("Retry-After", ""))
+            except (TypeError, ValueError):
+                wait = 5.0 * (attempt + 1)
+            wait = min(max(wait, 2.0), 30.0)
+            print(f"  [upcoming] 429; backing off {wait:.0f}s and retrying")
+            time.sleep(wait)
+            continue
+        r.raise_for_status()
+        return r.text
     r.raise_for_status()
     return r.text
 
@@ -430,8 +489,8 @@ def _uv_to_item(label_id, rec):
         "label_id": label_id,
         "label_name": _label_name_for(label_id),
         "title": rec["title"],
-        "url": official_url(label_id, rec["title"]) or rec["url"],
-        "source_url": rec["url"],           # upcomingvinyl page (tracklist / pre-order)
+        "url": rec["url"],                  # main click -> upcomingvinyl release page
+        "search_url": official_url(label_id, rec["title"]),  # 'search' -> official store
         "price": None,
         "image": rec.get("image"),
         "published_at": None,
@@ -486,8 +545,7 @@ def fetch_upcoming(state):
                     print(f"  [upcoming] record {slug} failed: {e}")
                     continue
                 cache[slug] = rec
-                new_slugs.append(slug)
-                time.sleep(0.4)             # be polite to the site
+                new_slugs.append(slug)      # pacing/backoff handled in _uv_get
             for c in matched:
                 if c.get("require_style") and c["require_style"] not in rec.get("styles", []):
                     continue
