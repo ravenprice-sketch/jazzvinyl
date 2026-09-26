@@ -322,11 +322,12 @@ def simplify(src, p):
         "preorder": ("pre-order" in blob or "preorder" in blob or not any_available),
     }
     # Sources read via a retailer (e.g. Analogue Productions via In Groove) point
-    # the click at the official store instead, keeping the retailer as a fallback.
+    # the click at the official store instead. No secondary link is kept for
+    # these -- the official store search is the only link (a "details" link to
+    # upcomingvinyl is added only for upcoming items, in _uv_to_item).
     if src.get("relink_official"):
         off = official_url(src["id"], title)
         if off:
-            item["source_url"] = url
             item["url"] = off
     return item
 

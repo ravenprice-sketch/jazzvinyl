@@ -218,7 +218,7 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
         ${dl?`<div class="date">${dl}</div>`:``}
         ${(it.preorder||specs.length)?`<div class="specs">${it.preorder?`<span class="spec pre">Pre-order</span>`:``}${specs.map(s=>`<span class="spec${s==="AAA"?" aaa":""}">${s}</span>`).join("")}</div>`:``}
         <div class="row"><span class="labelname">${lbl.name}</span><span class="price">${fmtPrice(it.price)}</span></div>
-        ${it.source_url?`<a class="src" href="${it.source_url}" target="_blank" rel="noopener">details ↗</a>`:``}
+        ${it.source_url?`<a class="src" href="${it.source_url}" target="_blank" rel="noopener">upcomingvinyl ↗</a>`:``}
         ${it.blurb?`<div class="blurb">${it.blurb}<span class="tag">AI summary</span></div>`:``}
       </div>`;
     return card;
