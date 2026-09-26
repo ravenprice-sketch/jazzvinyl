@@ -322,12 +322,11 @@ def simplify(src, p):
         "preorder": ("pre-order" in blob or "preorder" in blob or not any_available),
     }
     # Sources read via a retailer (e.g. Analogue Productions via In Groove) point
-    # the click at the official store instead. No secondary link is kept for
-    # these -- the official store search is the only link (a "details" link to
-    # upcomingvinyl is added only for upcoming items, in _uv_to_item).
+    # the click at the official store instead, keeping the retailer as a fallback.
     if src.get("relink_official"):
         off = official_url(src["id"], title)
         if off:
+            item["source_url"] = url
             item["url"] = off
     return item
 
@@ -335,34 +334,8 @@ def simplify(src, p):
 # ---------------------------------------------------------------------------
 # upcomingvinyl.com scraping (forward release dates)
 # ---------------------------------------------------------------------------
-UV_DELAY = 1.5          # min seconds between requests to upcomingvinyl (politeness)
-_uv_last = [0.0]        # wall-clock of the last request, for pacing
-
-
-def _uv_get(url, retries=4):
-    """GET an upcomingvinyl page, paced and 429-aware. We keep at least UV_DELAY
-    seconds between requests, and on HTTP 429 ('Too Many Requests') we honour any
-    Retry-After header (else a linear backoff) and retry. A first run fetches
-    many record pages at once, which the site rate-limits; pacing + backoff keeps
-    us under its limit. Steady-state runs fetch only new records (the rest are
-    cached in seen.json), so this is cheap after day one."""
-    for attempt in range(retries + 1):
-        gap = UV_DELAY - (time.monotonic() - _uv_last[0])
-        if gap > 0:
-            time.sleep(gap)
-        r = requests.get(url, headers=UA, timeout=TIMEOUT)
-        _uv_last[0] = time.monotonic()
-        if r.status_code == 429 and attempt < retries:
-            try:
-                wait = float(r.headers.get("Retry-After", ""))
-            except (TypeError, ValueError):
-                wait = 5.0 * (attempt + 1)          # 5s, 10s, 15s, 20s
-            wait = min(max(wait, 2.0), 30.0)
-            print(f"  [upcoming] 429; backing off {wait:.0f}s and retrying")
-            time.sleep(wait)
-            continue
-        r.raise_for_status()
-        return r.text
+def _uv_get(url):
+    r = requests.get(url, headers=UA, timeout=TIMEOUT)
     r.raise_for_status()
     return r.text
 
@@ -513,7 +486,8 @@ def fetch_upcoming(state):
                     print(f"  [upcoming] record {slug} failed: {e}")
                     continue
                 cache[slug] = rec
-                new_slugs.append(slug)      # pacing/backoff handled in _uv_get
+                new_slugs.append(slug)
+                time.sleep(0.4)             # be polite to the site
             for c in matched:
                 if c.get("require_style") and c["require_style"] not in rec.get("styles", []):
                     continue
@@ -547,24 +521,50 @@ def _match_key(title):
     return re.sub(r"\s+", " ", t).strip()
 
 
+def _match_keys(title):
+    """Candidate match keys for a title, tolerant of the artist appearing in one
+    store's title but not another's. upcomingvinyl formats titles as
+    'Artist - Album', while some official stores (e.g. Craft) title the product
+    with the album alone. So besides the full key we also emit an album-only key
+    (the part after the first ' - '); a match on either key is a match."""
+    keys = set()
+    full = _match_key(title)
+    if full:
+        keys.add(full)
+    parts = re.split(r"\s+[–—-]\s+", title or "", maxsplit=1)
+    if len(parts) == 2:
+        album = _match_key(parts[1])
+        if album:
+            keys.add(album)
+    return keys
+
+
 def merge_upcoming(catalog, upcoming):
     """Fold upcoming items into the catalog. If an upcoming release already has a
     Shopify listing (same label, matching core title), attach its release_date to
     that listing and drop the duplicate. Otherwise append it as a standalone
-    'upcoming' entry. Returns the list of appended (not-yet-listed) items."""
+    'upcoming' entry. Returns the list of appended (not-yet-listed) items.
+
+    Matching is by (label_id, any shared match key) so that a store titling by
+    album only (Craft) still collapses against upcomingvinyl's 'Artist - Album'."""
     index = {}
     for it in catalog:
-        index.setdefault((it["label_id"], _match_key(it["title"])), it)
+        for k in _match_keys(it["title"]):
+            index.setdefault((it["label_id"], k), it)
     appended = []
     for u in upcoming:
-        key = (u["label_id"], _match_key(u["title"]))
-        m = index.get(key)
+        m = None
+        for k in _match_keys(u["title"]):
+            m = index.get((u["label_id"], k))
+            if m:
+                break
         if m:
             if u.get("release_date") and not m.get("release_date"):
                 m["release_date"] = u["release_date"]
         else:
             catalog.append(u)
-            index[key] = u
+            for k in _match_keys(u["title"]):
+                index.setdefault((u["label_id"], k), u)
             appended.append(u)
     return appended
 
