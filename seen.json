@@ -9975,6 +9975,7 @@
       ],
       "preorder": true,
       "label_name": "Verve — Acoustic Sounds Series",
+      "release_date": "2026-11-20",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -9990,6 +9991,7 @@
       "specs": [],
       "preorder": true,
       "label_name": "Verve — Acoustic Sounds Series",
+      "release_date": "2026-10-23",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     }
@@ -10423,6 +10425,7 @@
       ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
+      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-18T08:26:09.565005+00:00"
     },
@@ -10441,6 +10444,7 @@
       ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
+      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-18T08:26:09.565005+00:00"
     },
@@ -10459,6 +10463,7 @@
       ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
+      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -10477,6 +10482,7 @@
       ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
+      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     }
@@ -11318,7 +11324,10 @@
     "15286663610740": "2026-09-14T14:36:28.954510+00:00",
     "15286663577972": "2026-09-14T14:36:28.954510+00:00",
     "15286663774580": "2026-09-14T14:36:28.954510+00:00",
-    "15286663741812": "2026-09-14T14:36:28.954510+00:00"
+    "15286663741812": "2026-09-14T14:36:28.954510+00:00",
+    "uv_john-coltrane-john-coltrane-with-the-red-garland-trio-original-jazz-classics-series": "2026-09-26T14:46:48.226865+00:00",
+    "uv_miles-davis-relaxin-with-the-miles-davis-quintet-original-jazz-classics-series": "2026-09-26T14:46:48.226865+00:00",
+    "uv_vince-guaraldi-trio-a-charlie-brown-christmas-original-jazz-classics-series": "2026-09-26T14:46:48.226865+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -14194,6 +14203,7 @@
       "preorder": false,
       "source_url": "https://www.theingroove.com/products/bill-evans-trio-at-shellys-manne-hole-lp",
       "label_name": "Analogue Productions — Jazz",
+      "release_date": "2026-10-02",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
@@ -14362,6 +14372,116 @@
       "discs": 2,
       "image": "https://upcomingvinyl.com/pics/covers/n/nat-king-cole-after-midnight-the-complete-sessions-blue-note-tone-poet-series.jpg",
       "url": "https://upcomingvinyl.com/record/nat-king-cole-after-midnight-the-complete-sessions-blue-note-tone-poet-series"
+    },
+    "john-coltrane-john-coltrane-with-the-red-garland-trio-original-jazz-classics-series": {
+      "slug": "john-coltrane-john-coltrane-with-the-red-garland-trio-original-jazz-classics-series",
+      "title": "John Coltrane - John Coltrane with the Red Garland Trio (Original Jazz Classics Series)",
+      "release_date": "2026-10-09",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/j/john-coltrane-john-coltrane-with-the-red-garland-trio-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/john-coltrane-john-coltrane-with-the-red-garland-trio-original-jazz-classics-series"
+    },
+    "miles-davis-relaxin-with-the-miles-davis-quintet-original-jazz-classics-series": {
+      "slug": "miles-davis-relaxin-with-the-miles-davis-quintet-original-jazz-classics-series",
+      "title": "Miles Davis - Relaxin' with the Miles Davis Quintet (Original Jazz Classics Series)",
+      "release_date": "2026-10-09",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/m/miles-davis-relaxin-with-the-miles-davis-quintet-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/miles-davis-relaxin-with-the-miles-davis-quintet-original-jazz-classics-series"
+    },
+    "vince-guaraldi-trio-a-charlie-brown-christmas-original-jazz-classics-series": {
+      "slug": "vince-guaraldi-trio-a-charlie-brown-christmas-original-jazz-classics-series",
+      "title": "Vince Guaraldi Trio - A Charlie Brown Christmas (Original Jazz Classics Series)",
+      "release_date": "2026-10-09",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/v/vince-guaraldi-trio-a-charlie-brown-christmas-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/vince-guaraldi-trio-a-charlie-brown-christmas-original-jazz-classics-series"
+    },
+    "ahmad-jamal-ahmad-jamal-73-verve-vault-series": {
+      "slug": "ahmad-jamal-ahmad-jamal-73-verve-vault-series",
+      "title": "Ahmad Jamal - Ahmad Jamal '73 (Verve Vault Series)",
+      "release_date": "2026-10-09",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/a/ahmad-jamal-ahmad-jamal-73-verve-vault-series.jpg",
+      "url": "https://upcomingvinyl.com/record/ahmad-jamal-ahmad-jamal-73-verve-vault-series"
+    },
+    "bill-evans-california-here-i-come-verve-vault-series": {
+      "slug": "bill-evans-california-here-i-come-verve-vault-series",
+      "title": "Bill Evans - California Here I Come (Verve Vault Series)",
+      "release_date": "2026-10-09",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 2,
+      "image": "https://upcomingvinyl.com/pics/covers/b/bill-evans-california-here-i-come-verve-vault-series.jpg",
+      "url": "https://upcomingvinyl.com/record/bill-evans-california-here-i-come-verve-vault-series"
+    },
+    "coleman-hawkins-wrapped-tight-verve-acoustic-sounds-series": {
+      "slug": "coleman-hawkins-wrapped-tight-verve-acoustic-sounds-series",
+      "title": "Coleman Hawkins - Wrapped Tight (Verve Acoustic Sounds Series)",
+      "release_date": "2026-10-23",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/c/coleman-hawkins-wrapped-tight-verve-acoustic-sounds-series.jpg",
+      "url": "https://upcomingvinyl.com/record/coleman-hawkins-wrapped-tight-verve-acoustic-sounds-series"
+    },
+    "billy-mitchell-this-is-billy-mitchell-verve-vault-series": {
+      "slug": "billy-mitchell-this-is-billy-mitchell-verve-vault-series",
+      "title": "Billy Mitchell - This Is Billy Mitchell (Verve Vault Series)",
+      "release_date": "2026-11-13",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/b/billy-mitchell-this-is-billy-mitchell-verve-vault-series.jpg",
+      "url": "https://upcomingvinyl.com/record/billy-mitchell-this-is-billy-mitchell-verve-vault-series"
+    },
+    "carmen-mcrae-birds-of-a-feather-verve-vault-series": {
+      "slug": "carmen-mcrae-birds-of-a-feather-verve-vault-series",
+      "title": "Carmen McRae - Birds of a Feather (Verve Vault Series)",
+      "release_date": "2026-11-13",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/c/carmen-mcrae-birds-of-a-feather-verve-vault-series.jpg",
+      "url": "https://upcomingvinyl.com/record/carmen-mcrae-birds-of-a-feather-verve-vault-series"
+    },
+    "john-coltrane-live-at-birdland-verve-acoustic-sounds-series": {
+      "slug": "john-coltrane-live-at-birdland-verve-acoustic-sounds-series",
+      "title": "John Coltrane - Live at Birdland (Verve Acoustic Sounds Series)",
+      "release_date": "2026-11-20",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/j/john-coltrane-live-at-birdland-verve-acoustic-sounds-series.jpg",
+      "url": "https://upcomingvinyl.com/record/john-coltrane-live-at-birdland-verve-acoustic-sounds-series"
+    },
+    "bill-evans-trio-at-shelly-s-manne-hole-1778319336": {
+      "slug": "bill-evans-trio-at-shelly-s-manne-hole-1778319336",
+      "title": "Bill Evans Trio - AT Shelly's Manne-Hole",
+      "release_date": "2026-10-02",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 2,
+      "image": "https://upcomingvinyl.com/pics/covers/b/bill-evans-trio-at-shelly-s-manne-hole-1778319336.jpg",
+      "url": "https://upcomingvinyl.com/record/bill-evans-trio-at-shelly-s-manne-hole-1778319336"
     }
   }
 }
