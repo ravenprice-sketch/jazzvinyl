@@ -20,13 +20,16 @@ You only need ONE channel; set whichever you like and leave the rest empty.
 """
 
 import datetime
+import html as _htmllib
 import json
 import os
 import re
 import smtplib
 import sys
+import time
 from email.mime.text import MIMEText
 from pathlib import Path
+from urllib.parse import quote_plus
 
 import requests
 
@@ -98,8 +101,88 @@ SOURCES = [
         "genre_collection": "jazz-lps",       # intersect -> jazz only
         "require_kw": "analog",               # true AP titles only
         "exclude_kw": "acoustic sounds series",
+        "relink_official": True,              # click -> Acoustic Sounds, not the retailer
     },
 ]
+
+# ---------------------------------------------------------------------------
+# Forward-release calendar (upcomingvinyl.com)
+# ---------------------------------------------------------------------------
+# The Shopify feeds above only show what a store has already listed. They can't
+# tell us a record is *coming* until it appears for sale. upcomingvinyl.com is a
+# release calendar that lists forward-dated pressings per label, so we scrape the
+# handful of labels we already track to fold a real release_date into the app
+# (and to surface titles before they hit the stores).
+#
+# Design notes / hidden issues to be aware of:
+#   * This is HTML scraping of a third-party site (no API), so it is inherently
+#     more fragile than the Shopify JSON feeds. It is wrapped so any failure is
+#     non-fatal: the monitor logs and carries on with the Shopify catalog.
+#   * We target *stable* signals only -- semantic URL paths (/release-date/,
+#     /style/, /discs/, /record/) and og: meta tags -- not visual layout.
+#   * upcomingvinyl's label taxonomy is coarser than ours: Blue Note / Verve /
+#     Craft each host several series (incl. non-audiophile ones like Blue Note
+#     "Essential"). We mirror each Shopify source's SERIES by requiring a slug
+#     marker (`slug_kw`); Analogue Prod. is genre-mixed so it uses a genre gate
+#     (`require_style`) instead, exactly like the In Groove jazz cross-ref.
+#   * Each record page is fetched at most once, then cached in seen.json under
+#     "_upcoming", so steady-state traffic is ~6 label pages + any new records.
+UV_BASE = "https://upcomingvinyl.com"
+
+UPCOMING = [
+    {"label_id": "bluenote_tone_poet", "uv": "blue-note",       "slug_kw": "tone-poet"},
+    {"label_id": "bluenote_classic",   "uv": "blue-note",       "slug_kw": "classic-vinyl"},
+    {"label_id": "craft_ojc",          "uv": "craft-recordings","slug_kw": "original-jazz-classics"},
+    {"label_id": "verve_acoustic",     "uv": "verve",           "slug_kw": "acoustic-sounds"},
+    {"label_id": "verve_vault",        "uv": "verve",           "slug_kw": "vault"},
+    {"label_id": "analogue_productions","uv": "analogue-prod",  "slug_kw": None, "require_style": "jazz"},
+]
+
+# ---------------------------------------------------------------------------
+# Official-store links
+# ---------------------------------------------------------------------------
+# Every LP should click through to the official label store. Blue Note, Craft
+# and Verve are sourced from their own Shopify stores, so their product URLs are
+# already official and are left untouched. The two exceptions are items sourced
+# via a retailer (Analogue Productions, read from The 'In' Groove) or the
+# upcomingvinyl calendar -- for those we build an official-store link instead and
+# keep the original page under `source_url` (surfaced as a small "details" link).
+#
+# Shopify stores expose /search?q=. Analogue Productions' own store, Acoustic
+# Sounds, is not Shopify; its product pages are /d/<id>/<slug> (the id isn't
+# derivable from a third-party feed), so we link to its keyword search
+# (get=results&SearchText=) -- the parameter its own search form uses.
+OFFICIAL_STORE = {
+    "bluenote_tone_poet":   "https://store.bluenote.com",
+    "bluenote_classic":     "https://store.bluenote.com",
+    "craft_ojc":            "https://craftrecordings.com",
+    "verve_acoustic":       "https://store.ververecords.com",
+    "verve_vault":          "https://store.ververecords.com",
+    "analogue_productions": "https://store.acousticsounds.com",
+}
+
+
+def _search_query(title):
+    """A clean 'artist album' query from a store/aggregator title: drop any
+    parenthetical (colour/variant/series) and the trailing ' - <label> LP'
+    tail, keeping the artist and album."""
+    t = re.sub(r"\([^)]*\)", " ", title or "")
+    parts = re.split(r"\s+[–—-]\s+", t)      # split on ' - ' / en/em dash
+    core = " ".join(parts[:2]) if len(parts) >= 2 else (parts[0] if parts else "")
+    core = re.sub(r"\b(180\s?-?\s?gram|200\s?-?\s?gram|180g|200g|45\s?rpm|33\s?rpm"
+                  r"|[234]\s?x?lp|lp|mono|stereo)\b", " ", core, flags=re.I)
+    return re.sub(r"\s+", " ", core).strip()
+
+
+def official_url(label_id, title):
+    """Best official-store link for a title, or None if the label is unknown."""
+    base = OFFICIAL_STORE.get(label_id)
+    if not base:
+        return None
+    q = quote_plus(_search_query(title))
+    if "acousticsounds.com" in base:
+        return f"{base}/index.cfm?get=results&SearchText={q}"
+    return f"{base}/search?q={q}"                       # Shopify storefront search
 
 # ---------------------------------------------------------------------------
 # Fetching
@@ -224,11 +307,13 @@ def simplify(src, p):
     blob = f"{p.get('title','')} {' '.join(p.get('tags') or [])} {body}".lower()
     any_available = any(v.get("available") for v in variants)
     created = p.get("created_at") or p.get("published_at") or ""
-    return {
+    title = p.get("title", "").strip()
+    url = f"{src['base']}/products/{handle}" if handle else src["base"]
+    item = {
         "id": str(p.get("id")),
         "label_id": src["id"],
-        "title": p.get("title", "").strip(),
-        "url": f"{src['base']}/products/{handle}" if handle else src["base"],
+        "title": title,
+        "url": url,
         "price": price,
         "image": image,
         "published_at": p.get("published_at"),
@@ -236,6 +321,226 @@ def simplify(src, p):
         "specs": _specs_from(f"{p.get('title','')} {' '.join(p.get('tags') or [])} {body}"),
         "preorder": ("pre-order" in blob or "preorder" in blob or not any_available),
     }
+    # Sources read via a retailer (e.g. Analogue Productions via In Groove) point
+    # the click at the official store instead, keeping the retailer as a fallback.
+    if src.get("relink_official"):
+        off = official_url(src["id"], title)
+        if off:
+            item["source_url"] = url
+            item["url"] = off
+    return item
+
+
+# ---------------------------------------------------------------------------
+# upcomingvinyl.com scraping (forward release dates)
+# ---------------------------------------------------------------------------
+def _uv_get(url):
+    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+    r.raise_for_status()
+    return r.text
+
+
+def _uv_meta(html, prop):
+    """Content of an og:/twitter: meta tag, attribute order agnostic."""
+    p = re.escape(prop)
+    m = re.search(r'<meta[^>]+?(?:property|name)=["\']' + p +
+                  r'["\'][^>]*?content=["\']([^"\']*)["\']', html, re.I)
+    if not m:
+        m = re.search(r'<meta[^>]+?content=["\']([^"\']*)["\'][^>]*?(?:property|name)=["\']' +
+                      p + r'["\']', html, re.I)
+    return _htmllib.unescape(m.group(1)).strip() if m else None
+
+
+_UV_SLUG_RE  = re.compile(r'/record/([a-z0-9][a-z0-9\-]*)')
+_UV_DATE_RE  = re.compile(r'/release-date/(\d{4}-\d{2}-\d{2})')
+_UV_STYLE_RE = re.compile(r'/style/([a-z0-9\-]+)')
+_UV_DISCS_RE = re.compile(r'/discs/(\d+)')
+_UV_MONTHS = {m: i for i, m in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july",
+     "august", "september", "october", "november", "december"], 1)}
+
+
+def _uv_record_slugs(uv_label):
+    """Ordered, de-duplicated record slugs listed on a label page. Label pages
+    are clean lists (no recommendation sidebars), so every /record/ link is a
+    genuine upcoming release for that label."""
+    html = _uv_get(f"{UV_BASE}/label/{uv_label}")
+    slugs, seen = [], set()
+    for m in _UV_SLUG_RE.finditer(html):
+        s = m.group(1)
+        if s not in seen:
+            seen.add(s)
+            slugs.append(s)
+    return slugs
+
+
+def _uv_date_from_desc(html):
+    """Fallback: 'Released October 2, 2026' out of the og/meta description."""
+    desc = _uv_meta(html, "og:description") or _uv_meta(html, "description") or ""
+    m = re.search(r'([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})', desc)
+    if not m:
+        return None
+    mon = _UV_MONTHS.get(m.group(1).lower())
+    if not mon:
+        return None
+    return f"{int(m.group(3)):04d}-{mon:02d}-{int(m.group(2)):02d}"
+
+
+def _uv_parse_record(slug, html):
+    """Structured fields for one record page. Sidebars ('Last added',
+    'Featured') carry unrelated /record/ links and plain-text dates, so we read
+    genre/date/format only from the head of the page, before those sections."""
+    cut = len(html)
+    for marker in ("LAST ADDED", "Featured Upcoming", "Recommended equipment"):
+        i = html.find(marker)
+        if i != -1:
+            cut = min(cut, i)
+    head = html[:cut]
+
+    dm = _UV_DATE_RE.search(head)
+    release_date = dm.group(1) if dm else _uv_date_from_desc(html)
+    styles = sorted(set(_UV_STYLE_RE.findall(head)))
+    disc_m = _UV_DISCS_RE.search(head)
+    discs = int(disc_m.group(1)) if disc_m else 1
+
+    title = _uv_meta(html, "og:title")
+    if not title:
+        raw = _uv_meta(html, "title") or slug
+        title = re.split(r'\s*[|\[]', raw)[0].strip()
+    image = _uv_meta(html, "og:image")
+    if image and "og-image" in image:      # generic fallback image, not a cover
+        image = None
+    return {
+        "slug": slug,
+        "title": title,
+        "release_date": release_date,
+        "styles": styles,
+        "discs": discs,
+        "image": image,
+        "url": f"{UV_BASE}/record/{slug}",
+    }
+
+
+def _uv_to_item(label_id, rec):
+    specs = _specs_from(rec["title"])
+    if rec.get("discs", 1) and rec["discs"] > 1 and f"{rec['discs']}xLP" not in specs:
+        specs = [f"{rec['discs']}xLP"] + specs
+    return {
+        "id": "uv_" + rec["slug"],
+        "label_id": label_id,
+        "label_name": _label_name_for(label_id),
+        "title": rec["title"],
+        "url": official_url(label_id, rec["title"]) or rec["url"],
+        "source_url": rec["url"],           # upcomingvinyl page (tracklist / pre-order)
+        "price": None,
+        "image": rec.get("image"),
+        "published_at": None,
+        "created_at": rec.get("release_date") or "",
+        "release_date": rec.get("release_date"),
+        "specs": specs,
+        "preorder": True,
+        "upcoming": True,
+    }
+
+
+def _label_name_for(label_id):
+    for s in SOURCES:
+        if s["id"] == label_id:
+            return s["label"]
+    return label_id
+
+
+def fetch_upcoming(state):
+    """Scrape upcomingvinyl.com for forward-dated releases on the labels/series
+    we track. Returns (items, new_slugs, is_baseline). Record pages are cached in
+    state['_upcoming'] so each is fetched at most once. Fully defensive: a failed
+    label or record page is logged and skipped, never raised."""
+    is_baseline = "_upcoming" not in state
+    cache = state.setdefault("_upcoming", {})
+    today = datetime.date.today().isoformat()
+    stale = (datetime.date.today() - datetime.timedelta(days=45)).isoformat()
+
+    # Fetch each label page once, even when it feeds several series.
+    by_uv = {}
+    for cfg in UPCOMING:
+        by_uv.setdefault(cfg["uv"], []).append(cfg)
+
+    items, new_slugs = [], []
+    for uv_label, cfgs in by_uv.items():
+        try:
+            slugs = _uv_record_slugs(uv_label)
+        except Exception as e:
+            print(f"  [upcoming/{uv_label}] label page failed: {e}")
+            continue
+        print(f"  [upcoming/{uv_label}] {len(slugs)} listed")
+        for slug in slugs:
+            matched = [c for c in cfgs
+                       if c.get("slug_kw") is None or c["slug_kw"] in slug]
+            if not matched:
+                continue
+            rec = cache.get(slug)
+            if rec is None:
+                try:
+                    rec = _uv_parse_record(slug, _uv_get(f"{UV_BASE}/record/{slug}"))
+                except Exception as e:
+                    print(f"  [upcoming] record {slug} failed: {e}")
+                    continue
+                cache[slug] = rec
+                new_slugs.append(slug)
+                time.sleep(0.4)             # be polite to the site
+            for c in matched:
+                if c.get("require_style") and c["require_style"] not in rec.get("styles", []):
+                    continue
+                items.append(_uv_to_item(c["label_id"], rec))
+                break
+
+    # Drop anything already released (it belongs to the Shopify feeds now) and
+    # prune long-past entries from the cache so seen.json doesn't grow forever.
+    items = [it for it in items if not it["release_date"] or it["release_date"] >= today]
+    for s in list(cache.keys()):
+        rd = cache[s].get("release_date")
+        if rd and rd < stale:
+            del cache[s]
+    return items, new_slugs, is_baseline
+
+
+def _match_key(title):
+    """Aggressive core key (artist+album) for matching an upcomingvinyl title to
+    an already-listed Shopify title, which carries extra label/series/format
+    words. Looser than _norm_title on purpose."""
+    t = (title or "").lower()
+    t = re.sub(r"\([^)]*\)", " ", t)                 # drop ALL parentheticals
+    for tok in ("analogue productions", "analog productions", "acoustic sounds series",
+                "acoustic sounds", "original jazz classics series", "original jazz classics",
+                "tone poet", "classic vinyl", "vault series", "vault", "blue note",
+                "verve", "craft recordings", "series", "reissue", "180g", "200g",
+                "45rpm", "45 rpm", "33rpm", "2xlp", "3xlp", "4xlp", "lp"):
+        t = t.replace(tok, " ")
+    t = t.replace("—", " ").replace("-", " ")
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def merge_upcoming(catalog, upcoming):
+    """Fold upcoming items into the catalog. If an upcoming release already has a
+    Shopify listing (same label, matching core title), attach its release_date to
+    that listing and drop the duplicate. Otherwise append it as a standalone
+    'upcoming' entry. Returns the list of appended (not-yet-listed) items."""
+    index = {}
+    for it in catalog:
+        index.setdefault((it["label_id"], _match_key(it["title"])), it)
+    appended = []
+    for u in upcoming:
+        key = (u["label_id"], _match_key(u["title"]))
+        m = index.get(key)
+        if m:
+            if u.get("release_date") and not m.get("release_date"):
+                m["release_date"] = u["release_date"]
+        else:
+            catalog.append(u)
+            index[key] = u
+            appended.append(u)
+    return appended
 
 
 # ---------------------------------------------------------------------------
@@ -282,7 +587,9 @@ def fmt_item(it):
     price = f" \u2014 ${it['price']}" if it.get("price") else ""
     avail = it.get("availability")
     tag = f"  [{avail}]" if avail and avail.lower() != "in stock" else ""
-    return f"\u2022 {it['title']}{price}{tag}\n  {it['url']}"
+    rd = it.get("release_date")
+    date = f"  (out {rd})" if rd else ""
+    return f"\u2022 {it['title']}{price}{date}{tag}\n  {it['url']}"
 
 
 def send_discord(text):
@@ -473,6 +780,26 @@ def main():
             catalog.append(it)
         if diff_source(state, src["id"], src["label"], items, all_new):
             changed = True
+
+    # Forward release dates from upcomingvinyl.com. Fully non-fatal: any failure
+    # here leaves the Shopify catalog above untouched.
+    print("Checking upcomingvinyl.com ...")
+    try:
+        upcoming, new_slugs, uv_baseline = fetch_upcoming(state)
+        appended = merge_upcoming(catalog, upcoming)
+        print(f"  {len(upcoming)} upcoming item(s); {len(appended)} not yet in stores")
+        if new_slugs or uv_baseline:
+            changed = True
+        if uv_baseline:
+            print("  baseline recorded (no upcoming alert on first run)")
+        elif new_slugs:
+            ns = set(new_slugs)
+            fresh = [u for u in upcoming if u["id"][3:] in ns]
+            if fresh:
+                all_new.append(("⏳ Upcoming releases", fresh))
+                print(f"  {len(fresh)} NEW upcoming")
+    except Exception as e:
+        print(f"  upcoming feed error: {e}")
 
     # Attach hand-curated blurbs. There are NO automatic AI calls: blurbs are
     # written on demand (a consensus summary for a specific title) and stored in
