@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T15:33:22.360207+00:00",
+  "updated": "2026-09-27T13:26:42.967677+00:00",
   "count": 679,
   "items": [
     {
@@ -10538,24 +10538,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6568997617870",
-      "label_id": "analogue_productions",
-      "title": "Gil Evans - Gil Evans and Ten - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/gil-evans-gil-evans-and-ten-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/1400x1400bb_5b0f434a-6a4f-4233-b0c2-1b62c10b0540.jpg?v=1781055026",
-      "published_at": "2021-04-02T14:58:47-07:00",
-      "created_at": "2021-04-02T14:58:48-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Gil+Evans+Gil+Evans+and+Ten",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6984950382798",
       "label_id": "analogue_productions",
       "title": "John Coltrane - Soultrane - Analogue Productions LP",
@@ -10569,6 +10551,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=John+Coltrane+Soultrane",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6568997617870",
+      "label_id": "analogue_productions",
+      "title": "Gil Evans - Gil Evans and Ten - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/gil-evans-gil-evans-and-ten-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/1400x1400bb_5b0f434a-6a4f-4233-b0c2-1b62c10b0540.jpg?v=1781055026",
+      "published_at": "2021-04-02T14:58:47-07:00",
+      "created_at": "2021-04-02T14:58:48-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Gil+Evans+Gil+Evans+and+Ten",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11434,6 +11434,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7030969041102",
+      "label_id": "analogue_productions",
+      "title": "Art Taylor - Taylor's Wailers - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/art-taylor-taylors-wailers-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/6apsap7117-large__61911.webp?v=1656119247",
+      "published_at": "2022-06-24T17:12:08-07:00",
+      "created_at": "2022-06-24T17:12:06-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Art+Taylor+Taylor%27s+Wailers",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7030963667150",
       "label_id": "analogue_productions",
       "title": "Jackie McLean - Lights Out! - Analogue Productions LP",
@@ -11485,25 +11504,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Johnny+Hodges+Johnny+Hodges+with+Billy+Strayhorn+and+the+Orchestra",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7030969041102",
-      "label_id": "analogue_productions",
-      "title": "Art Taylor - Taylor's Wailers - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/art-taylor-taylors-wailers-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/6apsap7117-large__61911.webp?v=1656119247",
-      "published_at": "2022-06-24T17:12:08-07:00",
-      "created_at": "2022-06-24T17:12:06-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Art+Taylor+Taylor%27s+Wailers",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12273,7 +12273,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Trio+At+Shelly%27s+Manne-Hole",
       "label_name": "Analogue Productions — Jazz",
       "release_date": "2026-10-02",
