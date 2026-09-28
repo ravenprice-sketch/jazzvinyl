@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-27T13:26:42.967677+00:00",
-  "count": 679,
+  "updated": "2026-09-28T16:18:50.152925+00:00",
+  "count": 681,
   "items": [
     {
       "id": "8610447655103",
@@ -3015,6 +3015,42 @@
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
+    },
+    {
+      "id": "8614795411647",
+      "label_id": "bluenote_classic",
+      "title": "Reuben Wilson - On Broadway LP (Blue Note Classic Vinyl Series)",
+      "url": "https://store.bluenote.com/products/reuben-wilson-on-broadway-lp-blue-note-classic-vinyl-series",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/ReubenWilson_OnBroadway_1LP-ProductShot.png?v=1789152308",
+      "published_at": "2026-09-28T08:59:58-04:00",
+      "created_at": "2026-09-11T14:42:28-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-09-28T16:18:50.148937+00:00"
+    },
+    {
+      "id": "8614795116735",
+      "label_id": "bluenote_classic",
+      "title": "Big John Patton - That Certain Feeling LP (Blue Note Classic Vinyl Series)",
+      "url": "https://store.bluenote.com/products/big-john-patton-that-certain-feeling-lp-blue-note-classic-vinyl-series",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/JohnPatton_ThatCertainFeeling_1LP-ProductShot.png?v=1789152319",
+      "published_at": "2026-09-28T08:59:57-04:00",
+      "created_at": "2026-09-11T14:41:58-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-09-28T16:18:50.148937+00:00"
     },
     {
       "id": "8551920140479",
@@ -11940,6 +11976,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569018753230",
+      "label_id": "analogue_productions",
+      "title": "Julie London - Latin In A Satin Mood - Analogue Productions 33rpm LP",
+      "url": "https://www.theingroove.com/products/julie-london-latin-in-a-satin-mood-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPP_7278__97162__03042020034125-1498.jpg?v=1785125320",
+      "published_at": "2021-04-02T15:22:27-07:00",
+      "created_at": "2021-04-02T15:22:28-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Julie+London+Latin+In+A+Satin+Mood",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360834240718",
       "label_id": "analogue_productions",
       "title": "Sarah Vaughan, Clark Terry, Zoot Sims, Quadrant - A Celebration of Duke - Analogue Productions Pablo LP",
@@ -11992,25 +12047,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Phil+Woods+and+Donald+Byrd+The+Young+Bloods",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569018753230",
-      "label_id": "analogue_productions",
-      "title": "Julie London - Latin In A Satin Mood - Analogue Productions 33rpm LP",
-      "url": "https://www.theingroove.com/products/julie-london-latin-in-a-satin-mood-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPP_7278__97162__03042020034125-1498.jpg?v=1785125320",
-      "published_at": "2021-04-02T15:22:27-07:00",
-      "created_at": "2021-04-02T15:22:28-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Julie+London+Latin+In+A+Satin+Mood",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
