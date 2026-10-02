@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T14:58:12.974756+00:00",
+  "updated": "2026-10-02T14:21:25.813276+00:00",
   "count": 681,
   "items": [
     {
@@ -11470,6 +11470,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569020915918",
+      "label_id": "analogue_productions",
+      "title": "Johnny Hodges - Johnny Hodges with Billy Strayhorn and the Orchestra - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/johnny-hodges-johnny-hodges-with-billy-strayhorn-analog-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_de539e6e-0d02-4fbe-aa62-5b53752abba7.jpg?v=1617402278",
+      "published_at": "2021-04-02T15:24:37-07:00",
+      "created_at": "2021-04-02T15:24:38-07:00",
+      "specs": [
+        "45 RPM"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Johnny+Hodges+Johnny+Hodges+with+Billy+Strayhorn+and+the+Orchestra",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7030969041102",
       "label_id": "analogue_productions",
       "title": "Art Taylor - Taylor's Wailers - Analogue Productions LP",
@@ -11522,24 +11540,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Sarah+Vaughan+How+Long+Has+This+Been+Going+On%3F",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569020915918",
-      "label_id": "analogue_productions",
-      "title": "Johnny Hodges - Johnny Hodges with Billy Strayhorn and the Orchestra - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/johnny-hodges-johnny-hodges-with-billy-strayhorn-analog-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_de539e6e-0d02-4fbe-aa62-5b53752abba7.jpg?v=1617402278",
-      "published_at": "2021-04-02T15:24:37-07:00",
-      "created_at": "2021-04-02T15:24:38-07:00",
-      "specs": [
-        "45 RPM"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Johnny+Hodges+Johnny+Hodges+with+Billy+Strayhorn+and+the+Orchestra",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12129,6 +12129,26 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7693801881806",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
+      "published_at": "2026-04-29T23:12:40-07:00",
+      "created_at": "2026-04-29T18:31:18-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Birth+Of+The+Blue",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-12T09:44:48.481838+00:00"
+    },
+    {
       "id": "7542898622670",
       "label_id": "analogue_productions",
       "title": "Count Basie & Joe Turner - The Bosses - Analogue Productions Pablo LP",
@@ -12164,26 +12184,6 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7693801881806",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
-      "published_at": "2026-04-29T23:12:40-07:00",
-      "created_at": "2026-04-29T18:31:18-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Birth+Of+The+Blue",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-07-12T09:44:48.481838+00:00"
     },
     {
       "id": "7542899179726",
