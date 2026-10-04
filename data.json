@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T12:54:22.710631+00:00",
+  "updated": "2026-10-04T13:35:52.587720+00:00",
   "count": 681,
   "items": [
     {
@@ -9672,7 +9672,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dave+Brubeck+Quartet+Time+Out",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11842,6 +11842,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569198125262",
+      "label_id": "analogue_productions",
+      "title": "Charles Mingus - Mingus, Mingus, Mingus, Mingus, Mingus - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/charles-mingus-mingus-mingus-mingus-mingus-mingus-analogue-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/AIPJ_54__55953__04012020043338-1982.jpg?v=1664304648",
+      "published_at": "2023-04-18T11:57:56-07:00",
+      "created_at": "2021-04-02T18:09:37-07:00",
+      "specs": [
+        "180g",
+        "45 RPM"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+Mingus%2C+Mingus%2C+Mingus%2C+Mingus%2C+Mingus",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569017442510",
       "label_id": "analogue_productions",
       "title": "Duke Ellington and Johnny Hodges - Side By Side - Analogue Productions LP",
@@ -11875,25 +11894,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Chet+Baker+In+New+York",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569198125262",
-      "label_id": "analogue_productions",
-      "title": "Charles Mingus - Mingus, Mingus, Mingus, Mingus, Mingus - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/charles-mingus-mingus-mingus-mingus-mingus-mingus-analogue-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/AIPJ_54__55953__04012020043338-1982.jpg?v=1664304648",
-      "published_at": "2023-04-18T11:57:56-07:00",
-      "created_at": "2021-04-02T18:09:37-07:00",
-      "specs": [
-        "180g",
-        "45 RPM"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+Mingus%2C+Mingus%2C+Mingus%2C+Mingus%2C+Mingus",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
