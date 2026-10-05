@@ -11405,7 +11405,9 @@
     "uv_tommy-flanagan-moodsville-volume-9-the-tommy-flanagan-trio": "2026-09-26T15:26:35.348261+00:00",
     "uv_gary-bartz-ntu-troop-i-ve-known-rivers-and-other-bodies-jazz-dispensary-top-shelf-series": "2026-09-26T15:26:35.348261+00:00",
     "8614795411647": "2026-09-28T16:18:50.148937+00:00",
-    "8614795116735": "2026-09-28T16:18:50.148937+00:00"
+    "8614795116735": "2026-09-28T16:18:50.148937+00:00",
+    "uv_benny-carter-further-definitions-verve-acoustic-sounds-series": "2026-10-05T16:39:44.666151+00:00",
+    "uv_lee-konitz-motion-verve-acoustic-sounds-series": "2026-10-05T16:39:44.666151+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -14599,6 +14601,28 @@
       "discs": 2,
       "image": "https://upcomingvinyl.com/pics/covers/g/gary-bartz-ntu-troop-i-ve-known-rivers-and-other-bodies-jazz-dispensary-top-shelf-series.jpg",
       "url": "https://upcomingvinyl.com/record/gary-bartz-ntu-troop-i-ve-known-rivers-and-other-bodies-jazz-dispensary-top-shelf-series"
+    },
+    "benny-carter-further-definitions-verve-acoustic-sounds-series": {
+      "slug": "benny-carter-further-definitions-verve-acoustic-sounds-series",
+      "title": "Benny Carter - Further Definitions (Verve Acoustic Sounds Series)",
+      "release_date": "2026-11-20",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/b/benny-carter-further-definitions-verve-acoustic-sounds-series.jpg",
+      "url": "https://upcomingvinyl.com/record/benny-carter-further-definitions-verve-acoustic-sounds-series"
+    },
+    "lee-konitz-motion-verve-acoustic-sounds-series": {
+      "slug": "lee-konitz-motion-verve-acoustic-sounds-series",
+      "title": "Lee Konitz - Motion (Verve Acoustic Sounds Series)",
+      "release_date": "2026-11-20",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/l/lee-konitz-motion-verve-acoustic-sounds-series.jpg",
+      "url": "https://upcomingvinyl.com/record/lee-konitz-motion-verve-acoustic-sounds-series"
     }
   },
   "craft_contemporary": {

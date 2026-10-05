@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T13:35:52.587720+00:00",
-  "count": 681,
+  "updated": "2026-10-05T16:39:44.668713+00:00",
+  "count": 683,
   "items": [
     {
       "id": "8610447655103",
@@ -12147,6 +12147,24 @@
       "first_seen": "2026-07-12T09:44:48.481838+00:00"
     },
     {
+      "id": "7542899179726",
+      "label_id": "analogue_productions",
+      "title": "Count Basie and His Orchestra - Me and You - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-count-basie-and-his-orchestra-me-and-you-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab193__54715.jpg?v=1738092256",
+      "published_at": "2025-01-28T14:37:54-07:00",
+      "created_at": "2025-01-28T12:24:52-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+and+His+Orchestra+Me+and+You",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542898622670",
       "label_id": "analogue_productions",
       "title": "Count Basie & Joe Turner - The Bosses - Analogue Productions Pablo LP",
@@ -12179,24 +12197,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Benny+Carter+%26+Oscar+Peterson+Benny+Carter+Meets+Oscar+Peterson",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542899179726",
-      "label_id": "analogue_productions",
-      "title": "Count Basie and His Orchestra - Me and You - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-count-basie-and-his-orchestra-me-and-you-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab193__54715.jpg?v=1738092256",
-      "published_at": "2025-01-28T14:37:54-07:00",
-      "created_at": "2025-01-28T12:24:52-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+and+His+Orchestra+Me+and+You",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12387,6 +12387,42 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-07-06T11:57:24.740140+00:00"
+    },
+    {
+      "id": "uv_benny-carter-further-definitions-verve-acoustic-sounds-series",
+      "label_id": "verve_acoustic",
+      "label_name": "Verve — Acoustic Sounds Series",
+      "title": "Benny Carter - Further Definitions (Verve Acoustic Sounds Series)",
+      "url": "https://upcomingvinyl.com/record/benny-carter-further-definitions-verve-acoustic-sounds-series",
+      "search_url": "https://store.ververecords.com/search?q=Benny+Carter+Further+Definitions",
+      "price": null,
+      "image": "https://upcomingvinyl.com/pics/covers/b/benny-carter-further-definitions-verve-acoustic-sounds-series.jpg",
+      "published_at": null,
+      "created_at": "2026-11-20",
+      "release_date": "2026-11-20",
+      "specs": [],
+      "preorder": true,
+      "upcoming": true,
+      "blurb": "",
+      "first_seen": "2026-10-05T16:39:44.666151+00:00"
+    },
+    {
+      "id": "uv_lee-konitz-motion-verve-acoustic-sounds-series",
+      "label_id": "verve_acoustic",
+      "label_name": "Verve — Acoustic Sounds Series",
+      "title": "Lee Konitz - Motion (Verve Acoustic Sounds Series)",
+      "url": "https://upcomingvinyl.com/record/lee-konitz-motion-verve-acoustic-sounds-series",
+      "search_url": "https://store.ververecords.com/search?q=Lee+Konitz+Motion",
+      "price": null,
+      "image": "https://upcomingvinyl.com/pics/covers/l/lee-konitz-motion-verve-acoustic-sounds-series.jpg",
+      "published_at": null,
+      "created_at": "2026-11-20",
+      "release_date": "2026-11-20",
+      "specs": [],
+      "preorder": true,
+      "upcoming": true,
+      "blurb": "",
+      "first_seen": "2026-10-05T16:39:44.666151+00:00"
     }
   ]
 }
