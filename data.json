@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T14:38:02.307358+00:00",
+  "updated": "2026-10-07T14:57:22.978735+00:00",
   "count": 684,
   "items": [
     {
@@ -7034,7 +7034,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -7309,8 +7309,8 @@
     {
       "id": "15330885632372",
       "label_id": "verve_acoustic",
-      "title": "Benny Carter: Further Definitions (Acoustic Sound Series) LP",
-      "url": "https://store.ververecords.com/products/benny-carter-further-definitions-acoustic-sound-series-lp",
+      "title": "Benny Carter: Further Definitions (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/benny-carter-further-definitions-acoustic-sounds-series-lp",
       "price": "38.98",
       "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/BennyCarterFurtherDefinitionsAcousticSoundSeriesLP.png?v=1790866607",
       "published_at": "2026-10-06T08:59:45-04:00",
@@ -10910,6 +10910,27 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7255555539150",
+      "label_id": "analogue_productions",
+      "title": "Charles Mingus - The Clown - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-the-clown-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_060-45__181805__09122023115430-9021.jpg?v=1694707426",
+      "published_at": "2023-09-14T09:04:00-07:00",
+      "created_at": "2023-09-14T09:02:28-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+The+Clown",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7249671848142",
       "label_id": "analogue_productions",
       "title": "Benny Golson - Groovin' with Golson - Analogue Productions LP",
@@ -10979,27 +11000,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Thelonious+Monk+Quartet+Thelonious+in+Action",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7255555539150",
-      "label_id": "analogue_productions",
-      "title": "Charles Mingus - The Clown - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-the-clown-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_060-45__181805__09122023115430-9021.jpg?v=1694707426",
-      "published_at": "2023-09-14T09:04:00-07:00",
-      "created_at": "2023-09-14T09:02:28-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Mono",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+The+Clown",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
