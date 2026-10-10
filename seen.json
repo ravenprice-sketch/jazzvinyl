@@ -7877,7 +7877,6 @@
       ],
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
     },
@@ -7896,7 +7895,6 @@
       ],
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
     },
@@ -7915,7 +7913,6 @@
       ],
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
     }
@@ -10499,7 +10496,6 @@
       ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-18T08:26:09.565005+00:00"
     },
@@ -10518,7 +10514,6 @@
       ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-18T08:26:09.565005+00:00"
     },
@@ -11608,7 +11603,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Sonny+Rollins+Saxophone+Colossus",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12024,7 +12019,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Clark+Terry%2C+Freddie+Hubbard%2C+Dizzy+Gillespie%2C+Oscar+Peterson+The+Alternate+Blues",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12065,7 +12060,7 @@
         "Mono",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Masterpieces+By+Ellington",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12124,7 +12119,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Helen+Merrill+Helen+Merrill",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12287,7 +12282,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Kenny+Burrell+Bluesey+Burrell",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12306,7 +12301,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Blues+In+Orbit",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12406,7 +12401,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ry+Cooder+Buena+Vista+Social+Club",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12781,7 +12776,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ahmad+Jamal+Trio+Ahmad+Jamal+At+The+Pershing",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -13433,7 +13428,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+6+Kansas+City",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -14168,7 +14163,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Quintessence",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -14319,7 +14314,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Trio+At+Shelly%27s+Manne-Hole",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",

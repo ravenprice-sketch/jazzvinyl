@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T14:50:41.203350+00:00",
+  "updated": "2026-10-10T14:11:50.062817+00:00",
   "count": 684,
   "items": [
     {
@@ -6240,7 +6240,6 @@
       ],
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
     },
@@ -6259,7 +6258,6 @@
       ],
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
     },
@@ -6278,7 +6276,6 @@
       ],
       "preorder": false,
       "label_name": "Craft Recordings — OJC Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
     },
@@ -9088,7 +9085,6 @@
       ],
       "preorder": false,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-18T08:26:09.565005+00:00"
     },
@@ -9107,7 +9103,6 @@
       ],
       "preorder": true,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-10-09",
       "blurb": "",
       "first_seen": "2026-08-18T08:26:09.565005+00:00"
     },
@@ -9614,7 +9609,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Sonny+Rollins+Saxophone+Colossus",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10029,7 +10024,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Clark+Terry%2C+Freddie+Hubbard%2C+Dizzy+Gillespie%2C+Oscar+Peterson+The+Alternate+Blues",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10090,7 +10085,7 @@
         "Mono",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Masterpieces+By+Ellington",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10148,7 +10143,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Helen+Merrill+Helen+Merrill",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10332,7 +10327,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Kenny+Burrell+Bluesey+Burrell",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10351,7 +10346,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Blues+In+Orbit",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10374,6 +10369,26 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Art+Pepper+Art+Pepper+Meets+The+Rhythm+Section",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7542066970830",
+      "label_id": "analogue_productions",
+      "title": "Ry Cooder - Buena Vista Social Club - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-ry-cooder-buena-vista-social-club-analogue-productions-45rpm-lp",
+      "price": "119.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPW_167-45__186676__04102024093702-1658.jpg?v=1737752894",
+      "published_at": "2025-01-24T14:10:09-07:00",
+      "created_at": "2025-01-24T14:09:34-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ry+Cooder+Buena+Vista+Social+Club",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10414,26 +10429,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+At+The+Montreux+Jazz+Festival",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542066970830",
-      "label_id": "analogue_productions",
-      "title": "Ry Cooder - Buena Vista Social Club - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-ry-cooder-buena-vista-social-club-analogue-productions-45rpm-lp",
-      "price": "119.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPW_167-45__186676__04102024093702-1658.jpg?v=1737752894",
-      "published_at": "2025-01-24T14:10:09-07:00",
-      "created_at": "2025-01-24T14:09:34-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ry+Cooder+Buena+Vista+Social+Club",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10695,7 +10690,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ahmad+Jamal+Trio+Ahmad+Jamal+At+The+Pershing",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11106,7 +11101,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+6+Kansas+City",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11261,6 +11256,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542898491598",
+      "label_id": "analogue_productions",
+      "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-joe-pass-portraits-of-duke-ellington-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
+      "published_at": "2025-01-28T14:40:51-07:00",
+      "created_at": "2025-01-28T12:14:06-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Joe+Pass+Portraits+of+Duke+Ellington",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7232336330958",
       "label_id": "analogue_productions",
       "title": "Oliver Nelson - Screamin' the Blues - Analogue Productions LP",
@@ -11294,24 +11307,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Benson+Breezin%27",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542898491598",
-      "label_id": "analogue_productions",
-      "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-joe-pass-portraits-of-duke-ellington-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
-      "published_at": "2025-01-28T14:40:51-07:00",
-      "created_at": "2025-01-28T12:14:06-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Joe+Pass+Portraits+of+Duke+Ellington",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11968,7 +11963,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Quintessence",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12344,7 +12339,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Trio+At+Shelly%27s+Manne-Hole",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
