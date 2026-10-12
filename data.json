@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:35:42.774752+00:00",
+  "updated": "2026-10-12T17:15:58.381956+00:00",
   "count": 684,
   "items": [
     {
@@ -9723,7 +9723,7 @@
         "180g",
         "45 RPM"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Louis+Armstrong+Plays+King+Oliver%3A+St.+James+Infirmary+%2F+I+Ain%27t+Got+Nobody",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10865,6 +10865,27 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7255555539150",
+      "label_id": "analogue_productions",
+      "title": "Charles Mingus - The Clown - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-the-clown-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_060-45__181805__09122023115430-9021.jpg?v=1694707426",
+      "published_at": "2023-09-14T09:04:00-07:00",
+      "created_at": "2023-09-14T09:02:28-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+The+Clown",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7254367699150",
       "label_id": "analogue_productions",
       "title": "John Coltrane - Coltrane Plays The Blues - Analogue Productions 45rpm LP",
@@ -10900,27 +10921,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Ray+Brown+Trio+Soular+Energy",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7255555539150",
-      "label_id": "analogue_productions",
-      "title": "Charles Mingus - The Clown - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-the-clown-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_060-45__181805__09122023115430-9021.jpg?v=1694707426",
-      "published_at": "2023-09-14T09:04:00-07:00",
-      "created_at": "2023-09-14T09:02:28-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Mono",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+The+Clown",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11402,6 +11402,27 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7255556030670",
+      "label_id": "analogue_productions",
+      "title": "Charles Mingus - Pithecanthropus Erectus - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-pithecanthropus-erectus-analogue-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_059-45__181803__09122023114707-2482.jpg?v=1694707655",
+      "published_at": "2023-09-14T09:07:50-07:00",
+      "created_at": "2023-09-14T09:06:50-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Mono",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+Pithecanthropus+Erectus",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7195535704270",
       "label_id": "analogue_productions",
       "title": "Eric Dolphy - Out There - Analogue Productions LP",
@@ -11420,22 +11441,22 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7255556030670",
+      "id": "7254368092366",
       "label_id": "analogue_productions",
-      "title": "Charles Mingus - Pithecanthropus Erectus - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-pithecanthropus-erectus-analogue-productions-45rpm-lp",
+      "title": "Charles Mingus - Oh Yeah - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-oh-yeah-analogue-productions-45rpm-lp",
       "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_059-45__181803__09122023114707-2482.jpg?v=1694707655",
-      "published_at": "2023-09-14T09:07:50-07:00",
-      "created_at": "2023-09-14T09:06:50-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_039-45__181746__09122023083750-3999.jpg?v=1784329498",
+      "published_at": "2023-09-13T21:24:04-07:00",
+      "created_at": "2023-09-13T18:46:34-07:00",
       "specs": [
+        "AAA",
         "180g",
         "45 RPM",
-        "Mono",
         "Gatefold"
       ],
       "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+Pithecanthropus+Erectus",
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+Oh+Yeah",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11474,27 +11495,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+The+Ellington+Suites",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7254368092366",
-      "label_id": "analogue_productions",
-      "title": "Charles Mingus - Oh Yeah - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-charles-mingus-oh-yeah-analogue-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPA_039-45__181746__09122023083750-3999.jpg?v=1784329498",
-      "published_at": "2023-09-13T21:24:04-07:00",
-      "created_at": "2023-09-13T18:46:34-07:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Charles+Mingus+Oh+Yeah",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
