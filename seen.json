@@ -3030,6 +3030,42 @@
       "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
+    },
+    "15386101514431": {
+      "id": "15386101514431",
+      "label_id": "bluenote_tone_poet",
+      "title": "Curtis Fuller – Volume 3 (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/curtis-fuller-volume-3-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/CurtisFuller_Vol3_PROD_SHOT.png?v=1791390450",
+      "published_at": "2026-10-13T09:00:36-04:00",
+      "created_at": "2026-10-07T12:19:01-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
+    },
+    "15386101481663": {
+      "id": "15386101481663",
+      "label_id": "bluenote_tone_poet",
+      "title": "Lee Morgan – The Sixth Sense (Tone Poet Vinyl Series)",
+      "url": "https://store.bluenote.com/products/lee-morgan-the-sixth-sense-tone-poet-vinyl-series",
+      "price": "39.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/LeeMorgan_SixthSense_PROD_SHOT.png?v=1791390463",
+      "published_at": "2026-10-13T09:00:35-04:00",
+      "created_at": "2026-10-07T12:18:59-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Tone Poet Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
     }
   },
   "bluenote_classic": {
@@ -6243,6 +6279,43 @@
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-09-28T16:18:50.148937+00:00"
+    },
+    "15384579145919": {
+      "id": "15384579145919",
+      "label_id": "bluenote_classic",
+      "title": "Sonny Clark – Leapin’ and Lopin’ (Blue Note Classic Vinyl Edition)",
+      "url": "https://store.bluenote.com/products/sonny-clark-leapin-and-lopin-blue-note-classic-vinyl-edition",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/SonnyClark_LeapinAndLopin_1LP-ProductShot_2000px.png?v=1791333196",
+      "published_at": "2026-10-13T09:01:36-04:00",
+      "created_at": "2026-10-06T20:29:29-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
+    },
+    "15384579047615": {
+      "id": "15384579047615",
+      "label_id": "bluenote_classic",
+      "title": "Horace Silver – The Stylings of Silver (Blue Note Classic Vinyl Edition)",
+      "url": "https://store.bluenote.com/products/horace-silver-the-stylings-of-silver-blue-note-classic-vinyl-edition",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/1418/3572/files/HoraceSilver_StylingsOfSilver_1LP-ProductShot_2000px.png?v=1791333205",
+      "published_at": "2026-10-13T09:01:35-04:00",
+      "created_at": "2026-10-06T20:29:28-04:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "label_name": "Blue Note — Classic Vinyl Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
     }
   },
   "craft_ojc": {
@@ -7915,6 +7988,78 @@
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
+    },
+    "15421301784943": {
+      "id": "15421301784943",
+      "label_id": "craft_ojc",
+      "title": "How My Heart Sings! (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/bill-evans-trio-how-my-heart-sings-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Bill_Evans_How_My_Heart_Sings_Pack_Shot_w_obi_LP.png?v=1791826434",
+      "published_at": "2026-10-13T09:30:04-05:00",
+      "created_at": "2026-10-12T10:31:29-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
+    },
+    "15421325836655": {
+      "id": "15421325836655",
+      "label_id": "craft_ojc",
+      "title": "Soultrane (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/john-coltrane-soultrane-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/John_Coltrane_Soultrane_Pack_Shot_w_obi_LP.png?v=1791826946",
+      "published_at": "2026-10-13T09:30:05-05:00",
+      "created_at": "2026-10-12T10:47:55-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
+    },
+    "15421348151663": {
+      "id": "15421348151663",
+      "label_id": "craft_ojc",
+      "title": "Work Time (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/sonny-rollins-work-time-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Sonny_Rollins_Work_Time_Pack_Shot_Drop_Shadow_LP.png?v=1791827430",
+      "published_at": "2026-10-13T09:30:07-05:00",
+      "created_at": "2026-10-12T11:03:02-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
+    },
+    "15421381968239": {
+      "id": "15421381968239",
+      "label_id": "craft_ojc",
+      "title": "Steamin' With The Miles Davis Quintet (Original Jazz Classics Series) (180g LP)",
+      "url": "https://craftrecordings.com/products/the-miles-davis-quintet-steamin-with-the-miles-davis-quintet-original-jazz-classics-series-180g-lp",
+      "price": "39.00",
+      "image": "https://cdn.shopify.com/s/files/1/0015/0840/9399/files/Steamin_With_the_Miles_Davis_Quintet_Pack_Shot_w_obi_LP.png?v=1791828162",
+      "published_at": "2026-10-13T09:30:08-05:00",
+      "created_at": "2026-10-12T11:24:55-05:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Craft Recordings — OJC Series",
+      "blurb": "",
+      "first_seen": "2026-10-13T15:31:47.370768+00:00"
     }
   },
   "verve_acoustic": {
@@ -11441,7 +11586,15 @@
     "uv_benny-carter-further-definitions-verve-acoustic-sounds-series": "2026-10-05T16:39:44.666151+00:00",
     "uv_lee-konitz-motion-verve-acoustic-sounds-series": "2026-10-05T16:39:44.666151+00:00",
     "15330885697908": "2026-10-06T14:38:02.303023+00:00",
-    "15330885632372": "2026-10-06T14:38:02.303023+00:00"
+    "15330885632372": "2026-10-06T14:38:02.303023+00:00",
+    "15386101514431": "2026-10-13T15:31:47.370768+00:00",
+    "15386101481663": "2026-10-13T15:31:47.370768+00:00",
+    "15384579145919": "2026-10-13T15:31:47.370768+00:00",
+    "15384579047615": "2026-10-13T15:31:47.370768+00:00",
+    "15421301784943": "2026-10-13T15:31:47.370768+00:00",
+    "15421325836655": "2026-10-13T15:31:47.370768+00:00",
+    "15421348151663": "2026-10-13T15:31:47.370768+00:00",
+    "15421381968239": "2026-10-13T15:31:47.370768+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -13239,7 +13392,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Holly+Cole+Trio+Don%27t+Smoke+In+Bed",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
