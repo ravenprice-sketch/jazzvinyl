@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T15:31:47.375044+00:00",
+  "updated": "2026-10-14T13:17:16.247763+00:00",
   "count": 692,
   "items": [
     {
@@ -9830,7 +9830,7 @@
       "specs": [
         "45 RPM"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ella+Fitzgerald+and+Louis+Armstrong+Ella+and+Louis",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -10405,6 +10405,26 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7616422478030",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-kind-of-blue-corrected-speed-analogue-productions-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8163__186328__10082025100003-4010.jpg?v=1760903381",
+      "published_at": "2025-10-09T14:47:24-07:00",
+      "created_at": "2025-10-09T14:39:15-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569008857294",
       "label_id": "analogue_productions",
       "title": "Various Artists - The Sound Of Jazz - Analogue Productions 33rpm LP",
@@ -10436,26 +10456,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+At+The+Five+Spot%2C+Vol.+1",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7616422478030",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-kind-of-blue-corrected-speed-analogue-productions-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8163__186328__10082025100003-4010.jpg?v=1760903381",
-      "published_at": "2025-10-09T14:47:24-07:00",
-      "created_at": "2025-10-09T14:39:15-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
