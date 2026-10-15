@@ -8004,6 +8004,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -8022,6 +8023,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -8040,6 +8042,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -8058,6 +8061,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     }
@@ -14810,6 +14814,50 @@
       "discs": 1,
       "image": "https://upcomingvinyl.com/pics/covers/l/lee-konitz-motion-verve-acoustic-sounds-series.jpg",
       "url": "https://upcomingvinyl.com/record/lee-konitz-motion-verve-acoustic-sounds-series"
+    },
+    "bill-evans-how-my-heart-sings-original-jazz-classics-series": {
+      "slug": "bill-evans-how-my-heart-sings-original-jazz-classics-series",
+      "title": "Bill Evans - How My Heart Sings (Original Jazz Classics Series)",
+      "release_date": "2026-12-04",
+      "styles": [
+        "jazz",
+        "soul"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/b/bill-evans-how-my-heart-sings-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/bill-evans-how-my-heart-sings-original-jazz-classics-series"
+    },
+    "john-coltrane-soultrane-original-jazz-classics-series": {
+      "slug": "john-coltrane-soultrane-original-jazz-classics-series",
+      "title": "John Coltrane - Soultrane (Original Jazz Classics Series)",
+      "release_date": "2026-12-04",
+      "styles": [
+        "jazz",
+        "soul"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/j/john-coltrane-soultrane-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/john-coltrane-soultrane-original-jazz-classics-series"
+    },
+    "miles-davis-quintet-steamin-with-the-miles-davis-quintet-original-jazz-classics-series": {
+      "slug": "miles-davis-quintet-steamin-with-the-miles-davis-quintet-original-jazz-classics-series",
+      "title": "Miles Davis Quintet - Steamin' with the Miles Davis Quintet (Original Jazz Classics Series)",
+      "release_date": "2026-12-04",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/m/miles-davis-quintet-steamin-with-the-miles-davis-quintet-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/miles-davis-quintet-steamin-with-the-miles-davis-quintet-original-jazz-classics-series"
+    },
+    "sonny-rollins-work-time-original-jazz-classics-series": {
+      "slug": "sonny-rollins-work-time-original-jazz-classics-series",
+      "title": "Sonny Rollins - Work Time (Original Jazz Classics Series)",
+      "release_date": "2026-12-04",
+      "styles": [],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/s/sonny-rollins-work-time-original-jazz-classics-series.jpg",
+      "url": "https://upcomingvinyl.com/record/sonny-rollins-work-time-original-jazz-classics-series"
     }
   },
   "craft_contemporary": {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T13:17:16.247763+00:00",
+  "updated": "2026-10-15T13:03:45.546678+00:00",
   "count": 692,
   "items": [
     {
@@ -6313,6 +6313,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -6331,6 +6332,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -6349,6 +6351,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -6367,6 +6370,7 @@
       ],
       "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -12398,6 +12402,26 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7663532671182",
+      "label_id": "analogue_productions",
+      "title": "Bill Evans Trio - At Shelly's Manne-Hole - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/bill-evans-trio-at-shellys-manne-hole-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp9487-45a__53308.jpg?v=1770417977",
+      "published_at": "2026-02-06T15:08:07-07:00",
+      "created_at": "2026-02-06T14:12:31-07:00",
+      "specs": [
+        "AAA",
+        "180g",
+        "45 RPM"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Trio+At+Shelly%27s+Manne-Hole",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7653464113358",
       "label_id": "analogue_productions",
       "title": "Miles Davis Quintet - The Great Prestige Recordings - Analogue Productions LP Box Set",
@@ -12466,26 +12490,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Holly+Cole+Trio+Don%27t+Smoke+In+Bed",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7663532671182",
-      "label_id": "analogue_productions",
-      "title": "Bill Evans Trio - At Shelly's Manne-Hole - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/bill-evans-trio-at-shellys-manne-hole-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp9487-45a__53308.jpg?v=1770417977",
-      "published_at": "2026-02-06T15:08:07-07:00",
-      "created_at": "2026-02-06T14:12:31-07:00",
-      "specs": [
-        "AAA",
-        "180g",
-        "45 RPM"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Trio+At+Shelly%27s+Manne-Hole",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
