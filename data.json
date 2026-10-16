@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T13:03:45.546678+00:00",
+  "updated": "2026-10-16T12:59:00.058109+00:00",
   "count": 692,
   "items": [
     {
@@ -6423,7 +6423,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
@@ -9816,7 +9816,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Herbie+Hancock+Head+Hunters",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11423,6 +11423,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7360824213710",
+      "label_id": "analogue_productions",
+      "title": "Dizzy Gillespie - Dizzy Gillespie's Big 4 - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-analogue-productions-lp-5",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_158__185792__02272024114709-9116_d0c7ba25-9fea-4d8a-b361-dfd9c7ab1f45.jpg?v=1784329846",
+      "published_at": "2024-03-25T17:58:01-07:00",
+      "created_at": "2024-03-25T14:48:02-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dizzy+Gillespie+Dizzy+Gillespie%27s+Big+4",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7232336330958",
       "label_id": "analogue_productions",
       "title": "Oliver Nelson - Screamin' the Blues - Analogue Productions LP",
@@ -11456,24 +11474,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Benson+Breezin%27",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7360824213710",
-      "label_id": "analogue_productions",
-      "title": "Dizzy Gillespie - Dizzy Gillespie's Big 4 - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-analogue-productions-lp-5",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_158__185792__02272024114709-9116_d0c7ba25-9fea-4d8a-b361-dfd9c7ab1f45.jpg?v=1784329846",
-      "published_at": "2024-03-25T17:58:01-07:00",
-      "created_at": "2024-03-25T14:48:02-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dizzy+Gillespie+Dizzy+Gillespie%27s+Big+4",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"

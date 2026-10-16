@@ -7984,7 +7984,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-08-19T08:26:53.556418+00:00"
@@ -11799,7 +11799,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Herbie+Hancock+Head+Hunters",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
