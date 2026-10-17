@@ -10214,6 +10214,43 @@
       "release_date": "2026-11-20",
       "blurb": "",
       "first_seen": "2026-10-06T14:38:02.303023+00:00"
+    },
+    "15357886988660": {
+      "id": "15357886988660",
+      "label_id": "verve_acoustic",
+      "title": "Oscar Peterson Trio: West Side Story (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/oscar-peterson-trio-west-side-story-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/OscarPetersonTrioWestSideStory_AcousticSoundsSeries_LP.png?v=1791918258",
+      "published_at": "2026-10-16T14:35:39-04:00",
+      "created_at": "2026-10-13T15:03:15-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "release_date": "2026-12-11",
+      "blurb": "",
+      "first_seen": "2026-10-17T11:54:20.186225+00:00"
+    },
+    "15357881024884": {
+      "id": "15357881024884",
+      "label_id": "verve_acoustic",
+      "title": "Ella Fitzgerald: Like Someone In Love (Acoustic Sounds Series) LP",
+      "url": "https://store.ververecords.com/products/ella-fitzgerald-like-someone-in-love-acoustic-sounds-series-lp",
+      "price": "38.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/EllaFitzgeraldLikeSomeoneInLove_AcousticSoundsSeries_LP.png?v=1791917953",
+      "published_at": "2026-10-16T14:35:39-04:00",
+      "created_at": "2026-10-13T14:58:36-04:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Acoustic Sounds Series",
+      "blurb": "",
+      "first_seen": "2026-10-17T11:54:20.186225+00:00"
     }
   },
   "verve_vault": {
@@ -10703,6 +10740,43 @@
       "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
+    },
+    "15359420498292": {
+      "id": "15359420498292",
+      "label_id": "verve_vault",
+      "title": "Bud Powell: Bud Powell’s Moods (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/bud-powell-bud-powell-s-moods-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/BudPowellBudPowell_sMoods_VerveVaultSeries_LP.png?v=1791996438",
+      "published_at": "2026-10-16T10:00:03-04:00",
+      "created_at": "2026-10-14T12:45:56-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Vault Series",
+      "release_date": "2026-12-11",
+      "blurb": "",
+      "first_seen": "2026-10-17T11:54:20.186225+00:00"
+    },
+    "15359415255412": {
+      "id": "15359415255412",
+      "label_id": "verve_vault",
+      "title": "Chico Hamilton: El Chico (Verve Vault Series) LP",
+      "url": "https://store.ververecords.com/products/chico-hamilton-el-chico-verve-vault-series-lp",
+      "price": "27.98",
+      "image": "https://cdn.shopify.com/s/files/1/0523/0447/8357/files/ChicoHamiltonElChico_VerveVaultSeries_LP_1.png?v=1791996049",
+      "published_at": "2026-10-16T10:00:03-04:00",
+      "created_at": "2026-10-14T12:39:18-04:00",
+      "specs": [
+        "AAA",
+        "180g"
+      ],
+      "preorder": true,
+      "label_name": "Verve — Vault Series",
+      "blurb": "",
+      "first_seen": "2026-10-17T11:54:20.186225+00:00"
     }
   },
   "_first_seen": {
@@ -11598,7 +11672,11 @@
     "15421301784943": "2026-10-13T15:31:47.370768+00:00",
     "15421325836655": "2026-10-13T15:31:47.370768+00:00",
     "15421348151663": "2026-10-13T15:31:47.370768+00:00",
-    "15421381968239": "2026-10-13T15:31:47.370768+00:00"
+    "15421381968239": "2026-10-13T15:31:47.370768+00:00",
+    "15357886988660": "2026-10-17T11:54:20.186225+00:00",
+    "15357881024884": "2026-10-17T11:54:20.186225+00:00",
+    "15359420498292": "2026-10-17T11:54:20.186225+00:00",
+    "15359415255412": "2026-10-17T11:54:20.186225+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -14858,6 +14936,39 @@
       "discs": 1,
       "image": "https://upcomingvinyl.com/pics/covers/s/sonny-rollins-work-time-original-jazz-classics-series.jpg",
       "url": "https://upcomingvinyl.com/record/sonny-rollins-work-time-original-jazz-classics-series"
+    },
+    "bud-powell-bud-powell-s-moods-verve-vault-series": {
+      "slug": "bud-powell-bud-powell-s-moods-verve-vault-series",
+      "title": "Bud Powell - Bud Powell's Moods (Verve Vault Series)",
+      "release_date": "2026-12-11",
+      "styles": [
+        "jazz",
+        "soul"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/b/bud-powell-bud-powell-s-moods-verve-vault-series.jpg",
+      "url": "https://upcomingvinyl.com/record/bud-powell-bud-powell-s-moods-verve-vault-series"
+    },
+    "oscar-peterson-trio-west-side-story-verve-acoustic-sounds-series": {
+      "slug": "oscar-peterson-trio-west-side-story-verve-acoustic-sounds-series",
+      "title": "Oscar Peterson Trio - West Side Story (Verve Acoustic Sounds Series)",
+      "release_date": "2026-12-11",
+      "styles": [
+        "jazz",
+        "soul"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/o/oscar-peterson-trio-west-side-story-verve-acoustic-sounds-series.jpg",
+      "url": "https://upcomingvinyl.com/record/oscar-peterson-trio-west-side-story-verve-acoustic-sounds-series"
+    },
+    "roger-who-s-next": {
+      "slug": "roger-who-s-next",
+      "title": "Roger - Who's Next",
+      "release_date": "2026-10-23",
+      "styles": [],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/r/roger-who-s-next.jpg",
+      "url": "https://upcomingvinyl.com/record/roger-who-s-next"
     }
   },
   "craft_contemporary": {
