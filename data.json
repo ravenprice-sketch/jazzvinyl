@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T11:54:20.188874+00:00",
+  "updated": "2026-10-18T12:20:34.107198+00:00",
   "count": 696,
   "items": [
     {
@@ -10336,24 +10336,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7220242645198",
-      "label_id": "analogue_productions",
-      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
-      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
-      "published_at": "2023-06-14T12:48:23-07:00",
-      "created_at": "2023-06-14T12:48:23-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Gene+Ammons+Boss+Tenor",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569241641166",
       "label_id": "analogue_productions",
       "title": "Helen Merrill - Helen Merrill  - Analogue Productions LP",
@@ -10368,6 +10350,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Helen+Merrill+Helen+Merrill",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7220242645198",
+      "label_id": "analogue_productions",
+      "title": "Gene Ammons - Boss Tenor - Analogue Productions LP (Stereo)",
+      "url": "https://www.theingroove.com/products/gene-ammons-boss-tenor-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7180__81987__04062012115854-4218.jpg?v=1686772105",
+      "published_at": "2023-06-14T12:48:23-07:00",
+      "created_at": "2023-06-14T12:48:23-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Gene+Ammons+Boss+Tenor",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
