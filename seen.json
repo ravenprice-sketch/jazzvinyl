@@ -3046,6 +3046,7 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     },
@@ -3064,6 +3065,7 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
+      "release_date": "2026-12-04",
       "blurb": "",
       "first_seen": "2026-10-13T15:31:47.370768+00:00"
     }
@@ -10193,6 +10195,7 @@
       ],
       "preorder": true,
       "label_name": "Verve — Acoustic Sounds Series",
+      "release_date": "2026-11-20",
       "blurb": "",
       "first_seen": "2026-10-06T14:38:02.303023+00:00"
     },
@@ -14969,6 +14972,28 @@
       "discs": 1,
       "image": "https://upcomingvinyl.com/pics/covers/r/roger-who-s-next.jpg",
       "url": "https://upcomingvinyl.com/record/roger-who-s-next"
+    },
+    "curtis-fuller-volume-3-blue-note-tone-poet-series": {
+      "slug": "curtis-fuller-volume-3-blue-note-tone-poet-series",
+      "title": "Curtis Fuller - Volume 3 (Blue Note Tone Poet Series)",
+      "release_date": "2026-12-04",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/c/curtis-fuller-volume-3-blue-note-tone-poet-series.jpg",
+      "url": "https://upcomingvinyl.com/record/curtis-fuller-volume-3-blue-note-tone-poet-series"
+    },
+    "lee-morgan-the-sixth-sense-blue-note-tone-poet-series": {
+      "slug": "lee-morgan-the-sixth-sense-blue-note-tone-poet-series",
+      "title": "Lee Morgan - The Sixth Sense (Blue Note Tone Poet Series)",
+      "release_date": "2026-12-04",
+      "styles": [
+        "jazz"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/l/lee-morgan-the-sixth-sense-blue-note-tone-poet-series.jpg",
+      "url": "https://upcomingvinyl.com/record/lee-morgan-the-sixth-sense-blue-note-tone-poet-series"
     }
   },
   "craft_contemporary": {
