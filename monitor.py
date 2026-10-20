@@ -298,10 +298,13 @@ def is_lp(title):
     t = (title or "").lower()
     bad = ("digital album", "(digital", "digital)", "test pressing",
            "t-shirt", "tshirt", "shirt", "hoodie", "poster", "slipmat",
-           "bundle")
+           "bundle", "sacd", "hybrid", "cassette", "blu-ray", "blu ray",
+           "compact disc")
     if any(b in t for b in bad):
         return False
-    if t.rstrip().endswith(" cd") or "(cd" in t:
+    # CD editions: title ends in "cd", or contains a "(... cd ...)" / "cd)" marker.
+    if (t.rstrip().endswith(" cd") or "(cd" in t or " cd)" in t
+            or " cd " in t or t.rstrip().endswith("-cd")):
         return False
     # Two-album packs are sold as one product with the titles joined by " + "
     # (e.g. "Coltrane (...) + Cookin' With (...)"). Those aren't a single LP;
@@ -552,9 +555,10 @@ def _match_key(title):
     t = re.sub(r"\([^)]*\)", " ", t)                 # drop ALL parentheticals
     for tok in ("analogue productions", "analog productions", "acoustic sounds series",
                 "acoustic sounds", "original jazz classics series", "original jazz classics",
-                "tone poet", "classic vinyl", "vault series", "vault", "blue note",
-                "verve", "craft recordings", "series", "reissue", "180g", "200g",
-                "45rpm", "45 rpm", "33rpm", "2xlp", "3xlp", "4xlp", "lp"):
+                "tone poet", "classic vinyl", "contemporary records", "vault series",
+                "vault", "blue note", "verve", "craft recordings", "series",
+                "reissue", "180g", "200g", "45rpm", "45 rpm", "33rpm",
+                "2xlp", "3xlp", "4xlp", "lp", "vinyl", "records", "record"):
         t = t.replace(tok, " ")
     t = t.replace("—", " ").replace("-", " ")
     t = re.sub(r"[^a-z0-9 ]", " ", t)
@@ -738,7 +742,13 @@ def _norm_title(t):
     t = re.sub(r"\s*\([^)]*\)\s*$", "", t)        # drop trailing "(...series...)"
     t = t.replace("\u2014", " ").replace("-", " ")
     t = re.sub(r"[^a-z0-9 ]", "", t)
-    return re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"\s+", " ", t).strip()
+    # Drop a trailing bare format word ("... lp" / "vinyl" / "record") so a store
+    # listing the same album once as "X (Acoustic Sounds Series)" and once as
+    # "X LP" collapses. NB: rpm / mono / stereo are deliberately NOT stripped --
+    # a 45rpm and a 33rpm (or mono vs stereo) pressing are different records.
+    t = re.sub(r"\s+(lp|vinyl|record)$", "", t)
+    return t.strip()
 
 
 def write_data_json(catalog):

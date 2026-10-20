@@ -62,11 +62,29 @@
     box-shadow:0 1px 2px rgba(0,0,0,.12),0 8px 22px -10px rgba(0,0,0,.32);border:1px solid rgba(0,0,0,.06);transition:.2s}
   .coverlink:hover .cover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(0,0,0,.14),0 16px 32px -12px rgba(0,0,0,.4)}
   .cover img{width:100%;height:100%;object-fit:cover;display:block}
+  /* Flat covers (e.g. upcomingvinyl scans) get a CSS "record sticking out"
+     mockup so they match the labels' 3D pack-shots. The jacket sits left, a
+     vinyl disc peeks out on the right, on the same paper background. */
+  .cover.vinyl{background:var(--paper2)}
+  .cover.vinyl img{position:absolute;z-index:2;left:6%;top:50%;transform:translateY(-50%);
+    width:72%;height:auto;aspect-ratio:1;border-radius:2px;
+    box-shadow:0 2px 5px rgba(0,0,0,.28),0 0 0 1px rgba(0,0,0,.06)}
+  .cover.vinyl .disc{position:absolute;z-index:1;right:3%;top:50%;transform:translateY(-50%);
+    width:64%;aspect-ratio:1;border-radius:50%;
+    background:
+      repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,.055) 0 1px, rgba(0,0,0,.55) 1px 2.6px),
+      radial-gradient(circle at 44% 40%, #2c2c2c, #050505 72%);
+    box-shadow:0 3px 8px rgba(0,0,0,.4),inset 0 0 14px rgba(0,0,0,.65)}
+  .cover.vinyl .disc::before{content:"";position:absolute;inset:34%;border-radius:50%;
+    background:radial-gradient(circle,#d9c7a0 0 66%,#a98f5c 67%)}
+  .cover.vinyl .disc::after{content:"";position:absolute;inset:47.5%;border-radius:50%;
+    background:var(--paper2);box-shadow:0 0 0 1px rgba(0,0,0,.45)}
+  .coverlink:hover .cover.vinyl img{transform:translateY(-50%) rotate(-.5deg)}
   .cover .ph{display:flex;align-items:center;justify-content:center;height:100%;padding:14px;text-align:center;
     font-family:'Fraunces';font-style:italic;color:var(--ink3);font-size:14px}
-  .new{position:absolute;top:9px;right:9px;background:var(--accent);color:#fff;font-size:10px;font-weight:700;
+  .new{position:absolute;z-index:3;top:9px;right:9px;background:var(--accent);color:#fff;font-size:10px;font-weight:700;
     letter-spacing:.12em;padding:4px 8px;border-radius:3px;box-shadow:0 2px 6px rgba(0,0,0,.25)}
-  .soon{position:absolute;top:9px;left:9px;background:var(--tonepoet);color:#fff;font-size:10px;font-weight:700;
+  .soon{position:absolute;z-index:3;top:9px;left:9px;background:var(--tonepoet);color:#fff;font-size:10px;font-weight:700;
     letter-spacing:.12em;padding:4px 8px;border-radius:3px;box-shadow:0 2px 6px rgba(0,0,0,.25)}
   .fav{position:absolute;bottom:8px;right:9px;z-index:4;border:none;background:none;padding:0;
     color:var(--accent);font-size:20px;line-height:1;cursor:pointer;transition:transform .12s,color .15s}
@@ -210,15 +228,18 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
     const card = document.createElement("div"); card.className="card";
     card.style.animationDelay = Math.min(i*20,460)+"ms";
     const safeTitle = (it.title||"").replace(/"/g,"&quot;");
+    // Flat cover scans (upcomingvinyl) get the CSS record-mockup; store pack-shots
+    // already include the 3D vinyl, so they're left as-is.
+    const flat = !!it.image && /upcomingvinyl\.com/.test(it.image);
     const cover = it.image
-      ? `<img loading="lazy" src="${coverSrc(it.image)}" alt="${safeTitle}" onerror="this.onerror=null;this.outerHTML='<div class=\\'ph\\'>'+this.alt+'</div>'">`
+      ? `${flat?`<span class="disc"></span>`:``}<img loading="lazy" src="${coverSrc(it.image)}" alt="${safeTitle}" onerror="this.onerror=null;this.outerHTML='<div class=\\'ph\\'>'+this.alt+'</div>'">`
       : `<div class="ph">${it.title||""}</div>`;
     const fav = favSet.has(it.id);
     const specs = (it.specs||[]);
     const dl = dateLine(it);
     card.innerHTML = `
       <a class="coverlink" href="${it.url}" target="_blank" rel="noopener">
-        <div class="cover">${cover}
+        <div class="cover${flat?" vinyl":""}">${cover}
           ${it.isNew?`<span class="new">NEW</span>`:``}
           ${it.upcoming?`<span class="soon">UPCOMING</span>`:``}
           <button class="fav" data-id="${it.id}" aria-pressed="${fav}" title="Save to favorites">${fav?"\u2665":"\u2661"}</button>
