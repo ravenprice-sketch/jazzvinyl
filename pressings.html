@@ -230,7 +230,7 @@ items.sort((a,b) => eff(b).localeCompare(eff(a)) || sec(b).localeCompare(sec(a))
     const safeTitle = (it.title||"").replace(/"/g,"&quot;");
     // Flat cover scans (upcomingvinyl) get the CSS record-mockup; store pack-shots
     // already include the 3D vinyl, so they're left as-is.
-    const flat = !!it.image && /upcomingvinyl\.com/.test(it.image);
+    const flat = !!it.image && (/upcomingvinyl\.com/i.test(it.image) || it.label_id==="analogue_productions");
     const cover = it.image
       ? `${flat?`<span class="disc"></span>`:``}<img loading="lazy" src="${coverSrc(it.image)}" alt="${safeTitle}" onerror="this.onerror=null;this.outerHTML='<div class=\\'ph\\'>'+this.alt+'</div>'">`
       : `<div class="ph">${it.title||""}</div>`;
