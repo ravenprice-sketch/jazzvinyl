@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T13:10:42.762607+00:00",
+  "updated": "2026-10-21T13:20:27.827400+00:00",
   "count": 692,
   "items": [
     {
@@ -10473,24 +10473,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6569008857294",
-      "label_id": "analogue_productions",
-      "title": "Various Artists - The Sound Of Jazz - Analogue Productions 33rpm LP",
-      "url": "https://www.theingroove.com/products/various-artists-the-sound-of-jazz-analog-productions-33rpm-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_111__116995__02282020104841-4304.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:10:50-07:00",
-      "created_at": "2021-04-02T15:10:51-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Various+Artists+The+Sound+Of+Jazz",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7159466361038",
       "label_id": "analogue_productions",
       "title": "Eric Dolphy - At The Five Spot, Vol. 1 - Analogue Productions LP",
@@ -10504,6 +10486,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+At+The+Five+Spot%2C+Vol.+1",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6569008857294",
+      "label_id": "analogue_productions",
+      "title": "Various Artists - The Sound Of Jazz - Analogue Productions 33rpm LP",
+      "url": "https://www.theingroove.com/products/various-artists-the-sound-of-jazz-analog-productions-33rpm-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_111__116995__02282020104841-4304.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:10:50-07:00",
+      "created_at": "2021-04-02T15:10:51-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Various+Artists+The+Sound+Of+Jazz",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11321,6 +11321,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7486238064846",
+      "label_id": "analogue_productions",
+      "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-chico-freeman-spirit-sensitive-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp151__22215.jpg?v=1723676847",
+      "published_at": "2024-08-14T20:58:27-07:00",
+      "created_at": "2024-08-14T16:08:22-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Chico+Freeman+Spirit+Sensitive",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360819265742",
       "label_id": "analogue_productions",
       "title": "Count Basie - 88 Basie Street - Analogue Productions Pablo LP",
@@ -11388,25 +11407,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Coleman+Hawkins+Coleman+Hawkins+and+His+Confreres",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7486238064846",
-      "label_id": "analogue_productions",
-      "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-chico-freeman-spirit-sensitive-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp151__22215.jpg?v=1723676847",
-      "published_at": "2024-08-14T20:58:27-07:00",
-      "created_at": "2024-08-14T16:08:22-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Chico+Freeman+Spirit+Sensitive",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
