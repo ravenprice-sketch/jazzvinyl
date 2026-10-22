@@ -11679,7 +11679,8 @@
     "15357886988660": "2026-10-17T11:54:20.186225+00:00",
     "15357881024884": "2026-10-17T11:54:20.186225+00:00",
     "15359420498292": "2026-10-17T11:54:20.186225+00:00",
-    "15359415255412": "2026-10-17T11:54:20.186225+00:00"
+    "15359415255412": "2026-10-17T11:54:20.186225+00:00",
+    "uv_ted-nash-like-someone-in-love-verve-acoustic-sounds-series": "2026-10-22T13:20:40.616479+00:00"
   },
   "analogue_productions": {
     "7065419186382": {
@@ -14994,6 +14995,71 @@
       "discs": 1,
       "image": "https://upcomingvinyl.com/pics/covers/l/lee-morgan-the-sixth-sense-blue-note-tone-poet-series.jpg",
       "url": "https://upcomingvinyl.com/record/lee-morgan-the-sixth-sense-blue-note-tone-poet-series"
+    },
+    "ted-nash-like-someone-in-love-verve-acoustic-sounds-series": {
+      "slug": "ted-nash-like-someone-in-love-verve-acoustic-sounds-series",
+      "title": "Ted Nash - Like Someone in Love (Verve Acoustic Sounds Series)",
+      "release_date": "2026-12-11",
+      "styles": [
+        "pop"
+      ],
+      "discs": 1,
+      "image": "https://upcomingvinyl.com/pics/covers/t/ted-nash-like-someone-in-love-verve-acoustic-sounds-series.jpg",
+      "url": "https://upcomingvinyl.com/record/ted-nash-like-someone-in-love-verve-acoustic-sounds-series"
+    },
+    "dolly-parton-trio": {
+      "slug": "dolly-parton-trio",
+      "title": "Dolly Parton - Trio",
+      "release_date": "2026-10-23",
+      "styles": [
+        "folk",
+        "rock"
+      ],
+      "discs": 3,
+      "image": "https://upcomingvinyl.com/pics/covers/d/dolly-parton-trio.jpg",
+      "url": "https://upcomingvinyl.com/record/dolly-parton-trio"
+    },
+    "ry-cooder-chicken-skin-music-1792588706": {
+      "slug": "ry-cooder-chicken-skin-music-1792588706",
+      "title": "Ry Cooder - Chicken Skin Music",
+      "release_date": "2026-10-23",
+      "styles": [
+        "rock"
+      ],
+      "discs": 2,
+      "image": "https://upcomingvinyl.com/pics/covers/r/ry-cooder-chicken-skin-music-1792588706.jpg",
+      "url": "https://upcomingvinyl.com/record/ry-cooder-chicken-skin-music-1792588706"
+    },
+    "ry-cooder-paris-texas-original-soundtrack": {
+      "slug": "ry-cooder-paris-texas-original-soundtrack",
+      "title": "Ry Cooder - Paris, Texas Original Soundtrack",
+      "release_date": "2026-10-23",
+      "styles": [
+        "soundtrack"
+      ],
+      "discs": 2,
+      "image": "https://upcomingvinyl.com/pics/covers/r/ry-cooder-paris-texas-original-soundtrack.jpg",
+      "url": "https://upcomingvinyl.com/record/ry-cooder-paris-texas-original-soundtrack"
+    },
+    "societa-corelli-vivaldi-the-four-seasons": {
+      "slug": "societa-corelli-vivaldi-the-four-seasons",
+      "title": "Societa Corelli - Vivaldi: The Four Seasons",
+      "release_date": "2026-10-23",
+      "styles": [],
+      "discs": 2,
+      "image": "https://upcomingvinyl.com/pics/covers/s/societa-corelli-vivaldi-the-four-seasons.jpg",
+      "url": "https://upcomingvinyl.com/record/societa-corelli-vivaldi-the-four-seasons"
+    },
+    "the-ramones-ramones": {
+      "slug": "the-ramones-ramones",
+      "title": "The Ramones - Ramones",
+      "release_date": "2026-10-23",
+      "styles": [
+        "rock"
+      ],
+      "discs": 2,
+      "image": "https://upcomingvinyl.com/pics/covers/t/the-ramones-ramones.jpg",
+      "url": "https://upcomingvinyl.com/record/the-ramones-ramones"
     }
   },
   "craft_contemporary": {
