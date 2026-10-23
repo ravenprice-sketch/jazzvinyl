@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22T13:20:40.619900+00:00",
-  "count": 693,
+  "updated": "2026-10-23T12:59:09.008014+00:00",
+  "count": 692,
   "items": [
     {
       "id": "15386101514431",
@@ -2915,7 +2915,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10091,25 +10091,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7012941758670",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Bags Groove - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/miles-davis-bags-groove-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe8550_AOJC_245__11304__01152009112730-4294.jpg?v=1653525045",
-      "published_at": "2022-05-25T17:30:45-07:00",
-      "created_at": "2022-05-25T17:30:44-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Bags+Groove",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7467033624782",
       "label_id": "analogue_productions",
       "title": "Bill Evans Trio - Waltz For Debby - Analogue Productions 45rpm UHQR LP",
@@ -10124,6 +10105,25 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+Trio+Waltz+For+Debby",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7012941758670",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Bags Groove - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/miles-davis-bags-groove-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe8550_AOJC_245__11304__01152009112730-4294.jpg?v=1653525045",
+      "published_at": "2022-05-25T17:30:45-07:00",
+      "created_at": "2022-05-25T17:30:44-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Bags+Groove",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10567,26 +10567,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7542066970830",
-      "label_id": "analogue_productions",
-      "title": "Ry Cooder - Buena Vista Social Club - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-ry-cooder-buena-vista-social-club-analogue-productions-45rpm-lp",
-      "price": "119.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPW_167-45__186676__04102024093702-1658.jpg?v=1737752894",
-      "published_at": "2025-01-24T14:10:09-07:00",
-      "created_at": "2025-01-24T14:09:34-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ry+Cooder+Buena+Vista+Social+Club",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7254887989454",
       "label_id": "analogue_productions",
       "title": "John Coltrane - My Favorite Things - Analogue Productions 45rpm LP",
@@ -10602,6 +10582,26 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=John+Coltrane+My+Favorite+Things",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7542066970830",
+      "label_id": "analogue_productions",
+      "title": "Ry Cooder - Buena Vista Social Club - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-ry-cooder-buena-vista-social-club-analogue-productions-45rpm-lp",
+      "price": "119.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPW_167-45__186676__04102024093702-1658.jpg?v=1737752894",
+      "published_at": "2025-01-24T14:10:09-07:00",
+      "created_at": "2025-01-24T14:09:34-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ry+Cooder+Buena+Vista+Social+Club",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11229,6 +11229,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7486238064846",
+      "label_id": "analogue_productions",
+      "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/pre-order-chico-freeman-spirit-sensitive-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp151__22215.jpg?v=1723676847",
+      "published_at": "2024-08-14T20:58:27-07:00",
+      "created_at": "2024-08-14T16:08:22-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Chico+Freeman+Spirit+Sensitive",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360821199054",
       "label_id": "analogue_productions",
       "title": "Art Tatum & Ben Webster - The Tatum Group Masterpieces - Analogue Productions Pablo LP",
@@ -11316,25 +11335,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+6+Kansas+City",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7486238064846",
-      "label_id": "analogue_productions",
-      "title": "Chico Freeman - Spirit Sensitive - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/pre-order-chico-freeman-spirit-sensitive-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplp151__22215.jpg?v=1723676847",
-      "published_at": "2024-08-14T20:58:27-07:00",
-      "created_at": "2024-08-14T16:08:22-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Chico+Freeman+Spirit+Sensitive",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12144,6 +12144,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7250119917774",
+      "label_id": "analogue_productions",
+      "title": "Jimmy Witherspoon - Evenin' Blues Analogue Productions LP  (Stereo)",
+      "url": "https://www.theingroove.com/products/jimmy-witherspoon-evenin-blues-analogue-productions-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7300__81990__03262020114939-3506_ebcf0f1e-d4b7-4808-a2c5-62f24be599a0.jpg?v=1784329197",
+      "published_at": "2023-09-04T14:32:50-07:00",
+      "created_at": "2023-09-04T14:32:50-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jimmy+Witherspoon+Evenin%27+Blues+Analogue+Productions",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569025634510",
       "label_id": "analogue_productions",
       "title": "George Wallington Quintet - Jazz For The Carriage Trade - Analogue Productions LP",
@@ -12176,24 +12194,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+%26+Oscar+Peterson+The+Timekeepers",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7250119917774",
-      "label_id": "analogue_productions",
-      "title": "Jimmy Witherspoon - Evenin' Blues Analogue Productions LP  (Stereo)",
-      "url": "https://www.theingroove.com/products/jimmy-witherspoon-evenin-blues-analogue-productions-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7300__81990__03262020114939-3506_ebcf0f1e-d4b7-4808-a2c5-62f24be599a0.jpg?v=1784329197",
-      "published_at": "2023-09-04T14:32:50-07:00",
-      "created_at": "2023-09-04T14:32:50-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jimmy+Witherspoon+Evenin%27+Blues+Analogue+Productions",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12575,24 +12575,6 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542901768398",
-      "label_id": "analogue_productions",
-      "title": "Ella Fitzgerald - Fine and Mellow - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-ella-fitzgerald-fine-and-mellow-analogue-productions-pablo-series-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab190__40467.jpg?v=1738093401",
-      "published_at": "2025-01-28T14:41:24-07:00",
-      "created_at": "2025-01-28T12:44:16-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ella+Fitzgerald+Fine+and+Mellow",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-09-07T13:50:23.276471+00:00"
     },
     {
       "id": "uv_ted-nash-like-someone-in-love-verve-acoustic-sounds-series",
