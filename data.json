@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T12:59:09.008014+00:00",
-  "count": 692,
+  "updated": "2026-10-24T12:22:27.651004+00:00",
+  "count": 693,
   "items": [
     {
       "id": "15386101514431",
@@ -7509,7 +7509,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "release_date": "2026-11-20",
       "blurb": "",
@@ -7525,9 +7525,8 @@
       "published_at": "2026-09-14T08:59:51-04:00",
       "created_at": "2026-09-09T13:05:23-04:00",
       "specs": [],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
-      "release_date": "2026-10-23",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -7544,7 +7543,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-08-04T10:29:21.420426+00:00"
@@ -9867,24 +9866,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6603659706574",
-      "label_id": "analogue_productions",
-      "title": "Ella Fitzgerald and Louis Armstrong - Ella and Louis - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/ella-fitzgerald-and-louis-armstrong-ella-and-louis-analog-productions-45rpm-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AVRJ_4003-45__67241__04152021033455-3204.jpg?v=1784328923",
-      "published_at": "2021-05-07T16:36:55-07:00",
-      "created_at": "2021-05-07T16:36:54-07:00",
-      "specs": [
-        "45 RPM"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ella+Fitzgerald+and+Louis+Armstrong+Ella+and+Louis",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569008922830",
       "label_id": "analogue_productions",
       "title": "Dave Brubeck Quartet - Time Out - Analogue Productions 33rpm LP",
@@ -9899,6 +9880,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dave+Brubeck+Quartet+Time+Out",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6603659706574",
+      "label_id": "analogue_productions",
+      "title": "Ella Fitzgerald and Louis Armstrong - Ella and Louis - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/ella-fitzgerald-and-louis-armstrong-ella-and-louis-analog-productions-45rpm-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AVRJ_4003-45__67241__04152021033455-3204.jpg?v=1784328923",
+      "published_at": "2021-05-07T16:36:55-07:00",
+      "created_at": "2021-05-07T16:36:54-07:00",
+      "specs": [
+        "45 RPM"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ella+Fitzgerald+and+Louis+Armstrong+Ella+and+Louis",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10965,24 +10964,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7195679359182",
-      "label_id": "analogue_productions",
-      "title": "Eric Dolphy - Outward Bound - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/eric-dolphy-outward-bound-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8236__81995__05082017101753-8537.jpg?v=1682540697",
-      "published_at": "2023-04-26T13:24:55-07:00",
-      "created_at": "2023-04-26T13:24:55-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+Outward+Bound",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7591945928910",
       "label_id": "analogue_productions",
       "title": "Billy Cobham - Spectrum - Analogue Productions 45rpm LP",
@@ -10998,6 +10979,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Billy+Cobham+Spectrum",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7195679359182",
+      "label_id": "analogue_productions",
+      "title": "Eric Dolphy - Outward Bound - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/eric-dolphy-outward-bound-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8236__81995__05082017101753-8537.jpg?v=1682540697",
+      "published_at": "2023-04-26T13:24:55-07:00",
+      "created_at": "2023-04-26T13:24:55-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+Outward+Bound",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12537,6 +12536,24 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "7542901768398",
+      "label_id": "analogue_productions",
+      "title": "Ella Fitzgerald - Fine and Mellow - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-ella-fitzgerald-fine-and-mellow-analogue-productions-pablo-series-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab190__40467.jpg?v=1738093401",
+      "published_at": "2025-01-28T14:41:24-07:00",
+      "created_at": "2025-01-28T12:44:16-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ella+Fitzgerald+Fine+and+Mellow",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-09-07T13:50:23.276471+00:00"
     },
     {
       "id": "6569239445710",
