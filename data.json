@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T13:50:01.261712+00:00",
+  "updated": "2026-10-28T14:44:30.911528+00:00",
   "count": 692,
   "items": [
     {
@@ -10284,6 +10284,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569241641166",
+      "label_id": "analogue_productions",
+      "title": "Helen Merrill - Helen Merrill  - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/helen-merrill-helen-merrill-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_127__147748__04162020024751-5016.jpg?v=1785125334",
+      "published_at": "2021-04-02T18:56:36-07:00",
+      "created_at": "2021-04-02T18:56:36-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Helen+Merrill+Helen+Merrill",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569008890062",
       "label_id": "analogue_productions",
       "title": "Duke Ellington - Masterpieces By Ellington (Mono) - Analogue Productions 45rpm LP",
@@ -10300,25 +10319,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Masterpieces+By+Ellington",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569241641166",
-      "label_id": "analogue_productions",
-      "title": "Helen Merrill - Helen Merrill  - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/helen-merrill-helen-merrill-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_127__147748__04162020024751-5016.jpg?v=1785125334",
-      "published_at": "2021-04-02T18:56:36-07:00",
-      "created_at": "2021-04-02T18:56:36-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Helen+Merrill+Helen+Merrill",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10434,24 +10434,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6569001255118",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Seven Steps to Heaven - Analogue Productions 33rpm LP",
-      "url": "https://www.theingroove.com/products/miles-davis-seven-steps-to-heaven-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8851__116163__02142020021913-1473.jpg?v=1784329430",
-      "published_at": "2021-04-02T15:03:04-07:00",
-      "created_at": "2021-04-02T15:03:05-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Seven+Steps+to+Heaven",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7616422478030",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
@@ -10467,6 +10449,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6569001255118",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Seven Steps to Heaven - Analogue Productions 33rpm LP",
+      "url": "https://www.theingroove.com/products/miles-davis-seven-steps-to-heaven-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8851__116163__02142020021913-1473.jpg?v=1784329430",
+      "published_at": "2021-04-02T15:03:04-07:00",
+      "created_at": "2021-04-02T15:03:05-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Seven+Steps+to+Heaven",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11430,6 +11430,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336330958",
+      "label_id": "analogue_productions",
+      "title": "Oliver Nelson - Screamin' the Blues - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/oliver-nelson-screamin-the-blues-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr8243b__91535.jpg?v=1689455843",
+      "published_at": "2023-07-15T17:00:04-07:00",
+      "created_at": "2023-07-15T14:17:17-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Oliver+Nelson+Screamin%27+the+Blues",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542083059918",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Kind of Blue - Analogue Productions 33rpm UHQR LP Box Set",
@@ -11484,24 +11502,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7232336330958",
-      "label_id": "analogue_productions",
-      "title": "Oliver Nelson - Screamin' the Blues - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/oliver-nelson-screamin-the-blues-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr8243b__91535.jpg?v=1689455843",
-      "published_at": "2023-07-15T17:00:04-07:00",
-      "created_at": "2023-07-15T14:17:17-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Oliver+Nelson+Screamin%27+the+Blues",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7655098089678",
       "label_id": "analogue_productions",
       "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
@@ -11534,7 +11534,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Thelonious+Monk+%26+John+Coltrane+Thelonious+Monk+with+John+Coltrane",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
