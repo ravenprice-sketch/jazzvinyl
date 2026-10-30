@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T14:51:09.583020+00:00",
+  "updated": "2026-10-30T14:44:00.275197+00:00",
   "count": 692,
   "items": [
     {
@@ -11210,6 +11210,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542899114190",
+      "label_id": "analogue_productions",
+      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
+      "published_at": "2025-01-28T14:37:09-07:00",
+      "created_at": "2025-01-28T12:21:25-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+6+Kansas+City",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7232336265422",
       "label_id": "analogue_productions",
       "title": "Booker Ervin - The Freedom Book - Analogue Productions LP",
@@ -11316,24 +11334,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Holly+Cole+Trio+Don%27t+Smoke+In+Bed",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542899114190",
-      "label_id": "analogue_productions",
-      "title": "Count Basie 6 - Kansas City - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-count-basie-kansas-city-6-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab197__81523.jpg?v=1738091975",
-      "published_at": "2025-01-28T14:37:09-07:00",
-      "created_at": "2025-01-28T12:21:25-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+6+Kansas+City",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11466,6 +11466,26 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7655098089678",
+      "label_id": "analogue_productions",
+      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
+      "published_at": "2026-01-15T15:03:26-07:00",
+      "created_at": "2026-01-15T14:58:16-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Benson+Breezin%27",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542898491598",
       "label_id": "analogue_productions",
       "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
@@ -11516,26 +11536,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dizzy+Gillespie+Dizzy+Gillespie%27s+Big+4",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7655098089678",
-      "label_id": "analogue_productions",
-      "title": "George Benson - Breezin' - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-george-benson-breezin-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPR_006-45__196485__10202025124823-1779.jpg?v=1768514194",
-      "published_at": "2026-01-15T15:03:26-07:00",
-      "created_at": "2026-01-15T14:58:16-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Benson+Breezin%27",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
