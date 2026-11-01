@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T14:07:46.920862+00:00",
+  "updated": "2026-11-01T14:38:27.431372+00:00",
   "count": 692,
   "items": [
     {
@@ -10415,25 +10415,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6569017376974",
-      "label_id": "analogue_productions",
-      "title": "Duke Ellington - Ellington Jazz Party - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/duke-ellington-jazz-party-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8127__116162__02142020021823-2674.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:21:02-07:00",
-      "created_at": "2021-04-02T15:21:03-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Ellington+Jazz+Party",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7616422478030",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
@@ -10449,6 +10430,25 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6569017376974",
+      "label_id": "analogue_productions",
+      "title": "Duke Ellington - Ellington Jazz Party - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/duke-ellington-jazz-party-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8127__116162__02142020021823-2674.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:21:02-07:00",
+      "created_at": "2021-04-02T15:21:03-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Duke+Ellington+Ellington+Jazz+Party",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
