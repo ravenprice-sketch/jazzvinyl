@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T14:38:27.431372+00:00",
+  "updated": "2026-11-02T17:37:25.897053+00:00",
   "count": 692,
   "items": [
     {
@@ -10814,24 +10814,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6568997617870",
-      "label_id": "analogue_productions",
-      "title": "Gil Evans - Gil Evans and Ten - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/gil-evans-gil-evans-and-ten-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/1400x1400bb_5b0f434a-6a4f-4233-b0c2-1b62c10b0540.jpg?v=1781055026",
-      "published_at": "2021-04-02T14:58:47-07:00",
-      "created_at": "2021-04-02T14:58:48-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Gil+Evans+Gil+Evans+and+Ten",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569241608398",
       "label_id": "analogue_productions",
       "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
@@ -10846,6 +10828,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ahmad+Jamal+Trio+Ahmad+Jamal+At+The+Pershing",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6568997617870",
+      "label_id": "analogue_productions",
+      "title": "Gil Evans - Gil Evans and Ten - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/gil-evans-gil-evans-and-ten-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/1400x1400bb_5b0f434a-6a4f-4233-b0c2-1b62c10b0540.jpg?v=1781055026",
+      "published_at": "2021-04-02T14:58:47-07:00",
+      "created_at": "2021-04-02T14:58:48-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Gil+Evans+Gil+Evans+and+Ten",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
