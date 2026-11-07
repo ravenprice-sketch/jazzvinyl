@@ -2988,7 +2988,6 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
-      "release_date": "2026-11-06",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -3007,7 +3006,6 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
-      "release_date": "2026-11-06",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -12502,7 +12500,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+At+The+Five+Spot%2C+Vol.+1",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",

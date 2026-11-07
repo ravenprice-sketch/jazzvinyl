@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T15:30:22.196504+00:00",
+  "updated": "2026-11-07T14:37:06.506780+00:00",
   "count": 692,
   "items": [
     {
@@ -55,7 +55,6 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
-      "release_date": "2026-11-06",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -74,7 +73,6 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
-      "release_date": "2026-11-06",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -10454,6 +10452,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7159466361038",
+      "label_id": "analogue_productions",
+      "title": "Eric Dolphy - At The Five Spot, Vol. 1 - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/eric-dolphy-at-the-five-spot-vol-1-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/APRJ_8260__77079__04062012022823-6135.jpg?v=1675378330",
+      "published_at": "2023-02-02T15:52:08-07:00",
+      "created_at": "2023-02-02T15:52:08-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+At+The+Five+Spot%2C+Vol.+1",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569001255118",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Seven Steps to Heaven - Analogue Productions 33rpm LP",
@@ -10467,24 +10483,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Seven+Steps+to+Heaven",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7159466361038",
-      "label_id": "analogue_productions",
-      "title": "Eric Dolphy - At The Five Spot, Vol. 1 - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/eric-dolphy-at-the-five-spot-vol-1-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/APRJ_8260__77079__04062012022823-6135.jpg?v=1675378330",
-      "published_at": "2023-02-02T15:52:08-07:00",
-      "created_at": "2023-02-02T15:52:08-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Eric+Dolphy+At+The+Five+Spot%2C+Vol.+1",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -10833,6 +10831,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336494798",
+      "label_id": "analogue_productions",
+      "title": "Hank Mobley - Mobley's 2nd Message - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/hank-mobley-mobleys-2nd-message-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7082nb__90861.jpg?v=1689456032",
+      "published_at": "2023-07-15T17:00:04-07:00",
+      "created_at": "2023-07-15T14:20:26-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Hank+Mobley+Mobley%27s+2nd+Message",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6568997617870",
       "label_id": "analogue_productions",
       "title": "Gil Evans - Gil Evans and Ten - Analogue Productions LP",
@@ -10865,25 +10882,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Thelonious+Monk+Quartet+Plus+Two+At+the+Blackhawk",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7232336494798",
-      "label_id": "analogue_productions",
-      "title": "Hank Mobley - Mobley's 2nd Message - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/hank-mobley-mobleys-2nd-message-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7082nb__90861.jpg?v=1689456032",
-      "published_at": "2023-07-15T17:00:04-07:00",
-      "created_at": "2023-07-15T14:20:26-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Hank+Mobley+Mobley%27s+2nd+Message",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11192,6 +11190,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336265422",
+      "label_id": "analogue_productions",
+      "title": "Booker Ervin - The Freedom Book - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/booker-ervin-the-freedom-book-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7295nb__72479.jpg?v=1689455690",
+      "published_at": "2023-07-15T17:00:03-07:00",
+      "created_at": "2023-07-15T14:14:44-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Booker+Ervin+The+Freedom+Book",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569016819918",
       "label_id": "analogue_productions",
       "title": "Holly Cole - Temptation - Analogue Productions LP",
@@ -11223,24 +11239,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+6+Kansas+City",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7232336265422",
-      "label_id": "analogue_productions",
-      "title": "Booker Ervin - The Freedom Book - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/booker-ervin-the-freedom-book-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7295nb__72479.jpg?v=1689455690",
-      "published_at": "2023-07-15T17:00:03-07:00",
-      "created_at": "2023-07-15T14:14:44-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Booker+Ervin+The+Freedom+Book",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11357,6 +11355,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7249671454926",
+      "label_id": "analogue_productions",
+      "title": "Jackie McLean - 4, 5, and 6  - Analogue Productions Mono LP",
+      "url": "https://www.theingroove.com/products/jackie-mclean-4-5-and-6-analogue-productions-mono-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7048__77084__08192011122355-2936.jpg?v=1693609466",
+      "published_at": "2023-09-01T16:04:34-07:00",
+      "created_at": "2023-09-01T16:04:21-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jackie+McLean+4%2C+5%2C+and+6",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7232336134350",
       "label_id": "analogue_productions",
       "title": "Arnett Cobb - Party Time - Analogue Productions LP",
@@ -11406,25 +11423,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Coleman+Hawkins+Coleman+Hawkins+and+His+Confreres",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7249671454926",
-      "label_id": "analogue_productions",
-      "title": "Jackie McLean - 4, 5, and 6  - Analogue Productions Mono LP",
-      "url": "https://www.theingroove.com/products/jackie-mclean-4-5-and-6-analogue-productions-mono-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7048__77084__08192011122355-2936.jpg?v=1693609466",
-      "published_at": "2023-09-01T16:04:34-07:00",
-      "created_at": "2023-09-01T16:04:21-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jackie+McLean+4%2C+5%2C+and+6",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11674,6 +11672,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7030963667150",
+      "label_id": "analogue_productions",
+      "title": "Jackie McLean - Lights Out! - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/jackie-mclean-lights-out-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/6apsap7035-large__21844.1620277568.jpg?v=1656119341",
+      "published_at": "2022-06-24T16:54:20-07:00",
+      "created_at": "2022-06-24T16:54:19-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jackie+McLean+Lights+Out%21",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7542898000078",
       "label_id": "analogue_productions",
       "title": "Duke Ellington - The Ellington Suites - Analogue Productions Pablo LP",
@@ -11724,25 +11741,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Art+Taylor+Taylor%27s+Wailers",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7030963667150",
-      "label_id": "analogue_productions",
-      "title": "Jackie McLean - Lights Out! - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/jackie-mclean-lights-out-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/6apsap7035-large__21844.1620277568.jpg?v=1656119341",
-      "published_at": "2022-06-24T16:54:20-07:00",
-      "created_at": "2022-06-24T16:54:19-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jackie+McLean+Lights+Out%21",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
