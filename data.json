@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T14:37:06.506780+00:00",
+  "updated": "2026-11-08T14:44:15.260732+00:00",
   "count": 692,
   "items": [
     {
@@ -11765,6 +11765,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7250119721166",
+      "label_id": "analogue_productions",
+      "title": "The Prestige All Stars - All Night Long Analogue Productions LP  (Mono)",
+      "url": "https://www.theingroove.com/products/the-prestige-all-stars-all-night-long-analogue-productions-lp-mono-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7073__77086__03262020114150-8110_7cf77642-8eca-4059-a06f-94f9f44aa8f2.jpg?v=1784329197",
+      "published_at": "2023-09-04T14:30:32-07:00",
+      "created_at": "2023-09-04T14:30:32-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Prestige+All+Stars+All+Night+Long+Analogue+Productions",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360838729934",
       "label_id": "analogue_productions",
       "title": "Count Basie: Kansas City 3 - For the Second Time - Analogue Productions Pablo LP",
@@ -11815,25 +11834,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+Basie+Jam",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7250119721166",
-      "label_id": "analogue_productions",
-      "title": "The Prestige All Stars - All Night Long Analogue Productions LP  (Mono)",
-      "url": "https://www.theingroove.com/products/the-prestige-all-stars-all-night-long-analogue-productions-lp-mono-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7073__77086__03262020114150-8110_7cf77642-8eca-4059-a06f-94f9f44aa8f2.jpg?v=1784329197",
-      "published_at": "2023-09-04T14:30:32-07:00",
-      "created_at": "2023-09-04T14:30:32-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Prestige+All+Stars+All+Night+Long+Analogue+Productions",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
