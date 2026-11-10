@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T18:08:54.514118+00:00",
+  "updated": "2026-11-10T16:03:38.012614+00:00",
   "count": 694,
   "items": [
     {
@@ -11463,6 +11463,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7542898491598",
+      "label_id": "analogue_productions",
+      "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
+      "url": "https://www.theingroove.com/products/pre-order-joe-pass-portraits-of-duke-ellington-acoustic-sounds-pablo-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
+      "published_at": "2025-01-28T14:40:51-07:00",
+      "created_at": "2025-01-28T12:14:06-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Joe+Pass+Portraits+of+Duke+Ellington",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7232336330958",
       "label_id": "analogue_productions",
       "title": "Oliver Nelson - Screamin' the Blues - Analogue Productions LP",
@@ -11514,24 +11532,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Benson+Breezin%27",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7542898491598",
-      "label_id": "analogue_productions",
-      "title": "Joe Pass - Portraits of Duke Ellington - Analogue Productions Pablo LP",
-      "url": "https://www.theingroove.com/products/pre-order-joe-pass-portraits-of-duke-ellington-acoustic-sounds-pablo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppab184__90036.jpg?v=1738091602",
-      "published_at": "2025-01-28T14:40:51-07:00",
-      "created_at": "2025-01-28T12:14:06-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Joe+Pass+Portraits+of+Duke+Ellington",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
