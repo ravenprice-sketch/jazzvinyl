@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T16:03:38.012614+00:00",
+  "updated": "2026-11-11T15:48:59.864907+00:00",
   "count": 694,
   "items": [
     {
@@ -8494,7 +8494,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9008,7 +9008,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9026,7 +9026,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Acoustic Sounds Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -12138,6 +12138,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569025634510",
+      "label_id": "analogue_productions",
+      "title": "George Wallington Quintet - Jazz For The Carriage Trade - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/george-wallington-quintet-jazz-for-the-carriage-trade-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7032__77081__03262020114056-5129.jpg?v=1784327870",
+      "published_at": "2021-04-02T15:29:20-07:00",
+      "created_at": "2021-04-02T15:29:21-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Wallington+Quintet+Jazz+For+The+Carriage+Trade",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569017442510",
       "label_id": "analogue_productions",
       "title": "Duke Ellington and Johnny Hodges - Side By Side - Analogue Productions LP",
@@ -12189,25 +12208,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jimmy+Witherspoon+Evenin%27+Blues+Analogue+Productions",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569025634510",
-      "label_id": "analogue_productions",
-      "title": "George Wallington Quintet - Jazz For The Carriage Trade - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/george-wallington-quintet-jazz-for-the-carriage-trade-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7032__77081__03262020114056-5129.jpg?v=1784327870",
-      "published_at": "2021-04-02T15:29:20-07:00",
-      "created_at": "2021-04-02T15:29:21-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=George+Wallington+Quintet+Jazz+For+The+Carriage+Trade",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
