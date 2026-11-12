@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:48:59.864907+00:00",
+  "updated": "2026-11-12T16:33:18.290882+00:00",
   "count": 694,
   "items": [
     {
@@ -9879,6 +9879,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569008922830",
+      "label_id": "analogue_productions",
+      "title": "Dave Brubeck Quartet - Time Out - Analogue Productions 33rpm LP",
+      "url": "https://www.theingroove.com/products/dave-brubeck-quartet-time-out-analog-productions-33rpm-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/36aplp8192b__12574.jpg?v=1781057678",
+      "published_at": "2023-02-02T18:55:27-07:00",
+      "created_at": "2021-04-02T15:10:56-07:00",
+      "specs": [
+        "180g",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dave+Brubeck+Quartet+Time+Out",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6568997814478",
       "label_id": "analogue_productions",
       "title": "Herbie Hancock - Head Hunters - Analogue Productions 45rpm LP",
@@ -9894,25 +9913,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Herbie+Hancock+Head+Hunters",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569008922830",
-      "label_id": "analogue_productions",
-      "title": "Dave Brubeck Quartet - Time Out - Analogue Productions 33rpm LP",
-      "url": "https://www.theingroove.com/products/dave-brubeck-quartet-time-out-analog-productions-33rpm-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/36aplp8192b__12574.jpg?v=1781057678",
-      "published_at": "2023-02-02T18:55:27-07:00",
-      "created_at": "2021-04-02T15:10:56-07:00",
-      "specs": [
-        "180g",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Dave+Brubeck+Quartet+Time+Out",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11131,6 +11131,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336232654",
+      "label_id": "analogue_productions",
+      "title": "The Red Garland Quintet - All Mornin' Long - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/the-red-garland-quintet-all-mornin-long-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7130nb__16121.jpg?v=1689455498",
+      "published_at": "2023-07-15T17:00:03-07:00",
+      "created_at": "2023-07-15T14:11:32-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Red+Garland+Quintet+All+Mornin%27+Long",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7506348212430",
       "label_id": "analogue_productions",
       "title": "The Ray Brown Trio - Soular Energy - Analogue Productions 45 RPM LP",
@@ -11164,25 +11183,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Benny+Golson+Groovin%27+with+Golson",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7232336232654",
-      "label_id": "analogue_productions",
-      "title": "The Red Garland Quintet - All Mornin' Long - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/the-red-garland-quintet-all-mornin-long-analogue-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7130nb__16121.jpg?v=1689455498",
-      "published_at": "2023-07-15T17:00:03-07:00",
-      "created_at": "2023-07-15T14:11:32-07:00",
-      "specs": [
-        "180g",
-        "Mono"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Red+Garland+Quintet+All+Mornin%27+Long",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
