@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T15:53:21.088070+00:00",
+  "updated": "2026-11-14T14:44:51.136280+00:00",
   "count": 693,
   "items": [
     {
@@ -127,7 +127,6 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
-      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -9252,9 +9251,8 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -9271,9 +9269,8 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -11054,6 +11051,25 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7232336232654",
+      "label_id": "analogue_productions",
+      "title": "The Red Garland Quintet - All Mornin' Long - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/the-red-garland-quintet-all-mornin-long-analogue-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7130nb__16121.jpg?v=1689455498",
+      "published_at": "2023-07-15T17:00:03-07:00",
+      "created_at": "2023-07-15T14:11:32-07:00",
+      "specs": [
+        "180g",
+        "Mono"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Red+Garland+Quintet+All+Mornin%27+Long",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7195677753550",
       "label_id": "analogue_productions",
       "title": "Eric Dolphy - Far Cry - Analogue Productions LP",
@@ -11113,20 +11129,19 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "7232336232654",
+      "id": "7249671848142",
       "label_id": "analogue_productions",
-      "title": "The Red Garland Quintet - All Mornin' Long - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/the-red-garland-quintet-all-mornin-long-analogue-productions-lp",
+      "title": "Benny Golson - Groovin' with Golson - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/benny-golson-groovin-with-golson-analogue-productions-stereo-lp",
       "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/aplppr7130nb__16121.jpg?v=1689455498",
-      "published_at": "2023-07-15T17:00:03-07:00",
-      "created_at": "2023-07-15T14:11:32-07:00",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8220__81993__03262020115148-448_2b521613-0779-47d7-bf01-a228085753a0.jpg?v=1784329197",
+      "published_at": "2023-09-01T16:09:33-07:00",
+      "created_at": "2023-09-01T16:09:33-07:00",
       "specs": [
-        "180g",
-        "Mono"
+        "180g"
       ],
       "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Red+Garland+Quintet+All+Mornin%27+Long",
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Benny+Golson+Groovin%27+with+Golson",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11147,24 +11162,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Ray+Brown+Trio+Soular+Energy",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7249671848142",
-      "label_id": "analogue_productions",
-      "title": "Benny Golson - Groovin' with Golson - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/benny-golson-groovin-with-golson-analogue-productions-stereo-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_8220__81993__03262020115148-448_2b521613-0779-47d7-bf01-a228085753a0.jpg?v=1784329197",
-      "published_at": "2023-09-01T16:09:33-07:00",
-      "created_at": "2023-09-01T16:09:33-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Benny+Golson+Groovin%27+with+Golson",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"

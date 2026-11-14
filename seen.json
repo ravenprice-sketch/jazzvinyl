@@ -3025,7 +3025,6 @@
       ],
       "preorder": false,
       "label_name": "Blue Note — Tone Poet Series",
-      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -10751,9 +10750,8 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -10770,9 +10768,8 @@
         "AAA",
         "180g"
       ],
-      "preorder": true,
+      "preorder": false,
       "label_name": "Verve — Vault Series",
-      "release_date": "2026-11-13",
       "blurb": "",
       "first_seen": "2026-09-14T14:36:28.954510+00:00"
     },
@@ -13165,7 +13162,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=The+Red+Garland+Quintet+All+Mornin%27+Long",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
