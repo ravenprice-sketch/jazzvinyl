@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T14:44:51.136280+00:00",
+  "updated": "2026-11-15T15:13:34.560989+00:00",
   "count": 693,
   "items": [
     {
@@ -10808,24 +10808,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6984950382798",
-      "label_id": "analogue_productions",
-      "title": "John Coltrane - Soultrane - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/john-coltrane-soultrane-mono-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe6044_AAPJ_7142__10706__01152009112608-7204.jpg?v=1649112377",
-      "published_at": "2022-04-04T15:46:16-07:00",
-      "created_at": "2022-04-04T15:46:15-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=John+Coltrane+Soultrane",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "6569241608398",
       "label_id": "analogue_productions",
       "title": "Ahmad Jamal Trio - Ahmad Jamal At The Pershing  - Analogue Productions LP",
@@ -10840,6 +10822,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Ahmad+Jamal+Trio+Ahmad+Jamal+At+The+Pershing",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6984950382798",
+      "label_id": "analogue_productions",
+      "title": "John Coltrane - Soultrane - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/john-coltrane-soultrane-mono-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/dupe6044_AAPJ_7142__10706__01152009112608-7204.jpg?v=1649112377",
+      "published_at": "2022-04-04T15:46:16-07:00",
+      "created_at": "2022-04-04T15:46:15-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=John+Coltrane+Soultrane",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -11215,7 +11215,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Booker+Ervin+The+Freedom+Book",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11947,6 +11947,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569017311438",
+      "label_id": "analogue_productions",
+      "title": "Booker Ervin - Exultation! - Analogue Productions LP",
+      "url": "https://www.theingroove.com/products/booker-ervin-exultation-analog-productions-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7293__77077__03262020114836-6498.jpg?v=1784327250",
+      "published_at": "2021-04-02T15:20:58-07:00",
+      "created_at": "2021-04-02T15:20:59-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Booker+Ervin+Exultation%21",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7652472651982",
       "label_id": "analogue_productions",
       "title": "Bill Evans - Quintessence - Analogue Productions 45rpm LP",
@@ -12017,24 +12035,6 @@
       ],
       "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Julie+London+Latin+In+A+Satin+Mood",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569017311438",
-      "label_id": "analogue_productions",
-      "title": "Booker Ervin - Exultation! - Analogue Productions LP",
-      "url": "https://www.theingroove.com/products/booker-ervin-exultation-analog-productions-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7293__77077__03262020114836-6498.jpg?v=1784327250",
-      "published_at": "2021-04-02T15:20:58-07:00",
-      "created_at": "2021-04-02T15:20:59-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Booker+Ervin+Exultation%21",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
