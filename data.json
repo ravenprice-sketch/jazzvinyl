@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:13:34.560989+00:00",
+  "updated": "2026-11-16T17:48:14.285354+00:00",
   "count": 693,
   "items": [
     {
@@ -10391,24 +10391,6 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
-      "id": "6569017213134",
-      "label_id": "analogue_productions",
-      "title": "Bill Evans - At The Montreux Jazz Festival - Analogue Productions 33rpm LP",
-      "url": "https://www.theingroove.com/products/bill-evans-at-the-montreux-jazz-festival-analog-productions-33rpm-lp",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8762__139233__02142020021903-7029.jpg?v=1784329431",
-      "published_at": "2021-04-02T15:20:53-07:00",
-      "created_at": "2021-04-02T15:20:54-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+At+The+Montreux+Jazz+Festival",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
       "id": "7616422478030",
       "label_id": "analogue_productions",
       "title": "Miles Davis - Kind of Blue (Corrected Speed) - Analogue Productions LP",
@@ -10424,6 +10406,24 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
+      "id": "6569017213134",
+      "label_id": "analogue_productions",
+      "title": "Bill Evans - At The Montreux Jazz Festival - Analogue Productions 33rpm LP",
+      "url": "https://www.theingroove.com/products/bill-evans-at-the-montreux-jazz-festival-analog-productions-33rpm-lp",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_8762__139233__02142020021903-7029.jpg?v=1784329431",
+      "published_at": "2021-04-02T15:20:53-07:00",
+      "created_at": "2021-04-02T15:20:54-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Bill+Evans+At+The+Montreux+Jazz+Festival",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
