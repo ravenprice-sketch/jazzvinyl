@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T19:20:58.092661+00:00",
+  "updated": "2026-11-25T18:23:59.476373+00:00",
   "count": 694,
   "items": [
     {
@@ -7035,7 +7035,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -11888,6 +11888,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "6569020948686",
+      "label_id": "analogue_productions",
+      "title": "Sonny Stitt - Blows The Blues - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/sonny-stitt-blows-the-blues-analog-productions-lp",
+      "price": "59.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_7adc7435-82cb-457a-9b3e-f5ed8b5b9433.jpg?v=1617402280",
+      "published_at": "2021-04-02T15:24:39-07:00",
+      "created_at": "2021-04-02T15:24:40-07:00",
+      "specs": [
+        "45 RPM"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Sonny+Stitt+Blows+The+Blues",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "7360826409166",
       "label_id": "analogue_productions",
       "title": "Count Basie & Dizzy Gillespie - The Gifted Ones - Analogue Productions Pablo LP",
@@ -11902,24 +11920,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Count+Basie+%26+Dizzy+Gillespie+The+Gifted+Ones",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "6569020948686",
-      "label_id": "analogue_productions",
-      "title": "Sonny Stitt - Blows The Blues - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/sonny-stitt-blows-the-blues-analog-productions-lp",
-      "price": "59.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/products/original_7adc7435-82cb-457a-9b3e-f5ed8b5b9433.jpg?v=1617402280",
-      "published_at": "2021-04-02T15:24:39-07:00",
-      "created_at": "2021-04-02T15:24:40-07:00",
-      "specs": [
-        "45 RPM"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Sonny+Stitt+Blows+The+Blues",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
