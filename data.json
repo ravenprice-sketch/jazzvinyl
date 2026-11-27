@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T18:04:31.063075+00:00",
+  "updated": "2026-11-27T17:45:09.888121+00:00",
   "count": 694,
   "items": [
     {
@@ -2494,7 +2494,7 @@
         "180g",
         "Gatefold"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Tone Poet Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -3316,7 +3316,7 @@
         "180g",
         "Mono"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -5488,7 +5488,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6584,7 +6584,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -7233,7 +7233,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -10529,7 +10529,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Kenny+Burrell+Bluesey+Burrell",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12183,7 +12183,7 @@
       "specs": [
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jimmy+Witherspoon+Evenin%27+Blues+Analogue+Productions",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
