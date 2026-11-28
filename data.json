@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:45:09.888121+00:00",
+  "updated": "2026-11-28T16:31:09.618854+00:00",
   "count": 694,
   "items": [
     {
@@ -6042,7 +6042,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6602,7 +6602,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6746,7 +6746,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6854,7 +6854,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6890,7 +6890,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -9888,7 +9888,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Herbie+Hancock+Head+Hunters",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11487,7 +11487,7 @@
       "specs": [
         "200g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -11938,7 +11938,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Hugh+Masekela+Hope",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -12096,6 +12096,24 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7250119917774",
+      "label_id": "analogue_productions",
+      "title": "Jimmy Witherspoon - Evenin' Blues Analogue Productions LP  (Stereo)",
+      "url": "https://www.theingroove.com/products/jimmy-witherspoon-evenin-blues-analogue-productions-lp-stereo",
+      "price": "39.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7300__81990__03262020114939-3506_ebcf0f1e-d4b7-4808-a2c5-62f24be599a0.jpg?v=1784329197",
+      "published_at": "2023-09-04T14:32:50-07:00",
+      "created_at": "2023-09-04T14:32:50-07:00",
+      "specs": [
+        "180g"
+      ],
+      "preorder": true,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jimmy+Witherspoon+Evenin%27+Blues+Analogue+Productions",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-06-25T09:48:47.720963+00:00"
+    },
+    {
       "id": "6569198125262",
       "label_id": "analogue_productions",
       "title": "Charles Mingus - Mingus, Mingus, Mingus, Mingus, Mingus - Analogue Productions 45rpm LP",
@@ -12167,24 +12185,6 @@
       ],
       "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Chet+Baker+In+New+York",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7250119917774",
-      "label_id": "analogue_productions",
-      "title": "Jimmy Witherspoon - Evenin' Blues Analogue Productions LP  (Stereo)",
-      "url": "https://www.theingroove.com/products/jimmy-witherspoon-evenin-blues-analogue-productions-lp-stereo",
-      "price": "39.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/APRJ_7300__81990__03262020114939-3506_ebcf0f1e-d4b7-4808-a2c5-62f24be599a0.jpg?v=1784329197",
-      "published_at": "2023-09-04T14:32:50-07:00",
-      "created_at": "2023-09-04T14:32:50-07:00",
-      "specs": [
-        "180g"
-      ],
-      "preorder": true,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Jimmy+Witherspoon+Evenin%27+Blues+Analogue+Productions",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
@@ -12302,6 +12302,26 @@
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
     },
     {
+      "id": "7693801881806",
+      "label_id": "analogue_productions",
+      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
+      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
+      "price": "64.99",
+      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
+      "published_at": "2026-04-29T23:12:40-07:00",
+      "created_at": "2026-04-29T18:31:18-07:00",
+      "specs": [
+        "180g",
+        "45 RPM",
+        "Gatefold"
+      ],
+      "preorder": false,
+      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Birth+Of+The+Blue",
+      "label_name": "Analogue Productions — Jazz",
+      "blurb": "",
+      "first_seen": "2026-07-12T09:44:48.481838+00:00"
+    },
+    {
       "id": "7637427421390",
       "label_id": "analogue_productions",
       "title": "Cannonball Adderley with Bill Evans - Know What I Mean? - Analogue Productions 45rpm LP",
@@ -12359,26 +12379,6 @@
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
       "first_seen": "2026-06-25T09:48:47.720963+00:00"
-    },
-    {
-      "id": "7693801881806",
-      "label_id": "analogue_productions",
-      "title": "Miles Davis - Birth Of The Blue - Analogue Productions 45rpm LP",
-      "url": "https://www.theingroove.com/products/pre-order-miles-davis-birth-of-the-blue-analogue-productions-45rpm-lp",
-      "price": "64.99",
-      "image": "https://cdn.shopify.com/s/files/1/0558/5027/0926/files/AAPJ_172-45BLU__197571__03112026113807-5889.jpg?v=1777512472",
-      "published_at": "2026-04-29T23:12:40-07:00",
-      "created_at": "2026-04-29T18:31:18-07:00",
-      "specs": [
-        "180g",
-        "45 RPM",
-        "Gatefold"
-      ],
-      "preorder": false,
-      "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Birth+Of+The+Blue",
-      "label_name": "Analogue Productions — Jazz",
-      "blurb": "",
-      "first_seen": "2026-07-12T09:44:48.481838+00:00"
     },
     {
       "id": "7542899179726",

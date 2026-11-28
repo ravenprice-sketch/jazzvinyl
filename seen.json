@@ -5844,7 +5844,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Blue Note — Classic Vinyl Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6560,7 +6560,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -6848,7 +6848,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -7072,7 +7072,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -7136,7 +7136,7 @@
         "AAA",
         "180g"
       ],
-      "preorder": false,
+      "preorder": true,
       "label_name": "Craft Recordings — OJC Series",
       "blurb": "",
       "first_seen": "2026-06-06T15:13:39.393119+00:00"
@@ -11911,7 +11911,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Herbie+Hancock+Head+Hunters",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -13436,7 +13436,7 @@
       "specs": [
         "200g"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Miles+Davis+Kind+of+Blue",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
@@ -14073,7 +14073,7 @@
         "45 RPM",
         "Gatefold"
       ],
-      "preorder": true,
+      "preorder": false,
       "search_url": "https://store.acousticsounds.com/index.cfm?get=results&SearchText=Hugh+Masekela+Hope",
       "label_name": "Analogue Productions — Jazz",
       "blurb": "",
